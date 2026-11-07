@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "total": 481,
+  "total": 485,
   "sources": {
     "override": 2,
     "curated": 52,
     "publisher": 2,
     "nlp": 211,
-    "uncategorized": 214
+    "uncategorized": 218
   },
   "counts": {
     "Transportation": 38,
@@ -25,12 +25,12 @@
     "Health": 1,
     "Demographics": 3,
     "Government": 4,
-    "Uncategorized": 214
+    "Uncategorized": 218
   },
   "distributionWarnings": [
     {
       "category": "Uncategorized",
-      "count": 214,
+      "count": 218,
       "reason": "over 40% of the catalog"
     }
   ],
@@ -1636,6 +1636,28 @@
         },
         {
           "category": "Boundaries",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "arcgis:4fccfcc96f794481bb0b6519c9ac8d02:0",
+      "title": "Proposed_Target_Employment_Centers_2023_TEILS_Update",
+      "reason": "insufficient",
+      "signals": [
+        "description:boundary"
+      ],
+      "candidates": [
+        {
+          "category": "Boundaries",
+          "score": 1
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        },
+        {
+          "category": "Development",
           "score": 0
         }
       ]
@@ -3609,6 +3631,26 @@
       ]
     },
     {
+      "id": "arcgis:9fe942d2ffa2482d9f34a12f23872944:0",
+      "title": "I4_LMS_Merge",
+      "reason": "insufficient",
+      "signals": [],
+      "candidates": [
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        },
+        {
+          "category": "Development",
+          "score": 0
+        }
+      ]
+    },
+    {
       "id": "arcgis:a4c1c8ced98444bd9128b871ec33120b:0",
       "title": "Property of Interest",
       "reason": "insufficient",
@@ -4160,6 +4202,26 @@
       ]
     },
     {
+      "id": "arcgis:c3865625f5b243088e593103827fe58e:0",
+      "title": "LMS_PlaceTypes_preferred20260921",
+      "reason": "insufficient",
+      "signals": [],
+      "candidates": [
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        },
+        {
+          "category": "Development",
+          "score": 0
+        }
+      ]
+    },
+    {
       "id": "arcgis:c54d9b047bbf4611bf62ecbc408eba5a:0",
       "title": "Area Median Income",
       "reason": "insufficient",
@@ -4682,6 +4744,29 @@
       ]
     },
     {
+      "id": "arcgis:f604caedc3e9459abb98c4f951b9e808:0",
+      "title": "Healthcare_Facilities",
+      "reason": "insufficient",
+      "signals": [
+        "fields:evac",
+        "fields:fire district"
+      ],
+      "candidates": [
+        {
+          "category": "Hazards",
+          "score": 1
+        },
+        {
+          "category": "Public safety",
+          "score": 1
+        },
+        {
+          "category": "Boundaries",
+          "score": 0
+        }
+      ]
+    },
+    {
       "id": "arcgis:f8027a6e8eea4895af97a713c5525e08:0",
       "title": "Renter Occupied Units",
       "reason": "insufficient",
@@ -4814,11 +4899,32 @@
   ],
   "changes": [
     {
-      "id": "arcgis:95bff800223242459694242e297ca304:0",
-      "title": "HCPA_Parcels_Just_Val",
+      "id": "arcgis:4fccfcc96f794481bb0b6519c9ac8d02:0",
+      "title": "Proposed_Target_Employment_Centers_2023_TEILS_Update",
       "previous": null,
-      "category": "Development",
-      "source": "nlp"
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:9fe942d2ffa2482d9f34a12f23872944:0",
+      "title": "I4_LMS_Merge",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:c3865625f5b243088e593103827fe58e:0",
+      "title": "LMS_PlaceTypes_preferred20260921",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:f604caedc3e9459abb98c4f951b9e808:0",
+      "title": "Healthcare_Facilities",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
     }
   ]
 }
