@@ -1,7 +1,16 @@
+import type { MouseEvent } from "react";
+
+function navigateSection(event: MouseEvent<HTMLAnchorElement>) {
+  if (location.pathname !== "/" || event.button || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+  event.preventDefault();
+  location.hash = new URL(event.currentTarget.href).hash || "catalog";
+}
+
 function MainNavigation() {
   return (
     <nav aria-label="Main navigation">
-      <a href="#catalog">Browse data</a>
+      <a href="/#catalog" onClick={navigateSection}>Browse data</a>
+      <a href="/#catalog-status" onClick={navigateSection}>Catalog Health</a>
       <a href="https://github.com/Jaclenga/tbdataexplorer">GitHub</a>
     </nav>
   );
@@ -18,9 +27,7 @@ export function SiteHeader({ catalog = false }: { catalog?: boolean }) {
             </h1>
             <MainNavigation />
           </div>
-          <p>
-            Discover public datasets across the Tampa Bay area
-          </p>
+          <p>Discover public datasets across the Tampa Bay area</p>
         </div>
       </header>
     );
@@ -38,7 +45,7 @@ export function SiteFooter() {
     <footer id="about">
       <div className="shell footer-grid">
         <div>
-          <a className="footer-brand" href="#">
+          <a className="footer-brand" href="/#catalog" onClick={navigateSection}>
             Tampa Bay Open Data Explorer
           </a>
           <p>

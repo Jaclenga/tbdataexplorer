@@ -1,3 +1,4 @@
+import SourceStatus from "./SourceStatus";
 import { useEffect, useRef, useState } from "react";
 import type { Dataset, LayerMetadata } from "../types";
 import { getMetadata } from "../services/arcgis";
@@ -158,6 +159,7 @@ export default function CatalogDatasetDetails({
               "Publisher description unavailable."}
           </p>
         </section>
+        <SourceStatus dataset={dataset} />
         <MetadataRows
           dataset={dataset}
           layer={layer}

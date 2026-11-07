@@ -1623,3 +1623,12 @@ td {
     gap: 4px;
   }
 }
+
+.health-table { overflow-x: auto; margin-top: 1rem; }
+.health-table table { width: 100%; border-collapse: collapse; text-align: left; }
+.health-table th, .health-table td { padding: .6rem; border-bottom: 1px solid #d9dfe3; }
+.catalog-status-page .catalog-metadata dd + dd { font-size: .85rem; font-weight: normal; max-width: 32ch; }
+
+.source-status { margin-block: 1rem; }
+.source-status h3 { font-size: 1rem; margin-bottom: .5rem; }
+.source-status p { font-size: .875rem; }

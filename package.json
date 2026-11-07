@@ -8,7 +8,7 @@
     "pretypecheck": "npm run cf:types",
     "prebuild": "npm run cf:types",
     "dev": "vite --host 127.0.0.1",
-    "build": "tsc --noEmit && vite build",
+    "build": "tsc --noEmit && vite build && vite build --ssr scripts/generate-seo.tsx --outDir .wrangler/seo-build && node .wrangler/seo-build/generate-seo.js",
     "build:functions": "wrangler pages functions build functions --outdir .wrangler/functions-build",
     "build:guard": "wrangler deploy --config wrangler.guard.jsonc --dry-run --outdir .wrangler/guard-build",
     "deploy:guard": "wrangler deploy --config wrangler.guard.jsonc",

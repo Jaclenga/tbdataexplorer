@@ -1,3 +1,4 @@
+import SourceStatus from "./SourceStatus";
 import type { Dataset, Field } from "../types";
 
 const discoveryNotices = new Set([
@@ -12,6 +13,7 @@ export function DatasetProvenance({ dataset }: { dataset: Dataset }) {
   return (
     <details className="provenance">
       <summary>About this dataset & source terms</summary>
+      <SourceStatus dataset={dataset} />
       {!discoveryNotices.has(dataset.scopeNote ?? "") && (
         <p>{dataset.scopeNote ?? "Scope information unavailable."}</p>
       )}

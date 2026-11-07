@@ -5,6 +5,28 @@ export const fieldSchema = z.object({
   alias: z.string().optional(),
   description: z.string().nullable().optional(),
 });
+export const verificationSchema = z.object({
+  status: z.enum(["verified", "failed"]),
+  lastCheckedAt: z.iso.datetime(),
+  lastSuccessfulAt: z.iso.datetime().nullable(),
+  httpStatus: z.number().int().min(100).max(599).nullable(),
+  responseTimeMs: z.number().nonnegative().nullable(),
+  errorType: z
+    .enum([
+      "timeout",
+      "network",
+      "authorization",
+      "missing-endpoint",
+      "http",
+      "invalid-response",
+      "metadata",
+      "unknown",
+    ])
+    .nullable(),
+  errorMessage: z.string().max(240).nullable(),
+  sourceRevision: z.string().nullable().optional(),
+});
+export type Verification = z.infer<typeof verificationSchema>;
 export const datasetSchema = z
   .object({
     id: z.string().min(1),
@@ -63,6 +85,7 @@ export const datasetSchema = z
       .enum(["records", "portal-item", "resource"])
       .nullable()
       .optional(),
+    verification: verificationSchema.optional(),
     verificationError: z.string().nullable().optional(),
     queryable: z.boolean().optional(),
   })
@@ -109,6 +132,7 @@ export interface RecordFeature {
   geometry?: Record<string, unknown> | null;
 }
 export interface LayerMetadata {
+  httpStatus?: number;
   description?: string | null;
   attribution?: string | null;
   filterOperators?: string[];

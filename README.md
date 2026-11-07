@@ -49,6 +49,12 @@ This builds the app, deploys the private guard, then publishes the site. The man
 
 ## Technical guides
 
+- [SEO, indexable dataset pages, sitemap, and search engine submission](docs/seo.md)
+
+- [Dataset source verification, statuses, and scheduling](docs/dataset-verification.md)
+
+- [Catalog health metrics, verification, and coverage limitations](docs/catalog-health.md)
+
 - [Metadata categorization, overrides, and evaluation](docs/categorization.md)
 - [Catalog browsing and shared views](docs/catalog-browsing.md)
 - [Scheduled refreshes and troubleshooting](docs/scheduled-refresh.md)

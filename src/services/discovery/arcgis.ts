@@ -1,6 +1,12 @@
+import { publicDiscoveryError } from "../verification";
+import {
+  inspectVerified,
+  applyVerification,
+  reusableVerification,
+} from "../verify-source";
 import { z } from "zod";
 import type { Dataset } from "../../types";
-import { getMetadata, sourceTimestamp } from "../arcgis";
+import { sourceTimestamp } from "../arcgis";
 import { requestJson } from "../http";
 import { canonicalEndpoint, endpointAllowed } from "../source-url";
 import type {
@@ -85,7 +91,7 @@ function issue(
     portalId: portal.id,
     endpoint,
     kind,
-    message: error instanceof Error ? error.message : String(error),
+    message: publicDiscoveryError(error),
   });
 }
 
@@ -126,7 +132,19 @@ function descriptor(
 }
 
 async function inspectLayer(dataset: Dataset, options: DiscoveryOptions) {
-  const metadata = await getMetadata(dataset, options.signal);
+  const previous = options.previousDatasets?.find((d) => d.id === dataset.id);
+  if (
+    reusableVerification(
+      dataset,
+      previous,
+      Date.now(),
+      options.forceVerification,
+    )
+  )
+    return previous!;
+  const { metadata, verification } = await inspectVerified(dataset, {
+    signal: options.signal,
+  });
   const geometry = metadata.geometryType ?? "none";
   const supported = [
     "esriGeometryPoint",
@@ -138,12 +156,12 @@ async function inspectLayer(dataset: Dataset, options: DiscoveryOptions) {
   if (!supported.includes(geometry))
     throw Error(`Unsupported geometry type: ${geometry}`);
   return {
-    ...dataset,
+    ...applyVerification(dataset, metadata, verification),
     geometryType: geometry as Dataset["geometryType"],
     fields: metadata.fields,
     queryable: metadata.query,
-    lastAttemptedAt: new Date().toISOString(),
-    lastVerifiedAt: metadata.inspectedAt,
+    lastAttemptedAt: verification.lastCheckedAt,
+    lastVerifiedAt: verification.lastSuccessfulAt,
     sourceUpdatedAt: metadata.sourceUpdatedAt ?? dataset.sourceUpdatedAt,
     sourceUpdatedKind: metadata.sourceUpdatedAt
       ? ("records" as const)

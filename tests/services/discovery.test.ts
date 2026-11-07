@@ -172,6 +172,19 @@ describe("registered ArcGIS discovery", () => {
     expect(result.run.complete).toBe(false);
     expect(result.run.issues.some((i) => i.kind === "truncated")).toBe(true);
   });
+  it("reuses recent structural checks for unchanged publisher revisions", async () => {
+    api([page([item()])]);
+    const first = await discoverArcGIS(portal, options);
+    const previous = structuredClone(first.datasets);
+    api([page([item()])]);
+    vi.mocked(fetch).mockClear();
+    const second = await discoverArcGIS(portal, {
+      ...options,
+      previousDatasets: previous,
+    });
+    expect(second.datasets).toEqual(previous);
+    expect(fetch).toHaveBeenCalledTimes(2); // Search and service metadata, no repeated layer checks.
+  });
   it("detects repeated pagination cursors", async () => {
     api([page([item()], 1, 2)]);
     const result = await discoverArcGIS(portal, options);

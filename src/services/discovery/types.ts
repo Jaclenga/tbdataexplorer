@@ -1,4 +1,5 @@
 import { z } from "zod";
+import type { Dataset } from "../../types";
 import { datasetSchema } from "../../types";
 
 export const portalSchema = z.object({
@@ -51,6 +52,20 @@ export const discoverySchema = z
     datasets: z.array(datasetSchema),
     curatedUpdates: z.array(datasetSchema).optional(),
     runs: z.array(portalRunSchema),
+    healthHistory: z
+      .object({
+        schemaVersion: z.literal(1),
+        successfulAt: z.iso.datetime(),
+        records: z.array(z.object({ id: z.string(), metadata: z.string() })),
+        changes: z
+          .object({
+            added: z.number().int().nonnegative(),
+            removed: z.number().int().nonnegative(),
+            changed: z.number().int().nonnegative(),
+          })
+          .nullable(),
+      })
+      .optional(),
     refresh: z
       .object({
         startedAt: z.iso.datetime(),
@@ -85,6 +100,8 @@ export const discoverySchema = z
 export type DiscoveryReport = z.infer<typeof discoverySchema>;
 export interface DiscoveryOptions {
   query?: string;
+  previousDatasets?: Dataset[];
+  forceVerification?: boolean;
   maxItems: number;
   maxLayers: number;
   signal?: AbortSignal;

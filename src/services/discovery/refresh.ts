@@ -1,6 +1,10 @@
+import { publicDiscoveryError, verificationPolicy } from "../verification";
+import { snapshotRecords, compareSnapshots } from "./health-snapshot";
+import { mergeDatasets } from "./identity";
 import type { Dataset, LayerMetadata } from "../../types";
 import { discoverPortal } from ".";
-import { getMetadata } from "../arcgis";
+import { getAdapter } from "../adapters";
+import { verifyDataset, verifyDatasets } from "../verify-source";
 import { preservePrevious, datasetKey } from "./identity";
 import {
   discoverySchema,
@@ -24,7 +28,7 @@ interface Dependencies {
 }
 const dependencies: Dependencies = {
   discover: discoverPortal,
-  inspect: getMetadata,
+  inspect: (dataset, signal) => getAdapter(dataset).inspect(dataset, signal),
   now: () => new Date().toISOString(),
   log: console.log,
 };
@@ -36,10 +40,14 @@ export async function refreshCatalog(
   const startedAt = deps.now();
   const current: Dataset[] = [];
   const runs: PortalRun[] = [];
-  for (let index = 0; index < input.portals.length; index += 2) {
+  for (
+    let index = 0;
+    index < input.portals.length;
+    index += verificationPolicy.concurrency
+  ) {
     const batch = await Promise.all(
       input.portals
-        .slice(index, index + 2)
+        .slice(index, index + verificationPolicy.concurrency)
         .map((portal) => scan(portal, input, deps, startedAt)),
     );
     for (const result of batch) {
@@ -57,30 +65,35 @@ export async function refreshCatalog(
   const oldCurated = new Map(
     (input.previous.curatedUpdates ?? []).map((d) => [d.id, d]),
   );
-  for (let index = 0; index < input.curated.length; index += 2) {
+  for (
+    let index = 0;
+    index < input.curated.length;
+    index += verificationPolicy.concurrency
+  ) {
     curatedUpdates.push(
       ...(await Promise.all(
         input.curated
-          .slice(index, index + 2)
+          .slice(index, index + verificationPolicy.concurrency)
           .map((d) =>
-            inspectCurated(d, oldCurated.get(d.id), input.options.signal, deps),
+            inspectCurated(d, oldCurated.get(d.id), input.options, deps),
           ),
       )),
     );
   }
+  const retained = await verifyRetained(input, current, deps);
+  input.options.signal?.throwIfAborted();
   const verified = new Set(
-    [...current, ...curatedUpdates.filter((d) => !d.verificationError)].map(
-      datasetKey,
-    ),
+    [
+      ...current.filter((d) => !d.verificationError),
+      ...retained.filter((d) => !d.verificationError),
+      ...curatedUpdates.filter((d) => !d.verificationError),
+    ].map(datasetKey),
   ).size;
   const hasIssues =
     runs.some((r) => !r.complete) ||
-    curatedUpdates.some((d) => !!d.verificationError);
+    [...curatedUpdates, ...retained].some((d) => !!d.verificationError);
   const outcome = verified === 0 ? "failed" : hasIssues ? "partial" : "success";
-  const datasets = preservePrevious(
-    input.previous.datasets,
-    current.sort(byId),
-  ).sort(byId);
+  const datasets = preservePrevious(retained, current.sort(byId)).sort(byId);
   const finishedAt = deps.now();
   return discoverySchema.parse({
     schemaVersion: 1,
@@ -92,6 +105,21 @@ export async function refreshCatalog(
     datasets,
     curatedUpdates: curatedUpdates.sort(byId),
     runs: runs.sort((a, b) => a.portalId.localeCompare(b.portalId)),
+    healthHistory: snapshotEligible(outcome, runs)
+      ? (() => {
+          const records = snapshotRecords(
+            mergeDatasets(curatedUpdates, current),
+          );
+          return {
+            schemaVersion: 1,
+            successfulAt: finishedAt,
+            records,
+            changes: input.previous.healthHistory
+              ? compareSnapshots(input.previous.healthHistory.records, records)
+              : null,
+          };
+        })()
+      : input.previous.healthHistory,
     refresh: {
       startedAt,
       finishedAt,
@@ -101,6 +129,12 @@ export async function refreshCatalog(
       changes: catalogChanges(input.previous.datasets, datasets),
     },
   });
+}
+function snapshotEligible(outcome: string, runs: PortalRun[]) {
+  return (
+    outcome === "success" &&
+    runs.every((run) => run.complete && run.issues.length === 0)
+  );
 }
 function byId(a: Dataset, b: Dataset) {
   return a.id.localeCompare(b.id);
@@ -115,7 +149,10 @@ async function scan(
     `Scanning ${portal.publisher}: up to ${input.options.maxItems} services / ${input.options.maxLayers} layers`,
   );
   try {
-    const result = await deps.discover(portal, input.options);
+    const result = await deps.discover(portal, {
+      ...input.options,
+      previousDatasets: input.previous.datasets,
+    });
     if (
       !result.datasets.length &&
       input.previous.datasets.some((d) => d.portalId === portal.id)
@@ -146,7 +183,7 @@ async function scan(
           {
             portalId: portal.id,
             kind: "request" as const,
-            message: error instanceof Error ? error.message : String(error),
+            message: publicDiscoveryError(error),
           },
         ],
       },
@@ -156,41 +193,46 @@ async function scan(
 async function inspectCurated(
   dataset: Dataset,
   previous: Dataset | undefined,
-  signal: AbortSignal | undefined,
+  options: DiscoveryOptions,
   deps: Dependencies,
 ) {
-  try {
-    const m = await deps.inspect(dataset, signal);
-    return {
-      ...dataset,
-      fields: m.fields,
-      validationStatus: "curated" as const,
-      lastAttemptedAt: deps.now(),
-      lastVerifiedAt: m.inspectedAt,
-      sourceUpdatedAt: m.sourceUpdatedAt,
-      sourceUpdatedKind: m.sourceUpdatedKind,
-      queryable: m.query,
-      verificationError: null,
-    };
-  } catch (error) {
-    return {
-      ...dataset,
-      ...(previous && datasetKey(previous) === datasetKey(dataset)
-        ? previous
-        : {}),
-      lastAttemptedAt: deps.now(),
-      verificationError: error instanceof Error ? error.message : String(error),
-    };
-  }
+  return {
+    ...(await verifyDataset(dataset, previous, {
+      signal: options.signal,
+      force: options.forceVerification,
+      inspect: deps.inspect,
+      now: deps.now,
+    })),
+    validationStatus: "curated" as const,
+  };
+}
+async function verifyRetained(
+  input: RefreshInput,
+  current: Dataset[],
+  deps: Dependencies,
+) {
+  const ids = new Set(current.map((d) => d.id));
+  const endpoints = new Set(current.map(datasetKey));
+  const retained = input.previous.datasets.filter(
+    (d) => !ids.has(d.id) && !endpoints.has(datasetKey(d)),
+  );
+  return verifyDatasets(retained, retained, {
+    signal: input.options.signal,
+    force: input.options.forceVerification,
+    inspect: deps.inspect,
+    now: deps.now,
+  });
 }
 function substantive(dataset: Dataset) {
   const {
     lastAttemptedAt: _attempt,
     lastVerifiedAt: _verified,
+    verification: _verification,
     ...rest
   } = dataset;
   void _attempt;
   void _verified;
+  void _verification;
   return stableJSON(rest);
 }
 export function catalogChanges(previous: Dataset[], next: Dataset[]) {
@@ -236,6 +278,12 @@ export function catalogChanged(
         })
         .sort((a, b) => a.portalId.localeCompare(b.portalId)),
       outcome: report.refresh?.outcome,
+      healthHistory: report.healthHistory
+        ? {
+            records: report.healthHistory.records,
+            successfulAt: report.healthHistory.successfulAt.slice(0, 10),
+          }
+        : null,
     });
   return normalize(previous) !== normalize(next);
 }
@@ -244,6 +292,15 @@ function normalizeDataset(d: Dataset): Dataset {
     ...d,
     lastAttemptedAt: d.lastAttemptedAt?.slice(0, 10),
     lastVerifiedAt: d.lastVerifiedAt?.slice(0, 10),
+    verification: d.verification
+      ? {
+          ...d.verification,
+          lastCheckedAt: d.verification.lastCheckedAt.slice(0, 10),
+          lastSuccessfulAt:
+            d.verification.lastSuccessfulAt?.slice(0, 10) ?? null,
+          responseTimeMs: null,
+        }
+      : undefined,
   };
 }
 

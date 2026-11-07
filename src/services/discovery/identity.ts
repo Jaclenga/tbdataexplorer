@@ -20,6 +20,9 @@ export function mergeDatasets(curated: Dataset[], discovered: Dataset[]) {
       ...live,
       ...dataset,
       validationStatus: "curated",
+      verification: fresh.verification,
+      lastAttemptedAt: fresh.lastAttemptedAt,
+      verificationError: fresh.verificationError,
       lastVerifiedAt: fresh.lastVerifiedAt,
       sourceUpdatedAt: fresh.sourceUpdatedAt,
       sourceUpdatedKind: fresh.sourceUpdatedKind,
@@ -48,7 +51,22 @@ export function preservePrevious(previous: Dataset[], current: Dataset[]) {
 }
 
 function newestInspection(curated: Dataset, discovered?: Dataset) {
-  if (!discovered?.lastVerifiedAt) return curated;
+  if (!discovered) return curated;
+  const liveAttempt =
+    discovered.verification?.lastCheckedAt ?? discovered.lastAttemptedAt;
+  const curatedAttempt =
+    curated.verification?.lastCheckedAt ?? curated.lastAttemptedAt;
+  if (
+    liveAttempt &&
+    (!curatedAttempt || Date.parse(liveAttempt) > Date.parse(curatedAttempt))
+  )
+    return discovered;
+  if (
+    curatedAttempt &&
+    (!liveAttempt || Date.parse(curatedAttempt) >= Date.parse(liveAttempt))
+  )
+    return curated;
+  if (!discovered.lastVerifiedAt) return curated;
   if (
     curated.lastVerifiedAt &&
     Date.parse(curated.lastVerifiedAt) >= Date.parse(discovered.lastVerifiedAt)

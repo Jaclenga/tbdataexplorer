@@ -115,16 +115,20 @@ describe("scheduled catalog refresh", () => {
     });
     deps.inspect.mockRejectedValue(Error("Token required"));
     const report = await refreshCatalog(input, deps);
-    expect(report.datasets.find((d) => d.id === older.id)).toEqual(older);
+    expect(report.datasets.find((d) => d.id === older.id)).toMatchObject({
+      id: older.id,
+      lastVerifiedAt: older.lastVerifiedAt,
+      verification: { status: "failed", errorType: "authorization" },
+    });
     expect(report.complete).toBe(false);
     expect(report.refresh?.outcome).toBe("partial");
     expect(
       report.runs.find((r) => r.portalId === "two")?.issues[0].message,
-    ).toBe("Publisher HTTP 503");
+    ).toBe("The source returned an unsuccessful HTTP response.");
     expect(report.curatedUpdates?.[0]).toMatchObject({
       lastVerifiedAt: discovered.lastVerifiedAt,
       fields: metadata.fields,
-      verificationError: "Token required",
+      verificationError: "The source requires authorization or refused access.",
     });
   });
   it("retains the last successful snapshot when all publishers fail", async () => {
@@ -132,7 +136,9 @@ describe("scheduled catalog refresh", () => {
     deps.discover.mockRejectedValue(Error("offline"));
     deps.inspect.mockRejectedValue(Error("offline"));
     const report = await refreshCatalog(input, deps);
-    expect(report.datasets).toEqual(input.previous.datasets);
+    expect(report.datasets.map((d) => d.id)).toEqual(
+      input.previous.datasets.map((d) => d.id),
+    );
     expect(report.refresh?.outcome).toBe("failed");
     expect(report.lastSuccessfulRunAt).toBe(input.previous.lastSuccessfulRunAt);
   });
@@ -149,7 +155,9 @@ describe("scheduled catalog refresh", () => {
       },
     });
     const report = await refreshCatalog(input, deps);
-    expect(report.datasets).toEqual(input.previous.datasets);
+    expect(report.datasets.map((d) => d.id)).toEqual(
+      input.previous.datasets.map((d) => d.id),
+    );
     expect(report.complete).toBe(false);
     expect(report.runs[0].issues[0].message).toContain("Unexpected empty");
   });

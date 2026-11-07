@@ -1,3 +1,4 @@
+import { publicDiscoveryError } from "../verification";
 import { z } from "zod";
 import type { Dataset } from "../../types";
 import type {
@@ -8,7 +9,11 @@ import type {
 } from "./types";
 import { requestJson } from "../http";
 import { endpointAllowed } from "../source-url";
-import { getAdapter } from "../adapters";
+import {
+  inspectVerified,
+  applyVerification,
+  reusableVerification,
+} from "../verify-source";
 const ckanSchema = z.object({
   success: z.literal(true),
   result: z.object({
@@ -190,7 +195,7 @@ export async function discoverExternal(
           issues.push({
             portalId: portal.id,
             kind: "request",
-            message: error instanceof Error ? error.message : String(error),
+            message: publicDiscoveryError(error),
           });
         }
       }
@@ -226,7 +231,7 @@ function requestIssue(portal: Portal, error: unknown): DiscoveryIssue {
   return {
     portalId: portal.id,
     kind: "request",
-    message: error instanceof Error ? error.message : String(error),
+    message: publicDiscoveryError(error),
   };
 }
 function completeScan(
@@ -252,14 +257,18 @@ async function inspectExternal(
     )
   )
     throw Error("Unregistered source resource URL.");
-  const metadata = await getAdapter(dataset).inspect(dataset, options.signal);
-  return {
-    ...dataset,
-    fields: metadata.fields,
-    queryable: metadata.query,
-    lastVerifiedAt: metadata.inspectedAt,
-    lastAttemptedAt: new Date().toISOString(),
-    sourceUpdatedAt: metadata.sourceUpdatedAt,
-    sourceUpdatedKind: metadata.sourceUpdatedKind,
-  };
+  const previous = options.previousDatasets?.find((d) => d.id === dataset.id);
+  if (
+    reusableVerification(
+      dataset,
+      previous,
+      Date.now(),
+      options.forceVerification,
+    )
+  )
+    return previous!;
+  const { metadata, verification } = await inspectVerified(dataset, {
+    signal: options.signal,
+  });
+  return applyVerification(dataset, metadata, verification);
 }

@@ -87,11 +87,11 @@ test("quiet summary links to focused status view with collapsed publisher diagno
   await link.focus();
   await page.keyboard.press("Enter");
   await expect(
-    page.getByRole("heading", { name: "Catalog status", exact: true }),
+    page.getByRole("heading", { name: "Catalog Health", exact: true }),
   ).toBeFocused();
   await expect(page).toHaveURL(/#catalog-status$/);
   await expect(
-    page.getByRole("heading", { name: "Catalog status", exact: true }),
+    page.getByRole("heading", { name: "Catalog Health", exact: true }),
   ).toHaveCSS("font-size", "28px");
   await expect(
     page.getByRole("link", { name: "Latest scheduled discovery report" }),

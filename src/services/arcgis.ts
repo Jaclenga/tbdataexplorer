@@ -86,8 +86,11 @@ export async function getMetadata(
   d: Dataset,
   signal?: AbortSignal,
 ): Promise<LayerMetadata> {
+  let httpStatus: number | undefined;
   const parsed = metadataSchema.safeParse(
-    await requestArcGIS(d, "metadata", {}, signal),
+    await requestArcGIS(d, "metadata", {}, signal, (status) => {
+      httpStatus = status;
+    }),
   );
   if (!parsed.success)
     throw new ArcGISError(
@@ -95,6 +98,7 @@ export async function getMetadata(
     );
   const m = parsed.data;
   return {
+    httpStatus,
     fields: m.fields,
     description: m.description,
     attribution: m.copyrightText,

@@ -6,6 +6,7 @@ import {
   catalogAccessStatus,
 } from "../services/catalog-presentation";
 import CatalogDatasetDetails from "./CatalogDatasetDetails";
+import { datasetPath } from "../services/seo";
 
 export default function DatasetCard({
   dataset,
@@ -24,13 +25,18 @@ export default function DatasetCard({
   const status = catalogAccessStatus(
     dataset.verificationError ?? (sourceOnly ? access?.reason : null),
   );
-  const url = `#${encodeURIComponent(dataset.id)}`;
+  const url = datasetPath(dataset.id);
+  const explore: React.MouseEventHandler<HTMLAnchorElement> = (event) => {
+    if (event.button || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.currentTarget.target === "_blank") return;
+    event.preventDefault();
+    location.hash = encodeURIComponent(dataset.id);
+  };
   return (
     <article className="dataset-card">
       <div className="dataset-row">
         <div className="dataset-summary">
           <h3>
-            <a href={url} title={dataset.title}>
+            <a href={url} title={dataset.title} onClick={explore}>
               {dataset.title}
             </a>
           </h3>
@@ -45,6 +51,7 @@ export default function DatasetCard({
         <div className="dataset-row-actions">
           <a
             href={sourceOnly ? dataset.sourceUrl : url}
+            onClick={explore}
             aria-label={`${sourceOnly ? "View source" : "Explore"}: ${dataset.title}`}
             target={sourceOnly ? "_blank" : undefined}
             rel={sourceOnly ? "noreferrer" : undefined}

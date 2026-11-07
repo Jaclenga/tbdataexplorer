@@ -10,8 +10,10 @@ import { type DiscoveryReport } from "./services/discovery/types";
 import { loadDiscovery } from "./services/load-discovery";
 import { federatedCatalog } from "./services/federated-catalog";
 import { useCatalogBrowse } from "./hooks/useCatalogBrowse";
+import { homeTitle, pathDatasetId, updatePageMetadata } from "./services/seo";
 function currentId() {
   try {
+    if (!location.hash) return pathDatasetId(location.pathname);
     const value = decodeURIComponent(location.hash.slice(1));
     return ["main", "catalog", "publishers", "about"].includes(value)
       ? ""
@@ -84,10 +86,11 @@ export default function App() {
   useEffect(() => {
     document.title =
       id === "catalog-status"
-        ? "Catalog status | Tampa Bay Open Data Explorer"
+        ? "Catalog Health | Tampa Bay Open Data Explorer"
         : id && catalog
           ? `${catalog.datasets.find((d) => d.id === id)?.title ?? "Dataset"} · Tampa Bay Open Data Explorer`
-          : "Tampa Bay Open Data Explorer";
+          : homeTitle;
+    if (catalog) updatePageMetadata(catalog.datasets.find((entry) => entry.id === id));
   }, [id, catalog]);
   useEffect(() => {
     if (restoreScroll.current && !id) {
@@ -119,7 +122,7 @@ export default function App() {
       >
         Skip to content
       </a>
-      <SiteHeader catalog={!id && !!catalog && !error} />
+      <SiteHeader catalog={!id && !error} />
       {error ? (
         <main id="main" className="shell">
           <p role="alert" className="error">
@@ -131,7 +134,11 @@ export default function App() {
           <p role="status">Loading the checked dataset catalog…</p>
         </main>
       ) : id === "catalog-status" ? (
-        <CatalogStatusPage report={discovery!} warning={discoveryWarning} />
+        <CatalogStatusPage
+          catalog={catalog}
+          report={discovery!}
+          warning={discoveryWarning}
+        />
       ) : selected ? (
         <DatasetDetail
           key={selected.id}
@@ -142,7 +149,7 @@ export default function App() {
       ) : id ? (
         <main id="main" className="shell">
           <h1>Dataset not found</h1>
-          <a href="#">Return to the catalog</a>
+          <a href="/#catalog">Return to the catalog</a>
         </main>
       ) : (
         <CatalogPage

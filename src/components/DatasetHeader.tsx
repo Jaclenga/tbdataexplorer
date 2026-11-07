@@ -5,7 +5,12 @@ import { DatasetProvenance } from "./DatasetProvenance";
 export default function DatasetHeader({ dataset }: { dataset: Dataset }) {
   return (
     <>
-      <a href="#" className="back">
+      <a href="/#catalog" className="back" onClick={(event) => {
+        if (location.pathname === "/" && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) {
+          event.preventDefault();
+          location.hash = "catalog";
+        }
+      }}>
         ← All datasets
       </a>
       <div className="eyebrow">

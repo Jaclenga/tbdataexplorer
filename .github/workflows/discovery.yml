@@ -45,6 +45,12 @@ jobs:
         # Pages uses direct uploads. Its existing function reads this validated
         # GitHub artifact; metadata updates need no Cloudflare credentials/build.
         run: node scripts/verify-catalog-publication.mjs
+      - name: Publish refreshed dataset pages and sitemap
+        # Static SEO pages must track the same validated discovery snapshot.
+        run: npx wrangler pages deploy dist --project-name=tbdataexplorer
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       - name: Report publisher health
         run: |
           node --input-type=module -e "import fs from 'node:fs'; const r=JSON.parse(fs.readFileSync('.wrangler/discovery-refresh.json','utf8')); if(r.refresh.outcome==='failed') {console.error('::error::All endpoint verification attempts failed; prior records retained.'); process.exitCode=1;} else if(r.refresh.outcome==='partial') console.log('::warning::Some endpoints failed or discovery limits were reached. Verified updates were published and previous records retained.');"

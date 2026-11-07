@@ -18,6 +18,7 @@ export async function requestArcGIS(
   operation: "metadata" | "query",
   params: Record<string, string | number | boolean>,
   signal?: AbortSignal,
+  onResponse?: (status: number) => void,
 ) {
   const endpoint = `${dataset.serviceUrl}/${dataset.layerId}`;
   const suffix = operation === "query" ? "/query" : "";
@@ -28,7 +29,12 @@ export async function requestArcGIS(
     ]),
   );
   try {
-    return await requestJson(`${endpoint}${suffix}?${query}`, signal);
+    return await requestJson(
+      `${endpoint}${suffix}?${query}`,
+      signal,
+      15000,
+      onResponse,
+    );
   } catch (error) {
     if (
       !(error instanceof ArcGISError) ||
@@ -43,6 +49,6 @@ export async function requestArcGIS(
       operation,
       ...Object.fromEntries(query),
     }).toString();
-    return requestJson(proxy.href, signal);
+    return requestJson(proxy.href, signal, 15000, onResponse);
   }
 }

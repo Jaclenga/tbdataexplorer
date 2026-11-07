@@ -12,5 +12,5 @@
     "noEmit": true,
     "types": ["vite/client", "node", "geojson"]
   },
-  "include": ["src", "functions", "workers", "tests", "scripts/*.ts", "*.ts"]
+  "include": ["src", "functions", "workers", "tests", "scripts/*.ts", "scripts/*.tsx", "*.ts"]
 }

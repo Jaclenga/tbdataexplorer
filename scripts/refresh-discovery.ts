@@ -33,6 +33,7 @@ const candidate = await refreshCatalog({
   curated,
   previous,
   options: {
+    forceVerification: process.argv.includes("--force-verification"),
     maxItems: option("--max-items", 25),
     maxLayers: option("--max-layers", 100),
     signal: AbortSignal.timeout(option("--timeout-ms", 600000)),

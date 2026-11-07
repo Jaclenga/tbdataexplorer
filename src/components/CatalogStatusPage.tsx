@@ -1,4 +1,10 @@
-import { useEffect, useRef } from "react";
+import {
+  verificationPolicy,
+  verificationFailure,
+} from "../services/verification";
+import type { Catalog } from "../types";
+import { catalogHealth, failureKind } from "../services/catalog-health";
+import { useEffect, useRef, useState } from "react";
 import type { DiscoveryReport, PortalRun } from "../services/discovery/types";
 import {
   catalogStatus,
@@ -11,8 +17,10 @@ import {
 } from "../services/catalog-status";
 export default function CatalogStatusPage({
   report,
+  catalog,
   warning,
 }: {
+  catalog: Catalog;
   report: DiscoveryReport;
   warning: string | null;
 }) {
@@ -23,10 +31,11 @@ export default function CatalogStatusPage({
     <main id="main" className="shell catalog-status-page">
       <a href="#catalog">Return to datasets</a>
       <h1 ref={heading} tabIndex={-1}>
-        Catalog status
+        Catalog Health
       </h1>
+      <HealthOverview catalog={catalog} report={report} />
       <section aria-labelledby="status-overview">
-        <h2 id="status-overview">Catalog overview</h2>
+        <h2 id="status-overview">Refresh diagnostics</h2>
         <dl className="catalog-metadata">
           <div>
             <dt>Status</dt>
@@ -41,7 +50,7 @@ export default function CatalogStatusPage({
             <dd>{displayStatusDate(status.attemptedAt)}</dd>
           </div>
           <div>
-            <dt>Datasets verified</dt>
+            <dt>Reported endpoint checks</dt>
             <dd>
               {status.verified === null
                 ? "Not recorded"
@@ -61,6 +70,10 @@ export default function CatalogStatusPage({
             <dd>{coverageLabel(report)}</dd>
           </div>
         </dl>
+        <p>
+          Reported endpoint checks describe the job result. Unique catalog
+          counts appear above.
+        </p>
         {report.refresh && (
           <p>
             Latest recorded attempt:{" "}
@@ -74,13 +87,21 @@ export default function CatalogStatusPage({
         )}
         {warning && <p>{warning}</p>}
         <p>
-          Verification is considered stale after {staleAfterHours} hours. This
-          view describes the published catalog; same-day attempts without
-          changes are recorded in the scheduled run history.
+          Catalog refresh status is considered stale after {staleAfterHours}{" "}
+          hours. Dataset verification is considered stale after{" "}
+          {verificationPolicy.freshnessDays} days. This view describes the
+          published catalog; same-day attempts without changes are recorded in
+          the scheduled run history.
         </p>
       </section>
       <section aria-labelledby="status-coverage">
         <h2 id="status-coverage">Discovery coverage</h2>
+        <p>
+          Coverage depends on configured publishers and supported endpoints.
+          Some publishers do not provide machine-readable catalogs. Metadata
+          quality varies between sources. Dataset availability and freshness may
+          change independently of the Explorer's refresh schedule.
+        </p>
         <p>
           {!report.runs.length && !report.datasets.length
             ? "Discovery coverage is unavailable. The curated catalog remains accessible."
@@ -184,5 +205,182 @@ function PublisherScan({
       ))}
       {!run.issues.length && <p>No issues recorded.</p>}
     </details>
+  );
+}
+
+function HealthOverview({
+  catalog,
+  report,
+}: {
+  catalog: Catalog;
+  report: DiscoveryReport;
+}) {
+  const health = catalogHealth(catalog.datasets, report);
+  const [sort, setSort] = useState("publisher");
+  const publishers = [...health.publishers].sort((a, b) =>
+    sort === "discovered"
+      ? b.discovered - a.discovered
+      : sort === "verified"
+        ? b.verified - a.verified
+        : sort === "issues"
+          ? b.issues - a.issues
+          : a.name.localeCompare(b.name),
+  );
+  return (
+    <>
+      <section aria-labelledby="health-summary">
+        <h2 id="health-summary">Coverage &amp; quality</h2>
+        <dl className="catalog-metadata">
+          <div>
+            <dt>Discovered datasets</dt>
+            <dd>{health.discovered}</dd>
+            <dd>
+              Unique entries in this Explorer, deduplicated by identifier and
+              endpoint.
+            </dd>
+          </div>
+          <div>
+            <dt>Verified datasets</dt>
+            <dd>{health.verified}</dd>
+            <dd>
+              Fresh structural checks passed during the latest completed
+              nonfailed cycle.
+            </dd>
+          </div>
+          <div>
+            <dt>Publishers covered</dt>
+            <dd>{health.publishers.length}</dd>
+            <dd>
+              Distinct publishers represented in catalog records, including
+              unknown publishers.
+            </dd>
+          </div>
+          <div>
+            <dt>Datasets requiring attention</dt>
+            <dd>{health.attention.length}</dd>
+            <dd>
+              Failed or stale checks, or missing required metadata. Unchecked
+              entries alone are excluded.
+            </dd>
+          </div>
+        </dl>
+        <p>
+          {health.records.filter((r) => r.state === "Not checked").length}{" "}
+          datasets not checked. Successful endpoint checks do not establish
+          record accuracy or completeness.
+        </p>
+      </section>
+      <section aria-labelledby="publisher-coverage">
+        <h2 id="publisher-coverage">Publisher coverage</h2>
+        <p>
+          Counts describe this catalog, not each publisher's complete inventory.
+        </p>
+        <label>
+          Sort publishers{" "}
+          <select value={sort} onChange={(e) => setSort(e.target.value)}>
+            <option value="publisher">Publisher</option>
+            <option value="discovered">Discovered datasets</option>
+            <option value="verified">Verified datasets</option>
+            <option value="issues">Issues</option>
+          </select>
+        </label>
+        <div className="health-table">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Publisher</th>
+                <th scope="col">Discovered</th>
+                <th scope="col">Verified</th>
+                <th scope="col">Issues</th>
+                <th scope="col">Last checked</th>
+              </tr>
+            </thead>
+            <tbody>
+              {publishers.map((p) => (
+                <tr key={p.name}>
+                  <th scope="row">
+                    {p.name === "Unknown publisher" ? (
+                      p.name
+                    ) : (
+                      <a
+                        href={`?publisher=${encodeURIComponent(p.name)}#catalog`}
+                      >
+                        {p.name}
+                      </a>
+                    )}
+                  </th>
+                  <td>{p.discovered}</td>
+                  <td>{p.verified}</td>
+                  <td>{p.issues}</td>
+                  <td>{displayStatusDate(p.checkedAt, true)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        {!publishers.length && <p>No catalog entries available.</p>}
+      </section>
+      <HealthFreshness report={report} />
+      <section aria-labelledby="dataset-issues">
+        <h2 id="dataset-issues">Datasets requiring attention</h2>
+        {health.attention.length ? (
+          <ul>
+            {health.attention.map((r) => (
+              <li key={r.dataset.id}>
+                <a href={`#${encodeURIComponent(r.dataset.id)}`}>
+                  {r.dataset.title}
+                </a>
+                : {r.state}.{" "}
+                {r.dataset.verificationError
+                  ? `${failureKind(r.dataset.verificationError)}: ${verificationFailure(r.dataset.verificationError).errorMessage}`
+                  : r.issues.join("; ")}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p>No recorded issues. Unchecked datasets may still have problems.</p>
+        )}
+      </section>
+    </>
+  );
+}
+
+function HealthFreshness({ report }: { report: DiscoveryReport }) {
+  return (
+    <section aria-labelledby="health-freshness">
+      <h2 id="health-freshness">Catalog freshness</h2>
+      <dl className="catalog-metadata">
+        <div>
+          <dt>Last successful catalog refresh</dt>
+          <dd>
+            {displayStatusDate(report.healthHistory?.successfulAt ?? null)}
+          </dd>
+        </div>
+        <div>
+          <dt>Last completed verification cycle</dt>
+          <dd>{displayStatusDate(report.refresh?.finishedAt ?? null)}</dd>
+        </div>
+        <div>
+          <dt>Datasets added</dt>
+          <dd>{report.healthHistory?.changes?.added ?? "Not yet available"}</dd>
+        </div>
+        <div>
+          <dt>Datasets removed or no longer discoverable</dt>
+          <dd>
+            {report.healthHistory?.changes?.removed ?? "Not yet available"}
+          </dd>
+        </div>
+        <div>
+          <dt>Changed metadata</dt>
+          <dd>
+            {report.healthHistory?.changes?.changed ?? "Not yet available"}
+          </dd>
+        </div>
+      </dl>
+      <p>
+        Changes compare the last two complete successful scans. Partial or
+        failed attempts retain prior snapshots and catalog entries.
+      </p>
+    </section>
   );
 }

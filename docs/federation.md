@@ -28,7 +28,7 @@ See [scheduled refresh operations](scheduled-refresh.md) for manual triggers, pu
 Three dates have different meanings:
 
 - `verified`: historical R-package structural review, available only for curated entries.
-- `lastVerifiedAt`: last successful application endpoint inspection. `lastAttemptedAt` and `verificationError` describe later failed curated checks. Live preview inspection has its own current timestamp.
+- `lastVerifiedAt`: last successful application endpoint inspection. `lastAttemptedAt` and `verificationError` describe later checks. The optional `verification` record stores the completed result, safe error category, last success and measured duration for curated and retained discovered sources; see [dataset verification](dataset-verification.md). Live preview inspection has its own current timestamp.
 - `sourceUpdatedAt`: publisher-provided record edit date, portal-item modification time, or resource `Last-Modified`; `sourceUpdatedKind` identifies which. A portal-item edit is never called a record update. Missing dates stay unknown.
 
 ArcGIS pages contain at most 100 records and navigation stops at 10,000. Field filters are compiled against live metadata with validated identifiers, typed finite numbers and escaped literals. Bounds are WGS84 envelopes. Exports contain only the loaded, filtered page. Source changes between requests can change pagination; results are not a consistent full-database snapshot. Unsupported query capabilities, schema changes, invalid geometry, timeouts and rate limits surface explicit errors/warnings with original source links.

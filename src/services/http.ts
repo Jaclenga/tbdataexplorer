@@ -39,12 +39,17 @@ function delay(ms: number, signal?: AbortSignal) {
   });
 }
 
-async function fetchJson(url: string, signal: AbortSignal): Promise<unknown> {
+async function fetchJson(
+  url: string,
+  signal: AbortSignal,
+  onResponse?: (status: number) => void,
+): Promise<unknown> {
   const response = await fetch(url, {
     signal,
     redirect: "manual",
     credentials: "omit",
   });
+  onResponse?.(response.status);
   if (
     response.type === "opaqueredirect" ||
     (response.status >= 300 && response.status < 400)
@@ -99,6 +104,7 @@ export async function requestJson(
   url: string,
   signal?: AbortSignal,
   timeout = 15000,
+  onResponse?: (status: number) => void,
 ): Promise<unknown> {
   for (let attempt = 0; attempt < 3; attempt++) {
     signal?.throwIfAborted();
@@ -107,6 +113,7 @@ export async function requestJson(
       return await fetchJson(
         url,
         signal ? AbortSignal.any([signal, deadline]) : deadline,
+        onResponse,
       );
     } catch (error) {
       if (signal?.aborted) throw error;

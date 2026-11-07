@@ -25,6 +25,7 @@ export function federatedCatalog(
             category_review: update.category_review,
           }
         : {}),
+      verification: update.verification,
       fields: update.fields,
       lastVerifiedAt: update.lastVerifiedAt,
       lastAttemptedAt: update.lastAttemptedAt,
