@@ -22,6 +22,10 @@ test("health navigation, unknown history, publisher filtering and dataset links"
     .getByRole("combobox", { name: "Sort publishers" })
     .selectOption("verified");
   await table.getByRole("link", { name: "Test City", exact: true }).click();
-  await expect(page).toHaveURL(/publisher=Test%20City#catalog/);
+  await expect(page).toHaveURL(
+    (url) =>
+      url.searchParams.get("publisher") === "Test City" &&
+      url.hash === "#catalog",
+  );
   await expect(page.getByRole("searchbox")).toBeVisible();
 });
