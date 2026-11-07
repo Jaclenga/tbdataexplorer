@@ -1546,6 +1546,12 @@ td {
   min-width: 44px;
   min-height: 44px;
   font-size: 1.8rem;
+  border-radius: 6px;
+}
+.metadata-drawer-header button:hover,
+.metadata-drawer-header button:focus-visible {
+  background-color: #fcecea;
+  color: var(--coral-dark);
 }
 .metadata-drawer-body {
   padding: 0 24px 24px;
