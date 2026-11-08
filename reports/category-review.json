@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "total": 485,
+  "total": 502,
   "sources": {
     "override": 2,
     "curated": 52,
     "publisher": 2,
-    "nlp": 211,
-    "uncategorized": 218
+    "nlp": 216,
+    "uncategorized": 230
   },
   "counts": {
     "Transportation": 38,
@@ -15,26 +15,52 @@
     "Housing": 10,
     "Environment": 12,
     "Infrastructure": 24,
-    "Utilities": 45,
+    "Utilities": 48,
     "Public safety": 9,
     "Recreation": 13,
     "Hazards": 20,
     "Boundaries": 15,
     "Solid waste": 3,
-    "Public facilities": 4,
-    "Health": 1,
+    "Public facilities": 5,
+    "Health": 2,
     "Demographics": 3,
     "Government": 4,
-    "Uncategorized": 218
+    "Uncategorized": 230
   },
   "distributionWarnings": [
     {
       "category": "Uncategorized",
-      "count": 218,
+      "count": 230,
       "reason": "over 40% of the catalog"
     }
   ],
   "review": [
+    {
+      "id": "arcgis:02d6f00ddcfe4b3097778bacf5c790c2:0",
+      "title": "Septic",
+      "reason": "insufficient",
+      "signals": [
+        "description:construction",
+        "description:development",
+        "description:sewer",
+        "description:utility",
+        "tags:utility"
+      ],
+      "candidates": [
+        {
+          "category": "Utilities",
+          "score": 5
+        },
+        {
+          "category": "Development",
+          "score": 2
+        },
+        {
+          "category": "Transportation",
+          "score": 1
+        }
+      ]
+    },
     {
       "id": "arcgis:04abc337671a4f7397437391ab089053:3",
       "title": "MoonLake_Public_Lands",
@@ -222,6 +248,30 @@
       ]
     },
     {
+      "id": "arcgis:0d898468b54d44c98cdcbc66e9510518:0",
+      "title": "EMSResponseZones",
+      "reason": "insufficient",
+      "signals": [
+        "description:safety",
+        "fields:fire",
+        "tags:safety"
+      ],
+      "candidates": [
+        {
+          "category": "Public safety",
+          "score": 5
+        },
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        }
+      ]
+    },
+    {
       "id": "arcgis:0ea64d04b7fe4261b736fe0b9d964cee:7",
       "title": "MoonLake_Lakes",
       "reason": "insufficient",
@@ -237,6 +287,31 @@
         },
         {
           "category": "Development",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "arcgis:0ea8349f6ff4458eb5bc5490ea1ec835:0",
+      "title": "Countywide_WWTreatment_CollectionAreas",
+      "reason": "insufficient",
+      "signals": [
+        "description:utility",
+        "fields:building",
+        "fields:parcel",
+        "tags:utility"
+      ],
+      "candidates": [
+        {
+          "category": "Utilities",
+          "score": 4
+        },
+        {
+          "category": "Development",
+          "score": 2
+        },
+        {
+          "category": "Boundaries",
           "score": 0
         }
       ]
@@ -473,6 +548,28 @@
         },
         {
           "category": "Development",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "arcgis:184479b78ec64f799c1ea742bb9ffc3e:0",
+      "title": "Pharmacy",
+      "reason": "insufficient",
+      "signals": [
+        "fields:street"
+      ],
+      "candidates": [
+        {
+          "category": "Transportation",
+          "score": 1
+        },
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
           "score": 0
         }
       ]
@@ -814,6 +911,55 @@
         {
           "category": "Infrastructure",
           "score": 1
+        }
+      ]
+    },
+    {
+      "id": "arcgis:24aff830c446421992e64a745d722f38:0",
+      "title": "Countywide_SSServiceProviders",
+      "reason": "insufficient",
+      "signals": [
+        "description:utility",
+        "fields:building",
+        "fields:parcel",
+        "fields:wastewater",
+        "tags:utility"
+      ],
+      "candidates": [
+        {
+          "category": "Utilities",
+          "score": 5
+        },
+        {
+          "category": "Development",
+          "score": 2
+        },
+        {
+          "category": "Demographics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "arcgis:24aff830c446421992e64a745d722f38:1",
+      "title": "UtlCountywide_SSServiceProviders",
+      "reason": "insufficient",
+      "signals": [
+        "description:utility",
+        "tags:utility"
+      ],
+      "candidates": [
+        {
+          "category": "Utilities",
+          "score": 4
+        },
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
         }
       ]
     },
@@ -2143,6 +2289,55 @@
       ]
     },
     {
+      "id": "arcgis:5b66312343d74acb98976b2b1e636f55:0",
+      "title": "BrownfieldAreas",
+      "reason": "insufficient",
+      "signals": [
+        "description:construction",
+        "description:development",
+        "description:environment",
+        "tags:development",
+        "tags:environment"
+      ],
+      "candidates": [
+        {
+          "category": "Development",
+          "score": 5
+        },
+        {
+          "category": "Environment",
+          "score": 4
+        },
+        {
+          "category": "Infrastructure",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "arcgis:5c38d5707a40407f9a43ff82b0a183a4:0",
+      "title": "PSSEMSGrid",
+      "reason": "insufficient",
+      "signals": [
+        "description:safety",
+        "tags:safety"
+      ],
+      "candidates": [
+        {
+          "category": "Public safety",
+          "score": 4
+        },
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        }
+      ]
+    },
+    {
       "id": "arcgis:5cc87b761b1440a7928ab6d251a8d881:31",
       "title": "MoonLake_Water_Control_Valve",
       "reason": "ambiguous",
@@ -2191,6 +2386,51 @@
         {
           "category": "Transportation",
           "score": 1
+        }
+      ]
+    },
+    {
+      "id": "arcgis:5cfb9e9adbb24631882713150ab48923:0",
+      "title": "ReclaimServiceArea",
+      "reason": "insufficient",
+      "signals": [
+        "description:utility",
+        "tags:utility"
+      ],
+      "candidates": [
+        {
+          "category": "Utilities",
+          "score": 4
+        },
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "arcgis:5e862d71503d461f8c25cf35e9f6191d:0",
+      "title": "MobileMedicalUnits",
+      "reason": "insufficient",
+      "signals": [
+        "fields:street"
+      ],
+      "candidates": [
+        {
+          "category": "Transportation",
+          "score": 1
+        },
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
         }
       ]
     },
@@ -3651,6 +3891,31 @@
       ]
     },
     {
+      "id": "arcgis:a38009ba8bdb4a5bb731b95371f2c86d:0",
+      "title": "ECL_CCCL_BHL",
+      "reason": "insufficient",
+      "signals": [
+        "description:construction",
+        "description:public works",
+        "tags:construction",
+        "tags:public works"
+      ],
+      "candidates": [
+        {
+          "category": "Development",
+          "score": 4
+        },
+        {
+          "category": "Infrastructure",
+          "score": 4
+        },
+        {
+          "category": "Boundaries",
+          "score": 0
+        }
+      ]
+    },
+    {
       "id": "arcgis:a4c1c8ced98444bd9128b871ec33120b:0",
       "title": "Property of Interest",
       "reason": "insufficient",
@@ -4378,6 +4643,28 @@
       ]
     },
     {
+      "id": "arcgis:d24f62d0132942ff99d2be12da3cf9cf:0",
+      "title": "HumanServicesLocations",
+      "reason": "insufficient",
+      "signals": [
+        "fields:street"
+      ],
+      "candidates": [
+        {
+          "category": "Transportation",
+          "score": 1
+        },
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        }
+      ]
+    },
+    {
       "id": "arcgis:d2bd44558fa64196bb946019fcae89b2:8",
       "title": "MoonLake_Future_Landuse_2025",
       "reason": "insufficient",
@@ -4899,32 +5186,123 @@
   ],
   "changes": [
     {
-      "id": "arcgis:4fccfcc96f794481bb0b6519c9ac8d02:0",
-      "title": "Proposed_Target_Employment_Centers_2023_TEILS_Update",
+      "id": "arcgis:02d6f00ddcfe4b3097778bacf5c790c2:0",
+      "title": "Septic",
       "previous": null,
       "category": "Uncategorized",
       "source": "uncategorized"
     },
     {
-      "id": "arcgis:9fe942d2ffa2482d9f34a12f23872944:0",
-      "title": "I4_LMS_Merge",
+      "id": "arcgis:0d898468b54d44c98cdcbc66e9510518:0",
+      "title": "EMSResponseZones",
       "previous": null,
       "category": "Uncategorized",
       "source": "uncategorized"
     },
     {
-      "id": "arcgis:c3865625f5b243088e593103827fe58e:0",
-      "title": "LMS_PlaceTypes_preferred20260921",
+      "id": "arcgis:0ea8349f6ff4458eb5bc5490ea1ec835:0",
+      "title": "Countywide_WWTreatment_CollectionAreas",
       "previous": null,
       "category": "Uncategorized",
       "source": "uncategorized"
     },
     {
-      "id": "arcgis:f604caedc3e9459abb98c4f951b9e808:0",
-      "title": "Healthcare_Facilities",
+      "id": "arcgis:184479b78ec64f799c1ea742bb9ffc3e:0",
+      "title": "Pharmacy",
       "previous": null,
       "category": "Uncategorized",
       "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:24aff830c446421992e64a745d722f38:0",
+      "title": "Countywide_SSServiceProviders",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:24aff830c446421992e64a745d722f38:1",
+      "title": "UtlCountywide_SSServiceProviders",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:4dfb5882f57f4145bcfc58a33f22a537:0",
+      "title": "School",
+      "previous": null,
+      "category": "Public facilities",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:5923122f9f114021828afcf973124b2a:0",
+      "title": "PCHealthPlanClinics",
+      "previous": null,
+      "category": "Health",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:5b66312343d74acb98976b2b1e636f55:0",
+      "title": "BrownfieldAreas",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:5c38d5707a40407f9a43ff82b0a183a4:0",
+      "title": "PSSEMSGrid",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:5cfb9e9adbb24631882713150ab48923:0",
+      "title": "ReclaimServiceArea",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:5e862d71503d461f8c25cf35e9f6191d:0",
+      "title": "MobileMedicalUnits",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:65f19cb018df47ca8e5fabdd5b7163e3:0",
+      "title": "Countywide_PotWater_ServiceProviders",
+      "previous": null,
+      "category": "Utilities",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:8e33921b60224c8baf328048536f8b04:0",
+      "title": "SewerBasin",
+      "previous": null,
+      "category": "Utilities",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:a38009ba8bdb4a5bb731b95371f2c86d:0",
+      "title": "ECL_CCCL_BHL",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:d24f62d0132942ff99d2be12da3cf9cf:0",
+      "title": "HumanServicesLocations",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:e953922a1d0848f9b2d2b2c3cf4ccbaa:0",
+      "title": "SewerServiceArea2002",
+      "previous": null,
+      "category": "Utilities",
+      "source": "nlp"
     }
   ]
 }
