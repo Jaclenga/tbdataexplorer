@@ -1,16 +1,16 @@
 {
   "version": "1.0",
-  "total": 502,
+  "total": 504,
   "sources": {
     "override": 2,
     "curated": 52,
     "publisher": 2,
-    "nlp": 216,
-    "uncategorized": 230
+    "nlp": 217,
+    "uncategorized": 231
   },
   "counts": {
     "Transportation": 38,
-    "Development": 37,
+    "Development": 38,
     "Planning": 29,
     "Housing": 10,
     "Environment": 12,
@@ -25,12 +25,12 @@
     "Health": 2,
     "Demographics": 3,
     "Government": 4,
-    "Uncategorized": 230
+    "Uncategorized": 231
   },
   "distributionWarnings": [
     {
       "category": "Uncategorized",
-      "count": 230,
+      "count": 231,
       "reason": "over 40% of the catalog"
     }
   ],
@@ -3074,6 +3074,28 @@
       ]
     },
     {
+      "id": "arcgis:81a343f574c1477b8797c4fb6764a357:1",
+      "title": "Polygons",
+      "reason": "insufficient",
+      "signals": [
+        "fields:trash"
+      ],
+      "candidates": [
+        {
+          "category": "Solid waste",
+          "score": 1
+        },
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        }
+      ]
+    },
+    {
       "id": "arcgis:81fbefe22ea94d58badbcad213dd99d1:1",
       "title": "SWEEP Pickup",
       "reason": "insufficient",
@@ -5186,122 +5208,17 @@
   ],
   "changes": [
     {
-      "id": "arcgis:02d6f00ddcfe4b3097778bacf5c790c2:0",
-      "title": "Septic",
+      "id": "arcgis:81a343f574c1477b8797c4fb6764a357:1",
+      "title": "Polygons",
       "previous": null,
       "category": "Uncategorized",
       "source": "uncategorized"
     },
     {
-      "id": "arcgis:0d898468b54d44c98cdcbc66e9510518:0",
-      "title": "EMSResponseZones",
+      "id": "arcgis:f6d97ce8ce8b4c8c99c16434667a0c21:0",
+      "title": "Building Status",
       "previous": null,
-      "category": "Uncategorized",
-      "source": "uncategorized"
-    },
-    {
-      "id": "arcgis:0ea8349f6ff4458eb5bc5490ea1ec835:0",
-      "title": "Countywide_WWTreatment_CollectionAreas",
-      "previous": null,
-      "category": "Uncategorized",
-      "source": "uncategorized"
-    },
-    {
-      "id": "arcgis:184479b78ec64f799c1ea742bb9ffc3e:0",
-      "title": "Pharmacy",
-      "previous": null,
-      "category": "Uncategorized",
-      "source": "uncategorized"
-    },
-    {
-      "id": "arcgis:24aff830c446421992e64a745d722f38:0",
-      "title": "Countywide_SSServiceProviders",
-      "previous": null,
-      "category": "Uncategorized",
-      "source": "uncategorized"
-    },
-    {
-      "id": "arcgis:24aff830c446421992e64a745d722f38:1",
-      "title": "UtlCountywide_SSServiceProviders",
-      "previous": null,
-      "category": "Uncategorized",
-      "source": "uncategorized"
-    },
-    {
-      "id": "arcgis:4dfb5882f57f4145bcfc58a33f22a537:0",
-      "title": "School",
-      "previous": null,
-      "category": "Public facilities",
-      "source": "nlp"
-    },
-    {
-      "id": "arcgis:5923122f9f114021828afcf973124b2a:0",
-      "title": "PCHealthPlanClinics",
-      "previous": null,
-      "category": "Health",
-      "source": "nlp"
-    },
-    {
-      "id": "arcgis:5b66312343d74acb98976b2b1e636f55:0",
-      "title": "BrownfieldAreas",
-      "previous": null,
-      "category": "Uncategorized",
-      "source": "uncategorized"
-    },
-    {
-      "id": "arcgis:5c38d5707a40407f9a43ff82b0a183a4:0",
-      "title": "PSSEMSGrid",
-      "previous": null,
-      "category": "Uncategorized",
-      "source": "uncategorized"
-    },
-    {
-      "id": "arcgis:5cfb9e9adbb24631882713150ab48923:0",
-      "title": "ReclaimServiceArea",
-      "previous": null,
-      "category": "Uncategorized",
-      "source": "uncategorized"
-    },
-    {
-      "id": "arcgis:5e862d71503d461f8c25cf35e9f6191d:0",
-      "title": "MobileMedicalUnits",
-      "previous": null,
-      "category": "Uncategorized",
-      "source": "uncategorized"
-    },
-    {
-      "id": "arcgis:65f19cb018df47ca8e5fabdd5b7163e3:0",
-      "title": "Countywide_PotWater_ServiceProviders",
-      "previous": null,
-      "category": "Utilities",
-      "source": "nlp"
-    },
-    {
-      "id": "arcgis:8e33921b60224c8baf328048536f8b04:0",
-      "title": "SewerBasin",
-      "previous": null,
-      "category": "Utilities",
-      "source": "nlp"
-    },
-    {
-      "id": "arcgis:a38009ba8bdb4a5bb731b95371f2c86d:0",
-      "title": "ECL_CCCL_BHL",
-      "previous": null,
-      "category": "Uncategorized",
-      "source": "uncategorized"
-    },
-    {
-      "id": "arcgis:d24f62d0132942ff99d2be12da3cf9cf:0",
-      "title": "HumanServicesLocations",
-      "previous": null,
-      "category": "Uncategorized",
-      "source": "uncategorized"
-    },
-    {
-      "id": "arcgis:e953922a1d0848f9b2d2b2c3cf4ccbaa:0",
-      "title": "SewerServiceArea2002",
-      "previous": null,
-      "category": "Utilities",
+      "category": "Development",
       "source": "nlp"
     }
   ]
