@@ -1,0 +1,103 @@
+{
+  "model": "Xenova/nli-deberta-v3-xsmall",
+  "revision": "2a4f614a701367a02d51389039afc998faeda637",
+  "version": "2",
+  "methodology": "Small reviewed development regression set chosen while inspecting model output; not an independent holdout or population accuracy estimate. Publisher category and manual overrides withheld. Incorrect abstentions are reported separately from incorrect assignments.",
+  "total": 13,
+  "correct": 13,
+  "incorrectAssignments": 0,
+  "abstentionsOnLabeledRecords": 0,
+  "rows": [
+    {
+      "id": "arcgis:0ea64d04b7fe4261b736fe0b9d964cee:7",
+      "title": "MoonLake_Lakes",
+      "expected": "Environment",
+      "predicted": "Environment",
+      "correct": true
+    },
+    {
+      "id": "arcgis:0ea8349f6ff4458eb5bc5490ea1ec835:0",
+      "title": "Countywide_WWTreatment_CollectionAreas",
+      "expected": "Utilities",
+      "predicted": "Utilities",
+      "correct": true
+    },
+    {
+      "id": "arcgis:11e29e01293449088a3d05b37281a205:0",
+      "title": "Zoning2019",
+      "expected": "Planning",
+      "predicted": "Planning",
+      "correct": true
+    },
+    {
+      "id": "arcgis:18a3f3e2eb3a429fb79bea04f980d55e:31",
+      "title": "MoonLake_Water_Control_Valve",
+      "expected": "Utilities",
+      "predicted": "Utilities",
+      "correct": true
+    },
+    {
+      "id": "arcgis:18a3f3e2eb3a429fb79bea04f980d55e:33",
+      "title": "MoonLake_Water_System_Valve",
+      "expected": "Utilities",
+      "predicted": "Utilities",
+      "correct": true
+    },
+    {
+      "id": "arcgis:57023f43c6b8478f8f01ace2a620e247:0",
+      "title": "survey",
+      "expected": "Uncategorized",
+      "predicted": "Uncategorized",
+      "correct": true
+    },
+    {
+      "id": "arcgis:5cc87b761b1440a7928ab6d251a8d881:31",
+      "title": "MoonLake_Water_Control_Valve",
+      "expected": "Utilities",
+      "predicted": "Utilities",
+      "correct": true
+    },
+    {
+      "id": "arcgis:5cc87b761b1440a7928ab6d251a8d881:33",
+      "title": "MoonLake_Water_System_Valve",
+      "expected": "Utilities",
+      "predicted": "Utilities",
+      "correct": true
+    },
+    {
+      "id": "arcgis:704de818c6a947f0b10a8f0677a86f4b:0",
+      "title": "survey",
+      "expected": "Uncategorized",
+      "predicted": "Uncategorized",
+      "correct": true
+    },
+    {
+      "id": "arcgis:847294deda8740a7a478a10bb92d4da3:10",
+      "title": "MoonLake_ELAMP_Acquisitions",
+      "expected": "Environment",
+      "predicted": "Environment",
+      "correct": true
+    },
+    {
+      "id": "arcgis:986ed789a12e43f8b1ab6099509edded:0",
+      "title": "AMI_ACS_5yr_18_to_22",
+      "expected": "Demographics",
+      "predicted": "Demographics",
+      "correct": true
+    },
+    {
+      "id": "arcgis:b5fbc0132844433c8e4d894f996a667a:0",
+      "title": "survey",
+      "expected": "Hazards",
+      "predicted": "Hazards",
+      "correct": true
+    },
+    {
+      "id": "arcgis:b9a9b59e928d4e8ca7479b94dc07ce80:0",
+      "title": "MappedAreasofFlooding",
+      "expected": "Hazards",
+      "predicted": "Hazards",
+      "correct": true
+    }
+  ]
+}

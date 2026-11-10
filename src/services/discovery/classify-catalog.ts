@@ -17,7 +17,9 @@ interface Context {
 function sourceCategory(dataset: Dataset) {
   if (Object.hasOwn(dataset, "source_category"))
     return dataset.source_category ?? null;
-  return ["nlp", "uncategorized"].includes(dataset.category_source ?? "")
+  return ["nlp", "semantic", "uncategorized"].includes(
+    dataset.category_source ?? "",
+  )
     ? null
     : dataset.category;
 }
@@ -116,7 +118,7 @@ export function categorizeReport(
   const effective = mergeDatasets(curatedUpdates, datasets);
   return { report: next, review: classificationReview(effective, old) };
 }
-function classificationReview(datasets: Dataset[], previous: Dataset[]) {
+export function classificationReview(datasets: Dataset[], previous: Dataset[]) {
   const counts = Object.fromEntries(
     categoryNames.map((category) => [
       category,
@@ -124,12 +126,17 @@ function classificationReview(datasets: Dataset[], previous: Dataset[]) {
     ]),
   );
   const sources = Object.fromEntries(
-    ["override", "curated", "publisher", "nlp", "uncategorized"].map(
-      (source) => [
-        source,
-        datasets.filter((d) => d.category_source === source).length,
-      ],
-    ),
+    [
+      "override",
+      "curated",
+      "publisher",
+      "nlp",
+      "semantic",
+      "uncategorized",
+    ].map((source) => [
+      source,
+      datasets.filter((d) => d.category_source === source).length,
+    ]),
   );
   const old = new Map(previous.map((d) => [d.id, d]));
   return {

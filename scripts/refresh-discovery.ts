@@ -7,7 +7,7 @@ import {
   refreshCatalog,
   catalogChanged,
 } from "../src/services/discovery/refresh";
-import { categorizeReport } from "../src/services/discovery/classify-catalog";
+import { categorizeWithSemantic } from "./semantic-categorization";
 import { validateIndex } from "../src/server/discovery-index";
 function option(name: string, fallback: number) {
   const index = process.argv.indexOf(name);
@@ -39,7 +39,7 @@ const candidate = await refreshCatalog({
     signal: AbortSignal.timeout(option("--timeout-ms", 600000)),
   },
 });
-const classified = categorizeReport(candidate, curated, previous);
+const classified = await categorizeWithSemantic(candidate, curated, previous);
 const report = validateIndex(classified.report);
 await atomicWrite(resolve(".wrangler/category-review.json"), classified.review);
 const changed = catalogChanged(previous, report);

@@ -14,7 +14,14 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+      - uses: actions/cache@v4
+        with:
+          path: .wrangler/models
+          key: semantic-model-${{ runner.os }}-${{ hashFiles('config/semantic-categories.json') }}
+      - name: Categorize catalog metadata with NLP
+        run: npm run catalog:categorize
       - run: npm run category:evaluate -- --check
+      - run: npm run category:semantic:evaluate -- --check
       - run: npm run catalog:validate
       - run: npm run access:validate
       - run: npm run discovery:validate
@@ -34,3 +41,10 @@ jobs:
             test-results/
             playwright-report/
             coverage/
+            reports/category-review.json
+            reports/category-semantic-review.json
+            reports/category-semantic-cache.json
+            reports/category-semantic-evaluation.json
+            reports/category-enrichment.json
+            reports/category-triage.json
+            public/discovery.json

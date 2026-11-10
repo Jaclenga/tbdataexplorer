@@ -23,6 +23,20 @@ describe("metadata categorization", () => {
     ["Bike lanes", "Transportation"],
     ["Building permits", "Development"],
     ["Zoning", "Planning"],
+    ["Zoning2019", "Planning"],
+    ["CWP_Amendments", "Planning"],
+    ["S_BFE", "Hazards"],
+    ["Countywide_SSServiceProviders", "Utilities"],
+    ["MoonLake_FLU_2025", "Planning"],
+    ["ROW", "Transportation"],
+    ["ADU Existing Allowable Areas", "Housing"],
+    ["TampaMuseum", "Public facilities"],
+    ["TampaTheatre", "Public facilities"],
+    ["MappedAreasofFlooding", "Hazards"],
+    ["Countywide_WWTreatment_CollectionAreas", "Utilities"],
+    ["WWTP2026", "Utilities"],
+    ["MoonLake_Water_Control_Valve", "Utilities"],
+    ["MoonLake_Water_System_Valve", "Utilities"],
     ["Affordable housing", "Housing"],
     ["Wetlands habitat", "Environment"],
     ["Stormwater infrastructure", "Infrastructure"],
@@ -36,6 +50,20 @@ describe("metadata categorization", () => {
     ["Public health clinics", "Health"],
     ["Census tracts", "Demographics"],
     ["Voting precincts", "Government"],
+    ["Septic", "Utilities"],
+    ["Potable Service Connection", "Utilities"],
+    ["Reclaimed Pump", "Utilities"],
+    ["Sec605_Runway_Protection_Zone", "Transportation"],
+    ["GOPASCO Bus Stops", "Transportation"],
+    ["Pharmacy", "Health"],
+    ["Healthcare_Facilities", "Health"],
+    ["MultiFamily Layer", "Housing"],
+    ["Renter Occupied Units", "Housing"],
+    ["Mangroves", "Environment"],
+    ["LimitofModerateWaveAction", "Hazards"],
+    ["Yard Waste Pickup", "Solid waste"],
+    ["Florida State Senate Districts", "Boundaries"],
+    ["Area Median Income", "Demographics"],
   ])("classifies %s", (title, expected) => {
     expect(predictCategory(metadata(title)).category).toBe(expected);
   });
@@ -57,6 +85,9 @@ describe("metadata categorization", () => {
     expect(predictCategory(metadata(title)).category).toBe("Uncategorized");
   });
   it("matches whole words and exact phrases", () => {
+    expect(predictCategory(metadata("WWResearch")).category).toBe(
+      "Uncategorized",
+    );
     expect(predictCategory(metadata("Roadrunner surveys")).category).toBe(
       "Uncategorized",
     );
@@ -91,6 +122,37 @@ describe("metadata categorization", () => {
       }).category,
     ).toBe("Uncategorized");
   });
+  it.each([
+    ["Environmental Lands Acquisition and Management Program", "Environment"],
+    ["Median household income for ages 18 to 22", "Demographics"],
+    ["Select assets for the flood risk assessment", "Hazards"],
+    ["Accela inspection zones during the permiting process", "Development"],
+    ["Code Enforcement Cases Map Service", "Development"],
+    ["Current and adopted zoning districts", "Planning"],
+    [
+      "Geographic boundaries of special districts within Hillsborough County",
+      "Boundaries",
+    ],
+    ["Transportation Improvement Projects", "Transportation"],
+    ["Emergency Management Shelters", "Hazards"],
+    ["Adopt a Drain public facing web maps", "Infrastructure"],
+  ])("recognizes specific layer context: %s", (description, category) => {
+    expect(
+      predictCategory({ ...metadata("survey"), description }).category,
+    ).toBe(category);
+    expect(
+      predictCategory({
+        ...metadata("survey"),
+        fields: [{ name: "question", type: "string", alias: description }],
+      }).category,
+    ).toBe(category);
+  });
+  it.each(["SchoolsSidewalks", "SchoolsSidewalksParcels"])(
+    "uses the main subject for %s",
+    (title) => {
+      expect(predictCategory(metadata(title)).category).toBe("Transportation");
+    },
+  );
   it("is deterministic and does not mutate inputs", () => {
     const input = metadata("Bike lanes");
     const copy = JSON.stringify(input);
@@ -106,6 +168,15 @@ describe("metadata categorization", () => {
     expect(first.category_source).toBe("nlp");
     expect(second.category).toBe("Environment");
     expect(classifyDataset(second)).toEqual(second);
+  });
+  it("does not trust an earlier semantic prediction as publisher evidence", () => {
+    const result = classifyDataset({
+      ...metadata("Unknown"),
+      category: "Housing",
+      category_source: "semantic",
+    });
+    expect(result.category).toBe("Uncategorized");
+    expect(result.source_category).toBeNull();
   });
   it("honors explicit overrides above curated, publisher and NLP categories", () => {
     const result = classifyDataset(metadata("Wetlands"), {

@@ -29,7 +29,9 @@
     "discovery:validate": "tsx scripts/validate-discovery.ts",
     "deploy": "npm run build && npm run deploy:guard && wrangler pages deploy dist --project-name=tbdataexplorer",
     "catalog:categorize": "tsx scripts/categorize-catalog.ts",
-    "category:evaluate": "tsx scripts/evaluate-categories.ts"
+    "category:evaluate": "tsx scripts/evaluate-categories.ts",
+    "category:semantic:evaluate": "tsx scripts/evaluate-semantic-categories.ts",
+    "category:benchmark": "tsx scripts/benchmark-categories.ts"
   },
   "dependencies": {
     "@terraformer/arcgis": "^2.1.2",
@@ -41,6 +43,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.0.0",
+    "@huggingface/transformers": "^4.3.2",
     "@playwright/test": "^1.55.0",
     "@tailwindcss/vite": "^4.1.0",
     "@types/geojson": "^7946.0.16",

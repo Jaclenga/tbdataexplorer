@@ -1,66 +1,35 @@
 {
-  "version": "1.0",
+  "version": "1.3",
   "total": 504,
   "sources": {
     "override": 2,
     "curated": 52,
     "publisher": 2,
-    "nlp": 217,
-    "uncategorized": 231
+    "nlp": 362,
+    "semantic": 0,
+    "uncategorized": 86
   },
   "counts": {
-    "Transportation": 38,
-    "Development": 38,
-    "Planning": 29,
-    "Housing": 10,
-    "Environment": 12,
-    "Infrastructure": 24,
-    "Utilities": 48,
-    "Public safety": 9,
+    "Transportation": 59,
+    "Development": 60,
+    "Planning": 42,
+    "Housing": 19,
+    "Environment": 18,
+    "Infrastructure": 29,
+    "Utilities": 73,
+    "Public safety": 13,
     "Recreation": 13,
-    "Hazards": 20,
-    "Boundaries": 15,
-    "Solid waste": 3,
-    "Public facilities": 5,
-    "Health": 2,
-    "Demographics": 3,
-    "Government": 4,
-    "Uncategorized": 231
+    "Hazards": 36,
+    "Boundaries": 25,
+    "Solid waste": 5,
+    "Public facilities": 7,
+    "Health": 6,
+    "Demographics": 5,
+    "Government": 8,
+    "Uncategorized": 86
   },
-  "distributionWarnings": [
-    {
-      "category": "Uncategorized",
-      "count": 231,
-      "reason": "over 40% of the catalog"
-    }
-  ],
+  "distributionWarnings": [],
   "review": [
-    {
-      "id": "arcgis:02d6f00ddcfe4b3097778bacf5c790c2:0",
-      "title": "Septic",
-      "reason": "insufficient",
-      "signals": [
-        "description:construction",
-        "description:development",
-        "description:sewer",
-        "description:utility",
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 5
-        },
-        {
-          "category": "Development",
-          "score": 2
-        },
-        {
-          "category": "Transportation",
-          "score": 1
-        }
-      ]
-    },
     {
       "id": "arcgis:04abc337671a4f7397437391ab089053:3",
       "title": "MoonLake_Public_Lands",
@@ -148,68 +117,8 @@
       ]
     },
     {
-      "id": "arcgis:08f9dd2bd6eb4995bcf344ac69b606bb:1",
-      "title": "TampaMuseum",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:08f9dd2bd6eb4995bcf344ac69b606bb:2",
-      "title": "TampaTheatre",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
       "id": "arcgis:08f9dd2bd6eb4995bcf344ac69b606bb:3",
       "title": "Straz",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:0a054dcec91e4358b68fe744cedab7f1:0",
-      "title": "DevIncentivesSF",
       "reason": "insufficient",
       "signals": [],
       "candidates": [
@@ -248,271 +157,6 @@
       ]
     },
     {
-      "id": "arcgis:0d898468b54d44c98cdcbc66e9510518:0",
-      "title": "EMSResponseZones",
-      "reason": "insufficient",
-      "signals": [
-        "description:safety",
-        "fields:fire",
-        "tags:safety"
-      ],
-      "candidates": [
-        {
-          "category": "Public safety",
-          "score": 5
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:0ea64d04b7fe4261b736fe0b9d964cee:7",
-      "title": "MoonLake_Lakes",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:0ea8349f6ff4458eb5bc5490ea1ec835:0",
-      "title": "Countywide_WWTreatment_CollectionAreas",
-      "reason": "insufficient",
-      "signals": [
-        "description:utility",
-        "fields:building",
-        "fields:parcel",
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 4
-        },
-        {
-          "category": "Development",
-          "score": 2
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:106154ff69c840a2b7bbfdd5364dd5c3:0",
-      "title": "Intertie",
-      "reason": "insufficient",
-      "signals": [
-        "description:water service",
-        "tags:infrastructure",
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 4
-        },
-        {
-          "category": "Infrastructure",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:106154ff69c840a2b7bbfdd5364dd5c3:1",
-      "title": "Cathodic Protection Device",
-      "reason": "insufficient",
-      "signals": [
-        "description:water service",
-        "tags:infrastructure",
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 4
-        },
-        {
-          "category": "Infrastructure",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:106154ff69c840a2b7bbfdd5364dd5c3:10",
-      "title": "Potable Fitting",
-      "reason": "insufficient",
-      "signals": [
-        "description:water service",
-        "tags:infrastructure",
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 4
-        },
-        {
-          "category": "Infrastructure",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:106154ff69c840a2b7bbfdd5364dd5c3:2",
-      "title": "Potable Pump",
-      "reason": "insufficient",
-      "signals": [
-        "description:water service",
-        "tags:infrastructure",
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 4
-        },
-        {
-          "category": "Infrastructure",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:106154ff69c840a2b7bbfdd5364dd5c3:3",
-      "title": "Potable Test Station",
-      "reason": "insufficient",
-      "signals": [
-        "description:water service",
-        "tags:infrastructure",
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 4
-        },
-        {
-          "category": "Infrastructure",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:106154ff69c840a2b7bbfdd5364dd5c3:4",
-      "title": "Potable Network Structure",
-      "reason": "insufficient",
-      "signals": [
-        "description:water service",
-        "tags:infrastructure",
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 4
-        },
-        {
-          "category": "Infrastructure",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:106154ff69c840a2b7bbfdd5364dd5c3:8",
-      "title": "Potable Service Connection",
-      "reason": "insufficient",
-      "signals": [
-        "description:water service",
-        "tags:infrastructure",
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 4
-        },
-        {
-          "category": "Infrastructure",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:11e29e01293449088a3d05b37281a205:0",
-      "title": "Zoning2019",
-      "reason": "ambiguous",
-      "signals": [
-        "description:development",
-        "description:housing",
-        "fields:affordable",
-        "fields:development",
-        "fields:housing unit",
-        "tags:development",
-        "tags:housing"
-      ],
-      "candidates": [
-        {
-          "category": "Housing",
-          "score": 6
-        },
-        {
-          "category": "Development",
-          "score": 5
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
       "id": "arcgis:12d7519d22874298a26f6f4e51914589:0",
       "title": "MicrofundProgram",
       "reason": "insufficient",
@@ -528,48 +172,6 @@
         },
         {
           "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:183d496d8c074d618e21cdce6a812f5d:0",
-      "title": "CWP_Amendments",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:184479b78ec64f799c1ea742bb9ffc3e:0",
-      "title": "Pharmacy",
-      "reason": "insufficient",
-      "signals": [
-        "fields:street"
-      ],
-      "candidates": [
-        {
-          "category": "Transportation",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
           "score": 0
         }
       ]
@@ -595,136 +197,23 @@
       ]
     },
     {
-      "id": "arcgis:18a3f3e2eb3a429fb79bea04f980d55e:13",
-      "title": "Airport Influence Area",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary",
-        "description:census"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 1
-        },
-        {
-          "category": "Demographics",
-          "score": 1
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:18a3f3e2eb3a429fb79bea04f980d55e:14",
-      "title": "Public Airport Zone",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary",
-        "description:census"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 1
-        },
-        {
-          "category": "Demographics",
-          "score": 1
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:18a3f3e2eb3a429fb79bea04f980d55e:15",
-      "title": "Airport Approach Surface",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary",
-        "description:census"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 1
-        },
-        {
-          "category": "Demographics",
-          "score": 1
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:18a3f3e2eb3a429fb79bea04f980d55e:16",
-      "title": "Runway Protection Zone",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary",
-        "description:census"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 1
-        },
-        {
-          "category": "Demographics",
-          "score": 1
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:18a3f3e2eb3a429fb79bea04f980d55e:18",
-      "title": "GOPASCO Bus Stops",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary",
-        "description:census"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 1
-        },
-        {
-          "category": "Demographics",
-          "score": 1
-        },
-        {
-          "category": "Transportation",
-          "score": 1
-        }
-      ]
-    },
-    {
       "id": "arcgis:18a3f3e2eb3a429fb79bea04f980d55e:3",
       "title": "Public Lands",
       "reason": "insufficient",
       "signals": [
         "description:boundary",
-        "description:census"
+        "description:census",
+        "parent_context:boundary",
+        "parent_context:census"
       ],
       "candidates": [
         {
           "category": "Boundaries",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Demographics",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Development",
@@ -738,16 +227,18 @@
       "reason": "insufficient",
       "signals": [
         "description:boundary",
-        "description:census"
+        "description:census",
+        "parent_context:boundary",
+        "parent_context:census"
       ],
       "candidates": [
         {
           "category": "Boundaries",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Demographics",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Development",
@@ -761,16 +252,18 @@
       "reason": "insufficient",
       "signals": [
         "description:boundary",
-        "description:census"
+        "description:census",
+        "parent_context:boundary",
+        "parent_context:census"
       ],
       "candidates": [
         {
           "category": "Boundaries",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Demographics",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Development",
@@ -784,16 +277,18 @@
       "reason": "insufficient",
       "signals": [
         "description:boundary",
-        "description:census"
+        "description:census",
+        "parent_context:boundary",
+        "parent_context:census"
       ],
       "candidates": [
         {
           "category": "Boundaries",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Demographics",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Infrastructure",
@@ -807,16 +302,18 @@
       "reason": "insufficient",
       "signals": [
         "description:boundary",
-        "description:census"
+        "description:census",
+        "parent_context:boundary",
+        "parent_context:census"
       ],
       "candidates": [
         {
           "category": "Boundaries",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Demographics",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Development",
@@ -830,16 +327,18 @@
       "reason": "insufficient",
       "signals": [
         "description:boundary",
-        "description:census"
+        "description:census",
+        "parent_context:boundary",
+        "parent_context:census"
       ],
       "candidates": [
         {
           "category": "Boundaries",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Demographics",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Development",
@@ -853,16 +352,18 @@
       "reason": "insufficient",
       "signals": [
         "description:boundary",
-        "description:census"
+        "description:census",
+        "parent_context:boundary",
+        "parent_context:census"
       ],
       "candidates": [
         {
           "category": "Boundaries",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Demographics",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Development",
@@ -915,55 +416,6 @@
       ]
     },
     {
-      "id": "arcgis:24aff830c446421992e64a745d722f38:0",
-      "title": "Countywide_SSServiceProviders",
-      "reason": "insufficient",
-      "signals": [
-        "description:utility",
-        "fields:building",
-        "fields:parcel",
-        "fields:wastewater",
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 5
-        },
-        {
-          "category": "Development",
-          "score": 2
-        },
-        {
-          "category": "Demographics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "arcgis:24aff830c446421992e64a745d722f38:1",
-      "title": "UtlCountywide_SSServiceProviders",
-      "reason": "insufficient",
-      "signals": [
-        "description:utility",
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 4
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
       "id": "arcgis:2b0fecfb568a4be4ba21b4a590556c57:0",
       "title": "survey",
       "reason": "insufficient",
@@ -984,260 +436,17 @@
       ]
     },
     {
-      "id": "arcgis:2f778377f0d54796a7302d72ab95890f:1",
-      "title": " Activity Centers",
-      "reason": "insufficient",
-      "signals": [
-        "description:housing"
-      ],
-      "candidates": [
-        {
-          "category": "Housing",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
       "id": "arcgis:2f778377f0d54796a7302d72ab95890f:2",
       "title": "Business Associations",
       "reason": "insufficient",
       "signals": [
-        "description:housing"
-      ],
-      "candidates": [
-        {
-          "category": "Housing",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:2f778377f0d54796a7302d72ab95890f:4",
-      "title": "Sunrunner_Stations",
-      "reason": "insufficient",
-      "signals": [
         "description:housing",
-        "fields:route"
+        "parent_context:housing"
       ],
       "candidates": [
         {
           "category": "Housing",
-          "score": 1
-        },
-        {
-          "category": "Transportation",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:2f778377f0d54796a7302d72ab95890f:7",
-      "title": "Target Employment Center",
-      "reason": "insufficient",
-      "signals": [
-        "description:housing"
-      ],
-      "candidates": [
-        {
-          "category": "Housing",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:2f778377f0d54796a7302d72ab95890f:8",
-      "title": "Florida Enterprise Zone",
-      "reason": "insufficient",
-      "signals": [
-        "description:housing"
-      ],
-      "candidates": [
-        {
-          "category": "Housing",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:0",
-      "title": "Accela_SiteAddressPoint",
-      "reason": "insufficient",
-      "signals": [
-        "fields:road",
-        "tags:parcel"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 3
-        },
-        {
-          "category": "Transportation",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:10",
-      "title": "Mechanical",
-      "reason": "insufficient",
-      "signals": [
-        "tags:parcel"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:12",
-      "title": "Plumbing_Gas",
-      "reason": "insufficient",
-      "signals": [
-        "tags:parcel"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:13",
-      "title": "ROW",
-      "reason": "insufficient",
-      "signals": [
-        "tags:parcel"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:14",
-      "title": "Site_C",
-      "reason": "insufficient",
-      "signals": [
-        "tags:parcel"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:15",
-      "title": "TTC",
-      "reason": "insufficient",
-      "signals": [
-        "tags:parcel"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:16",
-      "title": "CodeEnforcement",
-      "reason": "insufficient",
-      "signals": [
-        "tags:parcel"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 3
+          "score": 1.5
         },
         {
           "category": "Boundaries",
@@ -1254,12 +463,13 @@
       "title": "Sections",
       "reason": "insufficient",
       "signals": [
+        "parent_context:parcel",
         "tags:parcel"
       ],
       "candidates": [
         {
           "category": "Development",
-          "score": 3
+          "score": 3.5
         },
         {
           "category": "Boundaries",
@@ -1268,190 +478,6 @@
         {
           "category": "Demographics",
           "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:3",
-      "title": "Asbuilt",
-      "reason": "insufficient",
-      "signals": [
-        "tags:parcel"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:4",
-      "title": "Backflow_Offsite",
-      "reason": "insufficient",
-      "signals": [
-        "tags:parcel"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:5",
-      "title": "Backflow_Onsite",
-      "reason": "insufficient",
-      "signals": [
-        "tags:parcel"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:7",
-      "title": "CodeComp",
-      "reason": "insufficient",
-      "signals": [
-        "tags:parcel"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:8",
-      "title": "Electrical",
-      "reason": "insufficient",
-      "signals": [
-        "tags:parcel"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:3584e6549e4244eab36e664f92f3aee0:0",
-      "title": "S_BFE",
-      "reason": "insufficient",
-      "signals": [
-        "description:flood",
-        "description:library",
-        "tags:flood"
-      ],
-      "candidates": [
-        {
-          "category": "Hazards",
-          "score": 4
-        },
-        {
-          "category": "Public facilities",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:36b92bfba2e34c189dc5f6e311a027ea:0",
-      "title": "S_LIMWA",
-      "reason": "insufficient",
-      "signals": [
-        "description:flood",
-        "description:library"
-      ],
-      "candidates": [
-        {
-          "category": "Hazards",
-          "score": 1
-        },
-        {
-          "category": "Public facilities",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:3d8df529a07447d5acdfa1ddd9c8c232:0",
-      "title": "PCEM_CriticalFacilities",
-      "reason": "insufficient",
-      "signals": [
-        "fields:sewer",
-        "fields:solid waste",
-        "fields:waste collection",
-        "fields:water service",
-        "tags:solid waste",
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Solid waste",
-          "score": 5
-        },
-        {
-          "category": "Utilities",
-          "score": 5
-        },
-        {
-          "category": "Public safety",
-          "score": 4
         }
       ]
     },
@@ -1581,28 +607,6 @@
       ]
     },
     {
-      "id": "arcgis:47fd6de1bb9840ebb5b83973d8269fdc:20",
-      "title": "MoonLake_FLU_2025",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 1
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
       "id": "arcgis:4a6ffca2ae534afdb2d0ab92654f51ab:0",
       "title": "survey",
       "reason": "insufficient",
@@ -1625,132 +629,18 @@
       ]
     },
     {
-      "id": "arcgis:4a71946ebc354630a60b9509eb502674:0",
-      "title": "cdds",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary",
-        "description:development"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 1
-        },
-        {
-          "category": "Development",
-          "score": 1
-        },
-        {
-          "category": "Public safety",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "arcgis:4a71946ebc354630a60b9509eb502674:1",
-      "title": "LDs",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary",
-        "description:development"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 1
-        },
-        {
-          "category": "Development",
-          "score": 1
-        },
-        {
-          "category": "Public safety",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "arcgis:4a71946ebc354630a60b9509eb502674:2",
-      "title": "sd",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary",
-        "description:development"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 1
-        },
-        {
-          "category": "Development",
-          "score": 1
-        },
-        {
-          "category": "Public safety",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "arcgis:4a71946ebc354630a60b9509eb502674:3",
-      "title": "sd2",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary",
-        "description:development"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 1
-        },
-        {
-          "category": "Development",
-          "score": 1
-        },
-        {
-          "category": "Public safety",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "arcgis:4a71946ebc354630a60b9509eb502674:4",
-      "title": "tifs",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary",
-        "description:development"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 1
-        },
-        {
-          "category": "Development",
-          "score": 1
-        },
-        {
-          "category": "Public safety",
-          "score": 1
-        }
-      ]
-    },
-    {
       "id": "arcgis:4bb2811d2a35470e9605be5f595d3a53:0",
       "title": "HWM",
       "reason": "insufficient",
       "signals": [
         "description:public works",
+        "parent_context:public works",
         "tags:public works"
       ],
       "candidates": [
         {
           "category": "Infrastructure",
-          "score": 4
+          "score": 4.5
         },
         {
           "category": "Boundaries",
@@ -1767,6 +657,8 @@
       "title": "City-Owned Undeveloped Land",
       "reason": "insufficient",
       "signals": [
+        "description:building",
+        "description:housing",
         "fields:affordable",
         "fields:housing",
         "fields:parcel"
@@ -1774,85 +666,15 @@
       "candidates": [
         {
           "category": "Housing",
-          "score": 2
+          "score": 3
         },
         {
           "category": "Development",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:4fccfcc96f794481bb0b6519c9ac8d02:0",
-      "title": "Proposed_Target_Employment_Centers_2023_TEILS_Update",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 1
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:514f8725abb7490eb6d06411c863d273:0",
-      "title": "Existing Opportunity Zones",
-      "reason": "insufficient",
-      "signals": [
-        "description:census tract",
-        "fields:housing unit",
-        "fields:population"
-      ],
-      "candidates": [
-        {
-          "category": "Demographics",
           "score": 2
         },
         {
-          "category": "Housing",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:514f8725abb7490eb6d06411c863d273:1",
-      "title": "Proposed Opportunity Zones",
-      "reason": "insufficient",
-      "signals": [
-        "description:census tract",
-        "fields:housing unit",
-        "fields:population"
-      ],
-      "candidates": [
-        {
-          "category": "Demographics",
+          "category": "Public safety",
           "score": 2
-        },
-        {
-          "category": "Housing",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
         }
       ]
     },
@@ -1877,44 +699,23 @@
       ]
     },
     {
-      "id": "arcgis:53e18e1fdb3745b88a76633e07cc35de:37",
-      "title": "ADU Existing Allowable Areas",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary",
-        "tags:boundary"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 4
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
       "id": "arcgis:554974746aed4a8a9a92f8c8be76b21c:0",
       "title": "S_FIRM_PAN",
       "reason": "insufficient",
       "signals": [
         "description:flood",
-        "description:library"
+        "description:library",
+        "parent_context:flood",
+        "parent_context:library"
       ],
       "candidates": [
         {
           "category": "Hazards",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Public facilities",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Boundaries",
@@ -1943,31 +744,6 @@
       ]
     },
     {
-      "id": "arcgis:583c9f880c044c8aabdbeded3496f932:2",
-      "title": "Assessed Value",
-      "reason": "insufficient",
-      "signals": [
-        "description:housing",
-        "fields:building",
-        "fields:parcel",
-        "fields:residential"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 2
-        },
-        {
-          "category": "Housing",
-          "score": 2
-        },
-        {
-          "category": "Utilities",
-          "score": 2
-        }
-      ]
-    },
-    {
       "id": "arcgis:583c9f880c044c8aabdbeded3496f932:3",
       "title": "Church/Church Property",
       "reason": "insufficient",
@@ -1975,227 +751,21 @@
         "description:housing",
         "fields:building",
         "fields:parcel",
-        "fields:residential"
+        "fields:residential",
+        "parent_context:housing"
       ],
       "candidates": [
+        {
+          "category": "Housing",
+          "score": 2.5
+        },
         {
           "category": "Development",
           "score": 2
         },
         {
-          "category": "Housing",
+          "category": "Government",
           "score": 2
-        },
-        {
-          "category": "Utilities",
-          "score": 2
-        }
-      ]
-    },
-    {
-      "id": "arcgis:583c9f880c044c8aabdbeded3496f932:4",
-      "title": "City Owned Property",
-      "reason": "insufficient",
-      "signals": [
-        "description:housing",
-        "fields:building",
-        "fields:parcel",
-        "fields:residential"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 2
-        },
-        {
-          "category": "Housing",
-          "score": 2
-        },
-        {
-          "category": "Utilities",
-          "score": 2
-        }
-      ]
-    },
-    {
-      "id": "arcgis:583c9f880c044c8aabdbeded3496f932:5",
-      "title": "Homestead Exemption",
-      "reason": "insufficient",
-      "signals": [
-        "description:housing",
-        "fields:building",
-        "fields:parcel",
-        "fields:residential"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 2
-        },
-        {
-          "category": "Housing",
-          "score": 2
-        },
-        {
-          "category": "Utilities",
-          "score": 2
-        }
-      ]
-    },
-    {
-      "id": "arcgis:583c9f880c044c8aabdbeded3496f932:6",
-      "title": "Taxable Value",
-      "reason": "insufficient",
-      "signals": [
-        "description:housing",
-        "fields:building",
-        "fields:parcel",
-        "fields:residential"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 2
-        },
-        {
-          "category": "Housing",
-          "score": 2
-        },
-        {
-          "category": "Utilities",
-          "score": 2
-        }
-      ]
-    },
-    {
-      "id": "arcgis:5a7930838a8a49d0a91d7bd1e825adfd:1",
-      "title": "LimitofModerateWaveAction",
-      "reason": "insufficient",
-      "signals": [
-        "description:housing"
-      ],
-      "candidates": [
-        {
-          "category": "Housing",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:5a7930838a8a49d0a91d7bd1e825adfd:10",
-      "title": "FIRM Panels",
-      "reason": "insufficient",
-      "signals": [
-        "description:housing"
-      ],
-      "candidates": [
-        {
-          "category": "Housing",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:5a7930838a8a49d0a91d7bd1e825adfd:13",
-      "title": "Coastal High Hazard Areas",
-      "reason": "insufficient",
-      "signals": [
-        "description:housing"
-      ],
-      "candidates": [
-        {
-          "category": "Housing",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:5a7930838a8a49d0a91d7bd1e825adfd:2",
-      "title": "Repetitive Loss Areas",
-      "reason": "insufficient",
-      "signals": [
-        "description:housing"
-      ],
-      "candidates": [
-        {
-          "category": "Housing",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:5a7930838a8a49d0a91d7bd1e825adfd:4",
-      "title": "Mangroves",
-      "reason": "insufficient",
-      "signals": [
-        "description:housing"
-      ],
-      "candidates": [
-        {
-          "category": "Housing",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:5a7930838a8a49d0a91d7bd1e825adfd:5",
-      "title": "Sinkholes",
-      "reason": "insufficient",
-      "signals": [
-        "description:housing"
-      ],
-      "candidates": [
-        {
-          "category": "Housing",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
         }
       ]
     },
@@ -2204,12 +774,13 @@
       "title": "One ft Contours  ",
       "reason": "insufficient",
       "signals": [
-        "description:housing"
+        "description:housing",
+        "parent_context:housing"
       ],
       "candidates": [
         {
           "category": "Housing",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Boundaries",
@@ -2226,19 +797,21 @@
       "title": "Shaded X  ",
       "reason": "insufficient",
       "signals": [
-        "description:housing"
+        "description:housing",
+        "fields:base flood elevation",
+        "parent_context:housing"
       ],
       "candidates": [
         {
           "category": "Housing",
+          "score": 1.5
+        },
+        {
+          "category": "Hazards",
           "score": 1
         },
         {
           "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
           "score": 0
         }
       ]
@@ -2248,69 +821,22 @@
       "title": "VE Zones  ",
       "reason": "insufficient",
       "signals": [
-        "description:housing"
+        "description:housing",
+        "fields:base flood elevation",
+        "parent_context:housing"
       ],
       "candidates": [
         {
           "category": "Housing",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:5a7930838a8a49d0a91d7bd1e825adfd:9",
-      "title": "Base Flood Elevation Boundary  ",
-      "reason": "ambiguous",
-      "signals": [
-        "title:boundary",
-        "title:flood"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 8
+          "score": 1.5
         },
         {
           "category": "Hazards",
-          "score": 8
-        },
-        {
-          "category": "Housing",
           "score": 1
-        }
-      ]
-    },
-    {
-      "id": "arcgis:5b66312343d74acb98976b2b1e636f55:0",
-      "title": "BrownfieldAreas",
-      "reason": "insufficient",
-      "signals": [
-        "description:construction",
-        "description:development",
-        "description:environment",
-        "tags:development",
-        "tags:environment"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 5
         },
         {
-          "category": "Environment",
-          "score": 4
-        },
-        {
-          "category": "Infrastructure",
-          "score": 1
+          "category": "Boundaries",
+          "score": 0
         }
       ]
     },
@@ -2320,12 +846,13 @@
       "reason": "insufficient",
       "signals": [
         "description:safety",
+        "parent_context:safety",
         "tags:safety"
       ],
       "candidates": [
         {
           "category": "Public safety",
-          "score": 4
+          "score": 4.5
         },
         {
           "category": "Boundaries",
@@ -2333,169 +860,6 @@
         },
         {
           "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:5cc87b761b1440a7928ab6d251a8d881:31",
-      "title": "MoonLake_Water_Control_Valve",
-      "reason": "ambiguous",
-      "signals": [
-        "fields:main",
-        "fields:valve",
-        "tags:sewer",
-        "title:lake water",
-        "title:valve"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 13
-        },
-        {
-          "category": "Environment",
-          "score": 12
-        },
-        {
-          "category": "Transportation",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "arcgis:5cc87b761b1440a7928ab6d251a8d881:33",
-      "title": "MoonLake_Water_System_Valve",
-      "reason": "ambiguous",
-      "signals": [
-        "fields:main",
-        "fields:valve",
-        "tags:sewer",
-        "title:lake water",
-        "title:valve"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 13
-        },
-        {
-          "category": "Environment",
-          "score": 12
-        },
-        {
-          "category": "Transportation",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "arcgis:5cfb9e9adbb24631882713150ab48923:0",
-      "title": "ReclaimServiceArea",
-      "reason": "insufficient",
-      "signals": [
-        "description:utility",
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 4
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:5e862d71503d461f8c25cf35e9f6191d:0",
-      "title": "MobileMedicalUnits",
-      "reason": "insufficient",
-      "signals": [
-        "fields:street"
-      ],
-      "candidates": [
-        {
-          "category": "Transportation",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:5f7bcf05d05d414795b19816604c8bf6:1",
-      "title": "MoonLake_ZoneArea",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 1
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:64e997bc9107473088836c50fd428249:0",
-      "title": "Shootings",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:664b7da8028b405ba6bdc035f483886b:0",
-      "title": "MultiFamily Layer",
-      "reason": "insufficient",
-      "signals": [
-        "fields:affordable",
-        "fields:construction",
-        "fields:permit"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 2
-        },
-        {
-          "category": "Housing",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
           "score": 0
         }
       ]
@@ -2505,61 +869,17 @@
       "title": "tbl_esri_values",
       "reason": "insufficient",
       "signals": [
-        "description:police"
+        "description:police",
+        "parent_context:police"
       ],
       "candidates": [
         {
           "category": "Public safety",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Boundaries",
           "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:6a1c984c1ec24ef381203c29d05e252c:26",
-      "title": "In-Lieu CBD Parking Fees",
-      "reason": "insufficient",
-      "signals": [
-        "tags:boundary"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 3
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:6a5921562c504fc39407940658a8860d:4",
-      "title": "Yard Waste Pickup",
-      "reason": "insufficient",
-      "signals": [
-        "tags:boundary",
-        "tags:solid waste"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 3
-        },
-        {
-          "category": "Solid waste",
-          "score": 3
         },
         {
           "category": "Demographics",
@@ -2578,196 +898,24 @@
         "fields:road",
         "fields:street",
         "fields:traffic",
+        "parent_context:construction",
+        "parent_context:permit",
+        "parent_context:road",
+        "parent_context:traffic",
         "tags:permit",
         "tags:road"
       ],
       "candidates": [
         {
+          "category": "Development",
+          "score": 6
+        },
+        {
           "category": "Transportation",
           "score": 6
         },
         {
-          "category": "Development",
-          "score": 5
-        },
-        {
           "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:0",
-      "title": "Active CE Cases",
-      "reason": "insufficient",
-      "signals": [
-        "fields:parcel",
-        "fields:permit"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 2
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:1",
-      "title": "Active Condemnations",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:2",
-      "title": "Active Water Cases",
-      "reason": "insufficient",
-      "signals": [
-        "fields:parcel",
-        "fields:permit"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 2
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:3",
-      "title": "Active CE Liens",
-      "reason": "insufficient",
-      "signals": [
-        "fields:parcel",
-        "fields:permit"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 2
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:4",
-      "title": "FineRun Cases",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:5",
-      "title": "CERT Water Violation",
-      "reason": "insufficient",
-      "signals": [
-        "fields:parcel"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:6",
-      "title": "CRTY Water Violation",
-      "reason": "insufficient",
-      "signals": [
-        "fields:parcel"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:7",
-      "title": "Abatements",
-      "reason": "insufficient",
-      "signals": [
-        "fields:parcel",
-        "fields:permit"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 2
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
           "score": 0
         }
       ]
@@ -2789,53 +937,6 @@
         {
           "category": "Development",
           "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:706e98c1b3b343ae8c6714fa86ad9510:0",
-      "title": "SchoolsSidewalks",
-      "reason": "ambiguous",
-      "signals": [
-        "title:school",
-        "title:sidewalk"
-      ],
-      "candidates": [
-        {
-          "category": "Public facilities",
-          "score": 8
-        },
-        {
-          "category": "Transportation",
-          "score": 8
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:706e98c1b3b343ae8c6714fa86ad9510:1",
-      "title": "SchoolsSidewalksParcels",
-      "reason": "ambiguous",
-      "signals": [
-        "fields:parcel",
-        "title:parcel",
-        "title:school"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 9
-        },
-        {
-          "category": "Public facilities",
-          "score": 8
-        },
-        {
-          "category": "Transportation",
-          "score": 8
         }
       ]
     },
@@ -2865,61 +966,21 @@
       "reason": "insufficient",
       "signals": [
         "description:boundary",
-        "description:development"
+        "description:development",
+        "parent_context:boundary",
+        "parent_context:development"
       ],
       "candidates": [
         {
           "category": "Boundaries",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Development",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:733c94f31b0a481eb769e2f23a87cd02:0",
-      "title": "Adopt a Drain Activities",
-      "reason": "insufficient",
-      "signals": [
-        "tags:stormwater"
-      ],
-      "candidates": [
-        {
-          "category": "Infrastructure",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:73d36eb7ab6940ee8fcb16cde8b5d859:0",
-      "title": "Employee Phone Number Directory - New",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
           "score": 0
         }
       ]
@@ -2929,41 +990,27 @@
       "title": "CFIlocation20260106",
       "reason": "insufficient",
       "signals": [
-        "tags:transportation",
+        "description:hospital",
+        "description:main",
+        "description:wastewater",
+        "parent_context:healthcare",
+        "parent_context:hospital",
+        "parent_context:wastewater",
+        "tags:healthcare",
         "tags:wastewater"
       ],
       "candidates": [
         {
-          "category": "Transportation",
-          "score": 3
-        },
-        {
           "category": "Utilities",
-          "score": 3
+          "score": 5.5
         },
         {
-          "category": "Hazards",
-          "score": 2
-        }
-      ]
-    },
-    {
-      "id": "arcgis:77cb6e1387c5427d97adb7cdd552d633:16",
-      "title": "Sec605_Runway_Protection_Zone",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
+          "category": "Health",
+          "score": 5
         },
         {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
+          "category": "Transportation",
+          "score": 3.5
         }
       ]
     },
@@ -2978,28 +1025,6 @@
         {
           "category": "Hazards",
           "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:7bf0a807f42d4877a9b78509aa70f432:16",
-      "title": "Micro Mobility Zones",
-      "reason": "insufficient",
-      "signals": [
-        "tags:transportation"
-      ],
-      "candidates": [
-        {
-          "category": "Transportation",
-          "score": 3
         },
         {
           "category": "Boundaries",
@@ -3078,12 +1103,13 @@
       "title": "Polygons",
       "reason": "insufficient",
       "signals": [
-        "fields:trash"
+        "fields:trash",
+        "fields:yard waste"
       ],
       "candidates": [
         {
           "category": "Solid waste",
-          "score": 1
+          "score": 2
         },
         {
           "category": "Boundaries",
@@ -3091,99 +1117,6 @@
         },
         {
           "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:81fbefe22ea94d58badbcad213dd99d1:1",
-      "title": "SWEEP Pickup",
-      "reason": "insufficient",
-      "signals": [
-        "description:trash",
-        "tags:boundary",
-        "tags:solid waste"
-      ],
-      "candidates": [
-        {
-          "category": "Solid waste",
-          "score": 4
-        },
-        {
-          "category": "Boundaries",
-          "score": 3
-        },
-        {
-          "category": "Transportation",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "arcgis:822a83a6072c475e8f2142e4b4a942b3:0",
-      "title": "TIPProjects",
-      "reason": "insufficient",
-      "signals": [
-        "description:transportation",
-        "fields:construction",
-        "tags:transportation"
-      ],
-      "candidates": [
-        {
-          "category": "Transportation",
-          "score": 4
-        },
-        {
-          "category": "Development",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:82525cd2338d4ea89468d32e0584b912:0",
-      "title": "PCEM_Shelters",
-      "reason": "insufficient",
-      "signals": [
-        "fields:evac",
-        "fields:solid waste",
-        "fields:storm surge",
-        "fields:waste collection"
-      ],
-      "candidates": [
-        {
-          "category": "Hazards",
-          "score": 2
-        },
-        {
-          "category": "Solid waste",
-          "score": 2
-        },
-        {
-          "category": "Utilities",
-          "score": 2
-        }
-      ]
-    },
-    {
-      "id": "arcgis:8292b949aee04acfaa75e4e808c1429f:13",
-      "title": "Sec605_Airport_Influence_Area_PAIA",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
           "score": 0
         }
       ]
@@ -3191,26 +1124,6 @@
     {
       "id": "arcgis:8385aadcfc974a6bacfe36be8f1a3063:0",
       "title": "TECSubCategories",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:847294deda8740a7a478a10bb92d4da3:10",
-      "title": "MoonLake_ELAMP_Acquisitions",
       "reason": "insufficient",
       "signals": [],
       "candidates": [
@@ -3251,42 +1164,22 @@
       ]
     },
     {
-      "id": "arcgis:873277b94abb42b190187375e73d4f39:2",
-      "title": "Florida State Senate Districts",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 1
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
       "id": "arcgis:88e62975c2dd405fa1bc4f5ceb8a69c2:37",
       "title": "MoonLake_EndStructure",
       "reason": "insufficient",
       "signals": [
+        "parent_context:boundary",
+        "parent_context:stormwater",
         "tags:stormwater"
       ],
       "candidates": [
         {
           "category": "Infrastructure",
-          "score": 3
+          "score": 3.5
         },
         {
           "category": "Boundaries",
-          "score": 0
+          "score": 0.5
         },
         {
           "category": "Demographics",
@@ -3299,16 +1192,18 @@
       "title": "MoonLake_Gauges",
       "reason": "insufficient",
       "signals": [
+        "parent_context:boundary",
+        "parent_context:stormwater",
         "tags:stormwater"
       ],
       "candidates": [
         {
           "category": "Infrastructure",
-          "score": 3
+          "score": 3.5
         },
         {
           "category": "Boundaries",
-          "score": 0
+          "score": 0.5
         },
         {
           "category": "Demographics",
@@ -3322,16 +1217,18 @@
       "reason": "insufficient",
       "signals": [
         "fields:weir",
+        "parent_context:boundary",
+        "parent_context:stormwater",
         "tags:stormwater"
       ],
       "candidates": [
         {
           "category": "Infrastructure",
-          "score": 4
+          "score": 4.5
         },
         {
           "category": "Boundaries",
-          "score": 0
+          "score": 0.5
         },
         {
           "category": "Demographics",
@@ -3344,16 +1241,18 @@
       "title": "MoonLake_NetworkStructure",
       "reason": "insufficient",
       "signals": [
+        "parent_context:boundary",
+        "parent_context:stormwater",
         "tags:stormwater"
       ],
       "candidates": [
         {
           "category": "Infrastructure",
-          "score": 3
+          "score": 3.5
         },
         {
           "category": "Boundaries",
-          "score": 0
+          "score": 0.5
         },
         {
           "category": "Demographics",
@@ -3366,110 +1265,21 @@
       "title": "MoonLake_Pipe",
       "reason": "insufficient",
       "signals": [
+        "parent_context:boundary",
+        "parent_context:stormwater",
         "tags:stormwater"
       ],
       "candidates": [
         {
           "category": "Infrastructure",
-          "score": 3
+          "score": 3.5
         },
         {
           "category": "Boundaries",
-          "score": 0
+          "score": 0.5
         },
         {
           "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:8adda11e9eac4f5f87d75e11cb7c2b1b:0",
-      "title": "HART Stops",
-      "reason": "insufficient",
-      "signals": [
-        "tags:transit"
-      ],
-      "candidates": [
-        {
-          "category": "Transportation",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:8b8421f050f34d6bbf76a07b1e105484:3",
-      "title": "Land Base",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary",
-        "tags:boundary"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 4
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:8e8b4186b1614fe0b281756fe428fae8:0",
-      "title": "Streetlights",
-      "reason": "insufficient",
-      "signals": [
-        "tags:infrastructure",
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Infrastructure",
-          "score": 3
-        },
-        {
-          "category": "Utilities",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:8e8b4186b1614fe0b281756fe428fae8:1",
-      "title": "Streetlight Meters",
-      "reason": "insufficient",
-      "signals": [
-        "tags:infrastructure",
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Infrastructure",
-          "score": 3
-        },
-        {
-          "category": "Utilities",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
           "score": 0
         }
       ]
@@ -3480,12 +1290,14 @@
       "reason": "insufficient",
       "signals": [
         "description:surge",
+        "parent_context:flood extent",
+        "parent_context:surge",
         "tags:surge"
       ],
       "candidates": [
         {
           "category": "Hazards",
-          "score": 4
+          "score": 5
         },
         {
           "category": "Boundaries",
@@ -3503,12 +1315,14 @@
       "reason": "insufficient",
       "signals": [
         "description:surge",
+        "parent_context:flood extent",
+        "parent_context:surge",
         "tags:surge"
       ],
       "candidates": [
         {
           "category": "Hazards",
-          "score": 4
+          "score": 5
         },
         {
           "category": "Boundaries",
@@ -3526,12 +1340,14 @@
       "reason": "insufficient",
       "signals": [
         "description:surge",
+        "parent_context:flood extent",
+        "parent_context:surge",
         "tags:surge"
       ],
       "candidates": [
         {
           "category": "Hazards",
-          "score": 4
+          "score": 5
         },
         {
           "category": "Boundaries",
@@ -3549,12 +1365,14 @@
       "reason": "insufficient",
       "signals": [
         "description:surge",
+        "parent_context:flood extent",
+        "parent_context:surge",
         "tags:surge"
       ],
       "candidates": [
         {
           "category": "Hazards",
-          "score": 4
+          "score": 5
         },
         {
           "category": "Boundaries",
@@ -3572,12 +1390,14 @@
       "reason": "insufficient",
       "signals": [
         "description:surge",
+        "parent_context:flood extent",
+        "parent_context:surge",
         "tags:surge"
       ],
       "candidates": [
         {
           "category": "Hazards",
-          "score": 4
+          "score": 5
         },
         {
           "category": "Boundaries",
@@ -3595,31 +1415,8 @@
       "reason": "insufficient",
       "signals": [
         "description:surge",
-        "tags:surge"
-      ],
-      "candidates": [
-        {
-          "category": "Hazards",
-          "score": 4
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:922b26dd3dfa4de79e9c212f2cebbd5f:9",
-      "title": "Facility Impacts",
-      "reason": "insufficient",
-      "signals": [
-        "description:surge",
-        "fields:building",
-        "fields:flood",
+        "parent_context:flood extent",
+        "parent_context:surge",
         "tags:surge"
       ],
       "candidates": [
@@ -3628,12 +1425,12 @@
           "score": 5
         },
         {
-          "category": "Development",
-          "score": 1
+          "category": "Boundaries",
+          "score": 0
         },
         {
-          "category": "Infrastructure",
-          "score": 1
+          "category": "Demographics",
+          "score": 0
         }
       ]
     },
@@ -3740,107 +1537,17 @@
       ]
     },
     {
-      "id": "arcgis:9704a51acdac475f922bfc3683d9d783:0",
-      "title": "Coastline",
-      "reason": "insufficient",
-      "signals": [
-        "tags:permit"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
       "id": "arcgis:9704a51acdac475f922bfc3683d9d783:1",
       "title": "FinalMerge300_3000biffersCoastal",
       "reason": "insufficient",
       "signals": [
+        "parent_context:permit",
         "tags:permit"
       ],
       "candidates": [
         {
           "category": "Development",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:986ed789a12e43f8b1ab6099509edded:0",
-      "title": "AMI_ACS_5yr_18_to_22",
-      "reason": "insufficient",
-      "signals": [
-        "description:census",
-        "description:household",
-        "tags:household"
-      ],
-      "candidates": [
-        {
-          "category": "Housing",
-          "score": 4
-        },
-        {
-          "category": "Demographics",
-          "score": 1
-        },
-        {
-          "category": "Development",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "arcgis:992a6e9d7f814009a3242c13a22e4788:0",
-      "title": "AtlasSheetsIndex",
-      "reason": "insufficient",
-      "signals": [
-        "description:utility",
-        "fields:fire"
-      ],
-      "candidates": [
-        {
-          "category": "Public safety",
-          "score": 1
-        },
-        {
-          "category": "Utilities",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:992a6e9d7f814009a3242c13a22e4788:1",
-      "title": "AtlasSheetMatchTable",
-      "reason": "insufficient",
-      "signals": [
-        "description:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 1
+          "score": 3.5
         },
         {
           "category": "Boundaries",
@@ -3873,34 +1580,16 @@
       ]
     },
     {
-      "id": "arcgis:9f9dd90782ec48d7baf916fe1f1a045e:15",
-      "title": "Sec605_Airport_Approach_Surface",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
       "id": "arcgis:9fe942d2ffa2482d9f34a12f23872944:0",
       "title": "I4_LMS_Merge",
       "reason": "insufficient",
-      "signals": [],
+      "signals": [
+        "parent_context:boundary"
+      ],
       "candidates": [
         {
           "category": "Boundaries",
-          "score": 0
+          "score": 0.5
         },
         {
           "category": "Demographics",
@@ -3919,21 +1608,23 @@
       "signals": [
         "description:construction",
         "description:public works",
+        "parent_context:construction",
+        "parent_context:public works",
         "tags:construction",
         "tags:public works"
       ],
       "candidates": [
         {
           "category": "Development",
-          "score": 4
+          "score": 4.5
         },
         {
           "category": "Infrastructure",
-          "score": 4
+          "score": 4.5
         },
         {
-          "category": "Boundaries",
-          "score": 0
+          "category": "Transportation",
+          "score": 1
         }
       ]
     },
@@ -3942,12 +1633,13 @@
       "title": "Property of Interest",
       "reason": "insufficient",
       "signals": [
-        "description:parcel"
+        "description:parcel",
+        "parent_context:parcel"
       ],
       "candidates": [
         {
           "category": "Development",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Boundaries",
@@ -3956,75 +1648,6 @@
         {
           "category": "Demographics",
           "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:a4c1c8ced98444bd9128b871ec33120b:1",
-      "title": "LIMWA",
-      "reason": "insufficient",
-      "signals": [
-        "description:parcel"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:a60cd1411d2d4acba5960f5729914416:1",
-      "title": "Field Interviews",
-      "reason": "insufficient",
-      "signals": [
-        "description:traffic"
-      ],
-      "candidates": [
-        {
-          "category": "Transportation",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:a619ca5c27ee4fa48af76ea07aa6177f:0",
-      "title": "ROWEasement",
-      "reason": "insufficient",
-      "signals": [
-        "description:public works",
-        "fields:drainage",
-        "fields:sidewalk",
-        "tags:public works"
-      ],
-      "candidates": [
-        {
-          "category": "Infrastructure",
-          "score": 5
-        },
-        {
-          "category": "Transportation",
-          "score": 1
-        },
-        {
-          "category": "Utilities",
-          "score": 1
         }
       ]
     },
@@ -4035,7 +1658,8 @@
       "signals": [
         "description:housing",
         "fields:construction",
-        "fields:parcel"
+        "fields:parcel",
+        "parent_context:housing"
       ],
       "candidates": [
         {
@@ -4044,75 +1668,11 @@
         },
         {
           "category": "Housing",
-          "score": 1
+          "score": 1.5
         },
         {
           "category": "Transportation",
           "score": 1
-        }
-      ]
-    },
-    {
-      "id": "arcgis:a6ebd0c209e249d98b1f1508ea3ac14c:3",
-      "title": "Neighborhood Stabilization Target",
-      "reason": "insufficient",
-      "signals": [
-        "description:housing"
-      ],
-      "candidates": [
-        {
-          "category": "Housing",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:a7da1153580b4202a025e2bf90f7014d:0",
-      "title": "LeadService_Point",
-      "reason": "insufficient",
-      "signals": [
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:a866799276a8424fad4ebd6e983b29e2:0",
-      "title": "Owner Occupied Units",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
         }
       ]
     },
@@ -4219,177 +1779,21 @@
       ]
     },
     {
-      "id": "arcgis:b125461a10034b6b83fdc013c6628040:0",
-      "title": "City Owned Property",
-      "reason": "insufficient",
-      "signals": [
-        "fields:street"
-      ],
-      "candidates": [
-        {
-          "category": "Transportation",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
       "id": "arcgis:b125461a10034b6b83fdc013c6628040:1",
       "title": "Faith Based Owned Properties",
       "reason": "insufficient",
       "signals": [
-        "fields:street"
+        "fields:street",
+        "fields:zip codes"
       ],
       "candidates": [
+        {
+          "category": "Boundaries",
+          "score": 1
+        },
         {
           "category": "Transportation",
           "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:b388a9892944453593b743a5c841f0fd:2",
-      "title": "Seagrass_in_2020",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:b390d788f24243528ee3a92ddce81613:3",
-      "title": "Florida State House Districts",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:b5619170e0d0413bb0b7a35d15f8c1fa:6",
-      "title": "MoonLake_LULC",
-      "reason": "insufficient",
-      "signals": [
-        "description:land cover"
-      ],
-      "candidates": [
-        {
-          "category": "Environment",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:b5fbc0132844433c8e4d894f996a667a:0",
-      "title": "survey",
-      "reason": "insufficient",
-      "signals": [
-        "fields:critical asset",
-        "fields:flood"
-      ],
-      "candidates": [
-        {
-          "category": "Hazards",
-          "score": 2
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:b6094c69bf2c4e22b141ccdf28654dce:5",
-      "title": "ZIP_USPS",
-      "reason": "insufficient",
-      "signals": [
-        "description:building",
-        "description:construction",
-        "description:permit",
-        "tags:permit"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 5
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:b6094c69bf2c4e22b141ccdf28654dce:6",
-      "title": "Subdivisions",
-      "reason": "insufficient",
-      "signals": [
-        "description:building",
-        "description:construction",
-        "description:permit",
-        "tags:permit"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 5
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
         },
         {
           "category": "Demographics",
@@ -4418,77 +1822,6 @@
       ]
     },
     {
-      "id": "arcgis:b8ee02f1db384f18a083e1adfa04edd7:0",
-      "title": "Central Tampa Planning District (R-10, R-20, R-35 Parcels)",
-      "reason": "ambiguous",
-      "signals": [
-        "description:development",
-        "description:land use",
-        "description:parcel",
-        "description:zoning",
-        "fields:parcel",
-        "fields:planning",
-        "title:parcel",
-        "title:planning"
-      ],
-      "candidates": [
-        {
-          "category": "Development",
-          "score": 11
-        },
-        {
-          "category": "Planning",
-          "score": 11
-        },
-        {
-          "category": "Housing",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "arcgis:b9a9b59e928d4e8ca7479b94dc07ce80:0",
-      "title": "MappedAreasofFlooding",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:ba873803d51c48d29d2823fd9c2094a1:0",
-      "title": "MoonLake_FLU2050",
-      "reason": "insufficient",
-      "signals": [
-        "fields:wetland"
-      ],
-      "candidates": [
-        {
-          "category": "Environment",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
       "id": "arcgis:c3865625f5b243088e593103827fe58e:0",
       "title": "LMS_PlaceTypes_preferred20260921",
       "reason": "insufficient",
@@ -4509,52 +1842,6 @@
       ]
     },
     {
-      "id": "arcgis:c54d9b047bbf4611bf62ecbc408eba5a:0",
-      "title": "Area Median Income",
-      "reason": "insufficient",
-      "signals": [
-        "fields:household"
-      ],
-      "candidates": [
-        {
-          "category": "Housing",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:c93055cd61004bcb97a323b11ca23505:18",
-      "title": "MoonLake_GOPASCO_BusStops",
-      "reason": "insufficient",
-      "signals": [
-        "description:street",
-        "fields:street",
-        "tags:transportation"
-      ],
-      "candidates": [
-        {
-          "category": "Transportation",
-          "score": 5
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
       "id": "arcgis:c9373574419241a8b7406657fefd231e:61",
       "title": "CDBG_HUD_ProjectExtents_Polygons",
       "reason": "insufficient",
@@ -4564,20 +1851,25 @@
         "description:population",
         "description:road",
         "description:sidewalk",
-        "fields:sidewalk"
+        "fields:sidewalk",
+        "parent_context:census block",
+        "parent_context:census tract",
+        "parent_context:population",
+        "parent_context:road",
+        "parent_context:sidewalk"
       ],
       "candidates": [
         {
           "category": "Transportation",
-          "score": 3
+          "score": 4
         },
         {
           "category": "Demographics",
-          "score": 2
+          "score": 3
         },
         {
           "category": "Development",
-          "score": 1
+          "score": 1.5
         }
       ]
     },
@@ -4605,505 +1897,18 @@
       ]
     },
     {
-      "id": "arcgis:cac3e452d4484355b9484684a721162a:0",
-      "title": "Adopt a Drain Locations",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:cac3e452d4484355b9484684a721162a:1",
-      "title": "Adoption Register",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:d14296e8cc384413ad410f645cf2389b:0",
-      "title": "Multi_familyprojects",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:d24f62d0132942ff99d2be12da3cf9cf:0",
-      "title": "HumanServicesLocations",
-      "reason": "insufficient",
-      "signals": [
-        "fields:street"
-      ],
-      "candidates": [
-        {
-          "category": "Transportation",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:d2bd44558fa64196bb946019fcae89b2:8",
-      "title": "MoonLake_Future_Landuse_2025",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 1
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:d41c7fc768c04c3bbc26e9b907d99bd0:1",
-      "title": "Reclaimed Service Connection",
-      "reason": "insufficient",
-      "signals": [
-        "description:water service",
-        "tags:infrastructure",
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 4
-        },
-        {
-          "category": "Infrastructure",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:d41c7fc768c04c3bbc26e9b907d99bd0:2",
-      "title": "Reclaimed Pump",
-      "reason": "insufficient",
-      "signals": [
-        "description:water service",
-        "tags:infrastructure",
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 4
-        },
-        {
-          "category": "Infrastructure",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:d41c7fc768c04c3bbc26e9b907d99bd0:3",
-      "title": "Reclaimed Network Structure",
-      "reason": "insufficient",
-      "signals": [
-        "description:water service",
-        "tags:infrastructure",
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 4
-        },
-        {
-          "category": "Infrastructure",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:d41c7fc768c04c3bbc26e9b907d99bd0:5",
-      "title": "Reclaimed Fitting",
-      "reason": "insufficient",
-      "signals": [
-        "description:water service",
-        "tags:infrastructure",
-        "tags:utility"
-      ],
-      "candidates": [
-        {
-          "category": "Utilities",
-          "score": 4
-        },
-        {
-          "category": "Infrastructure",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:d470520f07db408cb195553e82f8cdd2:0",
-      "title": "PCEM_FieldSites",
-      "reason": "insufficient",
-      "signals": [
-        "description:emergency response",
-        "fields:evac",
-        "fields:fire district",
-        "fields:storm surge"
-      ],
-      "candidates": [
-        {
-          "category": "Hazards",
-          "score": 2
-        },
-        {
-          "category": "Public safety",
-          "score": 2
-        },
-        {
-          "category": "Solid waste",
-          "score": 2
-        }
-      ]
-    },
-    {
-      "id": "arcgis:d49a80a20b064ebabecd3d6d3dcaac71:10",
-      "title": "ZipCodes",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary",
-        "tags:boundary"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 4
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:d68c22e977c346398cbc68fe2d22e87d:0",
-      "title": "Rehab Assistance Program ",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:dd28e785e979475a841b28d527409b5b:0",
-      "title": "TESTLiving_Shoreline_Inventory",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:df8a856914d3416aafb731683ed12195:14",
-      "title": "Sec605_Public_Airport_Zone",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 1
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:edc63cbf66274a059c3067a540a7cef8:17",
-      "title": "Pavement Type",
-      "reason": "insufficient",
-      "signals": [
-        "description:road",
-        "fields:road",
-        "tags:transportation"
-      ],
-      "candidates": [
-        {
-          "category": "Transportation",
-          "score": 5
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
       "id": "arcgis:f09fe0c4cd124a9490599ebdf908b9ff:2",
       "title": "County Florida",
       "reason": "insufficient",
       "signals": [
         "description:boundary",
+        "parent_context:boundary",
         "tags:boundary"
       ],
       "candidates": [
         {
           "category": "Boundaries",
-          "score": 4
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:f122791ca8f54645afbc89a4053e2831:0",
-      "title": "New CHHA 2026 Not Official ",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 1
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:f122791ca8f54645afbc89a4053e2831:1",
-      "title": "Current CHHA",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 1
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:f2d7a7d4ddf24ff9a6c701eaf11a4eb0:0",
-      "title": "Hillsborough_County_Subdivisions",
-      "reason": "insufficient",
-      "signals": [
-        "description:boundary"
-      ],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 1
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:f46d9cb065724442800646101e619f56:0",
-      "title": "SiteAddressPoint",
-      "reason": "insufficient",
-      "signals": [
-        "description:safety",
-        "fields:building",
-        "fields:parcel",
-        "tags:safety"
-      ],
-      "candidates": [
-        {
-          "category": "Public safety",
-          "score": 4
-        },
-        {
-          "category": "Development",
-          "score": 2
-        },
-        {
-          "category": "Transportation",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "arcgis:f604caedc3e9459abb98c4f951b9e808:0",
-      "title": "Healthcare_Facilities",
-      "reason": "insufficient",
-      "signals": [
-        "fields:evac",
-        "fields:fire district"
-      ],
-      "candidates": [
-        {
-          "category": "Hazards",
-          "score": 1
-        },
-        {
-          "category": "Public safety",
-          "score": 1
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:f8027a6e8eea4895af97a713c5525e08:0",
-      "title": "Renter Occupied Units",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        },
-        {
-          "category": "Development",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "arcgis:fab303d79b264bb1839259c8a1dcf487:0",
-      "title": "Rapid Roof Replacement",
-      "reason": "insufficient",
-      "signals": [],
-      "candidates": [
-        {
-          "category": "Boundaries",
-          "score": 0
+          "score": 4.5
         },
         {
           "category": "Demographics",
@@ -5162,38 +1967,16 @@
       ]
     },
     {
-      "id": "arcgis:fe264a7348b14167bbfbcff4653a226b:15",
-      "title": "Micro Mobility Location",
-      "reason": "insufficient",
-      "signals": [
-        "tags:transportation"
-      ],
-      "candidates": [
-        {
-          "category": "Transportation",
-          "score": 3
-        },
-        {
-          "category": "Boundaries",
-          "score": 0
-        },
-        {
-          "category": "Demographics",
-          "score": 0
-        }
-      ]
-    },
-    {
       "id": "arcgis:fef3639736104811b72d084ea54b6cf2:0",
       "title": "CommunityAreas",
       "reason": "insufficient",
       "signals": [
-        "description:boundary"
+        "parent_context:boundary"
       ],
       "candidates": [
         {
           "category": "Boundaries",
-          "score": 1
+          "score": 0.5
         },
         {
           "category": "Demographics",
@@ -5208,17 +1991,199 @@
   ],
   "changes": [
     {
-      "id": "arcgis:81a343f574c1477b8797c4fb6764a357:1",
-      "title": "Polygons",
-      "previous": null,
-      "category": "Uncategorized",
-      "source": "uncategorized"
+      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:10",
+      "title": "Mechanical",
+      "previous": "Uncategorized",
+      "category": "Development",
+      "source": "nlp"
     },
     {
-      "id": "arcgis:f6d97ce8ce8b4c8c99c16434667a0c21:0",
-      "title": "Building Status",
-      "previous": null,
+      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:12",
+      "title": "Plumbing_Gas",
+      "previous": "Uncategorized",
       "category": "Development",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:14",
+      "title": "Site_C",
+      "previous": "Uncategorized",
+      "category": "Development",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:15",
+      "title": "TTC",
+      "previous": "Uncategorized",
+      "category": "Development",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:3",
+      "title": "Asbuilt",
+      "previous": "Uncategorized",
+      "category": "Development",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:7",
+      "title": "CodeComp",
+      "previous": "Uncategorized",
+      "category": "Development",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:8",
+      "title": "Electrical",
+      "previous": "Uncategorized",
+      "category": "Development",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:4a71946ebc354630a60b9509eb502674:0",
+      "title": "cdds",
+      "previous": "Uncategorized",
+      "category": "Boundaries",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:4a71946ebc354630a60b9509eb502674:1",
+      "title": "LDs",
+      "previous": "Uncategorized",
+      "category": "Boundaries",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:4a71946ebc354630a60b9509eb502674:2",
+      "title": "sd",
+      "previous": "Uncategorized",
+      "category": "Boundaries",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:4a71946ebc354630a60b9509eb502674:3",
+      "title": "sd2",
+      "previous": "Uncategorized",
+      "category": "Boundaries",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:4a71946ebc354630a60b9509eb502674:4",
+      "title": "tifs",
+      "previous": "Uncategorized",
+      "category": "Boundaries",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:5f7bcf05d05d414795b19816604c8bf6:1",
+      "title": "MoonLake_ZoneArea",
+      "previous": "Uncategorized",
+      "category": "Planning",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:1",
+      "title": "Active Condemnations",
+      "previous": "Uncategorized",
+      "category": "Development",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:4",
+      "title": "FineRun Cases",
+      "previous": "Uncategorized",
+      "category": "Development",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:5",
+      "title": "CERT Water Violation",
+      "previous": "Uncategorized",
+      "category": "Development",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:6",
+      "title": "CRTY Water Violation",
+      "previous": "Uncategorized",
+      "category": "Development",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:822a83a6072c475e8f2142e4b4a942b3:0",
+      "title": "TIPProjects",
+      "previous": "Uncategorized",
+      "category": "Transportation",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:82525cd2338d4ea89468d32e0584b912:0",
+      "title": "PCEM_Shelters",
+      "previous": "Uncategorized",
+      "category": "Hazards",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:8b8421f050f34d6bbf76a07b1e105484:3",
+      "title": "Land Base",
+      "previous": "Uncategorized",
+      "category": "Boundaries",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:992a6e9d7f814009a3242c13a22e4788:0",
+      "title": "AtlasSheetsIndex",
+      "previous": "Uncategorized",
+      "category": "Utilities",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:992a6e9d7f814009a3242c13a22e4788:1",
+      "title": "AtlasSheetMatchTable",
+      "previous": "Uncategorized",
+      "category": "Utilities",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:b5619170e0d0413bb0b7a35d15f8c1fa:6",
+      "title": "MoonLake_LULC",
+      "previous": "Uncategorized",
+      "category": "Environment",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:cac3e452d4484355b9484684a721162a:1",
+      "title": "Adoption Register",
+      "previous": "Uncategorized",
+      "category": "Infrastructure",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:d14296e8cc384413ad410f645cf2389b:0",
+      "title": "Multi_familyprojects",
+      "previous": "Uncategorized",
+      "category": "Housing",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:d470520f07db408cb195553e82f8cdd2:0",
+      "title": "PCEM_FieldSites",
+      "previous": "Uncategorized",
+      "category": "Public safety",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:f122791ca8f54645afbc89a4053e2831:0",
+      "title": "New CHHA 2026 Not Official ",
+      "previous": "Uncategorized",
+      "category": "Hazards",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:f122791ca8f54645afbc89a4053e2831:1",
+      "title": "Current CHHA",
+      "previous": "Uncategorized",
+      "category": "Hazards",
       "source": "nlp"
     }
   ]

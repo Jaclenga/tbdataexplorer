@@ -7,6 +7,7 @@ const ruleSchema = z.object({
   requiresTitle: z.boolean().default(false),
   keywords: z.array(z.string()),
   phrases: z.array(z.string()),
+  contextPhrases: z.array(z.string()).default([]),
 });
 export const categorizationConfigSchema = z.object({
   version: z.string().min(1),
@@ -19,16 +20,19 @@ export const categorizationConfigSchema = z.object({
   weights: z.object({
     titleKeyword: z.number().positive(),
     titlePhrase: z.number().positive(),
+    titlePhraseExtraWord: z.number().nonnegative(),
     tags: z.number().positive(),
     description: z.number().positive(),
     source_category: z.number().positive(),
     fields: z.number().positive(),
+    parent_context: z.number().nonnegative(),
   }),
   fieldCaps: z.object({
     tags: z.number().positive(),
     description: z.number().positive(),
     source_category: z.number().positive(),
     fields: z.number().positive(),
+    parent_context: z.number().nonnegative(),
   }),
   stopwords: z.array(z.string()),
   aliases: z.record(z.string(), z.string()),
@@ -51,7 +55,7 @@ for (const value of [
 
 type Metadata = Pick<
   Dataset,
-  "title" | "description" | "tags" | "category" | "fields"
+  "title" | "description" | "tags" | "category" | "fields" | "category_metadata"
 >;
 export interface Prediction {
   category: string;
@@ -67,19 +71,31 @@ function stem(word: string) {
     : word;
 }
 export function normalizeMetadata(value: string) {
-  return value
-    .replace(/<[^>]*>/g, " ")
-    .replace(/([A-Z]+)([A-Z][a-z])/g, "$1 $2")
-    .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
-    .normalize("NFKD")
-    .replace(/\p{M}/gu, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, " ")
-    .trim()
-    .split(/\s+/)
-    .filter(Boolean)
-    .map(stem)
-    .join(" ");
+  return (
+    value
+      .replace(/<[^>]*>/g, " ")
+      .replace(/([A-Z]+)([A-Z][a-z])/g, "$1 $2")
+      .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
+      .replace(/([a-zA-Z])(\d)/g, "$1 $2")
+      .replace(/(\d)([a-zA-Z])/g, "$1 $2")
+      .normalize("NFKD")
+      .replace(/\p{M}/gu, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, " ")
+      // Publisher abbreviations, expanded only at word boundaries.
+      .replace(/\bww\s*treatment\b/g, "wastewater treatment")
+      .replace(/\bwwtp\b/g, "wastewater treatment plant")
+      .replace(/\brow\b/g, "right of way")
+      .replace(/\badu\b/g, "accessory dwelling unit")
+      .replace(/\bflu\b/g, "future land use")
+      .replace(/\bcwp\b/g, "countywide plan")
+      .replace(/\bbfe\b/g, "base flood elevation")
+      .trim()
+      .split(/\s+/)
+      .filter(Boolean)
+      .map(stem)
+      .join(" ")
+  );
 }
 const stopwords = new Set(categoryConfig.stopwords.map(normalizeMetadata));
 const rules = Object.entries(categoryConfig.categories).map(
@@ -94,6 +110,7 @@ const rules = Object.entries(categoryConfig.categories).map(
       signal,
       term: normalizeMetadata(signal),
     })),
+    contextPhrases: rule.contextPhrases.map(normalizeMetadata),
   }),
 );
 const canonical = new Map(
@@ -121,6 +138,14 @@ function fieldsFor(dataset: Metadata) {
         .join(" "),
     ),
     description: normalizeMetadata((dataset.description ?? "").slice(0, 4000)),
+    parent_context: normalizeMetadata(
+      dataset.category_metadata
+        ? `${dataset.category_metadata.itemSummary} ${dataset.category_metadata.itemDescription} ${dataset.category_metadata.itemTags.join(" ")}`.slice(
+            0,
+            4000,
+          )
+        : "",
+    ),
     source_category: normalizeMetadata((dataset.category ?? "").slice(0, 512)),
     fields: normalizeMetadata(
       (dataset.fields ?? [])
@@ -148,13 +173,25 @@ function scoreRule(
 ) {
   let title = 0,
     context = 0;
+  const contextSignals = rule.contextPhrases.flatMap((phrase) =>
+    (["description", "fields"] as const)
+      .filter((field) => ` ${fields[field]} `.includes(` ${phrase} `))
+      .map((field) => `${field}:context:${phrase}`),
+  );
   const signals: string[] = [];
   for (const [field, text] of Object.entries(fields)) {
     const hits = matches(text, rule);
     if (field === "title")
       title = Math.min(
         categoryConfig.titleCap,
-        hits.phrases.length * categoryConfig.weights.titlePhrase +
+        hits.phrases.reduce(
+          (sum, phrase) =>
+            sum +
+            categoryConfig.weights.titlePhrase +
+            Math.max(0, phrase.term.split(" ").length - 2) *
+              categoryConfig.weights.titlePhraseExtraWord,
+          0,
+        ) +
           hits.words.length * categoryConfig.weights.titleKeyword,
       );
     else {
@@ -170,10 +207,12 @@ function scoreRule(
   return {
     category: rule.category,
     score:
-      rule.requiresTitle && title === 0
+      rule.requiresTitle && title === 0 && contextSignals.length === 0
         ? 0
-        : title + Math.min(categoryConfig.contextCap, context),
-    signals: [...new Set(signals)].sort(),
+        : title +
+          Math.min(categoryConfig.contextCap, context) +
+          (contextSignals.length ? 6 : 0),
+    signals: [...new Set([...signals, ...contextSignals])].sort(),
   };
 }
 export function predictCategory(dataset: Metadata): Prediction {

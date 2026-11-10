@@ -1,0 +1,4099 @@
+[
+  {
+    "id": "arcgis:0ea64d04b7fe4261b736fe0b9d964cee:7",
+    "expected": "Environment",
+    "metadata": {
+      "title": "MoonLake_Lakes",
+      "description": "Polygon feature class of lakes within Pasco County. Layer clipped to Moon Lake CDB.",
+      "tags": [
+        "Environmental Lands"
+      ],
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LakeName",
+          "type": "esriFieldTypeString",
+          "alias": "LakeName"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Acres",
+          "type": "esriFieldTypeDouble",
+          "alias": "Acres"
+        },
+        {
+          "name": "DateStamp",
+          "type": "esriFieldTypeDate",
+          "alias": "DateStamp"
+        },
+        {
+          "name": "created_us",
+          "type": "esriFieldTypeString",
+          "alias": "created_us"
+        },
+        {
+          "name": "created_da",
+          "type": "esriFieldTypeDate",
+          "alias": "created_da"
+        },
+        {
+          "name": "last_edite",
+          "type": "esriFieldTypeString",
+          "alias": "last_edite"
+        },
+        {
+          "name": "last_edi_1",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edi_1"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "GIS_AC",
+          "type": "esriFieldTypeDouble",
+          "alias": "GIS_AC"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Length"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/0ea64d04b7fe4261b736fe0b9d964cee",
+        "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/MoonLake_Lakes/FeatureServer/7",
+        "itemDescription": "",
+        "itemSummary": "Polygon feature class of lakes within Pasco County. Layer clipped to Moon Lake CDB.",
+        "layerDescription": "",
+        "itemTags": [
+          "Environmental Lands"
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "tuning"
+  },
+  {
+    "id": "arcgis:0ea8349f6ff4458eb5bc5490ea1ec835:0",
+    "expected": "Utilities",
+    "metadata": {
+      "title": "Countywide_WWTreatment_CollectionAreas",
+      "description": "Utilities Countywide WW Treatment Collection Areas in Pinellas County, Florida. The data contained herein is offered “as is,” with no claim or warranty as to its accuracy or completeness. The data is for reference only and should not be considered to be of survey precision. DATA STEWARD: Pinellas County Utilities (727)464-4000 Feature Dataset: Utilities_ReferenceData Feature Class: Countwide_WWTreatment_CollectionAreas",
+      "tags": [
+        "Utilities",
+        "WW Treatment Collection Areas",
+        "Utilities_ReferenceData"
+      ],
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "WWTF",
+          "type": "esriFieldTypeString",
+          "alias": "WWTF"
+        },
+        {
+          "name": "SUM_AREA_LIVING_UNITS",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUM_AREA_LIVING_UNITS"
+        },
+        {
+          "name": "SUM_AREA_BUILDING_COUNT",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUM_AREA_BUILDING_COUNT"
+        },
+        {
+          "name": "SUM_AREA_POP",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUM_AREA_POP"
+        },
+        {
+          "name": "SUM_AREA_PARCEL_COUNT",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUM_AREA_PARCEL_COUNT"
+        },
+        {
+          "name": "SUM_AREA_CUSTOMER_COUNT",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUM_AREA_CUSTOMER_COUNT"
+        },
+        {
+          "name": "int_created_user",
+          "type": "esriFieldTypeString",
+          "alias": "Internal Created User"
+        },
+        {
+          "name": "int_created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Internal Created Date"
+        },
+        {
+          "name": "int_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "Internal Edited User"
+        },
+        {
+          "name": "int_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Internal Edited Date"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "StatePlane_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "StatePlane_Length"
+        },
+        {
+          "name": "StatePlane_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "StatePlane_Area"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Length"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/0ea8349f6ff4458eb5bc5490ea1ec835",
+        "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_Countywide_WWTreatment_CollectionAreas/FeatureServer/0",
+        "itemDescription": "Utilities Countywide WW Treatment Collection Areas in Pinellas County, Florida. The data contained herein is offered “as is,” with no claim or warranty as to its accuracy or completeness. &nbsp; The data is for reference only and should not be considered to be of survey precision. &nbsp; DATA STEWARD: Pinellas County Utilities (727)464-4000 &nbsp; Feature Dataset:&nbsp; Utilities_ReferenceData Feature Class:&nbsp; Countwide_WWTreatment_CollectionAreas &nbsp;",
+        "itemSummary": "Utilities Countywide WW Treatment Collection Areas in Pinellas County, Florida.",
+        "layerDescription": "",
+        "itemTags": [
+          "Utilities",
+          "WW Treatment Collection Areas",
+          "Utilities_ReferenceData"
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "validation"
+  },
+  {
+    "id": "arcgis:11e29e01293449088a3d05b37281a205:0",
+    "expected": "Planning",
+    "metadata": {
+      "title": "Zoning2019",
+      "description": "Regulated codes used to control and direct the development of property in the county unincorporated , effective 1 January 2019 (Zoning Code Chapter 138) . Updated monthly. The data contained herein is offered “as is,” with no claim or warranty as to its accuracy or completeness. The data is for reference only and should not be considered to be of survey precision. DATA STEWARD: Pinellas County Housing & Community Development/Planning (727)464-8200 planner@pinellas.gov Feature Dataset: LandUsePlanning Feature Class: Zoning2019",
+      "tags": [
+        "Housing & Community Development",
+        "LandUsePlanning",
+        "Zoning2019",
+        "Planning"
+      ],
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ZONINGID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Zoning ID"
+        },
+        {
+          "name": "ZONEDESC",
+          "type": "esriFieldTypeString",
+          "alias": "Zoning Description"
+        },
+        {
+          "name": "AMENDMENTTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Amendment Type"
+        },
+        {
+          "name": "CASENUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "Case Number"
+        },
+        {
+          "name": "LPARECOMMENDATION",
+          "type": "esriFieldTypeString",
+          "alias": "LPA Recommendation"
+        },
+        {
+          "name": "LPAACTIONDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LPA Action Date"
+        },
+        {
+          "name": "BCCORD",
+          "type": "esriFieldTypeString",
+          "alias": "BCC Ordinance Number"
+        },
+        {
+          "name": "BCCACTION",
+          "type": "esriFieldTypeString",
+          "alias": "BCC Action Taken"
+        },
+        {
+          "name": "BCCACTIONDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "BCC Action Date"
+        },
+        {
+          "name": "BCCRESOLUTION",
+          "type": "esriFieldTypeString",
+          "alias": "BCC Resolution Number"
+        },
+        {
+          "name": "DEVAGREEMENT",
+          "type": "esriFieldTypeString",
+          "alias": "Development Agreement (Y/N)"
+        },
+        {
+          "name": "AFFORDABLEHOUSING",
+          "type": "esriFieldTypeString",
+          "alias": "Affordable Housing (Y/N)"
+        },
+        {
+          "name": "AFFORDABLEHOUSINGUNITS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Affordable Housing Units"
+        },
+        {
+          "name": "LASTEDITOR",
+          "type": "esriFieldTypeString",
+          "alias": "Last Edited By"
+        },
+        {
+          "name": "LASTUPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "Last Updated"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GLOBALID"
+        },
+        {
+          "name": "int_created_user",
+          "type": "esriFieldTypeString",
+          "alias": "Internal Created User"
+        },
+        {
+          "name": "int_created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Internal Created Date"
+        },
+        {
+          "name": "int_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "Internal Edited User"
+        },
+        {
+          "name": "int_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Internal Edited Date"
+        },
+        {
+          "name": "PREVIOUSLANDUSECODE",
+          "type": "esriFieldTypeString",
+          "alias": "Previous Land Use CODE"
+        },
+        {
+          "name": "PREVIOUSZONING",
+          "type": "esriFieldTypeString",
+          "alias": "Previous Zoning Code"
+        },
+        {
+          "name": "ZONECLASS",
+          "type": "esriFieldTypeString",
+          "alias": "Zoning Code"
+        },
+        {
+          "name": "GEOMETRY__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "GEOMETRY__Area"
+        },
+        {
+          "name": "GEOMETRY__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "GEOMETRY__Length"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/11e29e01293449088a3d05b37281a205",
+        "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_Zoning2019_view/FeatureServer/0",
+        "itemDescription": "Regulated codes used to control and direct the development of property in the county unincorporated , effective 1 January 2019 (Zoning Code Chapter 138) . Updated monthly. The data contained herein is offered “as is,” with no claim or warranty as to its accuracy or completeness. The data is for reference only and should not be considered to be of survey precision. &nbsp; DATA STEWARD:&nbsp;&nbsp;Pinellas County Housing &amp; Community Development/Planning (727)464-8200&nbsp; planner@pinellas.gov &nbsp; Feature Dataset:&nbsp; LandUsePlanning Feature Class:&nbsp; Zoning2019",
+        "itemSummary": "Planning Unincorporated Zoning, effective 1 January 2019, in Pinellas County, Florida.",
+        "layerDescription": "",
+        "itemTags": [
+          "Housing & Community Development",
+          "LandUsePlanning",
+          "Zoning2019",
+          "Planning"
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "tuning"
+  },
+  {
+    "id": "arcgis:18a3f3e2eb3a429fb79bea04f980d55e:31",
+    "expected": "Utilities",
+    "metadata": {
+      "title": "MoonLake_Water_Control_Valve",
+      "description": "Water Control Valves in Pasco County, Florida, United States of America.",
+      "tags": [
+        "existing conditions",
+        "moon lake",
+        "land use",
+        "zoning",
+        "pasco"
+      ],
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MapNum",
+          "type": "esriFieldTypeString",
+          "alias": "Map Number"
+        },
+        {
+          "name": "AssetTag",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Tag"
+        },
+        {
+          "name": "Asset_Num",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Number"
+        },
+        {
+          "name": "GPS_OP",
+          "type": "esriFieldTypeString",
+          "alias": "GPS Operator"
+        },
+        {
+          "name": "GPS_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "GPS Date"
+        },
+        {
+          "name": "Subdivision",
+          "type": "esriFieldTypeString",
+          "alias": "Subdivision"
+        },
+        {
+          "name": "Cross_St",
+          "type": "esriFieldTypeString",
+          "alias": "Cross Street"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "Valve_Size",
+          "type": "esriFieldTypeDouble",
+          "alias": "Valve Size"
+        },
+        {
+          "name": "MainMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "Main Material"
+        },
+        {
+          "name": "Make",
+          "type": "esriFieldTypeString",
+          "alias": "Make"
+        },
+        {
+          "name": "Position",
+          "type": "esriFieldTypeString",
+          "alias": "Position"
+        },
+        {
+          "name": "ModelNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Model Number"
+        },
+        {
+          "name": "ActionType",
+          "type": "esriFieldTypeString",
+          "alias": "Action Type"
+        },
+        {
+          "name": "Operating_Nut",
+          "type": "esriFieldTypeString",
+          "alias": "Operating Nut"
+        },
+        {
+          "name": "Opens",
+          "type": "esriFieldTypeString",
+          "alias": "Opens"
+        },
+        {
+          "name": "No_of_Turns",
+          "type": "esriFieldTypeString",
+          "alias": "Number of Turns"
+        },
+        {
+          "name": "Time_to_Open",
+          "type": "esriFieldTypeString",
+          "alias": "Time to Open"
+        },
+        {
+          "name": "Operation",
+          "type": "esriFieldTypeString",
+          "alias": "Operation"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "Surface_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Surface Type"
+        },
+        {
+          "name": "EnclosureType",
+          "type": "esriFieldTypeString",
+          "alias": "Enclosure Type"
+        },
+        {
+          "name": "Install_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Install Date"
+        },
+        {
+          "name": "LocDesc2",
+          "type": "esriFieldTypeString",
+          "alias": "Location Description 2"
+        },
+        {
+          "name": "LocDesc3",
+          "type": "esriFieldTypeString",
+          "alias": "Location Description 3"
+        },
+        {
+          "name": "Field_Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Field Comments"
+        },
+        {
+          "name": "Hyperlink",
+          "type": "esriFieldTypeString",
+          "alias": "Hyperlink"
+        },
+        {
+          "name": "Owned_By",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Owned By"
+        },
+        {
+          "name": "Maintained_By",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Maintained By"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "WorkOrder",
+          "type": "esriFieldTypeString",
+          "alias": "Work Order Number"
+        },
+        {
+          "name": "Rehab_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Rehab Code"
+        },
+        {
+          "name": "RevampDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Revamp Date"
+        },
+        {
+          "name": "LifeCycle",
+          "type": "esriFieldTypeString",
+          "alias": "LifeCycle"
+        },
+        {
+          "name": "GIS_Enabled",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Enabled"
+        },
+        {
+          "name": "Active_Flag",
+          "type": "esriFieldTypeString",
+          "alias": "Active Flag"
+        },
+        {
+          "name": "GIS_Comments",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Comments"
+        },
+        {
+          "name": "Last_Updated",
+          "type": "esriFieldTypeDate",
+          "alias": "Last Updated"
+        },
+        {
+          "name": "Last_Editor",
+          "type": "esriFieldTypeString",
+          "alias": "Last Editor"
+        },
+        {
+          "name": "ESRIGNSS_POSITIONSOURCETYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Position source type"
+        },
+        {
+          "name": "ESRIGNSS_RECEIVER",
+          "type": "esriFieldTypeString",
+          "alias": "Receiver Name"
+        },
+        {
+          "name": "ESRIGNSS_LATITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "ESRIGNSS_LONGITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        },
+        {
+          "name": "ESRIGNSS_ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Altitude"
+        },
+        {
+          "name": "ESRIGNSS_FIXDATETIME",
+          "type": "esriFieldTypeDate",
+          "alias": "Fix Time"
+        },
+        {
+          "name": "ESRIGNSS_FIXTYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Fix Type"
+        },
+        {
+          "name": "ESRIGNSS_STATIONID",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Station ID"
+        },
+        {
+          "name": "ESRIGNSS_NUMSATS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Number of Satellites"
+        },
+        {
+          "name": "ESRIGNSS_DIRECTION",
+          "type": "esriFieldTypeDouble",
+          "alias": "Direction of travel (°)"
+        },
+        {
+          "name": "Asset_Creator",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Creator"
+        },
+        {
+          "name": "Asset_Creation_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Asset_Creation_Date"
+        },
+        {
+          "name": "Attachments",
+          "type": "esriFieldTypeDouble",
+          "alias": "Attachments"
+        },
+        {
+          "name": "PressureFlow_DataAttach",
+          "type": "esriFieldTypeString",
+          "alias": "PressureFlow_DataAttach"
+        },
+        {
+          "name": "Loc_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "Location Description 1"
+        },
+        {
+          "name": "DeleteAsset",
+          "type": "esriFieldTypeString",
+          "alias": "Delete Asset?"
+        },
+        {
+          "name": "DeletionComment",
+          "type": "esriFieldTypeString",
+          "alias": "Deletion Comment"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/18a3f3e2eb3a429fb79bea04f980d55e",
+        "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/ExistingConditions___MoonLake_WFL1/FeatureServer/31",
+        "itemDescription": "",
+        "itemSummary": "Existing conditions analysis for Moon Lake Census Designated Boundary (CDB). All layers clipped to boundary provided by Pasco County BOCC.",
+        "layerDescription": "Water Control Valves in Pasco County, Florida, United States of America.",
+        "itemTags": [
+          "existing conditions",
+          "moon lake",
+          "land use",
+          "zoning",
+          "pasco"
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "tuning"
+  },
+  {
+    "id": "arcgis:18a3f3e2eb3a429fb79bea04f980d55e:33",
+    "expected": "Utilities",
+    "metadata": {
+      "title": "MoonLake_Water_System_Valve",
+      "description": "Water System Valves in Pasco County, Florida, United States of America.",
+      "tags": [
+        "existing conditions",
+        "moon lake",
+        "land use",
+        "zoning",
+        "pasco"
+      ],
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MapNum",
+          "type": "esriFieldTypeString",
+          "alias": "Map Number"
+        },
+        {
+          "name": "AssetTag",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Tag"
+        },
+        {
+          "name": "Asset_Num",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Number"
+        },
+        {
+          "name": "Valve_Size",
+          "type": "esriFieldTypeDouble",
+          "alias": "Valve Size"
+        },
+        {
+          "name": "GPS_OP",
+          "type": "esriFieldTypeString",
+          "alias": "GPS Operator"
+        },
+        {
+          "name": "GPS_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "GPS Date"
+        },
+        {
+          "name": "Owned_By",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Owned By"
+        },
+        {
+          "name": "Maintained_By",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Maintained By"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "Subdivision",
+          "type": "esriFieldTypeString",
+          "alias": "Subdivision"
+        },
+        {
+          "name": "Cross_St",
+          "type": "esriFieldTypeString",
+          "alias": "Cross Street"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "Valve_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Valve Type"
+        },
+        {
+          "name": "Critical_Diversion_Valve",
+          "type": "esriFieldTypeString",
+          "alias": "Critical Diversion Valve"
+        },
+        {
+          "name": "Ave_Dpth_Inch",
+          "type": "esriFieldTypeString",
+          "alias": "Average Depth Inches"
+        },
+        {
+          "name": "MainMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "Main Material"
+        },
+        {
+          "name": "Make",
+          "type": "esriFieldTypeString",
+          "alias": "Make"
+        },
+        {
+          "name": "Position",
+          "type": "esriFieldTypeString",
+          "alias": "Position"
+        },
+        {
+          "name": "ConnectType",
+          "type": "esriFieldTypeString",
+          "alias": "Connection Type"
+        },
+        {
+          "name": "Operating_Nut",
+          "type": "esriFieldTypeString",
+          "alias": "Operating Nut"
+        },
+        {
+          "name": "Opens",
+          "type": "esriFieldTypeString",
+          "alias": "Opens"
+        },
+        {
+          "name": "No_of_Turns",
+          "type": "esriFieldTypeString",
+          "alias": "Number of Turns"
+        },
+        {
+          "name": "Operation",
+          "type": "esriFieldTypeString",
+          "alias": "Operation"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "Surface_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Surface Type"
+        },
+        {
+          "name": "Install_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Install Date"
+        },
+        {
+          "name": "Valve_Use",
+          "type": "esriFieldTypeString",
+          "alias": "Valve Use"
+        },
+        {
+          "name": "Cement_Pad",
+          "type": "esriFieldTypeString",
+          "alias": "Cement Pad"
+        },
+        {
+          "name": "Data_Disk",
+          "type": "esriFieldTypeString",
+          "alias": "Data Disk"
+        },
+        {
+          "name": "LocDesc2",
+          "type": "esriFieldTypeString",
+          "alias": "Location Description 2"
+        },
+        {
+          "name": "LocDesc3",
+          "type": "esriFieldTypeString",
+          "alias": "Location Description 3"
+        },
+        {
+          "name": "Field_Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Field Comments"
+        },
+        {
+          "name": "GIS_Comments",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Comments"
+        },
+        {
+          "name": "Hyperlink",
+          "type": "esriFieldTypeString",
+          "alias": "Hyperlink"
+        },
+        {
+          "name": "WorkOrder",
+          "type": "esriFieldTypeString",
+          "alias": "Work Order Number"
+        },
+        {
+          "name": "RehabPriority",
+          "type": "esriFieldTypeString",
+          "alias": "Rehab Priority"
+        },
+        {
+          "name": "Rehab_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Rehab Code"
+        },
+        {
+          "name": "RevampDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Revamp Date"
+        },
+        {
+          "name": "GIS_Enabled",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Enabled"
+        },
+        {
+          "name": "Active_Flag",
+          "type": "esriFieldTypeString",
+          "alias": "Active Flag"
+        },
+        {
+          "name": "Asset_Creator",
+          "type": "esriFieldTypeString",
+          "alias": "Creator"
+        },
+        {
+          "name": "Asset_Creation_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Creation_Date"
+        },
+        {
+          "name": "Last_Updated",
+          "type": "esriFieldTypeDate",
+          "alias": "Last Updated"
+        },
+        {
+          "name": "Last_Editor",
+          "type": "esriFieldTypeString",
+          "alias": "Last Editor"
+        },
+        {
+          "name": "METSERNUM",
+          "type": "esriFieldTypeString",
+          "alias": "Meter Serial Number"
+        },
+        {
+          "name": "ESRIGNSS_POSITIONSOURCETYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Position source type"
+        },
+        {
+          "name": "ESRIGNSS_RECEIVER",
+          "type": "esriFieldTypeString",
+          "alias": "Receiver Name"
+        },
+        {
+          "name": "ESRIGNSS_LATITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "ESRIGNSS_LONGITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        },
+        {
+          "name": "ESRIGNSS_ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Altitude"
+        },
+        {
+          "name": "ESRIGNSS_FIXDATETIME",
+          "type": "esriFieldTypeDate",
+          "alias": "Fix Time"
+        },
+        {
+          "name": "ESRIGNSS_FIXTYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Fix Type"
+        },
+        {
+          "name": "ESRIGNSS_STATIONID",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Station ID"
+        },
+        {
+          "name": "ESRIGNSS_NUMSATS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Number of Satellites"
+        },
+        {
+          "name": "ESRIGNSS_DIRECTION",
+          "type": "esriFieldTypeDouble",
+          "alias": "Direction of travel (°)"
+        },
+        {
+          "name": "Attachments",
+          "type": "esriFieldTypeDouble",
+          "alias": "Attachments"
+        },
+        {
+          "name": "ExtensionPresent",
+          "type": "esriFieldTypeString",
+          "alias": "ExtensionPresent"
+        },
+        {
+          "name": "FieldPhotoRequire",
+          "type": "esriFieldTypeString",
+          "alias": "FieldPhotoRequire"
+        },
+        {
+          "name": "Loc_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "Location Description 1"
+        },
+        {
+          "name": "DeleteAsset",
+          "type": "esriFieldTypeString",
+          "alias": "Delete Asset?"
+        },
+        {
+          "name": "DeletionComment",
+          "type": "esriFieldTypeString",
+          "alias": "Deletion Comment"
+        },
+        {
+          "name": "Pipe_color",
+          "type": "esriFieldTypeString",
+          "alias": "Pipe Color"
+        },
+        {
+          "name": "Class",
+          "type": "esriFieldTypeString",
+          "alias": "Class"
+        },
+        {
+          "name": "Valve_isolates",
+          "type": "esriFieldTypeString",
+          "alias": "Valve Isolates"
+        },
+        {
+          "name": "Route",
+          "type": "esriFieldTypeString",
+          "alias": "Route"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/18a3f3e2eb3a429fb79bea04f980d55e",
+        "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/ExistingConditions___MoonLake_WFL1/FeatureServer/33",
+        "itemDescription": "",
+        "itemSummary": "Existing conditions analysis for Moon Lake Census Designated Boundary (CDB). All layers clipped to boundary provided by Pasco County BOCC.",
+        "layerDescription": "Water System Valves in Pasco County, Florida, United States of America.",
+        "itemTags": [
+          "existing conditions",
+          "moon lake",
+          "land use",
+          "zoning",
+          "pasco"
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "validation"
+  },
+  {
+    "id": "arcgis:57023f43c6b8478f8f01ace2a620e247:0",
+    "expected": "Uncategorized",
+    "metadata": {
+      "title": "survey",
+      "description": null,
+      "tags": [],
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "globalid",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "CreationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreationDate"
+        },
+        {
+          "name": "Creator",
+          "type": "esriFieldTypeString",
+          "alias": "Creator"
+        },
+        {
+          "name": "EditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "EditDate"
+        },
+        {
+          "name": "Editor",
+          "type": "esriFieldTypeString",
+          "alias": "Editor"
+        },
+        {
+          "name": "organization_name",
+          "type": "esriFieldTypeString",
+          "alias": "Organization name"
+        },
+        {
+          "name": "organization_office_location",
+          "type": "esriFieldTypeString",
+          "alias": "Organization office location"
+        },
+        {
+          "name": "organization_website",
+          "type": "esriFieldTypeString",
+          "alias": "Organization website"
+        },
+        {
+          "name": "services_provided",
+          "type": "esriFieldTypeString",
+          "alias": "Services provided"
+        },
+        {
+          "name": "services_provided_other",
+          "type": "esriFieldTypeString",
+          "alias": "Other - Services provided"
+        },
+        {
+          "name": "hazard_expertise",
+          "type": "esriFieldTypeString",
+          "alias": "Hazard expertise"
+        },
+        {
+          "name": "hazard_expertise_other",
+          "type": "esriFieldTypeString",
+          "alias": "Other - Hazard expertise"
+        },
+        {
+          "name": "counties_covered",
+          "type": "esriFieldTypeString",
+          "alias": "Counties covered"
+        },
+        {
+          "name": "contact_name_and_position",
+          "type": "esriFieldTypeString",
+          "alias": "Contact information"
+        },
+        {
+          "name": "disclaimer",
+          "type": "esriFieldTypeString",
+          "alias": "Disclaimer"
+        },
+        {
+          "name": "organizational_description",
+          "type": "esriFieldTypeString",
+          "alias": "Organizational description"
+        },
+        {
+          "name": "email",
+          "type": "esriFieldTypeString",
+          "alias": "Email"
+        },
+        {
+          "name": "phone_number",
+          "type": "esriFieldTypeString",
+          "alias": "Phone number"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/57023f43c6b8478f8f01ace2a620e247",
+        "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/survey123_4fd19e15a48445b08edef10dce41fe3f_results/FeatureServer/0",
+        "itemDescription": "",
+        "itemSummary": "",
+        "layerDescription": "",
+        "itemTags": [],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "validation"
+  },
+  {
+    "id": "arcgis:5cc87b761b1440a7928ab6d251a8d881:31",
+    "expected": "Utilities",
+    "metadata": {
+      "title": "MoonLake_Water_Control_Valve",
+      "description": "Water Control Valves in Pasco County, Florida, United States of America.",
+      "tags": [
+        "sewer"
+      ],
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MapNum",
+          "type": "esriFieldTypeString",
+          "alias": "Map Number"
+        },
+        {
+          "name": "AssetTag",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Tag"
+        },
+        {
+          "name": "Asset_Num",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Number"
+        },
+        {
+          "name": "GPS_OP",
+          "type": "esriFieldTypeString",
+          "alias": "GPS Operator"
+        },
+        {
+          "name": "GPS_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "GPS Date"
+        },
+        {
+          "name": "Subdivision",
+          "type": "esriFieldTypeString",
+          "alias": "Subdivision"
+        },
+        {
+          "name": "Cross_St",
+          "type": "esriFieldTypeString",
+          "alias": "Cross Street"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "Valve_Size",
+          "type": "esriFieldTypeDouble",
+          "alias": "Valve Size"
+        },
+        {
+          "name": "MainMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "Main Material"
+        },
+        {
+          "name": "Make",
+          "type": "esriFieldTypeString",
+          "alias": "Make"
+        },
+        {
+          "name": "Position",
+          "type": "esriFieldTypeString",
+          "alias": "Position"
+        },
+        {
+          "name": "ModelNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Model Number"
+        },
+        {
+          "name": "ActionType",
+          "type": "esriFieldTypeString",
+          "alias": "Action Type"
+        },
+        {
+          "name": "Operating_Nut",
+          "type": "esriFieldTypeString",
+          "alias": "Operating Nut"
+        },
+        {
+          "name": "Opens",
+          "type": "esriFieldTypeString",
+          "alias": "Opens"
+        },
+        {
+          "name": "No_of_Turns",
+          "type": "esriFieldTypeString",
+          "alias": "Number of Turns"
+        },
+        {
+          "name": "Time_to_Open",
+          "type": "esriFieldTypeString",
+          "alias": "Time to Open"
+        },
+        {
+          "name": "Operation",
+          "type": "esriFieldTypeString",
+          "alias": "Operation"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "Surface_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Surface Type"
+        },
+        {
+          "name": "EnclosureType",
+          "type": "esriFieldTypeString",
+          "alias": "Enclosure Type"
+        },
+        {
+          "name": "Install_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Install Date"
+        },
+        {
+          "name": "LocDesc2",
+          "type": "esriFieldTypeString",
+          "alias": "Location Description 2"
+        },
+        {
+          "name": "LocDesc3",
+          "type": "esriFieldTypeString",
+          "alias": "Location Description 3"
+        },
+        {
+          "name": "Field_Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Field Comments"
+        },
+        {
+          "name": "Hyperlink",
+          "type": "esriFieldTypeString",
+          "alias": "Hyperlink"
+        },
+        {
+          "name": "Owned_By",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Owned By"
+        },
+        {
+          "name": "Maintained_By",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Maintained By"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "WorkOrder",
+          "type": "esriFieldTypeString",
+          "alias": "Work Order Number"
+        },
+        {
+          "name": "Rehab_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Rehab Code"
+        },
+        {
+          "name": "RevampDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Revamp Date"
+        },
+        {
+          "name": "LifeCycle",
+          "type": "esriFieldTypeString",
+          "alias": "LifeCycle"
+        },
+        {
+          "name": "GIS_Enabled",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Enabled"
+        },
+        {
+          "name": "Active_Flag",
+          "type": "esriFieldTypeString",
+          "alias": "Active Flag"
+        },
+        {
+          "name": "GIS_Comments",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Comments"
+        },
+        {
+          "name": "Last_Updated",
+          "type": "esriFieldTypeDate",
+          "alias": "Last Updated"
+        },
+        {
+          "name": "Last_Editor",
+          "type": "esriFieldTypeString",
+          "alias": "Last Editor"
+        },
+        {
+          "name": "ESRIGNSS_POSITIONSOURCETYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Position source type"
+        },
+        {
+          "name": "ESRIGNSS_RECEIVER",
+          "type": "esriFieldTypeString",
+          "alias": "Receiver Name"
+        },
+        {
+          "name": "ESRIGNSS_LATITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "ESRIGNSS_LONGITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        },
+        {
+          "name": "ESRIGNSS_ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Altitude"
+        },
+        {
+          "name": "ESRIGNSS_FIXDATETIME",
+          "type": "esriFieldTypeDate",
+          "alias": "Fix Time"
+        },
+        {
+          "name": "ESRIGNSS_FIXTYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Fix Type"
+        },
+        {
+          "name": "ESRIGNSS_STATIONID",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Station ID"
+        },
+        {
+          "name": "ESRIGNSS_NUMSATS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Number of Satellites"
+        },
+        {
+          "name": "ESRIGNSS_DIRECTION",
+          "type": "esriFieldTypeDouble",
+          "alias": "Direction of travel (°)"
+        },
+        {
+          "name": "Asset_Creator",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Creator"
+        },
+        {
+          "name": "Asset_Creation_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Asset_Creation_Date"
+        },
+        {
+          "name": "Attachments",
+          "type": "esriFieldTypeDouble",
+          "alias": "Attachments"
+        },
+        {
+          "name": "PressureFlow_DataAttach",
+          "type": "esriFieldTypeString",
+          "alias": "PressureFlow_DataAttach"
+        },
+        {
+          "name": "Loc_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "Location Description 1"
+        },
+        {
+          "name": "DeleteAsset",
+          "type": "esriFieldTypeString",
+          "alias": "Delete Asset?"
+        },
+        {
+          "name": "DeletionComment",
+          "type": "esriFieldTypeString",
+          "alias": "Deletion Comment"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/5cc87b761b1440a7928ab6d251a8d881",
+        "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/MoonLake_WaterSewer/FeatureServer/31",
+        "itemDescription": "New Group Layer",
+        "itemSummary": "Water and sewer layers within Moon Lake boundary",
+        "layerDescription": "Water Control Valves in Pasco County, Florida, United States of America.",
+        "itemTags": [
+          "sewer"
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "tuning"
+  },
+  {
+    "id": "arcgis:5cc87b761b1440a7928ab6d251a8d881:33",
+    "expected": "Utilities",
+    "metadata": {
+      "title": "MoonLake_Water_System_Valve",
+      "description": "Water System Valves in Pasco County, Florida, United States of America.",
+      "tags": [
+        "sewer"
+      ],
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MapNum",
+          "type": "esriFieldTypeString",
+          "alias": "Map Number"
+        },
+        {
+          "name": "AssetTag",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Tag"
+        },
+        {
+          "name": "Asset_Num",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Number"
+        },
+        {
+          "name": "Valve_Size",
+          "type": "esriFieldTypeDouble",
+          "alias": "Valve Size"
+        },
+        {
+          "name": "GPS_OP",
+          "type": "esriFieldTypeString",
+          "alias": "GPS Operator"
+        },
+        {
+          "name": "GPS_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "GPS Date"
+        },
+        {
+          "name": "Owned_By",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Owned By"
+        },
+        {
+          "name": "Maintained_By",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Maintained By"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "Subdivision",
+          "type": "esriFieldTypeString",
+          "alias": "Subdivision"
+        },
+        {
+          "name": "Cross_St",
+          "type": "esriFieldTypeString",
+          "alias": "Cross Street"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "Valve_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Valve Type"
+        },
+        {
+          "name": "Critical_Diversion_Valve",
+          "type": "esriFieldTypeString",
+          "alias": "Critical Diversion Valve"
+        },
+        {
+          "name": "Ave_Dpth_Inch",
+          "type": "esriFieldTypeString",
+          "alias": "Average Depth Inches"
+        },
+        {
+          "name": "MainMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "Main Material"
+        },
+        {
+          "name": "Make",
+          "type": "esriFieldTypeString",
+          "alias": "Make"
+        },
+        {
+          "name": "Position",
+          "type": "esriFieldTypeString",
+          "alias": "Position"
+        },
+        {
+          "name": "ConnectType",
+          "type": "esriFieldTypeString",
+          "alias": "Connection Type"
+        },
+        {
+          "name": "Operating_Nut",
+          "type": "esriFieldTypeString",
+          "alias": "Operating Nut"
+        },
+        {
+          "name": "Opens",
+          "type": "esriFieldTypeString",
+          "alias": "Opens"
+        },
+        {
+          "name": "No_of_Turns",
+          "type": "esriFieldTypeString",
+          "alias": "Number of Turns"
+        },
+        {
+          "name": "Operation",
+          "type": "esriFieldTypeString",
+          "alias": "Operation"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "Surface_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Surface Type"
+        },
+        {
+          "name": "Install_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Install Date"
+        },
+        {
+          "name": "Valve_Use",
+          "type": "esriFieldTypeString",
+          "alias": "Valve Use"
+        },
+        {
+          "name": "Cement_Pad",
+          "type": "esriFieldTypeString",
+          "alias": "Cement Pad"
+        },
+        {
+          "name": "Data_Disk",
+          "type": "esriFieldTypeString",
+          "alias": "Data Disk"
+        },
+        {
+          "name": "LocDesc2",
+          "type": "esriFieldTypeString",
+          "alias": "Location Description 2"
+        },
+        {
+          "name": "LocDesc3",
+          "type": "esriFieldTypeString",
+          "alias": "Location Description 3"
+        },
+        {
+          "name": "Field_Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Field Comments"
+        },
+        {
+          "name": "GIS_Comments",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Comments"
+        },
+        {
+          "name": "Hyperlink",
+          "type": "esriFieldTypeString",
+          "alias": "Hyperlink"
+        },
+        {
+          "name": "WorkOrder",
+          "type": "esriFieldTypeString",
+          "alias": "Work Order Number"
+        },
+        {
+          "name": "RehabPriority",
+          "type": "esriFieldTypeString",
+          "alias": "Rehab Priority"
+        },
+        {
+          "name": "Rehab_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Rehab Code"
+        },
+        {
+          "name": "RevampDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Revamp Date"
+        },
+        {
+          "name": "GIS_Enabled",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Enabled"
+        },
+        {
+          "name": "Active_Flag",
+          "type": "esriFieldTypeString",
+          "alias": "Active Flag"
+        },
+        {
+          "name": "Asset_Creator",
+          "type": "esriFieldTypeString",
+          "alias": "Creator"
+        },
+        {
+          "name": "Asset_Creation_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Creation_Date"
+        },
+        {
+          "name": "Last_Updated",
+          "type": "esriFieldTypeDate",
+          "alias": "Last Updated"
+        },
+        {
+          "name": "Last_Editor",
+          "type": "esriFieldTypeString",
+          "alias": "Last Editor"
+        },
+        {
+          "name": "METSERNUM",
+          "type": "esriFieldTypeString",
+          "alias": "Meter Serial Number"
+        },
+        {
+          "name": "ESRIGNSS_POSITIONSOURCETYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Position source type"
+        },
+        {
+          "name": "ESRIGNSS_RECEIVER",
+          "type": "esriFieldTypeString",
+          "alias": "Receiver Name"
+        },
+        {
+          "name": "ESRIGNSS_LATITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "ESRIGNSS_LONGITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        },
+        {
+          "name": "ESRIGNSS_ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Altitude"
+        },
+        {
+          "name": "ESRIGNSS_FIXDATETIME",
+          "type": "esriFieldTypeDate",
+          "alias": "Fix Time"
+        },
+        {
+          "name": "ESRIGNSS_FIXTYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Fix Type"
+        },
+        {
+          "name": "ESRIGNSS_STATIONID",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Station ID"
+        },
+        {
+          "name": "ESRIGNSS_NUMSATS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Number of Satellites"
+        },
+        {
+          "name": "ESRIGNSS_DIRECTION",
+          "type": "esriFieldTypeDouble",
+          "alias": "Direction of travel (°)"
+        },
+        {
+          "name": "Attachments",
+          "type": "esriFieldTypeDouble",
+          "alias": "Attachments"
+        },
+        {
+          "name": "ExtensionPresent",
+          "type": "esriFieldTypeString",
+          "alias": "ExtensionPresent"
+        },
+        {
+          "name": "FieldPhotoRequire",
+          "type": "esriFieldTypeString",
+          "alias": "FieldPhotoRequire"
+        },
+        {
+          "name": "Loc_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "Location Description 1"
+        },
+        {
+          "name": "DeleteAsset",
+          "type": "esriFieldTypeString",
+          "alias": "Delete Asset?"
+        },
+        {
+          "name": "DeletionComment",
+          "type": "esriFieldTypeString",
+          "alias": "Deletion Comment"
+        },
+        {
+          "name": "Pipe_color",
+          "type": "esriFieldTypeString",
+          "alias": "Pipe Color"
+        },
+        {
+          "name": "Class",
+          "type": "esriFieldTypeString",
+          "alias": "Class"
+        },
+        {
+          "name": "Valve_isolates",
+          "type": "esriFieldTypeString",
+          "alias": "Valve Isolates"
+        },
+        {
+          "name": "Route",
+          "type": "esriFieldTypeString",
+          "alias": "Route"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/5cc87b761b1440a7928ab6d251a8d881",
+        "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/MoonLake_WaterSewer/FeatureServer/33",
+        "itemDescription": "New Group Layer",
+        "itemSummary": "Water and sewer layers within Moon Lake boundary",
+        "layerDescription": "Water System Valves in Pasco County, Florida, United States of America.",
+        "itemTags": [
+          "sewer"
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "validation"
+  },
+  {
+    "id": "arcgis:704de818c6a947f0b10a8f0677a86f4b:0",
+    "expected": "Uncategorized",
+    "metadata": {
+      "title": "survey",
+      "description": null,
+      "tags": [],
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "globalid",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "CreationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreationDate"
+        },
+        {
+          "name": "Creator",
+          "type": "esriFieldTypeString",
+          "alias": "Creator"
+        },
+        {
+          "name": "EditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "EditDate"
+        },
+        {
+          "name": "Editor",
+          "type": "esriFieldTypeString",
+          "alias": "Editor"
+        },
+        {
+          "name": "organization_name",
+          "type": "esriFieldTypeString",
+          "alias": "Organization name"
+        },
+        {
+          "name": "organization_office_location",
+          "type": "esriFieldTypeString",
+          "alias": "Organization office location"
+        },
+        {
+          "name": "organization_website",
+          "type": "esriFieldTypeString",
+          "alias": "Organization website"
+        },
+        {
+          "name": "services_provided",
+          "type": "esriFieldTypeString",
+          "alias": "Services provided"
+        },
+        {
+          "name": "services_provided_other",
+          "type": "esriFieldTypeString",
+          "alias": "Other - Services provided"
+        },
+        {
+          "name": "hazard_expertise",
+          "type": "esriFieldTypeString",
+          "alias": "Hazard expertise"
+        },
+        {
+          "name": "hazard_expertise_other",
+          "type": "esriFieldTypeString",
+          "alias": "Other - Hazard expertise"
+        },
+        {
+          "name": "counties_covered",
+          "type": "esriFieldTypeString",
+          "alias": "Counties covered"
+        },
+        {
+          "name": "contact_name_and_position",
+          "type": "esriFieldTypeString",
+          "alias": "Contact information"
+        },
+        {
+          "name": "disclaimer",
+          "type": "esriFieldTypeString",
+          "alias": "Disclaimer"
+        },
+        {
+          "name": "organizational_description",
+          "type": "esriFieldTypeString",
+          "alias": "Organizational description"
+        },
+        {
+          "name": "email",
+          "type": "esriFieldTypeString",
+          "alias": "Email"
+        },
+        {
+          "name": "phone_number",
+          "type": "esriFieldTypeString",
+          "alias": "Phone number"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/704de818c6a947f0b10a8f0677a86f4b",
+        "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/survey123_4fd19e15a48445b08edef10dce41fe3f_form/FeatureServer/0",
+        "itemDescription": "",
+        "itemSummary": "",
+        "layerDescription": "",
+        "itemTags": [],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "validation"
+  },
+  {
+    "id": "arcgis:847294deda8740a7a478a10bb92d4da3:10",
+    "expected": "Environment",
+    "metadata": {
+      "title": "MoonLake_ELAMP_Acquisitions",
+      "description": "This feature class contains polygons of properties that have been acquired through Environmental Lands Acquisition and Management Program (ELAMP). Layer clipped to Moon Lake CDB.",
+      "tags": [
+        "Environmental Lands"
+      ],
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "FCTNAME",
+          "type": "esriFieldTypeString",
+          "alias": "FCTNAME"
+        },
+        {
+          "name": "VPARCEL",
+          "type": "esriFieldTypeString",
+          "alias": "VPARCEL"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "COST",
+          "type": "esriFieldTypeDouble",
+          "alias": "COST"
+        },
+        {
+          "name": "PARTNER",
+          "type": "esriFieldTypeString",
+          "alias": "PARTNER"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "ACREAGE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACREAGE"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "Representa",
+          "type": "esriFieldTypeInteger",
+          "alias": "Representa"
+        },
+        {
+          "name": "Override",
+          "type": "esriFieldTypeString",
+          "alias": "Override"
+        },
+        {
+          "name": "created_us",
+          "type": "esriFieldTypeString",
+          "alias": "created_us"
+        },
+        {
+          "name": "created_da",
+          "type": "esriFieldTypeDate",
+          "alias": "created_da"
+        },
+        {
+          "name": "last_edite",
+          "type": "esriFieldTypeString",
+          "alias": "last_edite"
+        },
+        {
+          "name": "last_edi_1",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edi_1"
+        },
+        {
+          "name": "DATE_ACQUI",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_ACQUI"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "GIS_AC",
+          "type": "esriFieldTypeDouble",
+          "alias": "GIS_AC"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Length"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/847294deda8740a7a478a10bb92d4da3",
+        "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/MoonLake_ELAMP_Acquisitions/FeatureServer/10",
+        "itemDescription": "",
+        "itemSummary": "This feature class contains polygons of properties that have been acquired through Environmental Lands Acquisition and Management Program (ELAMP). Layer clipped to Moon Lake CDB.",
+        "layerDescription": "",
+        "itemTags": [
+          "Environmental Lands"
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "validation"
+  },
+  {
+    "id": "arcgis:986ed789a12e43f8b1ab6099509edded:0",
+    "expected": "Demographics",
+    "metadata": {
+      "title": "AMI_ACS_5yr_18_to_22",
+      "description": "This is for the economic development census data. It displays the median household income for ages 18 to 22.",
+      "tags": [
+        "MedianHouseholdIncome18_22"
+      ],
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Tract",
+          "type": "esriFieldTypeString",
+          "alias": "Tract"
+        },
+        {
+          "name": "Median_Hou",
+          "type": "esriFieldTypeDouble",
+          "alias": "Median_Hou"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Length"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://cityofclearwater.maps.arcgis.com/sharing/rest/content/items/986ed789a12e43f8b1ab6099509edded",
+        "layerUrl": "https://services1.arcgis.com/3GsNorcb0Mn5rMt8/arcgis/rest/services/AMI_ACS_5yr_18_to_22/FeatureServer/0",
+        "itemDescription": "",
+        "itemSummary": "This is for the economic development census data. It displays the median household income for ages 18 to 22.",
+        "layerDescription": "",
+        "itemTags": [
+          "MedianHouseholdIncome18_22"
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "tuning"
+  },
+  {
+    "id": "arcgis:b5fbc0132844433c8e4d894f996a667a:0",
+    "expected": "Hazards",
+    "metadata": {
+      "title": "survey",
+      "description": null,
+      "tags": [],
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "globalid",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "select_which_fdep_critical_asse",
+          "type": "esriFieldTypeString",
+          "alias": "Select which FDEP critical assets we should include in the flood risk assessment."
+        },
+        {
+          "name": "CreationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreationDate"
+        },
+        {
+          "name": "Creator",
+          "type": "esriFieldTypeString",
+          "alias": "Creator"
+        },
+        {
+          "name": "EditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "EditDate"
+        },
+        {
+          "name": "Editor",
+          "type": "esriFieldTypeString",
+          "alias": "Editor"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/b5fbc0132844433c8e4d894f996a667a",
+        "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/survey123_4a0dff7d92c94a7d9fc0362fb870e291/FeatureServer/0",
+        "itemDescription": "",
+        "itemSummary": "",
+        "layerDescription": "",
+        "itemTags": [],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "validation"
+  },
+  {
+    "id": "arcgis:b9a9b59e928d4e8ca7479b94dc07ce80:0",
+    "expected": "Hazards",
+    "metadata": {
+      "title": "MappedAreasofFlooding",
+      "description": "Results of TBCMP Areas Impacted by Flooding survey. Last Updated: August 2026",
+      "tags": [
+        "flooding",
+        "tbcmp",
+        "tampabaycoastalmasterplan"
+      ],
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "County_Name",
+          "type": "esriFieldTypeString",
+          "alias": "County"
+        },
+        {
+          "name": "Site_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Site Name"
+        },
+        {
+          "name": "Flooding_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type of Flooding"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "NaturalAreas_Restoration_Survey123",
+          "type": "esriFieldTypeString",
+          "alias": "Natural Areas for Restoration (Survey123 only)"
+        },
+        {
+          "name": "Survey_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Survey Type"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Length"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/b9a9b59e928d4e8ca7479b94dc07ce80",
+        "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/SurveyResults_Aug26/FeatureServer/0",
+        "itemDescription": "",
+        "itemSummary": "Results of TBCMP Areas Impacted by Flooding survey. Last Updated: August 2026",
+        "layerDescription": "",
+        "itemTags": [
+          "flooding",
+          "tbcmp",
+          "tampabaycoastalmasterplan"
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "tuning"
+  },
+  {
+    "id": "arcgis:08f9dd2bd6eb4995bcf344ac69b606bb:0",
+    "expected": "Uncategorized",
+    "metadata": {
+      "title": "GasWorx",
+      "description": "Buffer zones for use in the public Community Benefits Advisory Council app.",
+      "tags": [
+        "Lookup",
+        "Tampa",
+        "Buffer"
+      ],
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "FOLIO",
+          "type": "esriFieldTypeString",
+          "alias": "FOLIO"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "DOR_C",
+          "type": "esriFieldTypeString",
+          "alias": "DOR_C"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "ADDR_1",
+          "type": "esriFieldTypeString",
+          "alias": "ADDR_1"
+        },
+        {
+          "name": "ADDR_2",
+          "type": "esriFieldTypeString",
+          "alias": "ADDR_2"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE"
+        },
+        {
+          "name": "ZIP",
+          "type": "esriFieldTypeString",
+          "alias": "ZIP"
+        },
+        {
+          "name": "COUNTRY",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTRY"
+        },
+        {
+          "name": "SUB",
+          "type": "esriFieldTypeString",
+          "alias": "SUB"
+        },
+        {
+          "name": "SITE_ADDR",
+          "type": "esriFieldTypeString",
+          "alias": "SITE_ADDR"
+        },
+        {
+          "name": "SITE_CITY",
+          "type": "esriFieldTypeString",
+          "alias": "SITE_CITY"
+        },
+        {
+          "name": "SITE_ZIP",
+          "type": "esriFieldTypeString",
+          "alias": "SITE_ZIP"
+        },
+        {
+          "name": "LEGAL1",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL1"
+        },
+        {
+          "name": "LEGAL2",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL2"
+        },
+        {
+          "name": "LEGAL3",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL3"
+        },
+        {
+          "name": "LEGAL4",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL4"
+        },
+        {
+          "name": "DBA",
+          "type": "esriFieldTypeString",
+          "alias": "DBA"
+        },
+        {
+          "name": "STRAP",
+          "type": "esriFieldTypeString",
+          "alias": "STRAP"
+        },
+        {
+          "name": "TAXDIST",
+          "type": "esriFieldTypeString",
+          "alias": "TAXDIST"
+        },
+        {
+          "name": "JUST",
+          "type": "esriFieldTypeDouble",
+          "alias": "JUST"
+        },
+        {
+          "name": "LAND",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAND"
+        },
+        {
+          "name": "BLDG",
+          "type": "esriFieldTypeDouble",
+          "alias": "BLDG"
+        },
+        {
+          "name": "EXF",
+          "type": "esriFieldTypeDouble",
+          "alias": "EXF"
+        },
+        {
+          "name": "ACT",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACT"
+        },
+        {
+          "name": "EFF",
+          "type": "esriFieldTypeDouble",
+          "alias": "EFF"
+        },
+        {
+          "name": "HEAT_AR",
+          "type": "esriFieldTypeDouble",
+          "alias": "HEAT_AR"
+        },
+        {
+          "name": "ASD_VAL",
+          "type": "esriFieldTypeDouble",
+          "alias": "ASD_VAL"
+        },
+        {
+          "name": "TAX_VAL",
+          "type": "esriFieldTypeDouble",
+          "alias": "TAX_VAL"
+        },
+        {
+          "name": "MUNI",
+          "type": "esriFieldTypeString",
+          "alias": "MUNI"
+        },
+        {
+          "name": "SD1",
+          "type": "esriFieldTypeString",
+          "alias": "SD1"
+        },
+        {
+          "name": "SD2",
+          "type": "esriFieldTypeString",
+          "alias": "SD2"
+        },
+        {
+          "name": "TIF",
+          "type": "esriFieldTypeString",
+          "alias": "TIF"
+        },
+        {
+          "name": "S_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "S_DATE"
+        },
+        {
+          "name": "VI",
+          "type": "esriFieldTypeString",
+          "alias": "VI"
+        },
+        {
+          "name": "AMT",
+          "type": "esriFieldTypeDouble",
+          "alias": "AMT"
+        },
+        {
+          "name": "ACREAGE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACREAGE"
+        },
+        {
+          "name": "NBHC",
+          "type": "esriFieldTypeDouble",
+          "alias": "NBHC"
+        },
+        {
+          "name": "HX_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "HX_VAL"
+        },
+        {
+          "name": "ACREAGETEX",
+          "type": "esriFieldTypeString",
+          "alias": "ACREAGETEX"
+        },
+        {
+          "name": "STORIES",
+          "type": "esriFieldTypeDouble",
+          "alias": "STORIES"
+        },
+        {
+          "name": "SHAPE_STAr",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_STAr"
+        },
+        {
+          "name": "SHAPE_STLe",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_STLe"
+        },
+        {
+          "name": "BUFF_DIST",
+          "type": "esriFieldTypeDouble",
+          "alias": "BUFF_DIST"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Length"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://tampa.maps.arcgis.com/sharing/rest/content/items/08f9dd2bd6eb4995bcf344ac69b606bb",
+        "layerUrl": "https://services1.arcgis.com/IbNXlmt2RVVRCZ6M/arcgis/rest/services/EconomicOppLookup/FeatureServer/0",
+        "itemDescription": "Buffer zones for use in the public Community Benefits Advisory Council app.",
+        "itemSummary": "Buffer zones for use in the public Community Benefits Advisory Council app.",
+        "layerDescription": "",
+        "itemTags": [
+          "Lookup",
+          "Tampa",
+          "Buffer"
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "tuning"
+  },
+  {
+    "id": "arcgis:0a054dcec91e4358b68fe744cedab7f1:0",
+    "expected": "Housing",
+    "metadata": {
+      "title": "DevIncentivesSF",
+      "description": "Single Family Developer Incentives",
+      "tags": [
+        "Single Family",
+        "Grants"
+      ],
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "CRA_Invest",
+          "type": "esriFieldTypeDouble",
+          "alias": "CRA_Invest"
+        },
+        {
+          "name": "F__of_Medi",
+          "type": "esriFieldTypeString",
+          "alias": "F__of_Medi"
+        },
+        {
+          "name": "F__of_peop",
+          "type": "esriFieldTypeInteger",
+          "alias": "F__of_peop"
+        },
+        {
+          "name": "City_1",
+          "type": "esriFieldTypeString",
+          "alias": "City_1"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/0a054dcec91e4358b68fe744cedab7f1",
+        "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/SingleFamilyDevIncentives/FeatureServer/0",
+        "itemDescription": "",
+        "itemSummary": "Single Family Developer Incentives",
+        "layerDescription": "",
+        "itemTags": [
+          "Single Family",
+          "Grants"
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "tuning"
+  },
+  {
+    "id": "arcgis:183d496d8c074d618e21cdce6a812f5d:0",
+    "expected": "Planning",
+    "metadata": {
+      "title": "CWP_Amendments",
+      "description": "Countywide Plan Map Amendments in Pinellas County, Florida, maintained by Foward Pinellas. Updated monthly. The data contained herein is offered “as is,” with no claim or warranty as to its accuracy or completeness. The data is for reference only and should not be considered to be of survey precision. DATA STEWARD: Forward Pinellas, info@forwardpinellas.org (727)464-8250 Feature Dataset: PPC Feature Class: CWP_Amendments",
+      "tags": [
+        "Forward Pinellas",
+        "PPC",
+        "CWP_Amendments",
+        "Planning"
+      ],
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CASENUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "Case Number"
+        },
+        {
+          "name": "PRIMARY_",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Primary"
+        },
+        {
+          "name": "JURISDICTION",
+          "type": "esriFieldTypeString",
+          "alias": "Jurisdiction"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "Acres"
+        },
+        {
+          "name": "AMENDMENTTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Amendment Type"
+        },
+        {
+          "name": "FLUFROM",
+          "type": "esriFieldTypeString",
+          "alias": "FLU From"
+        },
+        {
+          "name": "FLUTO",
+          "type": "esriFieldTypeString",
+          "alias": "FLU To"
+        },
+        {
+          "name": "FLUTOABBR",
+          "type": "esriFieldTypeString",
+          "alias": "FLU to ABBR"
+        },
+        {
+          "name": "EXISTINGUSE",
+          "type": "esriFieldTypeString",
+          "alias": "Existing Use"
+        },
+        {
+          "name": "NOTES",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "PPCDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "PPC Date"
+        },
+        {
+          "name": "PPCRECOMMENDATION",
+          "type": "esriFieldTypeString",
+          "alias": "PPC Recommendation"
+        },
+        {
+          "name": "CPADATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CPA Date"
+        },
+        {
+          "name": "CPAACTION",
+          "type": "esriFieldTypeString",
+          "alias": "CPA Action"
+        },
+        {
+          "name": "ORDNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "Ordinance Number"
+        },
+        {
+          "name": "ORDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "Ordinance Date"
+        },
+        {
+          "name": "int_created_user",
+          "type": "esriFieldTypeString",
+          "alias": "Internal Created User"
+        },
+        {
+          "name": "int_created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Internal Created Date"
+        },
+        {
+          "name": "int_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "Internal Edited User"
+        },
+        {
+          "name": "int_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Internal Edited Date"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "StatePlane_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "StatePlane_Length"
+        },
+        {
+          "name": "StatePlane_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "StatePlane_Area"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Length"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/183d496d8c074d618e21cdce6a812f5d",
+        "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_CWP_Amendments_view/FeatureServer/0",
+        "itemDescription": "Countywide Plan Map Amendments in Pinellas County, Florida, maintained by Foward Pinellas. Updated monthly. The data contained herein is offered “as is,” with no claim or warranty as to its accuracy or completeness. &nbsp; The data is for reference only and should not be considered to be of survey precision. &nbsp; DATA STEWARD: Forward Pinellas, info@forwardpinellas.org (727)464-8250 &nbsp; Feature Dataset:&nbsp; PPC Feature Class:&nbsp; CWP_Amendments",
+        "itemSummary": "Countywide Plan Map Amendments in Pinellas County, Florida.",
+        "layerDescription": "",
+        "itemTags": [
+          "Forward Pinellas",
+          "PPC",
+          "CWP_Amendments",
+          "Planning"
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "tuning"
+  },
+  {
+    "id": "arcgis:186593d6c781423da9481f4c2d662fff:0",
+    "expected": "Uncategorized",
+    "metadata": {
+      "title": "TestClearwaterShapefile",
+      "description": "City of Clearwater service area",
+      "tags": [
+        "ClearwaterServiceArea"
+      ],
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "ACREAGE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACREAGE"
+        },
+        {
+          "name": "created_us",
+          "type": "esriFieldTypeString",
+          "alias": "created_us"
+        },
+        {
+          "name": "created_da",
+          "type": "esriFieldTypeDate",
+          "alias": "created_da"
+        },
+        {
+          "name": "last_edite",
+          "type": "esriFieldTypeString",
+          "alias": "last_edite"
+        },
+        {
+          "name": "last_edi_1",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edi_1"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape_STAr",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_STAr"
+        },
+        {
+          "name": "Shape_STLe",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_STLe"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Length"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://cityofclearwater.maps.arcgis.com/sharing/rest/content/items/186593d6c781423da9481f4c2d662fff",
+        "layerUrl": "https://services1.arcgis.com/3GsNorcb0Mn5rMt8/arcgis/rest/services/TestClearwaterShapefile/FeatureServer/0",
+        "itemDescription": "City of Clearwater service area",
+        "itemSummary": "Used for mapping the geographic extents of the city service area",
+        "layerDescription": "",
+        "itemTags": [
+          "ClearwaterServiceArea"
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "tuning"
+  },
+  {
+    "id": "arcgis:24aff830c446421992e64a745d722f38:0",
+    "expected": "Utilities",
+    "metadata": {
+      "title": "Countywide_SSServiceProviders",
+      "description": "Utilities Countywide SS Service Providers in Pinellas County, Florida. NOTE: This published service for Countywide SS Service Providers includes the related table. Click on the feature class or table below for the service URL. The data contained herein is offered “as is,” with no claim or warranty as to its accuracy or completeness. The data is for reference only and should not be considered to be of survey precision. DATA STEWARD: Pinellas County Utilities (727)464-4000 Feature Dataset: Utilities_ReferenceData Feature Class: Countwide_SSServiceProviders",
+      "tags": [
+        "Utilities",
+        "SS Service Providers",
+        "Utilities_ReferenceData"
+      ],
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREA_ID",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Area ID"
+        },
+        {
+          "name": "WWTF",
+          "type": "esriFieldTypeString",
+          "alias": "Wastewater Treatment Facility"
+        },
+        {
+          "name": "SERVICE_PROVIDER",
+          "type": "esriFieldTypeString",
+          "alias": "SS Service Provider"
+        },
+        {
+          "name": "COMMENT",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "AREA_LIVING_UNITS",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area Living Units"
+        },
+        {
+          "name": "AREA_BUILDING_COUNT",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area Building Count"
+        },
+        {
+          "name": "AREA_POP",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area Population"
+        },
+        {
+          "name": "AREA_PARCEL_COUNT",
+          "type": "esriFieldTypeInteger",
+          "alias": "Area Parcel Count"
+        },
+        {
+          "name": "AREA_CUSTOMER_COUNT",
+          "type": "esriFieldTypeInteger",
+          "alias": "Area Customer Count"
+        },
+        {
+          "name": "SERV_PROVIDER_TOT_CUST",
+          "type": "esriFieldTypeInteger",
+          "alias": "Total Customers"
+        },
+        {
+          "name": "SERV_PROVIDER_TOT_POP",
+          "type": "esriFieldTypeInteger",
+          "alias": "Total Population Served"
+        },
+        {
+          "name": "BILLING_AGENCY",
+          "type": "esriFieldTypeString",
+          "alias": "Billing Agency"
+        },
+        {
+          "name": "CUSTOMER_CONTACT",
+          "type": "esriFieldTypeString",
+          "alias": "Customer Service Contact Number"
+        },
+        {
+          "name": "MAINTENANCE",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance Agency"
+        },
+        {
+          "name": "MAINTENANCE_CONTACT",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance Contact Number"
+        },
+        {
+          "name": "WWTF_ID",
+          "type": "esriFieldTypeString",
+          "alias": "WWTF ID"
+        },
+        {
+          "name": "LAYER",
+          "type": "esriFieldTypeString",
+          "alias": "PCU Layer"
+        },
+        {
+          "name": "int_created_user",
+          "type": "esriFieldTypeString",
+          "alias": "Internal Created User"
+        },
+        {
+          "name": "int_created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Internal Created Date"
+        },
+        {
+          "name": "int_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "Internal Edited User"
+        },
+        {
+          "name": "int_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Internal Edited Date"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "StatePlane_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "StatePlane_Length"
+        },
+        {
+          "name": "StatePlane_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "StatePlane_Area"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Length"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/24aff830c446421992e64a745d722f38",
+        "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_Countywide_SSServiceProviders/FeatureServer/0",
+        "itemDescription": "Utilities Countywide SS Service Providers in Pinellas County, Florida. NOTE:&nbsp; This published service for Countywide SS Service Providers includes the related table. Click on the feature class or table below for the service URL. The data contained herein is offered “as is,” with no claim or warranty as to its accuracy or completeness. &nbsp; The data is for reference only and should not be considered to be of survey precision. &nbsp; DATA STEWARD: Pinellas County Utilities (727)464-4000 &nbsp; Feature Dataset:&nbsp; Utilities_ReferenceData Feature Class:&nbsp; Countwide_SSServiceProviders &nbsp; &nbsp;",
+        "itemSummary": "Utilities Countywide SS Service Providers in Pinellas County, Florida.",
+        "layerDescription": "",
+        "itemTags": [
+          "Utilities",
+          "SS Service Providers",
+          "Utilities_ReferenceData"
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "validation"
+  },
+  {
+    "id": "arcgis:24aff830c446421992e64a745d722f38:1",
+    "expected": "Utilities",
+    "metadata": {
+      "title": "UtlCountywide_SSServiceProviders",
+      "description": "Utilities Countywide SS Service Providers in Pinellas County, Florida. NOTE: This published service for Countywide SS Service Providers includes the related table. Click on the feature class or table below for the service URL. The data contained herein is offered “as is,” with no claim or warranty as to its accuracy or completeness. The data is for reference only and should not be considered to be of survey precision. DATA STEWARD: Pinellas County Utilities (727)464-4000 Feature Dataset: Utilities_ReferenceData Feature Class: Countwide_SSServiceProviders",
+      "tags": [
+        "Utilities",
+        "SS Service Providers",
+        "Utilities_ReferenceData"
+      ],
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SERVICE_PROVIDER",
+          "type": "esriFieldTypeString",
+          "alias": "SS Service Provider"
+        },
+        {
+          "name": "BILLING_AGENCY",
+          "type": "esriFieldTypeString",
+          "alias": "Billing Agency"
+        },
+        {
+          "name": "CUSTOMER_CONTACT",
+          "type": "esriFieldTypeString",
+          "alias": "Customer Service Contact Number"
+        },
+        {
+          "name": "MAINTENANCE",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance Agency"
+        },
+        {
+          "name": "MAINTENANCE_CONTACT",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance Contact Number"
+        },
+        {
+          "name": "OFFICIAL_EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "Official EMail"
+        },
+        {
+          "name": "OFFICIAL_MAILTO_ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "Official Mail To Address"
+        },
+        {
+          "name": "COMMENT",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "int_created_user",
+          "type": "esriFieldTypeString",
+          "alias": "Internal Created User"
+        },
+        {
+          "name": "int_created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Internal Created Date"
+        },
+        {
+          "name": "int_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "Internal Edited User"
+        },
+        {
+          "name": "int_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Internal Edited Date"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/24aff830c446421992e64a745d722f38",
+        "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_Countywide_SSServiceProviders/FeatureServer/1",
+        "itemDescription": "Utilities Countywide SS Service Providers in Pinellas County, Florida. NOTE:&nbsp; This published service for Countywide SS Service Providers includes the related table. Click on the feature class or table below for the service URL. The data contained herein is offered “as is,” with no claim or warranty as to its accuracy or completeness. &nbsp; The data is for reference only and should not be considered to be of survey precision. &nbsp; DATA STEWARD: Pinellas County Utilities (727)464-4000 &nbsp; Feature Dataset:&nbsp; Utilities_ReferenceData Feature Class:&nbsp; Countwide_SSServiceProviders &nbsp; &nbsp;",
+        "itemSummary": "Utilities Countywide SS Service Providers in Pinellas County, Florida.",
+        "layerDescription": "",
+        "itemTags": [
+          "Utilities",
+          "SS Service Providers",
+          "Utilities_ReferenceData"
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "tuning"
+  },
+  {
+    "id": "arcgis:3584e6549e4244eab36e664f92f3aee0:0",
+    "expected": "Hazards",
+    "metadata": {
+      "title": "S_BFE",
+      "description": "Location and attributes for Base Flood Elevations lines shown on FIRM. FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).NFHL Layer for Hillsborough County, Florida was downloaded from FEMA Flood Map Service Center (https://msc.fema.gov/portal/home) and reprojected to NAD_1983_StatePlane_Florida_West_FIPS_0902_Feet Coordinate System. Latest Study effective Date:10/07/2021 and Latest LOMR effective Date : 09/28/2026.",
+      "tags": [
+        "BFE",
+        "BASE FLOOD ELEVATION"
+      ],
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "DFIRM_ID",
+          "type": "esriFieldTypeString",
+          "alias": "DFIRM_ID"
+        },
+        {
+          "name": "VERSION_ID",
+          "type": "esriFieldTypeString",
+          "alias": "VERSION_ID"
+        },
+        {
+          "name": "BFE_LN_ID",
+          "type": "esriFieldTypeString",
+          "alias": "BFE_LN_ID"
+        },
+        {
+          "name": "ELEV",
+          "type": "esriFieldTypeDouble",
+          "alias": "ELEV"
+        },
+        {
+          "name": "LEN_UNIT",
+          "type": "esriFieldTypeString",
+          "alias": "LEN_UNIT"
+        },
+        {
+          "name": "V_DATUM",
+          "type": "esriFieldTypeString",
+          "alias": "V_DATUM"
+        },
+        {
+          "name": "SOURCE_CIT",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_CIT"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Length"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/3584e6549e4244eab36e664f92f3aee0",
+        "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/BFE_FEMA/FeatureServer/0",
+        "itemDescription": "Location and attributes for Base Flood Elevations lines shown on FIRM. FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).NFHL Layer for Hillsborough County, Florida was downloaded from FEMA Flood Map Service Center (https://msc.fema.gov/portal/home) and reprojected to NAD_1983_StatePlane_Florida_West_FIPS_0902_Feet Coordinate System. Latest Study effective Date:10/07/2021 and Latest LOMR effective Date : 09/28/2026.",
+        "itemSummary": "Location and attributes for Base Flood Elevations lines shown on FIRM. FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519). NFHL layer for Hillsborough County, Florida was downloaded from FEMA Flood Map Service Center (https://msc.fema.gov/portal/home) and reprojected to NAD_1983_StatePlane_Florida_West_FIPS_0902_Feet Coordinate System. Latest Study effective Date:10/07/2021 and Latest LOMR effective Date : 09/28/2026.",
+        "layerDescription": "Location and attributes for Base Flood Elevations lines shown on FIRM. FEMA FIRM Database Technical Reference (available in the FEMA Library at http://www.fema.gov/media-library/assets/documents/34519).NFHL Layer for Hillsborough County, Florida was downloaded from FEMA Flood Map Service Center (https://msc.fema.gov/portal/home) and reprojected to NAD_1983_StatePlane_Florida_West_FIPS_0902_Feet Coordinate System. Latest Study effective Date:10/07/2021 and Latest LOMR effective Date : 09/28/2026.",
+        "itemTags": [
+          "BFE",
+          "BASE FLOOD ELEVATION"
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "validation"
+  },
+  {
+    "id": "arcgis:3d8df529a07447d5acdfa1ddd9c8c232:0",
+    "expected": "Hazards",
+    "metadata": {
+      "title": "PCEM_CriticalFacilities",
+      "description": "This Critical Facility Inventory (CFI) helps Pinellas County Emergency Management communicate with service providers (e.g., electricity, gas, water, telecom, debris management) which facilities are highest priority for restoration during a disaster event. The CFI is updated annually by the County and then distributed to municipality emergency management coordinators, county departments, and other community partners for review. The data contained herein is offered “as is,” with no claim or warranty as to its accuracy or completeness. The data is for reference only and should not be considered to be of survey precision. DATA STEWARD: Pinellas County Emergency Management (727)464-3800 ema@pinellas.gov Feature Dataset: EmergencyManagement Feature Class: PCEM_CriticalFacilities",
+      "tags": [
+        "Emergency Management",
+        "EmergencyManagement",
+        "PCEM_CriticalFacilities",
+        "Emergency Operations Center (EOC)",
+        "Essential Goverment Facility",
+        "Fuel Depot",
+        "Human & Social Services Facility",
+        "Law Enforcements Sites",
+        "Power Substation",
+        "Solid Waste Site",
+        "Telephone Internet Broadcast Facility",
+        "Transmitter Tower",
+        "Utility Facility"
+      ],
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "Facility Type"
+        },
+        {
+          "name": "FACSUBTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Facility Subtype"
+        },
+        {
+          "name": "FACILITYID",
+          "type": "esriFieldTypeString",
+          "alias": "Facility ID"
+        },
+        {
+          "name": "FACNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Facility Name"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "City"
+        },
+        {
+          "name": "ZIP",
+          "type": "esriFieldTypeString",
+          "alias": "Zip"
+        },
+        {
+          "name": "MANAGE_ENTITY",
+          "type": "esriFieldTypeString",
+          "alias": "Managing Entity"
+        },
+        {
+          "name": "CONTACT1",
+          "type": "esriFieldTypeString",
+          "alias": "Primary Contact"
+        },
+        {
+          "name": "CONTACT2",
+          "type": "esriFieldTypeString",
+          "alias": "Secondary Contact"
+        },
+        {
+          "name": "RESTORATIONPRIORITY",
+          "type": "esriFieldTypeString",
+          "alias": "Restoration Priority"
+        },
+        {
+          "name": "RESTORATIONNOTE",
+          "type": "esriFieldTypeString",
+          "alias": "Restoration Note"
+        },
+        {
+          "name": "LATITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "LATITUDE"
+        },
+        {
+          "name": "LONGITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONGITUDE"
+        },
+        {
+          "name": "SITENOTES",
+          "type": "esriFieldTypeString",
+          "alias": "Site Notes"
+        },
+        {
+          "name": "CAPACITY",
+          "type": "esriFieldTypeString",
+          "alias": "Capacity"
+        },
+        {
+          "name": "GENERATOR",
+          "type": "esriFieldTypeString",
+          "alias": "Generator"
+        },
+        {
+          "name": "DATASOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "DATASOURCE"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "EVACZONE",
+          "type": "esriFieldTypeString",
+          "alias": "Evac Zone"
+        },
+        {
+          "name": "MUNICIPALITY",
+          "type": "esriFieldTypeString",
+          "alias": "Municipality Name"
+        },
+        {
+          "name": "LEPROVIDER",
+          "type": "esriFieldTypeString",
+          "alias": "LE Agency"
+        },
+        {
+          "name": "EMSPROVIDER",
+          "type": "esriFieldTypeString",
+          "alias": "EMS Provider"
+        },
+        {
+          "name": "EMSGRIDID",
+          "type": "esriFieldTypeString",
+          "alias": "EMS Grid ID"
+        },
+        {
+          "name": "FIREPROVIDER",
+          "type": "esriFieldTypeString",
+          "alias": "Fire Provider"
+        },
+        {
+          "name": "FIREDISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "Fire District"
+        },
+        {
+          "name": "FIREGRIDID",
+          "type": "esriFieldTypeString",
+          "alias": "Fire Grid ID"
+        },
+        {
+          "name": "WATERPROVIDER",
+          "type": "esriFieldTypeString",
+          "alias": "Water Service Provider"
+        },
+        {
+          "name": "SEWERPROVIDER",
+          "type": "esriFieldTypeString",
+          "alias": "Sewer Provider"
+        },
+        {
+          "name": "SEWERNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Sewer Basin Name"
+        },
+        {
+          "name": "SEWERBASIN",
+          "type": "esriFieldTypeString",
+          "alias": "Sewer Basin ID"
+        },
+        {
+          "name": "WASTEPROVIDER",
+          "type": "esriFieldTypeString",
+          "alias": "Solid Waste Collection Service"
+        },
+        {
+          "name": "Surge_DepthFT_Cat0",
+          "type": "esriFieldTypeDouble",
+          "alias": "CAT0 Storm Surge Depth (ft)"
+        },
+        {
+          "name": "Surge_DepthFT_Cat1",
+          "type": "esriFieldTypeDouble",
+          "alias": "CAT1 Storm Surge Depth (ft)"
+        },
+        {
+          "name": "Surge_DepthFT_Cat2",
+          "type": "esriFieldTypeDouble",
+          "alias": "CAT2 Storm Surge Depth (ft)"
+        },
+        {
+          "name": "Surge_DepthFT_Cat3",
+          "type": "esriFieldTypeDouble",
+          "alias": "CAT3 Storm Surge Depth (ft)"
+        },
+        {
+          "name": "Surge_DepthFT_Cat4",
+          "type": "esriFieldTypeDouble",
+          "alias": "CAT4 Storm Surge Depth (ft)"
+        },
+        {
+          "name": "Surge_DepthFT_Cat5",
+          "type": "esriFieldTypeDouble",
+          "alias": "CAT5 Storm Surge Depth (ft)"
+        },
+        {
+          "name": "int_created_user",
+          "type": "esriFieldTypeString",
+          "alias": "Internal Created User"
+        },
+        {
+          "name": "int_created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Internal Created Date"
+        },
+        {
+          "name": "int_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "Internal Edited User"
+        },
+        {
+          "name": "int_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Internal Edited Date"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/3d8df529a07447d5acdfa1ddd9c8c232",
+        "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_PCEM_CriticalFacilities_view/FeatureServer/0",
+        "itemDescription": "This Critical Facility Inventory (CFI) helps Pinellas County Emergency Management communicate with service providers (e.g., electricity, gas, water, telecom, debris management) which facilities are highest priority for restoration during a disaster event. The CFI is updated annually by the County and then distributed to municipality emergency management coordinators, county departments, and other community partners for review. The data contained herein is offered “as is,” with no claim or warranty as to its accuracy or completeness. &nbsp; The data is for reference only and should not be considered to be of survey precision. &nbsp; DATA STEWARD: Pinellas County Emergency Management (727)464-3800 ema@pinellas.gov &nbsp; Feature Dataset:&nbsp; EmergencyManagement Feature Class:&nbsp; PCEM_CriticalFacilities",
+        "itemSummary": "Critical facilities and sensitive sites for Pinellas County Emergency Management. Data were compiled from county departments, municipalities, and partnering agencies.",
+        "layerDescription": "",
+        "itemTags": [
+          "Emergency Management",
+          "EmergencyManagement",
+          "PCEM_CriticalFacilities",
+          "Emergency Operations Center (EOC)",
+          "Essential Goverment Facility",
+          "Fuel Depot",
+          "Human & Social Services Facility",
+          "Law Enforcements Sites",
+          "Power Substation",
+          "Solid Waste Site",
+          "Telephone Internet Broadcast Facility",
+          "Transmitter Tower",
+          "Utility Facility"
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "tuning"
+  },
+  {
+    "id": "arcgis:706e98c1b3b343ae8c6714fa86ad9510:0",
+    "expected": "Transportation",
+    "metadata": {
+      "title": "SchoolsSidewalks",
+      "description": null,
+      "tags": [
+        ""
+      ],
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "FACILITYID",
+          "type": "esriFieldTypeString",
+          "alias": "FACILITYID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "SCHOOLTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOLTYPE"
+        },
+        {
+          "name": "MUNICIPALI",
+          "type": "esriFieldTypeString",
+          "alias": "MUNICIPALI"
+        },
+        {
+          "name": "ADDRNUM",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRNUM"
+        },
+        {
+          "name": "ADDRSTREET",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRSTREET"
+        },
+        {
+          "name": "ZIP",
+          "type": "esriFieldTypeString",
+          "alias": "ZIP"
+        },
+        {
+          "name": "ENROLLMENT",
+          "type": "esriFieldTypeString",
+          "alias": "ENROLLMENT"
+        },
+        {
+          "name": "TAZ",
+          "type": "esriFieldTypeString",
+          "alias": "TAZ"
+        },
+        {
+          "name": "ELEMENTARY",
+          "type": "esriFieldTypeString",
+          "alias": "ELEMENTARY"
+        },
+        {
+          "name": "MIDDLE",
+          "type": "esriFieldTypeString",
+          "alias": "MIDDLE"
+        },
+        {
+          "name": "HIGH",
+          "type": "esriFieldTypeString",
+          "alias": "HIGH"
+        },
+        {
+          "name": "FUNDAMENTA",
+          "type": "esriFieldTypeString",
+          "alias": "FUNDAMENTA"
+        },
+        {
+          "name": "CHARTER",
+          "type": "esriFieldTypeString",
+          "alias": "CHARTER"
+        },
+        {
+          "name": "SCHOOLGRAD",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOLGRAD"
+        },
+        {
+          "name": "SCHOOLNUMB",
+          "type": "esriFieldTypeInteger",
+          "alias": "SCHOOLNUMB"
+        },
+        {
+          "name": "MAILINGADD",
+          "type": "esriFieldTypeString",
+          "alias": "MAILINGADD"
+        },
+        {
+          "name": "MAILINGA_1",
+          "type": "esriFieldTypeString",
+          "alias": "MAILINGA_1"
+        },
+        {
+          "name": "MAILINGCIT",
+          "type": "esriFieldTypeString",
+          "alias": "MAILINGCIT"
+        },
+        {
+          "name": "MAILINGSTA",
+          "type": "esriFieldTypeString",
+          "alias": "MAILINGSTA"
+        },
+        {
+          "name": "MAILINGZIP",
+          "type": "esriFieldTypeString",
+          "alias": "MAILINGZIP"
+        },
+        {
+          "name": "DIRECTOR",
+          "type": "esriFieldTypeString",
+          "alias": "DIRECTOR"
+        },
+        {
+          "name": "PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "PHONE"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "SCHOOLLINK",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOLLINK"
+        },
+        {
+          "name": "HASGENERAT",
+          "type": "esriFieldTypeString",
+          "alias": "HASGENERAT"
+        },
+        {
+          "name": "ONEVACROUT",
+          "type": "esriFieldTypeString",
+          "alias": "ONEVACROUT"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeString",
+          "alias": "GLOBALID"
+        },
+        {
+          "name": "PRE_K",
+          "type": "esriFieldTypeString",
+          "alias": "PRE_K"
+        },
+        {
+          "name": "OTHER",
+          "type": "esriFieldTypeString",
+          "alias": "OTHER"
+        },
+        {
+          "name": "SCHOOLE_MA",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOLE_MA"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "TOTALPERM",
+          "type": "esriFieldTypeInteger",
+          "alias": "TOTALPERM"
+        },
+        {
+          "name": "TOTALSAT",
+          "type": "esriFieldTypeInteger",
+          "alias": "TOTALSAT"
+        },
+        {
+          "name": "CREATED_US",
+          "type": "esriFieldTypeString",
+          "alias": "CREATED_US"
+        },
+        {
+          "name": "CREATED_DA",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATED_DA"
+        },
+        {
+          "name": "GLOBALID_1",
+          "type": "esriFieldTypeString",
+          "alias": "GLOBALID_1"
+        },
+        {
+          "name": "LAST_EDITE",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_EDITE"
+        },
+        {
+          "name": "LAST_EDI_1",
+          "type": "esriFieldTypeDate",
+          "alias": "LAST_EDI_1"
+        },
+        {
+          "name": "CreationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreationDate"
+        },
+        {
+          "name": "Creator",
+          "type": "esriFieldTypeString",
+          "alias": "Creator"
+        },
+        {
+          "name": "EditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "EditDate"
+        },
+        {
+          "name": "Editor",
+          "type": "esriFieldTypeString",
+          "alias": "Editor"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/706e98c1b3b343ae8c6714fa86ad9510",
+        "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/SidewalksProject/FeatureServer/0",
+        "itemDescription": "",
+        "itemSummary": "",
+        "layerDescription": "",
+        "itemTags": [
+          ""
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "validation"
+  },
+  {
+    "id": "arcgis:706e98c1b3b343ae8c6714fa86ad9510:1",
+    "expected": "Transportation",
+    "metadata": {
+      "title": "SchoolsSidewalksParcels",
+      "description": null,
+      "tags": [
+        ""
+      ],
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "RG",
+          "type": "esriFieldTypeString",
+          "alias": "RG"
+        },
+        {
+          "name": "TW",
+          "type": "esriFieldTypeString",
+          "alias": "TW"
+        },
+        {
+          "name": "SC",
+          "type": "esriFieldTypeString",
+          "alias": "SC"
+        },
+        {
+          "name": "SB",
+          "type": "esriFieldTypeString",
+          "alias": "SB"
+        },
+        {
+          "name": "BK",
+          "type": "esriFieldTypeString",
+          "alias": "BK"
+        },
+        {
+          "name": "LOT",
+          "type": "esriFieldTypeString",
+          "alias": "LOT"
+        },
+        {
+          "name": "PARCELSUBT",
+          "type": "esriFieldTypeDouble",
+          "alias": "PARCELSUBT"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "SUBSURFACE",
+          "type": "esriFieldTypeString",
+          "alias": "SUBSURFACE"
+        },
+        {
+          "name": "PARCELNO",
+          "type": "esriFieldTypeString",
+          "alias": "PARCELNO"
+        },
+        {
+          "name": "PARCEL_ID",
+          "type": "esriFieldTypeString",
+          "alias": "PARCEL_ID"
+        },
+        {
+          "name": "STRAP",
+          "type": "esriFieldTypeString",
+          "alias": "STRAP"
+        },
+        {
+          "name": "PARCELID",
+          "type": "esriFieldTypeString",
+          "alias": "PARCELID"
+        },
+        {
+          "name": "REDACT",
+          "type": "esriFieldTypeString",
+          "alias": "REDACT"
+        },
+        {
+          "name": "CREATED_US",
+          "type": "esriFieldTypeString",
+          "alias": "CREATED_US"
+        },
+        {
+          "name": "CREATED_DA",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATED_DA"
+        },
+        {
+          "name": "LAST_EDITE",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_EDITE"
+        },
+        {
+          "name": "LAST_EDI_1",
+          "type": "esriFieldTypeDate",
+          "alias": "LAST_EDI_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Join_Count",
+          "type": "esriFieldTypeInteger",
+          "alias": "Join_Count"
+        },
+        {
+          "name": "TARGET_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "TARGET_FID"
+        },
+        {
+          "name": "FACILITYID",
+          "type": "esriFieldTypeString",
+          "alias": "FACILITYID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "SCHOOLTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOLTYPE"
+        },
+        {
+          "name": "MUNICIPALI",
+          "type": "esriFieldTypeString",
+          "alias": "MUNICIPALI"
+        },
+        {
+          "name": "ADDRNUM",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRNUM"
+        },
+        {
+          "name": "ADDRSTREET",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRSTREET"
+        },
+        {
+          "name": "ZIP",
+          "type": "esriFieldTypeString",
+          "alias": "ZIP"
+        },
+        {
+          "name": "ENROLLMENT",
+          "type": "esriFieldTypeString",
+          "alias": "ENROLLMENT"
+        },
+        {
+          "name": "TAZ",
+          "type": "esriFieldTypeString",
+          "alias": "TAZ"
+        },
+        {
+          "name": "ELEMENTARY",
+          "type": "esriFieldTypeString",
+          "alias": "ELEMENTARY"
+        },
+        {
+          "name": "MIDDLE",
+          "type": "esriFieldTypeString",
+          "alias": "MIDDLE"
+        },
+        {
+          "name": "HIGH",
+          "type": "esriFieldTypeString",
+          "alias": "HIGH"
+        },
+        {
+          "name": "FUNDAMENTA",
+          "type": "esriFieldTypeString",
+          "alias": "FUNDAMENTA"
+        },
+        {
+          "name": "CHARTER",
+          "type": "esriFieldTypeString",
+          "alias": "CHARTER"
+        },
+        {
+          "name": "SCHOOLGRAD",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOLGRAD"
+        },
+        {
+          "name": "SCHOOLNUMB",
+          "type": "esriFieldTypeInteger",
+          "alias": "SCHOOLNUMB"
+        },
+        {
+          "name": "MAILINGADD",
+          "type": "esriFieldTypeString",
+          "alias": "MAILINGADD"
+        },
+        {
+          "name": "MAILINGA_1",
+          "type": "esriFieldTypeString",
+          "alias": "MAILINGA_1"
+        },
+        {
+          "name": "MAILINGCIT",
+          "type": "esriFieldTypeString",
+          "alias": "MAILINGCIT"
+        },
+        {
+          "name": "MAILINGSTA",
+          "type": "esriFieldTypeString",
+          "alias": "MAILINGSTA"
+        },
+        {
+          "name": "MAILINGZIP",
+          "type": "esriFieldTypeString",
+          "alias": "MAILINGZIP"
+        },
+        {
+          "name": "DIRECTOR",
+          "type": "esriFieldTypeString",
+          "alias": "DIRECTOR"
+        },
+        {
+          "name": "PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "PHONE"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "SCHOOLLINK",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOLLINK"
+        },
+        {
+          "name": "HASGENERAT",
+          "type": "esriFieldTypeString",
+          "alias": "HASGENERAT"
+        },
+        {
+          "name": "ONEVACROUT",
+          "type": "esriFieldTypeString",
+          "alias": "ONEVACROUT"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeString",
+          "alias": "GLOBALID"
+        },
+        {
+          "name": "PRE_K",
+          "type": "esriFieldTypeString",
+          "alias": "PRE_K"
+        },
+        {
+          "name": "OTHER",
+          "type": "esriFieldTypeString",
+          "alias": "OTHER"
+        },
+        {
+          "name": "SCHOOLE_MA",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOLE_MA"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "TOTALPERM",
+          "type": "esriFieldTypeInteger",
+          "alias": "TOTALPERM"
+        },
+        {
+          "name": "TOTALSAT",
+          "type": "esriFieldTypeInteger",
+          "alias": "TOTALSAT"
+        },
+        {
+          "name": "CREATED__1",
+          "type": "esriFieldTypeString",
+          "alias": "CREATED__1"
+        },
+        {
+          "name": "CREATED__2",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATED__2"
+        },
+        {
+          "name": "GLOBALID_1",
+          "type": "esriFieldTypeString",
+          "alias": "GLOBALID_1"
+        },
+        {
+          "name": "LAST_EDI_2",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_EDI_2"
+        },
+        {
+          "name": "LAST_EDI_3",
+          "type": "esriFieldTypeDate",
+          "alias": "LAST_EDI_3"
+        },
+        {
+          "name": "SHAPE_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Leng"
+        },
+        {
+          "name": "CreationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreationDate"
+        },
+        {
+          "name": "Creator",
+          "type": "esriFieldTypeString",
+          "alias": "Creator"
+        },
+        {
+          "name": "EditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "EditDate"
+        },
+        {
+          "name": "Editor",
+          "type": "esriFieldTypeString",
+          "alias": "Editor"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Length"
+        }
+      ],
+      "category_metadata": {
+        "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/706e98c1b3b343ae8c6714fa86ad9510",
+        "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/SidewalksProject/FeatureServer/1",
+        "itemDescription": "",
+        "itemSummary": "",
+        "layerDescription": "",
+        "itemTags": [
+          ""
+        ],
+        "checkedOn": "2026-11-10"
+      },
+      "source_category": null
+    },
+    "split": "validation"
+  }
+]

@@ -38,8 +38,26 @@ export const datasetSchema = z
     coverage: z.string().nullable(),
     category: z.string().nullable(),
     source_category: z.string().nullable().optional(),
+    category_metadata: z
+      .object({
+        itemUrl: z.string(),
+        layerUrl: z.string(),
+        itemDescription: z.string(),
+        itemSummary: z.string(),
+        layerDescription: z.string(),
+        itemTags: z.array(z.string()),
+        checkedOn: z.string(),
+      })
+      .optional(),
     category_source: z
-      .enum(["override", "curated", "publisher", "nlp", "uncategorized"])
+      .enum([
+        "override",
+        "curated",
+        "publisher",
+        "nlp",
+        "semantic",
+        "uncategorized",
+      ])
       .optional(),
     category_confidence: z.enum(["high", "medium", "low"]).optional(),
     category_version: z.string().optional(),

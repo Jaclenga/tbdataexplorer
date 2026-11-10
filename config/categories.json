@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.3",
   "minimumScore": 6,
   "minimumMargin": 2,
   "highScore": 12,
@@ -9,16 +9,19 @@
   "weights": {
     "titleKeyword": 8,
     "titlePhrase": 12,
+    "titlePhraseExtraWord": 4,
     "tags": 3,
     "description": 1,
     "source_category": 2,
-    "fields": 1
+    "fields": 1,
+    "parent_context": 0.5
   },
   "fieldCaps": {
     "tags": 6,
     "description": 2,
     "source_category": 4,
-    "fields": 2
+    "fields": 2,
+    "parent_context": 1
   },
   "stopwords": [
     "the",
@@ -57,6 +60,7 @@
   },
   "categories": {
     "Transportation": {
+      "contextPhrases": ["transportation improvement projects"],
       "keywords": [
         "road",
         "street",
@@ -67,7 +71,11 @@
         "traffic",
         "roadway",
         "transportation",
-        "route"
+        "route",
+        "airport",
+        "runway",
+        "pavement",
+        "parking"
       ],
       "phrases": [
         "bike lane",
@@ -76,36 +84,58 @@
         "speed limit",
         "high injury network",
         "road centerline",
-        "truck route"
+        "truck route",
+        "bus stops",
+        "hart stops",
+        "sunrunner stations",
+        "micro mobility",
+        "right of way",
+        "school sidewalk"
       ]
     },
     "Development": {
+      "contextPhrases": [
+        "during the permiting process",
+        "code enforcement cases"
+      ],
       "keywords": [
         "permit",
         "construction",
         "parcel",
         "development",
-        "building"
+        "building",
+        "subdivision"
       ],
       "phrases": [
         "building permit",
         "development coordination",
         "regional impact",
         "property information",
-        "capital construction"
+        "capital construction",
+        "code enforcement",
+        "code compliance",
+        "site address point",
+        "city owned property"
       ]
     },
     "Planning": {
+      "contextPhrases": ["current and adopted zoning districts"],
       "keywords": ["zoning", "redevelopment", "planning", "landmark"],
       "phrases": [
         "land use",
         "historic district",
         "countywide plan",
-        "historic landmark"
+        "historic landmark",
+        "opportunity zone",
+        "employment center",
+        "enterprise zone",
+        "activity center",
+        "future landuse"
       ],
       "requiresTitle": true
     },
     "Housing": {
+      "contextPhrases": ["single family developer incentives"],
       "keywords": [
         "housing",
         "household",
@@ -118,17 +148,35 @@
         "housing unit",
         "housing affordability",
         "mobile home",
-        "residential rehab"
+        "residential rehab",
+        "multi family",
+        "multi familyprojects",
+        "owner occupied units",
+        "renter occupied units",
+        "neighborhood stabilization",
+        "rehab assistance",
+        "roof replacement",
+        "accessory dwelling unit"
       ]
     },
     "Environment": {
+      "contextPhrases": [
+        "feature class of lakes",
+        "land use land cover",
+        "environmental lands acquisition",
+        "environmental lands acquisition and management"
+      ],
       "keywords": [
         "wetland",
         "habitat",
         "conservation",
         "river",
         "environment",
-        "ecology"
+        "ecology",
+        "mangrove",
+        "seagrass",
+        "coastline",
+        "brownfield"
       ],
       "phrases": [
         "water quality",
@@ -136,10 +184,12 @@
         "conservation easement",
         "natural resource",
         "lake water",
-        "lake habitat"
+        "lake habitat",
+        "living shoreline"
       ]
     },
     "Infrastructure": {
+      "contextPhrases": ["adopt a drain"],
       "keywords": [
         "stormwater",
         "drainage",
@@ -147,7 +197,8 @@
         "infrastructure",
         "bridge",
         "riverwalk",
-        "weir"
+        "weir",
+        "streetlight"
       ],
       "phrases": [
         "public works",
@@ -155,34 +206,48 @@
         "data center",
         "storm water",
         "drop structure",
-        "open channel"
+        "open channel",
+        "adopt a drain"
       ]
     },
     "Utilities": {
+      "contextPhrases": ["atlas sheet index with utility"],
       "keywords": [
         "sewer",
         "wastewater",
         "hydrant",
         "utility",
         "main",
-        "valve"
+        "valve",
+        "septic",
+        "potable",
+        "reclaimed",
+        "backflow"
       ],
       "phrases": [
         "water service",
         "water main",
         "pump station",
         "water distribution",
-        "sewer system"
+        "water control valve",
+        "ss service providers",
+        "water system valve",
+        "sewer system",
+        "reclaim service area",
+        "cathodic protection"
       ]
     },
     "Public safety": {
-      "keywords": ["police", "fire", "crime", "crash", "safety"],
+      "contextPhrases": ["emergency response and recovery"],
+      "keywords": ["police", "fire", "crime", "crash", "safety", "shooting"],
       "phrases": [
         "emergency response",
         "fire station",
         "fire district",
         "police district",
-        "law enforcement"
+        "law enforcement",
+        "ems response zones",
+        "field interviews"
       ]
     },
     "Recreation": {
@@ -197,15 +262,25 @@
       "phrases": ["park trail", "recreation facility", "bicycle trail"]
     },
     "Hazards": {
+      "contextPhrases": [
+        "flood risk assessment",
+        "restoration during a disaster event",
+        "emergency management shelters",
+        "coastal high hazard boundary",
+        "limwa parcels"
+      ],
       "keywords": [
         "flood",
+        "flooding",
         "evacuation",
         "surge",
         "vulnerability",
         "resilience",
         "resiliency",
         "hurricane",
-        "evac"
+        "evac",
+        "sinkhole",
+        "limwa"
       ],
       "phrases": [
         "storm surge",
@@ -215,48 +290,93 @@
         "flood plain",
         "flood extent",
         "critical asset",
-        "evac route"
+        "evac route",
+        "moderate wave action",
+        "coastal high hazard",
+        "repetitive loss",
+        "firm panels",
+        "base flood elevation"
       ]
     },
     "Boundaries": {
+      "contextPhrases": [
+        "special districts within",
+        "county boundary with local city boundaries"
+      ],
       "keywords": ["boundary", "annexation"],
       "phrases": [
         "council district",
         "city limit",
         "administrative boundary",
         "neighborhood association",
-        "regional boundary"
+        "regional boundary",
+        "state senate districts",
+        "state house districts",
+        "zip codes",
+        "zip usps"
       ]
     },
     "Solid waste": {
       "keywords": ["recycling", "garbage", "trash", "refuse"],
-      "phrases": ["solid waste", "waste collection", "recycling pickup"]
+      "phrases": [
+        "solid waste",
+        "waste collection",
+        "recycling pickup",
+        "yard waste",
+        "sweep pickup"
+      ]
     },
     "Public facilities": {
-      "keywords": ["library", "school", "cemetery"],
+      "keywords": [
+        "library",
+        "school",
+        "cemetery",
+        "museum",
+        "theater",
+        "theatre"
+      ],
       "phrases": ["public facility", "community center", "civic center"]
     },
     "Health": {
-      "keywords": ["hospital", "clinic", "health", "epidemiology"],
+      "keywords": [
+        "hospital",
+        "clinic",
+        "health",
+        "epidemiology",
+        "pharmacy",
+        "healthcare"
+      ],
       "phrases": [
         "public health",
         "health care",
         "food inspection",
-        "health department"
+        "health department",
+        "mobile medical",
+        "human services"
       ]
     },
     "Demographics": {
+      "contextPhrases": ["median household income"],
       "keywords": ["census", "population", "demographic", "ethnicity"],
       "phrases": [
         "census tract",
         "census block",
         "median age",
-        "population density"
+        "population density",
+        "area median income"
       ]
     },
     "Government": {
       "keywords": ["election", "budget", "ballot", "precinct", "voter"],
-      "phrases": ["voting precinct", "government spending", "public finance"]
+      "phrases": [
+        "voting precinct",
+        "government spending",
+        "public finance",
+        "employee phone number directory",
+        "assessed value",
+        "taxable value",
+        "homestead exemption"
+      ]
     }
   }
 }

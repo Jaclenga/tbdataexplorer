@@ -2,7 +2,7 @@
 import { readFile, writeFile, rename, mkdir } from "node:fs/promises";
 import { parseCatalog } from "../src/services/catalog";
 import { discoverySchema } from "../src/services/discovery/types";
-import { categorizeReport } from "../src/services/discovery/classify-catalog";
+import { categorizeWithSemantic } from "./semantic-categorization";
 import { validateIndex } from "../src/server/discovery-index";
 const previous = discoverySchema.parse(
   JSON.parse(await readFile("public/discovery.json", "utf8")),
@@ -10,7 +10,7 @@ const previous = discoverySchema.parse(
 const curated = parseCatalog(
   JSON.parse(await readFile("public/catalog.json", "utf8")),
 ).datasets;
-const classified = categorizeReport(previous, curated, previous, false);
+const classified = await categorizeWithSemantic(previous, curated, previous, false);
 const report = validateIndex(classified.report);
 const content = JSON.stringify(report, null, 2) + "\n";
 if (JSON.stringify(previous) !== JSON.stringify(report)) {

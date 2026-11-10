@@ -20,7 +20,7 @@ const correct = rows.filter((row) => row.correct).length;
 const report = {
   version: categoryConfig.version,
   methodology:
-    "Development evaluation: 52 existing curated labels plus 19 manually reviewed real discovered records. Title, description, tags and fields only; category withheld to prevent label leakage. This small development set is not an independent holdout or a population accuracy estimate. Confidence tiers are not probabilities.",
+    "Development evaluation: 52 existing curated labels plus 33 manually reviewed real discovered records. Title, description, tags and fields only; category withheld to prevent label leakage. This small development set is not an independent holdout or a population accuracy estimate. Confidence tiers are not probabilities.",
   total: rows.length,
   correct,
   accuracy: correct / rows.length,

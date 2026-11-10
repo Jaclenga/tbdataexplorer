@@ -2,7 +2,7 @@ name: Verify upstream catalog generation
 on:
   workflow_dispatch:
   pull_request:
-    paths: ['scripts/**', 'src/types/**', 'public/catalog.json', '.github/workflows/catalog.yml']
+    paths: ['scripts/**', 'src/types/**', 'src/services/discovery/**', 'config/*categor*.json', 'public/catalog.json', '.github/workflows/catalog.yml']
   schedule:
     - cron: '0 12 * * 1'
 permissions:
@@ -22,7 +22,15 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+      - uses: actions/cache@v4
+        with:
+          path: .wrangler/models
+          key: semantic-model-${{ runner.os }}-${{ hashFiles('config/semantic-categories.json') }}
       - run: npm run catalog:generate
+      - name: Categorize generated catalog metadata with NLP
+        run: npm run catalog:categorize
+      - run: npm run category:semantic:evaluate -- --check
+      - run: npm run discovery:validate
       - run: npm run catalog:validate
       - name: Detect upstream changes requiring review
         run: |
@@ -31,4 +39,12 @@ jobs:
         if: always()
         with:
           name: generated-catalog
-          path: public/catalog.json
+          path: |
+            public/catalog.json
+            public/discovery.json
+            reports/category-review.json
+            reports/category-semantic-review.json
+            reports/category-semantic-cache.json
+            reports/category-semantic-evaluation.json
+            reports/category-enrichment.json
+            reports/category-triage.json

@@ -1,0 +1,26 @@
+{
+  "version": "2",
+  "scoring": "entailment-softmax-including-neutral",
+  "model": "Xenova/nli-deberta-v3-xsmall",
+  "revision": "2a4f614a701367a02d51389039afc998faeda637",
+  "minimumScore": 0.85,
+  "minimumMargin": 0.2,
+  "categories": {
+    "Transportation": "roads, sidewalks, cycling, transit, traffic, airports and transportation networks",
+    "Development": "building permits, construction, property parcels and development projects",
+    "Planning": "zoning, land use policy, comprehensive plans, planning districts and redevelopment",
+    "Housing": "housing availability, affordability, residential units and housing assistance",
+    "Environment": "natural habitats, conservation, wetlands, ecosystems and environmental water quality",
+    "Infrastructure": "stormwater drainage, culverts, bridges and public works infrastructure",
+    "Utilities": "drinking water supply, wastewater treatment, sewer networks, water pipes and valves",
+    "Public safety": "police, firefighting, crime, emergency response and public safety",
+    "Recreation": "parks, trails, playgrounds, sports and recreation facilities",
+    "Hazards": "floods, hurricanes, evacuation, storm surge and disaster risk",
+    "Boundaries": "administrative boundaries, municipal limits, neighborhoods and legislative districts",
+    "Solid waste": "garbage collection, recycling, refuse and solid waste disposal",
+    "Public facilities": "schools, libraries, museums, theaters, cemeteries and civic facilities",
+    "Health": "healthcare, hospitals, clinics, public health and medical services",
+    "Demographics": "population, census statistics, age, ethnicity and demographic characteristics",
+    "Government": "government administration, elections, public budgets, taxation and public finance"
+  }
+}
