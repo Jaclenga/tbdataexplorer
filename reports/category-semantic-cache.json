@@ -65,6 +65,336 @@
       "score": 0.0037838425559708643
     }
   ],
+  "0581580516f86a24792891dd3d5df64502e4f84ab47e986829c50edb8695d4a4": [
+    {
+      "category": "Boundaries",
+      "score": 0.01351069407645123
+    },
+    {
+      "category": "Recreation",
+      "score": 0.0046340610819614846
+    },
+    {
+      "category": "Transportation",
+      "score": 0.003391163665023398
+    },
+    {
+      "category": "Public safety",
+      "score": 0.003366108487131016
+    },
+    {
+      "category": "Planning",
+      "score": 0.0033411127699318334
+    },
+    {
+      "category": "Housing",
+      "score": 0.0030892637456672077
+    },
+    {
+      "category": "Health",
+      "score": 0.0027663970573404756
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.0022648700715068738
+    },
+    {
+      "category": "Environment",
+      "score": 0.0021876627148109786
+    },
+    {
+      "category": "Development",
+      "score": 0.0018426440413194726
+    },
+    {
+      "category": "Government",
+      "score": 0.0017941208518606497
+    },
+    {
+      "category": "Demographics",
+      "score": 0.001762927956255213
+    },
+    {
+      "category": "Utilities",
+      "score": 0.001692968931176466
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.0014977910511729214
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.0012780032912976923
+    },
+    {
+      "category": "Hazards",
+      "score": 0.0011960892159609189
+    }
+  ],
+  "086de4b2b53e7a1fd66635b845dd5b7a19c4184a7ba9b7375752ed6524befdea": [
+    {
+      "category": "Planning",
+      "score": 0.7733903365627519
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.7510189041877348
+    },
+    {
+      "category": "Environment",
+      "score": 0.7212005073563182
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.6755406572293073
+    },
+    {
+      "category": "Housing",
+      "score": 0.6425056542487597
+    },
+    {
+      "category": "Health",
+      "score": 0.6345215015430927
+    },
+    {
+      "category": "Development",
+      "score": 0.6027402282979365
+    },
+    {
+      "category": "Utilities",
+      "score": 0.5071534894492221
+    },
+    {
+      "category": "Recreation",
+      "score": 0.49975505545820686
+    },
+    {
+      "category": "Government",
+      "score": 0.4663626247836797
+    },
+    {
+      "category": "Transportation",
+      "score": 0.3494601277047368
+    },
+    {
+      "category": "Public safety",
+      "score": 0.3399163443012072
+    },
+    {
+      "category": "Demographics",
+      "score": 0.21246152918245573
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.20547585926587703
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.133720585317649
+    },
+    {
+      "category": "Hazards",
+      "score": 0.006788267913768555
+    }
+  ],
+  "092b7c9e69627a792d1bbb7a18b3e7f6fd4feced820c781c90857c522dae86b4": [
+    {
+      "category": "Infrastructure",
+      "score": 0.2852855933009932
+    },
+    {
+      "category": "Health",
+      "score": 0.13702869194706307
+    },
+    {
+      "category": "Utilities",
+      "score": 0.12784351432889599
+    },
+    {
+      "category": "Development",
+      "score": 0.06273447449947586
+    },
+    {
+      "category": "Housing",
+      "score": 0.04258250513521624
+    },
+    {
+      "category": "Planning",
+      "score": 0.041631743790436146
+    },
+    {
+      "category": "Environment",
+      "score": 0.03939294457702058
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.020506702740364192
+    },
+    {
+      "category": "Recreation",
+      "score": 0.013895093354337577
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0067723000216542905
+    },
+    {
+      "category": "Government",
+      "score": 0.005471582943612571
+    },
+    {
+      "category": "Demographics",
+      "score": 0.0032051409398551126
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.002941914184104885
+    },
+    {
+      "category": "Hazards",
+      "score": 0.002060128003188691
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.0016659693097221223
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0013336454891969714
+    }
+  ],
+  "0a3e3d6e416e3a305d40838defdf22ee6efb9742c097fe44b6bdd1ffd10892ab": [
+    {
+      "category": "Public safety",
+      "score": 0.002323683571199456
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.0019930156619019077
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.0019234578179263026
+    },
+    {
+      "category": "Utilities",
+      "score": 0.0013644516897865142
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.001214880492878217
+    },
+    {
+      "category": "Health",
+      "score": 0.0011870306081583992
+    },
+    {
+      "category": "Environment",
+      "score": 0.0011601330742770923
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0011094292009492068
+    },
+    {
+      "category": "Demographics",
+      "score": 0.0010278885692793843
+    },
+    {
+      "category": "Recreation",
+      "score": 0.0008914795935099719
+    },
+    {
+      "category": "Hazards",
+      "score": 0.0008678613547226822
+    },
+    {
+      "category": "Development",
+      "score": 0.0007922827989236404
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.0006904080397373962
+    },
+    {
+      "category": "Planning",
+      "score": 0.0006513788601743084
+    },
+    {
+      "category": "Housing",
+      "score": 0.0005097406153353978
+    },
+    {
+      "category": "Government",
+      "score": 0.0005013267448875911
+    }
+  ],
+  "0b02fa08b0d4a1596eab294d4f57dfb2ff41dbf657690065e443e98ed46db252": [
+    {
+      "category": "Environment",
+      "score": 0.6712720997553017
+    },
+    {
+      "category": "Housing",
+      "score": 0.33746124120422244
+    },
+    {
+      "category": "Health",
+      "score": 0.30887868005486196
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.29902238791910196
+    },
+    {
+      "category": "Planning",
+      "score": 0.24442609268844187
+    },
+    {
+      "category": "Utilities",
+      "score": 0.208693123128264
+    },
+    {
+      "category": "Government",
+      "score": 0.15707056313537474
+    },
+    {
+      "category": "Recreation",
+      "score": 0.15521103088770555
+    },
+    {
+      "category": "Development",
+      "score": 0.14665361852399494
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.12669857092438133
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.09760555816833871
+    },
+    {
+      "category": "Demographics",
+      "score": 0.07487990497308407
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.07412081705836993
+    },
+    {
+      "category": "Transportation",
+      "score": 0.05036404789013414
+    },
+    {
+      "category": "Public safety",
+      "score": 0.016697775130547016
+    },
+    {
+      "category": "Hazards",
+      "score": 0.003497008507800052
+    }
+  ],
   "0c569618b03affc295eafda2cc00980d9fe72143efa35995360ddcb06a04729d": [
     {
       "category": "Housing",
@@ -131,6 +461,72 @@
       "score": 0.004239871915024067
     }
   ],
+  "0d179fc1cf9036cd34e5c6887dd2e14604ce270f668340abb2dd0c31a3de5491": [
+    {
+      "category": "Health",
+      "score": 0.365295003543683
+    },
+    {
+      "category": "Development",
+      "score": 0.1494465269741029
+    },
+    {
+      "category": "Environment",
+      "score": 0.10887407459759647
+    },
+    {
+      "category": "Planning",
+      "score": 0.07833512212697265
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.07335301715517538
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.045228782482546366
+    },
+    {
+      "category": "Housing",
+      "score": 0.03935332372531693
+    },
+    {
+      "category": "Government",
+      "score": 0.03622285227182935
+    },
+    {
+      "category": "Recreation",
+      "score": 0.025097633222302105
+    },
+    {
+      "category": "Demographics",
+      "score": 0.02372916462696292
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.017847008150475095
+    },
+    {
+      "category": "Utilities",
+      "score": 0.011933471745514002
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.01112755695651231
+    },
+    {
+      "category": "Public safety",
+      "score": 0.006872998846554279
+    },
+    {
+      "category": "Transportation",
+      "score": 0.004387608715404116
+    },
+    {
+      "category": "Hazards",
+      "score": 0.0012902211106788919
+    }
+  ],
   "12c9b18c4a21e7bbb9c8b8dae60d31fe787ab710e6e3432bc849603445868834": [
     {
       "category": "Housing",
@@ -195,72 +591,6 @@
     {
       "category": "Public facilities",
       "score": 0.005427951437360096
-    }
-  ],
-  "13f55cc8f36a6492ec3d6213aa71410b62665cc7d32cf3a4ade3ea309c959239": [
-    {
-      "category": "Health",
-      "score": 0.8041685425111327
-    },
-    {
-      "category": "Planning",
-      "score": 0.7337278219698401
-    },
-    {
-      "category": "Development",
-      "score": 0.6807727708472613
-    },
-    {
-      "category": "Environment",
-      "score": 0.6442279962283295
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.41673773370718925
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.4005183649374447
-    },
-    {
-      "category": "Housing",
-      "score": 0.3845355628069156
-    },
-    {
-      "category": "Transportation",
-      "score": 0.3570787537710219
-    },
-    {
-      "category": "Utilities",
-      "score": 0.33512588341817073
-    },
-    {
-      "category": "Recreation",
-      "score": 0.3006032998890804
-    },
-    {
-      "category": "Public safety",
-      "score": 0.28723422565143464
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.22508534330972096
-    },
-    {
-      "category": "Government",
-      "score": 0.18271778923183996
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.10920792641565752
-    },
-    {
-      "category": "Demographics",
-      "score": 0.05060170722373916
-    },
-    {
-      "category": "Hazards",
-      "score": 0.04452737088175684
     }
   ],
   "149c81943e313c40b1c6eee60d6f4c3a4fbc60fd55bbf562c2e7e2641fc07761": [
@@ -461,72 +791,6 @@
       "score": 0.961419116907045
     }
   ],
-  "184eaba7c8a7693d483242fc1c99542c6833e00238aa00f87bc08203f98a1995": [
-    {
-      "category": "Boundaries",
-      "score": 0.9268189263432439
-    },
-    {
-      "category": "Demographics",
-      "score": 0.9268189263432439
-    },
-    {
-      "category": "Development",
-      "score": 0.9268189263432439
-    },
-    {
-      "category": "Environment",
-      "score": 0.9268189263432439
-    },
-    {
-      "category": "Government",
-      "score": 0.9268189263432439
-    },
-    {
-      "category": "Hazards",
-      "score": 0.9268189263432439
-    },
-    {
-      "category": "Health",
-      "score": 0.9268189263432439
-    },
-    {
-      "category": "Housing",
-      "score": 0.9268189263432439
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.9268189263432439
-    },
-    {
-      "category": "Planning",
-      "score": 0.9268189263432439
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.9268189263432439
-    },
-    {
-      "category": "Public safety",
-      "score": 0.9268189263432439
-    },
-    {
-      "category": "Recreation",
-      "score": 0.9268189263432439
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.9268189263432439
-    },
-    {
-      "category": "Transportation",
-      "score": 0.9268189263432439
-    },
-    {
-      "category": "Utilities",
-      "score": 0.9268189263432439
-    }
-  ],
   "1cda2a21cb525e72121889b5f00110b2de771982f59348994d1a9bf0dc6a9442": [
     {
       "category": "Development",
@@ -591,6 +855,72 @@
     {
       "category": "Hazards",
       "score": 0.0032631026184296937
+    }
+  ],
+  "1df0644a953b40a0c17de52d5c8d764ea6c21745caab34d6262385a26d83f16d": [
+    {
+      "category": "Environment",
+      "score": 0.6679849306635961
+    },
+    {
+      "category": "Development",
+      "score": 0.6610188145956725
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.6430206088681875
+    },
+    {
+      "category": "Health",
+      "score": 0.4992818841802666
+    },
+    {
+      "category": "Utilities",
+      "score": 0.4887167107392069
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.24727451696027783
+    },
+    {
+      "category": "Government",
+      "score": 0.22060241874898517
+    },
+    {
+      "category": "Housing",
+      "score": 0.21305168968746016
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.19418476234048143
+    },
+    {
+      "category": "Planning",
+      "score": 0.18904105274712377
+    },
+    {
+      "category": "Recreation",
+      "score": 0.15654141337559066
+    },
+    {
+      "category": "Demographics",
+      "score": 0.13494120416924482
+    },
+    {
+      "category": "Public safety",
+      "score": 0.07473041346122873
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.02226083542503742
+    },
+    {
+      "category": "Transportation",
+      "score": 0.02103116458954404
+    },
+    {
+      "category": "Hazards",
+      "score": 0.003921889701246757
     }
   ],
   "1fc50d6db7751588ffc35b30794f93ee7eccdeead9710cee58dfb14f4fc14e68": [
@@ -659,72 +989,6 @@
       "score": 0.15341749542290342
     }
   ],
-  "1fcddce4c132ce579ea3c13c372e427561f1cf8b4d9238d5856f47bdf1799e0f": [
-    {
-      "category": "Boundaries",
-      "score": 0.9828976992424339
-    },
-    {
-      "category": "Demographics",
-      "score": 0.9828976992424339
-    },
-    {
-      "category": "Development",
-      "score": 0.9828976992424339
-    },
-    {
-      "category": "Environment",
-      "score": 0.9828976992424339
-    },
-    {
-      "category": "Government",
-      "score": 0.9828976992424339
-    },
-    {
-      "category": "Hazards",
-      "score": 0.9828976992424339
-    },
-    {
-      "category": "Health",
-      "score": 0.9828976992424339
-    },
-    {
-      "category": "Housing",
-      "score": 0.9828976992424339
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.9828976992424339
-    },
-    {
-      "category": "Planning",
-      "score": 0.9828976992424339
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.9828976992424339
-    },
-    {
-      "category": "Public safety",
-      "score": 0.9828976992424339
-    },
-    {
-      "category": "Recreation",
-      "score": 0.9828976992424339
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.9828976992424339
-    },
-    {
-      "category": "Transportation",
-      "score": 0.9828976992424339
-    },
-    {
-      "category": "Utilities",
-      "score": 0.9828976992424339
-    }
-  ],
   "1ff4b30a52ab5bce5760eee5bc75c89a4bac1fa18ae8f2f9e4a64fbbfd9c9c94": [
     {
       "category": "Infrastructure",
@@ -791,334 +1055,466 @@
       "score": 0.007925198706858056
     }
   ],
-  "27452091b8fd28af8f53345dc297edd6933b1790fca03ff7fa581ac6e87406dd": [
+  "210b39cd160c80e6f0907250d6f238d6ca892d25150b4a8290446aecd7d82c26": [
     {
-      "category": "Development",
-      "score": 0.4055311315952993
-    },
-    {
-      "category": "Health",
-      "score": 0.07299206875667019
+      "category": "Solid waste",
+      "score": 0.8889005392251998
     },
     {
       "category": "Planning",
-      "score": 0.06508595277024541
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.05575294028712374
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.050532645318284726
-    },
-    {
-      "category": "Housing",
-      "score": 0.04691392360943564
-    },
-    {
-      "category": "Utilities",
-      "score": 0.03744318938168097
-    },
-    {
-      "category": "Transportation",
-      "score": 0.02251148325920388
+      "score": 0.3491754655019489
     },
     {
       "category": "Environment",
-      "score": 0.022376938564981887
+      "score": 0.2797637605077399
     },
     {
-      "category": "Demographics",
-      "score": 0.018904162229170247
+      "category": "Infrastructure",
+      "score": 0.18178513345065386
+    },
+    {
+      "category": "Utilities",
+      "score": 0.12996976438933133
+    },
+    {
+      "category": "Housing",
+      "score": 0.11127823753783939
+    },
+    {
+      "category": "Health",
+      "score": 0.07837526370892599
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.0741333107511773
     },
     {
       "category": "Recreation",
-      "score": 0.017272990549207185
+      "score": 0.062289727781115564
     },
     {
-      "category": "Solid waste",
-      "score": 0.010609431015828327
+      "category": "Development",
+      "score": 0.042093407691744016
     },
     {
-      "category": "Government",
-      "score": 0.010581656414572668
+      "category": "Demographics",
+      "score": 0.03047204704985469
     },
     {
       "category": "Public facilities",
-      "score": 0.0026413221102377883
+      "score": 0.02004442442510716
+    },
+    {
+      "category": "Government",
+      "score": 0.017924043406327785
     },
     {
       "category": "Public safety",
-      "score": 0.001833646456434402
+      "score": 0.01395292961569984
+    },
+    {
+      "category": "Transportation",
+      "score": 0.01108669661300476
     },
     {
       "category": "Hazards",
-      "score": 0.0007937238919509641
+      "score": 0.002394503453324191
     }
   ],
-  "2b50ab8f2cea43d8ed55f0d0e6fbee88be7a8b5c8a72f99ed7fa2b899e1f41bd": [
+  "2127a7c9a007cabf89c90b3de4e11ee5749d095609c1305b90cd7c45321de2ed": [
     {
-      "category": "Solid waste",
-      "score": 0.8407371483777816
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.8065015390598294
+      "category": "Development",
+      "score": 0.42255079965999237
     },
     {
       "category": "Environment",
-      "score": 0.7691827591070814
+      "score": 0.23263147646746604
     },
     {
-      "category": "Utilities",
-      "score": 0.7432988964052789
-    },
-    {
-      "category": "Health",
-      "score": 0.6503239204782804
-    },
-    {
-      "category": "Planning",
-      "score": 0.5254285731474256
-    },
-    {
-      "category": "Housing",
-      "score": 0.4828285208984186
-    },
-    {
-      "category": "Development",
-      "score": 0.421951638123651
+      "category": "Infrastructure",
+      "score": 0.1687348943930094
     },
     {
       "category": "Boundaries",
-      "score": 0.3047271334425633
+      "score": 0.1617325427119002
     },
     {
-      "category": "Demographics",
-      "score": 0.23713863869065646
+      "category": "Housing",
+      "score": 0.15939523759984794
+    },
+    {
+      "category": "Planning",
+      "score": 0.15236273631010644
+    },
+    {
+      "category": "Health",
+      "score": 0.12706750643543926
     },
     {
       "category": "Recreation",
-      "score": 0.19657196121821965
+      "score": 0.10575868367013143
+    },
+    {
+      "category": "Utilities",
+      "score": 0.09456934531549624
+    },
+    {
+      "category": "Demographics",
+      "score": 0.039076164847525546
     },
     {
       "category": "Government",
-      "score": 0.15844415807826295
-    },
-    {
-      "category": "Public safety",
-      "score": 0.10160045249018387
+      "score": 0.0360301788952754
     },
     {
       "category": "Transportation",
-      "score": 0.08058879480988775
+      "score": 0.017402911965657453
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.014079693216758988
     },
     {
       "category": "Public facilities",
-      "score": 0.041566526811637576
+      "score": 0.010165593172377559
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0016306449121099922
     },
     {
       "category": "Hazards",
-      "score": 0.021194851196036556
+      "score": 0.0006884567238034735
     }
   ],
-  "2c9dba02f2e133f9cbf1c652f2e3de94f15080fe9dcb27bc6e5e8220dc56d59e": [
-    {
-      "category": "Development",
-      "score": 0.8140573534864658
-    },
+  "243ac7a38c874e608672df8f200a31e64564b172ca1e337f8e3d5fc420599c38": [
     {
       "category": "Environment",
-      "score": 0.7947801117614046
-    },
-    {
-      "category": "Utilities",
-      "score": 0.6228799277556389
-    },
-    {
-      "category": "Health",
-      "score": 0.5327986096535168
-    },
-    {
-      "category": "Planning",
-      "score": 0.45139008640456857
-    },
-    {
-      "category": "Housing",
-      "score": 0.3253253649690728
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.284231944422923
+      "score": 0.10694512317656327
     },
     {
       "category": "Boundaries",
-      "score": 0.24979154746366652
+      "score": 0.09710571891753121
+    },
+    {
+      "category": "Planning",
+      "score": 0.09112541666204158
+    },
+    {
+      "category": "Health",
+      "score": 0.08877877776580356
+    },
+    {
+      "category": "Development",
+      "score": 0.07287438754605371
     },
     {
       "category": "Infrastructure",
-      "score": 0.21471384390446452
+      "score": 0.036232387743900585
     },
     {
       "category": "Recreation",
-      "score": 0.16371092252097724
-    },
-    {
-      "category": "Government",
-      "score": 0.09743198949636525
-    },
-    {
-      "category": "Transportation",
-      "score": 0.06883823624107611
+      "score": 0.03206112509449311
     },
     {
       "category": "Demographics",
-      "score": 0.063676264604676
+      "score": 0.02891413571972093
+    },
+    {
+      "category": "Housing",
+      "score": 0.025610634131722897
+    },
+    {
+      "category": "Utilities",
+      "score": 0.01796262926621585
+    },
+    {
+      "category": "Government",
+      "score": 0.01236225385848879
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.009711931749824904
     },
     {
       "category": "Public facilities",
-      "score": 0.03642419107559327
+      "score": 0.009221690757234748
     },
     {
-      "category": "Hazards",
-      "score": 0.018756551194693907
+      "category": "Transportation",
+      "score": 0.0027090869217184033
     },
     {
       "category": "Public safety",
-      "score": 0.015224058514871066
+      "score": 0.0018259081827016986
+    },
+    {
+      "category": "Hazards",
+      "score": 0.0008638348007388265
     }
   ],
-  "2d03ca9fc50e7d6aab533e023ca599b0c274e062a214d78ffaa9acaeed5852eb": [
-    {
-      "category": "Housing",
-      "score": 0.9666242038451083
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.947700582002883
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.9326409885983036
-    },
-    {
-      "category": "Development",
-      "score": 0.9303503859720997
-    },
-    {
-      "category": "Utilities",
-      "score": 0.9132015076737025
-    },
+  "2c2fc7801b38b6a64876aaccce98e0e64078701c699b741a41557819d083c2ed": [
     {
       "category": "Planning",
-      "score": 0.9085601153424173
-    },
-    {
-      "category": "Transportation",
-      "score": 0.889470173056936
-    },
-    {
-      "category": "Health",
-      "score": 0.8874662441906063
-    },
-    {
-      "category": "Government",
-      "score": 0.8855943645826236
-    },
-    {
-      "category": "Environment",
-      "score": 0.8477347794247793
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.8399408452442367
-    },
-    {
-      "category": "Demographics",
-      "score": 0.8361101914356025
-    },
-    {
-      "category": "Public safety",
-      "score": 0.7800959849700599
+      "score": 0.5184965406555989
     },
     {
       "category": "Recreation",
-      "score": 0.7321755891516748
+      "score": 0.41326445985113414
+    },
+    {
+      "category": "Housing",
+      "score": 0.39936575860160906
+    },
+    {
+      "category": "Health",
+      "score": 0.3885546979529542
+    },
+    {
+      "category": "Environment",
+      "score": 0.3586051113251047
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.35360604051737127
+    },
+    {
+      "category": "Development",
+      "score": 0.3482241574241938
+    },
+    {
+      "category": "Utilities",
+      "score": 0.23519067506481
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.23186694799167304
+    },
+    {
+      "category": "Demographics",
+      "score": 0.16789054060862774
+    },
+    {
+      "category": "Government",
+      "score": 0.08296400805339868
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.0819085777120134
     },
     {
       "category": "Public facilities",
-      "score": 0.6377690216895914
+      "score": 0.0628844906196099
+    },
+    {
+      "category": "Transportation",
+      "score": 0.039370513760283915
+    },
+    {
+      "category": "Public safety",
+      "score": 0.01564099341502343
     },
     {
       "category": "Hazards",
-      "score": 0.5125788441158369
+      "score": 0.005025933086588966
     }
   ],
-  "2de9fc9cf1dc10016f87e3efb6ded4d08856b13ee4f97ea9475be4f42cb2e2d9": [
-    {
-      "category": "Planning",
-      "score": 0.6591592109319581
-    },
-    {
-      "category": "Environment",
-      "score": 0.5820394717615571
-    },
-    {
-      "category": "Demographics",
-      "score": 0.5648722279085594
-    },
+  "2c4623e4d63ca0e6eb0aa3528aed66ccbfb2202ce7a8321beda5da034c2d1909": [
     {
       "category": "Health",
-      "score": 0.557514129498192
-    },
-    {
-      "category": "Utilities",
-      "score": 0.4436651127100262
-    },
-    {
-      "category": "Development",
-      "score": 0.4112173965293083
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.39724156500945773
+      "score": 0.06666541889640328
     },
     {
       "category": "Housing",
-      "score": 0.38567753278918554
+      "score": 0.02955565308147872
     },
     {
-      "category": "Boundaries",
-      "score": 0.3803911250642088
+      "category": "Utilities",
+      "score": 0.026650664657186504
     },
     {
-      "category": "Transportation",
-      "score": 0.22221944876397853
+      "category": "Planning",
+      "score": 0.02229450817783982
     },
     {
-      "category": "Government",
-      "score": 0.21123862299805937
+      "category": "Demographics",
+      "score": 0.01897578248286441
     },
     {
-      "category": "Solid waste",
-      "score": 0.14774561232458183
+      "category": "Environment",
+      "score": 0.017013070548319464
     },
     {
       "category": "Recreation",
-      "score": 0.13408304906504936
+      "score": 0.01632661456404412
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.01603386540512521
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.012505564965071107
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.011787964870432531
+    },
+    {
+      "category": "Transportation",
+      "score": 0.011138849358112542
     },
     {
       "category": "Public facilities",
-      "score": 0.12254655606543893
+      "score": 0.009453754057008124
     },
     {
       "category": "Public safety",
-      "score": 0.057422445353514616
+      "score": 0.008826443623468388
+    },
+    {
+      "category": "Government",
+      "score": 0.007745681354131021
+    },
+    {
+      "category": "Development",
+      "score": 0.007408139421429964
     },
     {
       "category": "Hazards",
-      "score": 0.029751297025086415
+      "score": 0.0028600665502905714
+    }
+  ],
+  "2eb41f9f64778adf968fe1ea980df43aa1fadb90aaa54cc5f92667c3c138e1ba": [
+    {
+      "category": "Development",
+      "score": 0.022052395698027118
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.022027875378515274
+    },
+    {
+      "category": "Planning",
+      "score": 0.016996691489384774
+    },
+    {
+      "category": "Housing",
+      "score": 0.01609190443766703
+    },
+    {
+      "category": "Public safety",
+      "score": 0.014546143835221839
+    },
+    {
+      "category": "Environment",
+      "score": 0.012186554976452673
+    },
+    {
+      "category": "Transportation",
+      "score": 0.012003159087749134
+    },
+    {
+      "category": "Health",
+      "score": 0.011516639693837902
+    },
+    {
+      "category": "Demographics",
+      "score": 0.01122008790132207
+    },
+    {
+      "category": "Government",
+      "score": 0.01067751768584654
+    },
+    {
+      "category": "Recreation",
+      "score": 0.009234271524672025
+    },
+    {
+      "category": "Utilities",
+      "score": 0.008473740486185431
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.007105708793868477
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.005607049734103381
+    },
+    {
+      "category": "Hazards",
+      "score": 0.0043998237356415205
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.003900202108516826
+    }
+  ],
+  "2fcdb6bd6b18e234d48771544aacd6d87d9dd7831ec3181ba0757cb6f83167f2": [
+    {
+      "category": "Utilities",
+      "score": 0.7234110150757206
+    },
+    {
+      "category": "Environment",
+      "score": 0.6512685596141434
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.5913840934211007
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.5452767993151202
+    },
+    {
+      "category": "Health",
+      "score": 0.49838481337013807
+    },
+    {
+      "category": "Housing",
+      "score": 0.30083631346927736
+    },
+    {
+      "category": "Development",
+      "score": 0.24800629428323945
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.23343589824563707
+    },
+    {
+      "category": "Recreation",
+      "score": 0.23339236795430046
+    },
+    {
+      "category": "Demographics",
+      "score": 0.19574736155132888
+    },
+    {
+      "category": "Planning",
+      "score": 0.1766521256453217
+    },
+    {
+      "category": "Transportation",
+      "score": 0.09659145750128499
+    },
+    {
+      "category": "Government",
+      "score": 0.09280085669523169
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0714192035492998
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.0373332774036362
+    },
+    {
+      "category": "Hazards",
+      "score": 0.019530250067968317
     }
   ],
   "30777b6dd7615b1bb04ce36396fd6fee9df25300cc06682a0bf7a842f9ff05a4": [
@@ -1253,334 +1649,70 @@
       "score": 0.003564894791147964
     }
   ],
-  "3360fbe0a14b207e0940fa06a868b2282c3626385f8d162a382d59b2b1d62323": [
-    {
-      "category": "Transportation",
-      "score": 0.9428534831612276
-    },
-    {
-      "category": "Public safety",
-      "score": 0.9264606485976368
-    },
-    {
-      "category": "Government",
-      "score": 0.9195490175279548
-    },
-    {
-      "category": "Utilities",
-      "score": 0.9118905151504304
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.9047525512952739
-    },
+  "3b2171ab40bae72d042566411b7141395d5c77b116b9eb1543249262bd90ab42": [
     {
       "category": "Development",
-      "score": 0.8715267123056145
+      "score": 0.17127934995625788
     },
     {
       "category": "Planning",
-      "score": 0.8603488996203122
-    },
-    {
-      "category": "Housing",
-      "score": 0.8590813431098715
-    },
-    {
-      "category": "Health",
-      "score": 0.8490016091686825
-    },
-    {
-      "category": "Recreation",
-      "score": 0.8358459442547967
-    },
-    {
-      "category": "Hazards",
-      "score": 0.831501625452725
+      "score": 0.14096012564102808
     },
     {
       "category": "Infrastructure",
-      "score": 0.7587268012983875
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.7286293685223448
+      "score": 0.13125243117885385
     },
     {
       "category": "Environment",
-      "score": 0.6693127531169281
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.5326678460956671
-    },
-    {
-      "category": "Demographics",
-      "score": 0.4764097978689372
-    }
-  ],
-  "39937d01cc2e67ba94bcc287dd0c6fa0afbc987a711cf247949f9c43dda6a14f": [
-    {
-      "category": "Development",
-      "score": 0.9082124224707998
+      "score": 0.08869345546838688
     },
     {
       "category": "Boundaries",
-      "score": 0.7455944351278523
-    },
-    {
-      "category": "Planning",
-      "score": 0.7220067482643908
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.22017060573579733
-    },
-    {
-      "category": "Housing",
-      "score": 0.17960764682894145
-    },
-    {
-      "category": "Health",
-      "score": 0.17633162023512025
+      "score": 0.05789637037403084
     },
     {
       "category": "Government",
-      "score": 0.11339682331111912
-    },
-    {
-      "category": "Environment",
-      "score": 0.10717897201833664
-    },
-    {
-      "category": "Utilities",
-      "score": 0.10223120531526601
-    },
-    {
-      "category": "Demographics",
-      "score": 0.09176102166696642
-    },
-    {
-      "category": "Public safety",
-      "score": 0.05445387148847078
-    },
-    {
-      "category": "Transportation",
-      "score": 0.041964900500001776
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.035096444617819356
+      "score": 0.05764790170494942
     },
     {
       "category": "Recreation",
-      "score": 0.034701195157726177
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.021220582803924026
-    },
-    {
-      "category": "Hazards",
-      "score": 0.0027705068684258137
-    }
-  ],
-  "3b79b9e75454a90d1f7c71b373dae3e72fb5bd777290214390493c3809657f3b": [
-    {
-      "category": "Development",
-      "score": 0.44548277146012605
-    },
-    {
-      "category": "Planning",
-      "score": 0.40449621325990726
-    },
-    {
-      "category": "Health",
-      "score": 0.28980952545562905
-    },
-    {
-      "category": "Utilities",
-      "score": 0.20552008342889244
+      "score": 0.05238764313375206
     },
     {
       "category": "Housing",
-      "score": 0.17848324768152618
-    },
-    {
-      "category": "Environment",
-      "score": 0.16924259191817187
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.12485670261098634
-    },
-    {
-      "category": "Recreation",
-      "score": 0.08185703541475828
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.07846670968409238
-    },
-    {
-      "category": "Government",
-      "score": 0.050662865731421786
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.036858812635721175
-    },
-    {
-      "category": "Transportation",
-      "score": 0.019571509765374386
-    },
-    {
-      "category": "Demographics",
-      "score": 0.015631065745340834
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.014941669657526382
-    },
-    {
-      "category": "Public safety",
-      "score": 0.009575714843809625
-    },
-    {
-      "category": "Hazards",
-      "score": 0.00266241007985898
-    }
-  ],
-  "3bd49a7b59148348b8345e23e85922e74cc2ce983727df626e8ff6002159f653": [
-    {
-      "category": "Development",
-      "score": 0.8142143991717605
-    },
-    {
-      "category": "Planning",
-      "score": 0.7564067259733969
-    },
-    {
-      "category": "Environment",
-      "score": 0.7560344555341422
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.7558610211764438
+      "score": 0.04713169304118815
     },
     {
       "category": "Health",
-      "score": 0.7287904205540211
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.7152226432720907
-    },
-    {
-      "category": "Government",
-      "score": 0.6758309367679932
-    },
-    {
-      "category": "Utilities",
-      "score": 0.6468415921909285
-    },
-    {
-      "category": "Housing",
-      "score": 0.6283639422680652
-    },
-    {
-      "category": "Recreation",
-      "score": 0.5420946408551021
-    },
-    {
-      "category": "Public safety",
-      "score": 0.41290514474549384
+      "score": 0.04223055795972726
     },
     {
       "category": "Transportation",
-      "score": 0.35820837048115967
+      "score": 0.04097872373817876
     },
     {
       "category": "Solid waste",
-      "score": 0.2907624479132248
-    },
-    {
-      "category": "Demographics",
-      "score": 0.2267994068808316
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.15316185941071075
-    },
-    {
-      "category": "Hazards",
-      "score": 0.010559843622180798
-    }
-  ],
-  "3f16e4a5411b37377291301e5f6cde332db3bb8af372ca89cdb7df3ba846270f": [
-    {
-      "category": "Boundaries",
-      "score": 0.9038647580895077
-    },
-    {
-      "category": "Demographics",
-      "score": 0.9038647580895077
-    },
-    {
-      "category": "Development",
-      "score": 0.9038647580895077
-    },
-    {
-      "category": "Environment",
-      "score": 0.9038647580895077
-    },
-    {
-      "category": "Government",
-      "score": 0.9038647580895077
-    },
-    {
-      "category": "Hazards",
-      "score": 0.9038647580895077
-    },
-    {
-      "category": "Health",
-      "score": 0.9038647580895077
-    },
-    {
-      "category": "Housing",
-      "score": 0.9038647580895077
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.9038647580895077
-    },
-    {
-      "category": "Planning",
-      "score": 0.9038647580895077
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.9038647580895077
+      "score": 0.03243750147416591
     },
     {
       "category": "Public safety",
-      "score": 0.9038647580895077
-    },
-    {
-      "category": "Recreation",
-      "score": 0.9038647580895077
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.9038647580895077
-    },
-    {
-      "category": "Transportation",
-      "score": 0.9038647580895077
+      "score": 0.025197604280612955
     },
     {
       "category": "Utilities",
-      "score": 0.9038647580895077
+      "score": 0.021355517853507443
+    },
+    {
+      "category": "Demographics",
+      "score": 0.021348596195150605
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.0107843665284217
+    },
+    {
+      "category": "Hazards",
+      "score": 0.00733158291241015
     }
   ],
   "3f1791ce47141fa12690de22d925e8691073e22175d1bdd0cb7d5eba263f6878": [
@@ -1715,136 +1847,400 @@
       "score": 0.0013122804775665626
     }
   ],
-  "4bbdd57c24483252b7e3d076b4153f1568b62e752c0d5ed373c4d4714e3d8f34": [
+  "47a328f61311cf83820a673793d2f5229270b9523360975b6b9d4c6b74246dd9": [
     {
       "category": "Environment",
-      "score": 0.15798813552230093
-    },
-    {
-      "category": "Development",
-      "score": 0.12906400746611016
-    },
-    {
-      "category": "Health",
-      "score": 0.09128320288142949
-    },
-    {
-      "category": "Recreation",
-      "score": 0.06594409915954366
+      "score": 0.3857067458033055
     },
     {
       "category": "Planning",
-      "score": 0.05543187918818481
+      "score": 0.13621411382336682
     },
     {
-      "category": "Housing",
-      "score": 0.050156904268738416
-    },
-    {
-      "category": "Transportation",
-      "score": 0.04942864280971724
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.03378650350286275
+      "category": "Development",
+      "score": 0.08656267439410906
     },
     {
       "category": "Utilities",
-      "score": 0.030984303582914183
+      "score": 0.08548500559463978
+    },
+    {
+      "category": "Recreation",
+      "score": 0.06342616533694513
+    },
+    {
+      "category": "Housing",
+      "score": 0.05331774417481464
+    },
+    {
+      "category": "Health",
+      "score": 0.051108889335737186
     },
     {
       "category": "Infrastructure",
-      "score": 0.03024860216620673
+      "score": 0.04585655426924728
     },
     {
-      "category": "Public safety",
-      "score": 0.022205231070895788
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.021315429704325796
-    },
-    {
-      "category": "Government",
-      "score": 0.01883175417016276
+      "category": "Boundaries",
+      "score": 0.024352665599580065
     },
     {
       "category": "Demographics",
-      "score": 0.010573814410981892
+      "score": 0.01826272133459375
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.018101544542083892
     },
     {
       "category": "Public facilities",
-      "score": 0.009296983792377705
+      "score": 0.006203845343088997
+    },
+    {
+      "category": "Government",
+      "score": 0.004287823754057318
+    },
+    {
+      "category": "Transportation",
+      "score": 0.001616892777851025
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0008684561754179672
     },
     {
       "category": "Hazards",
-      "score": 0.003153030088770629
+      "score": 0.0003320441656090509
     }
   ],
-  "4fa11cee2d07bbe92f31d6e78d65ae9a11fe0e7b93bbbb90f513d7e6425e9c50": [
-    {
-      "category": "Utilities",
-      "score": 0.13588180826202115
-    },
+  "4a7069ada40ea9e962073df548e4930bd112bf4cd24d02e584a72024207a43f2": [
     {
       "category": "Environment",
-      "score": 0.11957623888974547
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.10945738702317402
+      "score": 0.4754262750456899
     },
     {
       "category": "Health",
-      "score": 0.10688341528358151
-    },
-    {
-      "category": "Recreation",
-      "score": 0.09302254501154926
-    },
-    {
-      "category": "Housing",
-      "score": 0.09290702467205396
-    },
-    {
-      "category": "Transportation",
-      "score": 0.08829193961111688
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.06504900295435695
+      "score": 0.4086542397810703
     },
     {
       "category": "Development",
-      "score": 0.06072541673872962
+      "score": 0.18216816846341105
     },
     {
       "category": "Planning",
-      "score": 0.0556737165815207
+      "score": 0.16274763197815298
     },
     {
-      "category": "Demographics",
-      "score": 0.05287516707347721
+      "category": "Infrastructure",
+      "score": 0.12206482948739418
     },
     {
-      "category": "Public safety",
-      "score": 0.05115032678645927
+      "category": "Housing",
+      "score": 0.08744001990236776
     },
     {
-      "category": "Government",
-      "score": 0.03802384413539617
+      "category": "Recreation",
+      "score": 0.063227478530223
     },
     {
       "category": "Solid waste",
-      "score": 0.020859896649434412
+      "score": 0.059482442188009986
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.059090235561437686
+    },
+    {
+      "category": "Utilities",
+      "score": 0.054273713679778374
+    },
+    {
+      "category": "Public safety",
+      "score": 0.05337917269879504
+    },
+    {
+      "category": "Government",
+      "score": 0.053176154365148304
+    },
+    {
+      "category": "Demographics",
+      "score": 0.03716539562774018
     },
     {
       "category": "Public facilities",
-      "score": 0.020012330119921724
+      "score": 0.021055751509220903
+    },
+    {
+      "category": "Transportation",
+      "score": 0.01322658840479242
     },
     {
       "category": "Hazards",
-      "score": 0.015627693969513055
+      "score": 0.00720098411567096
+    }
+  ],
+  "4a87c60eb15b0c13e26246f9ac6cee0605242c723757225e1288e5aa4800eaf0": [
+    {
+      "category": "Utilities",
+      "score": 0.14881160901084897
+    },
+    {
+      "category": "Health",
+      "score": 0.14642712284036485
+    },
+    {
+      "category": "Environment",
+      "score": 0.14311658144511688
+    },
+    {
+      "category": "Development",
+      "score": 0.1014184669010898
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.07422142991997444
+    },
+    {
+      "category": "Housing",
+      "score": 0.05208791500634303
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.044507879504422726
+    },
+    {
+      "category": "Demographics",
+      "score": 0.03403689215182969
+    },
+    {
+      "category": "Recreation",
+      "score": 0.02927797196240331
+    },
+    {
+      "category": "Planning",
+      "score": 0.023839520977765812
+    },
+    {
+      "category": "Government",
+      "score": 0.017793029569832024
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.017292762389411173
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.006985331985398943
+    },
+    {
+      "category": "Transportation",
+      "score": 0.006162535714471454
+    },
+    {
+      "category": "Hazards",
+      "score": 0.0023367030485003807
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0012715157572324187
+    }
+  ],
+  "4b116977893ac5efae6d7426000996b7105730bfd3613c5bdc1ed17d98c088df": [
+    {
+      "category": "Infrastructure",
+      "score": 0.744058055230793
+    },
+    {
+      "category": "Utilities",
+      "score": 0.7173884696422475
+    },
+    {
+      "category": "Environment",
+      "score": 0.69638719910283
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.5706629192116622
+    },
+    {
+      "category": "Health",
+      "score": 0.5483722166225931
+    },
+    {
+      "category": "Demographics",
+      "score": 0.5240066689519911
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.4255908472928015
+    },
+    {
+      "category": "Public safety",
+      "score": 0.4185020115999863
+    },
+    {
+      "category": "Housing",
+      "score": 0.3687640346624931
+    },
+    {
+      "category": "Development",
+      "score": 0.34598318306620435
+    },
+    {
+      "category": "Recreation",
+      "score": 0.23598790509017784
+    },
+    {
+      "category": "Planning",
+      "score": 0.22899313004983238
+    },
+    {
+      "category": "Government",
+      "score": 0.20618907230690411
+    },
+    {
+      "category": "Transportation",
+      "score": 0.15699897105911848
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.0622685429780527
+    },
+    {
+      "category": "Hazards",
+      "score": 0.012327899416977314
+    }
+  ],
+  "4ec9a2a572417a74214a9f1651bf66405e2ac707116b424041e68c6372c1b481": [
+    {
+      "category": "Environment",
+      "score": 0.6467135566290769
+    },
+    {
+      "category": "Planning",
+      "score": 0.5466990698349435
+    },
+    {
+      "category": "Utilities",
+      "score": 0.3134047673308024
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.29473925493228803
+    },
+    {
+      "category": "Housing",
+      "score": 0.27838338526987244
+    },
+    {
+      "category": "Development",
+      "score": 0.2613677494607017
+    },
+    {
+      "category": "Health",
+      "score": 0.2447176711573039
+    },
+    {
+      "category": "Recreation",
+      "score": 0.24150013794568187
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.2250248339870706
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.1973177223655446
+    },
+    {
+      "category": "Government",
+      "score": 0.08216731750087869
+    },
+    {
+      "category": "Public safety",
+      "score": 0.040302261779474165
+    },
+    {
+      "category": "Demographics",
+      "score": 0.03685316924088998
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.025108067069502412
+    },
+    {
+      "category": "Transportation",
+      "score": 0.009544514665833984
+    },
+    {
+      "category": "Hazards",
+      "score": 0.005251288164992278
+    }
+  ],
+  "4f30ec49468f327c94d8283d4f60a56e25118d435f01b4b40f58c9610472c67d": [
+    {
+      "category": "Environment",
+      "score": 0.015564202926552641
+    },
+    {
+      "category": "Planning",
+      "score": 0.012564037645785744
+    },
+    {
+      "category": "Recreation",
+      "score": 0.012050470465975693
+    },
+    {
+      "category": "Health",
+      "score": 0.01020075507714886
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0082700500145556
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.008058537604401596
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.007954913606504457
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.007042742157391452
+    },
+    {
+      "category": "Housing",
+      "score": 0.006003992492256203
+    },
+    {
+      "category": "Development",
+      "score": 0.005688854431190853
+    },
+    {
+      "category": "Government",
+      "score": 0.0055348208555667045
+    },
+    {
+      "category": "Utilities",
+      "score": 0.005117700928471152
+    },
+    {
+      "category": "Public safety",
+      "score": 0.005043077279954652
+    },
+    {
+      "category": "Demographics",
+      "score": 0.004658228257169058
+    },
+    {
+      "category": "Hazards",
+      "score": 0.004498655282081284
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.003559028681288012
     }
   ],
   "532222797a6e5b514ded36b5aa4ca82639c878844a67b75678610d8cffa7f724": [
@@ -1913,202 +2309,136 @@
       "score": 0.012979116596137463
     }
   ],
-  "55d551b2686c51c79ab1238340364f7fa6459e64d1ea6fcab04f43aa04628dec": [
+  "56eb93fb80717a28ecfb79f6b09133a2c11c2f22db335d1045376babf3943b16": [
     {
       "category": "Boundaries",
-      "score": 0.9247064034372641
-    },
-    {
-      "category": "Demographics",
-      "score": 0.9247064034372641
-    },
-    {
-      "category": "Development",
-      "score": 0.9247064034372641
-    },
-    {
-      "category": "Environment",
-      "score": 0.9247064034372641
-    },
-    {
-      "category": "Government",
-      "score": 0.9247064034372641
-    },
-    {
-      "category": "Hazards",
-      "score": 0.9247064034372641
-    },
-    {
-      "category": "Health",
-      "score": 0.9247064034372641
-    },
-    {
-      "category": "Housing",
-      "score": 0.9247064034372641
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.9247064034372641
+      "score": 0.007692690682526746
     },
     {
       "category": "Planning",
-      "score": 0.9247064034372641
+      "score": 0.004773766863073257
     },
     {
-      "category": "Public facilities",
-      "score": 0.9247064034372641
+      "category": "Government",
+      "score": 0.004453500983503469
     },
     {
-      "category": "Public safety",
-      "score": 0.9247064034372641
+      "category": "Hazards",
+      "score": 0.003934271071955248
     },
     {
-      "category": "Recreation",
-      "score": 0.9247064034372641
+      "category": "Health",
+      "score": 0.003317075422636453
     },
     {
-      "category": "Solid waste",
-      "score": 0.9247064034372641
+      "category": "Demographics",
+      "score": 0.0029684690234303584
     },
     {
       "category": "Transportation",
-      "score": 0.9247064034372641
+      "score": 0.0026221073203608297
     },
     {
       "category": "Utilities",
-      "score": 0.9247064034372641
+      "score": 0.002613168953213679
+    },
+    {
+      "category": "Housing",
+      "score": 0.0024916596509074736
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.002482946829320052
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.0024820698241037717
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0023850312206255275
+    },
+    {
+      "category": "Development",
+      "score": 0.0021398786686424457
+    },
+    {
+      "category": "Recreation",
+      "score": 0.0019772725371988284
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.001801988139596788
+    },
+    {
+      "category": "Environment",
+      "score": 0.001684263011091105
     }
   ],
-  "5887f795646c7c12f81c42f2e449c97f9a15ff3cbd7978c7153b5413ea9ec9bc": [
+  "5ca6c34ca34324517b166b3efa017221ca37fab946b75863b47a4d9272af6c8c": [
     {
-      "category": "Boundaries",
-      "score": 0.9643764378621027
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.9427701602387726
+      "category": "Development",
+      "score": 0.7554029565839757
     },
     {
       "category": "Health",
-      "score": 0.9407343580802765
-    },
-    {
-      "category": "Transportation",
-      "score": 0.921418789431169
-    },
-    {
-      "category": "Utilities",
-      "score": 0.9004597267051876
+      "score": 0.6000602269310537
     },
     {
       "category": "Housing",
-      "score": 0.8722172221383865
-    },
-    {
-      "category": "Planning",
-      "score": 0.8379252485820237
+      "score": 0.31264470001520844
     },
     {
       "category": "Environment",
-      "score": 0.7532235762835066
+      "score": 0.21181036683383583
     },
     {
-      "category": "Solid waste",
-      "score": 0.7090868527251243
-    },
-    {
-      "category": "Government",
-      "score": 0.6350239234315029
-    },
-    {
-      "category": "Development",
-      "score": 0.6014084129772465
-    },
-    {
-      "category": "Public safety",
-      "score": 0.5931599432770613
-    },
-    {
-      "category": "Recreation",
-      "score": 0.533622500196939
-    },
-    {
-      "category": "Demographics",
-      "score": 0.493247674310927
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.4360692908162483
-    },
-    {
-      "category": "Hazards",
-      "score": 0.41841887299070474
-    }
-  ],
-  "5ec812423b9ee324be759f31d4a7673c85d4e18e500f3302c02fc6ddf4f0ab8a": [
-    {
-      "category": "Utilities",
-      "score": 0.8929979556019209
-    },
-    {
-      "category": "Hazards",
-      "score": 0.8525836536419571
-    },
-    {
-      "category": "Transportation",
-      "score": 0.836992077240885
+      "category": "Planning",
+      "score": 0.16200960525238176
     },
     {
       "category": "Infrastructure",
-      "score": 0.8340951579811129
-    },
-    {
-      "category": "Public safety",
-      "score": 0.83332143633662
-    },
-    {
-      "category": "Government",
-      "score": 0.8078586272120439
-    },
-    {
-      "category": "Housing",
-      "score": 0.7924853238857976
-    },
-    {
-      "category": "Health",
-      "score": 0.7904044133827168
-    },
-    {
-      "category": "Environment",
-      "score": 0.7683898917402644
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.7417079473806658
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.7396971738087214
-    },
-    {
-      "category": "Development",
-      "score": 0.6174907942101889
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.607949068474063
-    },
-    {
-      "category": "Planning",
-      "score": 0.5924521099680358
-    },
-    {
-      "category": "Demographics",
-      "score": 0.5869304660654464
+      "score": 0.14681799716673366
     },
     {
       "category": "Recreation",
-      "score": 0.3811613463940021
+      "score": 0.1222871948081391
+    },
+    {
+      "category": "Utilities",
+      "score": 0.11478797022366277
+    },
+    {
+      "category": "Transportation",
+      "score": 0.1009407599776407
+    },
+    {
+      "category": "Public safety",
+      "score": 0.06603787740232674
+    },
+    {
+      "category": "Government",
+      "score": 0.03544378481468956
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.03534169972586549
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.033299710015146075
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.01641190054145983
+    },
+    {
+      "category": "Demographics",
+      "score": 0.0158061216114018
+    },
+    {
+      "category": "Hazards",
+      "score": 0.007387812861212094
     }
   ],
   "5fbe7789922316112264702f8eccc246a39b42deb7c20cba5cef4f50f9916bec": [
@@ -2243,70 +2573,70 @@
       "score": 0.00104040081490188
     }
   ],
-  "6506d1ac8ff76da249425add6f21857767bff93950a47a526c5f538b42e53e9c": [
+  "62d2356a18d7e4e587f635bd1d9dea8e9bc310304045b95392e1fe0d953da818": [
     {
-      "category": "Utilities",
-      "score": 0.7822282191106557
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.7603657311389576
-    },
-    {
-      "category": "Environment",
-      "score": 0.7376155958497596
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.6164163563987636
+      "category": "Development",
+      "score": 0.1451055185476134
     },
     {
       "category": "Health",
-      "score": 0.5932720352020788
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.5162424790840447
-    },
-    {
-      "category": "Public safety",
-      "score": 0.3992595356730225
-    },
-    {
-      "category": "Demographics",
-      "score": 0.33404412465598976
-    },
-    {
-      "category": "Development",
-      "score": 0.3330920496534736
+      "score": 0.12474627843920177
     },
     {
       "category": "Housing",
-      "score": 0.28749341994292243
+      "score": 0.08881185672029454
     },
     {
       "category": "Planning",
-      "score": 0.28505608931094445
+      "score": 0.035322835632898446
     },
     {
-      "category": "Government",
-      "score": 0.20970594109060373
+      "category": "Environment",
+      "score": 0.03129238727168726
     },
     {
-      "category": "Recreation",
-      "score": 0.19314467936585056
+      "category": "Infrastructure",
+      "score": 0.03042604510593164
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.029341379459203926
     },
     {
       "category": "Transportation",
-      "score": 0.1913706861020406
+      "score": 0.023873305589152256
+    },
+    {
+      "category": "Demographics",
+      "score": 0.022275892453241995
+    },
+    {
+      "category": "Public safety",
+      "score": 0.02149167018438304
+    },
+    {
+      "category": "Utilities",
+      "score": 0.021179305934954755
+    },
+    {
+      "category": "Recreation",
+      "score": 0.020515822072078593
+    },
+    {
+      "category": "Government",
+      "score": 0.011389331741916342
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.00834228546133562
     },
     {
       "category": "Public facilities",
-      "score": 0.049214195062145936
+      "score": 0.006385892596261674
     },
     {
       "category": "Hazards",
-      "score": 0.01959980961748057
+      "score": 0.0027302570759896666
     }
   ],
   "6848518f398a4b5e686c60edc9ec7b7e73beec87b735a291040b27f043b9051a": [
@@ -2373,6 +2703,138 @@
     {
       "category": "Hazards",
       "score": 0.0026668409291965285
+    }
+  ],
+  "696a6c88025c714011d9bd1b48de5ea13aa4b7ee812227734c71e7a863745673": [
+    {
+      "category": "Planning",
+      "score": 0.7504667703942458
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.6617952801257586
+    },
+    {
+      "category": "Development",
+      "score": 0.6349224460568087
+    },
+    {
+      "category": "Environment",
+      "score": 0.6274225618920558
+    },
+    {
+      "category": "Housing",
+      "score": 0.6202476329466641
+    },
+    {
+      "category": "Health",
+      "score": 0.5732244288779264
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.5516369544184732
+    },
+    {
+      "category": "Recreation",
+      "score": 0.4831936562650177
+    },
+    {
+      "category": "Utilities",
+      "score": 0.41577540378314026
+    },
+    {
+      "category": "Government",
+      "score": 0.29130856980327735
+    },
+    {
+      "category": "Demographics",
+      "score": 0.25663928489723936
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.20387912877770384
+    },
+    {
+      "category": "Transportation",
+      "score": 0.16790680886797982
+    },
+    {
+      "category": "Public safety",
+      "score": 0.12873656240581485
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.09371430894492659
+    },
+    {
+      "category": "Hazards",
+      "score": 0.01272975668349768
+    }
+  ],
+  "6a287a6bb8edf6a67529b65087b7be3470b9da6abf3c17cb4c6de9dd44aee8da": [
+    {
+      "category": "Environment",
+      "score": 0.1994422647924904
+    },
+    {
+      "category": "Health",
+      "score": 0.07775047139014109
+    },
+    {
+      "category": "Recreation",
+      "score": 0.06317364756652448
+    },
+    {
+      "category": "Development",
+      "score": 0.05936074419395919
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.05880894840909082
+    },
+    {
+      "category": "Planning",
+      "score": 0.053754253919853716
+    },
+    {
+      "category": "Housing",
+      "score": 0.048453081923920754
+    },
+    {
+      "category": "Utilities",
+      "score": 0.048131360691069464
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.02718972223002886
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.022014480906347066
+    },
+    {
+      "category": "Demographics",
+      "score": 0.016367019049402787
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.015132861273466407
+    },
+    {
+      "category": "Government",
+      "score": 0.01097270779060459
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0020005264185580574
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0007355986439478584
+    },
+    {
+      "category": "Hazards",
+      "score": 0.00030545606970093877
     }
   ],
   "6e8f296377d64d872593611b9589cf133f6b1ad121141f6c68148a2984e41f14": [
@@ -2507,136 +2969,400 @@
       "score": 0.23538075289546057
     }
   ],
-  "7100345a148a280ccda09e4e0b51819794451859353b288b5d4bfe05886e0b92": [
+  "72adba10bcd02639fc15a837cd45b58d4c307e6202cf841115cf24b080ad00e9": [
     {
-      "category": "Development",
-      "score": 0.3162072257849476
+      "category": "Health",
+      "score": 0.08845410308158427
     },
     {
       "category": "Environment",
-      "score": 0.3108706512373056
-    },
-    {
-      "category": "Planning",
-      "score": 0.17690663703684856
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.17500424066825193
+      "score": 0.03968766431792951
     },
     {
       "category": "Housing",
-      "score": 0.14451607321235665
+      "score": 0.03877739114765415
     },
     {
-      "category": "Recreation",
-      "score": 0.12655046546028892
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.12336745386608379
-    },
-    {
-      "category": "Health",
-      "score": 0.09651126734518306
-    },
-    {
-      "category": "Demographics",
-      "score": 0.09300238509071634
-    },
-    {
-      "category": "Utilities",
-      "score": 0.08859711153808512
-    },
-    {
-      "category": "Transportation",
-      "score": 0.025644366487489568
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.022239639760743238
-    },
-    {
-      "category": "Government",
-      "score": 0.02074365344445229
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.014356140818742298
-    },
-    {
-      "category": "Hazards",
-      "score": 0.0019023558101884832
+      "category": "Development",
+      "score": 0.031245006816930217
     },
     {
       "category": "Public safety",
-      "score": 0.0009627427792014949
+      "score": 0.030699457141835466
+    },
+    {
+      "category": "Recreation",
+      "score": 0.02490366756159143
+    },
+    {
+      "category": "Utilities",
+      "score": 0.02097857098011792
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0161646960957751
+    },
+    {
+      "category": "Government",
+      "score": 0.01445794032753661
+    },
+    {
+      "category": "Planning",
+      "score": 0.010370898355661578
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.010002576984377173
+    },
+    {
+      "category": "Demographics",
+      "score": 0.00848395256943185
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.00688008296457299
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.006825201739892499
+    },
+    {
+      "category": "Hazards",
+      "score": 0.005614844570204615
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.004315336054378753
     }
   ],
-  "8247178dcde64b83bce88e1ebf01f9ad9ba2064de3346e3cbaec75db2810e0c2": [
+  "7511b22b5b6d154d0abb8d3b4a4363dc5ab6086aabd2acff63c5d0c610316ed4": [
     {
-      "category": "Recreation",
-      "score": 0.12059040665245777
-    },
-    {
-      "category": "Health",
-      "score": 0.09624910583621907
-    },
-    {
-      "category": "Environment",
-      "score": 0.09028870744808072
-    },
-    {
-      "category": "Transportation",
-      "score": 0.052100257040067786
-    },
-    {
-      "category": "Development",
-      "score": 0.049124453870794144
-    },
-    {
-      "category": "Housing",
-      "score": 0.04875708651731287
-    },
-    {
-      "category": "Planning",
-      "score": 0.04832765352272032
-    },
-    {
-      "category": "Utilities",
-      "score": 0.04046371201684643
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.027182805424418803
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.018572583141854306
-    },
-    {
-      "category": "Demographics",
-      "score": 0.015444551653932981
+      "category": "Boundaries",
+      "score": 0.004553388308406259
     },
     {
       "category": "Public safety",
-      "score": 0.011772505993992297
+      "score": 0.004519455608554257
     },
     {
-      "category": "Boundaries",
-      "score": 0.011734976495579919
+      "category": "Housing",
+      "score": 0.004492119620216191
     },
     {
-      "category": "Public facilities",
-      "score": 0.007478804417621292
+      "category": "Utilities",
+      "score": 0.004281968600955283
+    },
+    {
+      "category": "Transportation",
+      "score": 0.003946844141018545
+    },
+    {
+      "category": "Demographics",
+      "score": 0.0034422580178812626
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.0033502793802484103
     },
     {
       "category": "Government",
-      "score": 0.005563514690981738
+      "score": 0.003036276224096324
+    },
+    {
+      "category": "Health",
+      "score": 0.002759450466081439
+    },
+    {
+      "category": "Planning",
+      "score": 0.0026827422212196404
+    },
+    {
+      "category": "Recreation",
+      "score": 0.0023027677652350796
     },
     {
       "category": "Hazards",
-      "score": 0.005127927193962056
+      "score": 0.0020268716833718474
+    },
+    {
+      "category": "Development",
+      "score": 0.0018193476496025046
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.0017333794513032547
+    },
+    {
+      "category": "Environment",
+      "score": 0.0015819660556559488
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.0014884812494875114
+    }
+  ],
+  "761a73b5e971b5497ceba541e3b199a13481df46741e7b516af403e71e2f01c3": [
+    {
+      "category": "Environment",
+      "score": 0.2832035322752998
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.2637173256628537
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.15985095767132443
+    },
+    {
+      "category": "Utilities",
+      "score": 0.15964230910025562
+    },
+    {
+      "category": "Planning",
+      "score": 0.11968844593957204
+    },
+    {
+      "category": "Health",
+      "score": 0.11222203047365234
+    },
+    {
+      "category": "Recreation",
+      "score": 0.09692469039727172
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.08580291244277767
+    },
+    {
+      "category": "Housing",
+      "score": 0.052806680253832644
+    },
+    {
+      "category": "Demographics",
+      "score": 0.050511948054127884
+    },
+    {
+      "category": "Development",
+      "score": 0.044279652600362616
+    },
+    {
+      "category": "Public safety",
+      "score": 0.027605273196062957
+    },
+    {
+      "category": "Government",
+      "score": 0.0214846831732432
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.00940338213572226
+    },
+    {
+      "category": "Transportation",
+      "score": 0.003497625919919459
+    },
+    {
+      "category": "Hazards",
+      "score": 0.0006653420665392263
+    }
+  ],
+  "7719a498caf86bde55f270fc4378557c5479eec01e0ef9e70672d3d232c33622": [
+    {
+      "category": "Development",
+      "score": 0.02430293245361175
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.013583561599580631
+    },
+    {
+      "category": "Environment",
+      "score": 0.011842573588634678
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.011595616150702981
+    },
+    {
+      "category": "Planning",
+      "score": 0.011254056487598208
+    },
+    {
+      "category": "Health",
+      "score": 0.008613134164959279
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.008535884352813163
+    },
+    {
+      "category": "Transportation",
+      "score": 0.008003493283260518
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0077853067524939435
+    },
+    {
+      "category": "Housing",
+      "score": 0.007672999156841226
+    },
+    {
+      "category": "Utilities",
+      "score": 0.007582972377400185
+    },
+    {
+      "category": "Government",
+      "score": 0.0063485812820349525
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.005935364201416753
+    },
+    {
+      "category": "Recreation",
+      "score": 0.005858058968400056
+    },
+    {
+      "category": "Demographics",
+      "score": 0.005462334053536941
+    },
+    {
+      "category": "Hazards",
+      "score": 0.005299875041897455
+    }
+  ],
+  "7854f69fe70cf7ab74f29dc31b2fd82f498390e1eb213789b9a5124bb3f7f31c": [
+    {
+      "category": "Hazards",
+      "score": 0.009564686291130614
+    },
+    {
+      "category": "Environment",
+      "score": 0.0072018221743332025
+    },
+    {
+      "category": "Health",
+      "score": 0.007162632052766543
+    },
+    {
+      "category": "Utilities",
+      "score": 0.007145962053477385
+    },
+    {
+      "category": "Housing",
+      "score": 0.00613235570881493
+    },
+    {
+      "category": "Demographics",
+      "score": 0.004906749714333396
+    },
+    {
+      "category": "Recreation",
+      "score": 0.00484792013665363
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.004551542523812073
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.0044251189157154215
+    },
+    {
+      "category": "Government",
+      "score": 0.0036568644294401806
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.002846826930412775
+    },
+    {
+      "category": "Planning",
+      "score": 0.002772726026853005
+    },
+    {
+      "category": "Development",
+      "score": 0.0025956921540674577
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.002267677171351028
+    },
+    {
+      "category": "Transportation",
+      "score": 0.001781721556900533
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0014890189592210224
+    }
+  ],
+  "82275db7cf1cceeff9a6808c7d6f974b95b4120ff60ce5a81af99ad153068019": [
+    {
+      "category": "Health",
+      "score": 0.06750015916901785
+    },
+    {
+      "category": "Development",
+      "score": 0.0616421433406766
+    },
+    {
+      "category": "Environment",
+      "score": 0.058624497676517284
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.05222358966871477
+    },
+    {
+      "category": "Recreation",
+      "score": 0.04183485150184901
+    },
+    {
+      "category": "Planning",
+      "score": 0.03866810760338226
+    },
+    {
+      "category": "Utilities",
+      "score": 0.032648476675655444
+    },
+    {
+      "category": "Housing",
+      "score": 0.029065827715903714
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.0273250394574399
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.02562804439517151
+    },
+    {
+      "category": "Transportation",
+      "score": 0.025299798883066306
+    },
+    {
+      "category": "Public safety",
+      "score": 0.022827792174559918
+    },
+    {
+      "category": "Demographics",
+      "score": 0.02122987648657606
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.017453162397507386
+    },
+    {
+      "category": "Government",
+      "score": 0.014823263924024978
+    },
+    {
+      "category": "Hazards",
+      "score": 0.005134247618489148
     }
   ],
   "8358c50a09b25d09da11c4a46f057a272e11333d10d484c5a48e8cfdb9580535": [
@@ -2705,136 +3431,136 @@
       "score": 0.00219700099265451
     }
   ],
-  "8712fca0b17ce2f354999182bbf687a6c72385a44fca5d6875234ff8e97a1532": [
+  "85e2f1ebc0b855e73e384884f78054c31fa916bed26fb43c9e905b81bd9f0b7e": [
     {
-      "category": "Health",
-      "score": 0.041866706372678496
-    },
-    {
-      "category": "Recreation",
-      "score": 0.03162985935132927
-    },
-    {
-      "category": "Development",
-      "score": 0.026364942359973637
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.02259603245403991
+      "category": "Utilities",
+      "score": 0.5206092490030657
     },
     {
       "category": "Environment",
-      "score": 0.020653003488965656
+      "score": 0.448531841093314
     },
     {
-      "category": "Utilities",
-      "score": 0.019144177270920885
-    },
-    {
-      "category": "Transportation",
-      "score": 0.01751429324045472
-    },
-    {
-      "category": "Planning",
-      "score": 0.014519875664795888
-    },
-    {
-      "category": "Housing",
-      "score": 0.01381155442883569
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.012643374407124692
-    },
-    {
-      "category": "Public safety",
-      "score": 0.010353624475759255
+      "category": "Infrastructure",
+      "score": 0.43923876270648016
     },
     {
       "category": "Demographics",
-      "score": 0.009552862549902069
+      "score": 0.3538517108086136
+    },
+    {
+      "category": "Planning",
+      "score": 0.3076364178923368
+    },
+    {
+      "category": "Health",
+      "score": 0.29604553426322466
+    },
+    {
+      "category": "Transportation",
+      "score": 0.23893716421928643
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.22276788929514743
+    },
+    {
+      "category": "Housing",
+      "score": 0.1868149149199203
+    },
+    {
+      "category": "Development",
+      "score": 0.14373907829791616
     },
     {
       "category": "Government",
-      "score": 0.007985544011521881
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.007372090476487328
+      "score": 0.0990377975500515
     },
     {
       "category": "Solid waste",
-      "score": 0.006113939454017993
+      "score": 0.08119989349254593
+    },
+    {
+      "category": "Recreation",
+      "score": 0.06697399825373283
+    },
+    {
+      "category": "Public safety",
+      "score": 0.042607817571771275
     },
     {
       "category": "Hazards",
-      "score": 0.0033329124880624324
+      "score": 0.030663998618623976
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.02799050453887938
     }
   ],
-  "872658ca89299f6b26fbbe7452c596f9570ef722775fe2c5ca3395f2e49f7295": [
-    {
-      "category": "Environment",
-      "score": 0.8226654163304365
-    },
-    {
-      "category": "Health",
-      "score": 0.6180968919174845
-    },
+  "86485b1703a3839327278b392670f077383d0363bf3d26540ce829cb9a34d215": [
     {
       "category": "Development",
-      "score": 0.5395226226886433
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.5097758479537522
+      "score": 0.4168636630232938
     },
     {
       "category": "Utilities",
-      "score": 0.5019782471040118
+      "score": 0.31067890964516
     },
     {
-      "category": "Housing",
-      "score": 0.3669030261912866
+      "category": "Health",
+      "score": 0.28744013595124457
+    },
+    {
+      "category": "Environment",
+      "score": 0.26388525647373645
     },
     {
       "category": "Boundaries",
-      "score": 0.3282850154140164
-    },
-    {
-      "category": "Planning",
-      "score": 0.30291052784304956
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.256982497245359
-    },
-    {
-      "category": "Recreation",
-      "score": 0.20082114899885675
+      "score": 0.217090164721074
     },
     {
       "category": "Transportation",
-      "score": 0.18981022010705678
+      "score": 0.16439825784261594
+    },
+    {
+      "category": "Planning",
+      "score": 0.13927402630146324
+    },
+    {
+      "category": "Recreation",
+      "score": 0.12188383107342081
+    },
+    {
+      "category": "Housing",
+      "score": 0.10414775184907102
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.09607522292088347
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.05391577445667979
     },
     {
       "category": "Government",
-      "score": 0.15945417393347686
-    },
-    {
-      "category": "Demographics",
-      "score": 0.09082117461926785
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.0543352384119079
-    },
-    {
-      "category": "Hazards",
-      "score": 0.030597920603559488
+      "score": 0.052655801784163805
     },
     {
       "category": "Public safety",
-      "score": 0.02589035085990646
+      "score": 0.04469831564769255
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.014788705342888288
+    },
+    {
+      "category": "Demographics",
+      "score": 0.012988800834281156
+    },
+    {
+      "category": "Hazards",
+      "score": 0.007637879236263858
     }
   ],
   "87d438c0f4dc42b1befbff6da944a3c8c473431b539f688f39570a7dca76d500": [
@@ -2903,268 +3629,136 @@
       "score": 0.00785359761334348
     }
   ],
-  "89d3b1a1f45e00392dd0fd38f08cc45066d9b4eaaa3603df18353a1cccd0ebd2": [
-    {
-      "category": "Recreation",
-      "score": 0.6036934250241288
-    },
-    {
-      "category": "Health",
-      "score": 0.5559369935083853
-    },
-    {
-      "category": "Housing",
-      "score": 0.5245997382200109
-    },
+  "8e74c3983b008c7b65e519958b8889b38a698af09fe648cde781e7a6dc1734c3": [
     {
       "category": "Boundaries",
-      "score": 0.49374531245641506
-    },
-    {
-      "category": "Utilities",
-      "score": 0.48394175701135766
-    },
-    {
-      "category": "Planning",
-      "score": 0.420968631839065
-    },
-    {
-      "category": "Environment",
-      "score": 0.36211165983018234
-    },
-    {
-      "category": "Development",
-      "score": 0.3616868957022167
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.21769877357416037
-    },
-    {
-      "category": "Transportation",
-      "score": 0.1695748648756536
-    },
-    {
-      "category": "Public safety",
-      "score": 0.16957094460765498
-    },
-    {
-      "category": "Government",
-      "score": 0.0875417394006678
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.06955329255730276
+      "score": 0.6692413869970688
     },
     {
       "category": "Demographics",
-      "score": 0.06677676704705536
+      "score": 0.6692413869970688
     },
     {
-      "category": "Solid waste",
-      "score": 0.05098394063211175
+      "category": "Development",
+      "score": 0.6692413869970688
+    },
+    {
+      "category": "Environment",
+      "score": 0.6692413869970688
+    },
+    {
+      "category": "Government",
+      "score": 0.6692413869970688
     },
     {
       "category": "Hazards",
-      "score": 0.02346695734859397
+      "score": 0.6692413869970688
+    },
+    {
+      "category": "Health",
+      "score": 0.6692413869970688
+    },
+    {
+      "category": "Housing",
+      "score": 0.6692413869970688
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.6692413869970688
+    },
+    {
+      "category": "Planning",
+      "score": 0.6692413869970688
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.6692413869970688
+    },
+    {
+      "category": "Public safety",
+      "score": 0.6692413869970688
+    },
+    {
+      "category": "Recreation",
+      "score": 0.6692413869970688
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.6692413869970688
+    },
+    {
+      "category": "Transportation",
+      "score": 0.6692413869970688
+    },
+    {
+      "category": "Utilities",
+      "score": 0.6692413869970688
     }
   ],
-  "8a784c9cfb89fcdb72cb4cdb75d8662cadc1a8aaf9d1a25c3f855be4a0965470": [
+  "901a6a68fd0b33991427518a9da45aa89782fb1319f6b9512a69f95c77c6eec7": [
     {
       "category": "Environment",
-      "score": 0.29393341929494676
-    },
-    {
-      "category": "Development",
-      "score": 0.18492107713865089
-    },
-    {
-      "category": "Recreation",
-      "score": 0.0909725817524277
-    },
-    {
-      "category": "Health",
-      "score": 0.08219521341438148
+      "score": 0.4720264359726272
     },
     {
       "category": "Infrastructure",
-      "score": 0.07895923424544031
-    },
-    {
-      "category": "Utilities",
-      "score": 0.05997829777387769
-    },
-    {
-      "category": "Planning",
-      "score": 0.05474568183444874
-    },
-    {
-      "category": "Housing",
-      "score": 0.041480962509693284
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.032351343544195915
-    },
-    {
-      "category": "Demographics",
-      "score": 0.020344190956200124
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.01750674310276788
-    },
-    {
-      "category": "Government",
-      "score": 0.011597411852130122
-    },
-    {
-      "category": "Transportation",
-      "score": 0.00964400105464399
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.009257899384485497
-    },
-    {
-      "category": "Public safety",
-      "score": 0.001387641533895792
-    },
-    {
-      "category": "Hazards",
-      "score": 0.0006208073681153211
-    }
-  ],
-  "8e911e587e2488632e71628348cd1b492775ce605c581fb910b296b62c13c5fa": [
-    {
-      "category": "Transportation",
-      "score": 0.8027635512509288
-    },
-    {
-      "category": "Utilities",
-      "score": 0.7993879720135256
-    },
-    {
-      "category": "Government",
-      "score": 0.783386723528629
-    },
-    {
-      "category": "Hazards",
-      "score": 0.6498184246049962
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.5981895086231768
-    },
-    {
-      "category": "Housing",
-      "score": 0.5644863506714166
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.5108114356279104
+      "score": 0.3427978464251698
     },
     {
       "category": "Health",
-      "score": 0.45668578261466647
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.4113410655679364
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.40493257154341544
-    },
-    {
-      "category": "Development",
-      "score": 0.4008033078156196
-    },
-    {
-      "category": "Environment",
-      "score": 0.3568553017961157
-    },
-    {
-      "category": "Public safety",
-      "score": 0.34882793773449394
-    },
-    {
-      "category": "Planning",
-      "score": 0.34377366145083776
-    },
-    {
-      "category": "Recreation",
-      "score": 0.2591738529519377
-    },
-    {
-      "category": "Demographics",
-      "score": 0.20342355144826263
-    }
-  ],
-  "9094b156e2e86ad8291ed70e9e8c9e6cdf61f5450f44638b9b002131a47d77b7": [
-    {
-      "category": "Boundaries",
-      "score": 0.20046402615620318
-    },
-    {
-      "category": "Demographics",
-      "score": 0.20046402615620318
-    },
-    {
-      "category": "Development",
-      "score": 0.20046402615620318
-    },
-    {
-      "category": "Environment",
-      "score": 0.20046402615620318
-    },
-    {
-      "category": "Government",
-      "score": 0.20046402615620318
-    },
-    {
-      "category": "Hazards",
-      "score": 0.20046402615620318
-    },
-    {
-      "category": "Health",
-      "score": 0.20046402615620318
+      "score": 0.338303450756254
     },
     {
       "category": "Housing",
-      "score": 0.20046402615620318
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.20046402615620318
-    },
-    {
-      "category": "Planning",
-      "score": 0.20046402615620318
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.20046402615620318
-    },
-    {
-      "category": "Public safety",
-      "score": 0.20046402615620318
-    },
-    {
-      "category": "Recreation",
-      "score": 0.20046402615620318
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.20046402615620318
-    },
-    {
-      "category": "Transportation",
-      "score": 0.20046402615620318
+      "score": 0.1881734575229154
     },
     {
       "category": "Utilities",
-      "score": 0.20046402615620318
+      "score": 0.13568586493315257
+    },
+    {
+      "category": "Development",
+      "score": 0.12364671086972763
+    },
+    {
+      "category": "Public safety",
+      "score": 0.07611458714127847
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.0650413135070756
+    },
+    {
+      "category": "Demographics",
+      "score": 0.046364026770527235
+    },
+    {
+      "category": "Planning",
+      "score": 0.04019086246914786
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.03694878469883718
+    },
+    {
+      "category": "Recreation",
+      "score": 0.03457501686666174
+    },
+    {
+      "category": "Government",
+      "score": 0.031479218158386786
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.019619323314249818
+    },
+    {
+      "category": "Transportation",
+      "score": 0.01796302633760759
+    },
+    {
+      "category": "Hazards",
+      "score": 0.015664509795359657
     }
   ],
   "90b61fc6fc2e73585fd3ee596bfd1a0e6c95b34dbbe756e4a11d52dab9d5eb3b": [
@@ -3233,6 +3827,138 @@
       "score": 0.0007536824883433644
     }
   ],
+  "91583342aef84c62e73ad8b0ef8597006c36e4c28b77894d690f06294e5b6981": [
+    {
+      "category": "Boundaries",
+      "score": 0.6937184345168338
+    },
+    {
+      "category": "Planning",
+      "score": 0.6806251885306022
+    },
+    {
+      "category": "Environment",
+      "score": 0.5020779603836318
+    },
+    {
+      "category": "Health",
+      "score": 0.39327732325497683
+    },
+    {
+      "category": "Development",
+      "score": 0.3037002371862261
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.1914074968927221
+    },
+    {
+      "category": "Housing",
+      "score": 0.14768110623208974
+    },
+    {
+      "category": "Utilities",
+      "score": 0.13231415301237995
+    },
+    {
+      "category": "Government",
+      "score": 0.13082131948495293
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.11998352083472476
+    },
+    {
+      "category": "Recreation",
+      "score": 0.10887496144797801
+    },
+    {
+      "category": "Transportation",
+      "score": 0.07555693418893927
+    },
+    {
+      "category": "Demographics",
+      "score": 0.06875508893275184
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.04802231492633223
+    },
+    {
+      "category": "Public safety",
+      "score": 0.027953902275581012
+    },
+    {
+      "category": "Hazards",
+      "score": 0.008005895399890753
+    }
+  ],
+  "951f9419426cadb438cb5cfc35993678f478f117ebb9bca32f93c66a1d32308b": [
+    {
+      "category": "Health",
+      "score": 0.24871263135108782
+    },
+    {
+      "category": "Public safety",
+      "score": 0.14036698130989583
+    },
+    {
+      "category": "Environment",
+      "score": 0.10487256800953977
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.10243609362124574
+    },
+    {
+      "category": "Utilities",
+      "score": 0.0920526354483099
+    },
+    {
+      "category": "Housing",
+      "score": 0.08035206446512641
+    },
+    {
+      "category": "Demographics",
+      "score": 0.057504791422194244
+    },
+    {
+      "category": "Development",
+      "score": 0.05007671986332323
+    },
+    {
+      "category": "Planning",
+      "score": 0.042812115057873815
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.04083635094050823
+    },
+    {
+      "category": "Government",
+      "score": 0.02772715374497321
+    },
+    {
+      "category": "Hazards",
+      "score": 0.008006682420779482
+    },
+    {
+      "category": "Recreation",
+      "score": 0.007250206969345556
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.006885867384325922
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.004600984159152893
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0034604478103522083
+    }
+  ],
   "9543a626a250b10da2b7bb182f332b46bd14f3875a75e5ddaa4876b7f77e0266": [
     {
       "category": "Health",
@@ -3299,202 +4025,466 @@
       "score": 0.4011466211049532
     }
   ],
-  "a14f97ff7ef52003050a7a98a65addd28e3a30f74374a84c8f1f11d556ac7304": [
-    {
-      "category": "Utilities",
-      "score": 0.7615753187525827
-    },
+  "98d42cbe5dc20ee79a0f1ea8dcc242e2f0b3c99afe61cdba9998f41cb33df972": [
     {
       "category": "Environment",
-      "score": 0.7328089913225182
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.6699154471252138
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.6046224047429899
+      "score": 0.1377567493231608
     },
     {
       "category": "Health",
-      "score": 0.5050504821385122
-    },
-    {
-      "category": "Planning",
-      "score": 0.5010449366744962
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.4430203131543009
-    },
-    {
-      "category": "Development",
-      "score": 0.42739686430278984
+      "score": 0.13183981995391822
     },
     {
       "category": "Housing",
-      "score": 0.3707163373376691
+      "score": 0.06700770884202435
+    },
+    {
+      "category": "Planning",
+      "score": 0.06141356426747449
+    },
+    {
+      "category": "Utilities",
+      "score": 0.0561282511090577
+    },
+    {
+      "category": "Development",
+      "score": 0.055309613165046664
     },
     {
       "category": "Public safety",
-      "score": 0.32648040124121663
+      "score": 0.04422156042048101
     },
     {
-      "category": "Government",
-      "score": 0.2185368367977194
-    },
-    {
-      "category": "Recreation",
-      "score": 0.19316703513557457
+      "category": "Boundaries",
+      "score": 0.03752921284067563
     },
     {
       "category": "Transportation",
-      "score": 0.1513614208768467
+      "score": 0.036691357602335134
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.03628885111903452
+    },
+    {
+      "category": "Government",
+      "score": 0.0319216634503027
+    },
+    {
+      "category": "Recreation",
+      "score": 0.02277303842747433
     },
     {
       "category": "Demographics",
-      "score": 0.08900527143311304
+      "score": 0.01655706742241471
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.015637703518317912
     },
     {
       "category": "Public facilities",
-      "score": 0.05072813964613926
+      "score": 0.007705814839813131
     },
     {
       "category": "Hazards",
-      "score": 0.015227097808448003
+      "score": 0.0037259103833543624
     }
   ],
-  "a4a6089f1d8db365b4aadb36d0834f2f18ebefb7cae4019944f9b929dc7a1a01": [
+  "99e5adcc18df36acd27357ae0c47f338acc0e340a32875239e0dc871cc6aec26": [
     {
-      "category": "Environment",
-      "score": 0.8208981760591818
-    },
-    {
-      "category": "Development",
-      "score": 0.8014276779512085
-    },
-    {
-      "category": "Planning",
-      "score": 0.7773006097614283
-    },
-    {
-      "category": "Housing",
-      "score": 0.7588560431489726
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.7513451252775296
+      "category": "Public safety",
+      "score": 0.4537933973134606
     },
     {
       "category": "Health",
-      "score": 0.737626253137932
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.6516273420596761
-    },
-    {
-      "category": "Government",
-      "score": 0.6513016231635143
+      "score": 0.4436672271216999
     },
     {
       "category": "Utilities",
-      "score": 0.6005254602601905
+      "score": 0.1935663252359678
     },
     {
-      "category": "Recreation",
-      "score": 0.561366278649693
+      "category": "Infrastructure",
+      "score": 0.16382657090097852
     },
     {
-      "category": "Public safety",
-      "score": 0.5504928418184973
+      "category": "Boundaries",
+      "score": 0.1505360616094759
     },
     {
-      "category": "Demographics",
-      "score": 0.3726029667395878
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.24948942799363677
+      "category": "Development",
+      "score": 0.1005402257126969
     },
     {
       "category": "Transportation",
-      "score": 0.21478729547097858
+      "score": 0.09433408506609016
+    },
+    {
+      "category": "Environment",
+      "score": 0.08322828355942252
+    },
+    {
+      "category": "Government",
+      "score": 0.06644611578063322
+    },
+    {
+      "category": "Housing",
+      "score": 0.06392772382243377
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.05538072400004978
+    },
+    {
+      "category": "Demographics",
+      "score": 0.04583442454248845
+    },
+    {
+      "category": "Planning",
+      "score": 0.0452213584959596
+    },
+    {
+      "category": "Recreation",
+      "score": 0.041684101337130006
     },
     {
       "category": "Public facilities",
-      "score": 0.18991226187206636
+      "score": 0.02597393390691276
     },
     {
       "category": "Hazards",
-      "score": 0.010539033910107017
+      "score": 0.002429495583375574
     }
   ],
-  "a55e0079aea81b4166734db8f50988990b784e02132f81c94527282cb8a8cbf2": [
+  "9b075053874c86f1b76044924dfa68f85966ddd9f0d617541df05fd7fcc09750": [
     {
       "category": "Health",
-      "score": 0.5268858733751959
-    },
-    {
-      "category": "Environment",
-      "score": 0.40555718236605326
-    },
-    {
-      "category": "Recreation",
-      "score": 0.4049055024621584
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.37439778806275603
-    },
-    {
-      "category": "Utilities",
-      "score": 0.36683630047393917
-    },
-    {
-      "category": "Planning",
-      "score": 0.3651980897335677
-    },
-    {
-      "category": "Development",
-      "score": 0.3646142649529607
-    },
-    {
-      "category": "Housing",
-      "score": 0.3049878526968741
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.21714644698355615
+      "score": 0.30225393968253284
     },
     {
       "category": "Transportation",
-      "score": 0.12467880946812247
+      "score": 0.055624004743636005
     },
     {
-      "category": "Demographics",
-      "score": 0.10041509531492623
+      "category": "Recreation",
+      "score": 0.0423235916109901
     },
     {
       "category": "Public safety",
-      "score": 0.09329848228777231
+      "score": 0.039635105000344346
     },
     {
-      "category": "Solid waste",
-      "score": 0.07137666848308691
+      "category": "Housing",
+      "score": 0.01812701567846813
+    },
+    {
+      "category": "Environment",
+      "score": 0.015051927271575487
+    },
+    {
+      "category": "Development",
+      "score": 0.014075193290934023
+    },
+    {
+      "category": "Utilities",
+      "score": 0.01207676520034123
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.011338881241526476
     },
     {
       "category": "Government",
-      "score": 0.0644424198217352
+      "score": 0.009384144466917689
     },
     {
-      "category": "Hazards",
-      "score": 0.03819883241687655
+      "category": "Solid waste",
+      "score": 0.00870716312581319
+    },
+    {
+      "category": "Planning",
+      "score": 0.007733229345479243
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.006154535825288655
     },
     {
       "category": "Public facilities",
-      "score": 0.03386665437656179
+      "score": 0.005697307866140294
+    },
+    {
+      "category": "Demographics",
+      "score": 0.004199308739997175
+    },
+    {
+      "category": "Hazards",
+      "score": 0.003570145036793913
+    }
+  ],
+  "9bb6c6aa4dacb5292bc0b392e94e31b839a8509fb566041322591be9d52d73a2": [
+    {
+      "category": "Environment",
+      "score": 0.020772334239327506
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.020669286496452704
+    },
+    {
+      "category": "Housing",
+      "score": 0.020001925993656654
+    },
+    {
+      "category": "Hazards",
+      "score": 0.018872834803378227
+    },
+    {
+      "category": "Recreation",
+      "score": 0.014664593286032122
+    },
+    {
+      "category": "Transportation",
+      "score": 0.014423137385581108
+    },
+    {
+      "category": "Development",
+      "score": 0.01209003051742229
+    },
+    {
+      "category": "Utilities",
+      "score": 0.011624205393827098
+    },
+    {
+      "category": "Health",
+      "score": 0.010589002670738817
+    },
+    {
+      "category": "Demographics",
+      "score": 0.009528145795147259
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.007540484406826762
+    },
+    {
+      "category": "Public safety",
+      "score": 0.004069022258748197
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.004051809729316476
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.0033528017577791618
+    },
+    {
+      "category": "Planning",
+      "score": 0.003074042955336692
+    },
+    {
+      "category": "Government",
+      "score": 0.002154258113993702
+    }
+  ],
+  "a1df9bd4538ddbda376fc0cba4d1d3b175f533027fc61a528be47a689ba59aa3": [
+    {
+      "category": "Environment",
+      "score": 0.7722894280227495
+    },
+    {
+      "category": "Health",
+      "score": 0.38324804976920546
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.37253882949933537
+    },
+    {
+      "category": "Development",
+      "score": 0.3266932481417803
+    },
+    {
+      "category": "Demographics",
+      "score": 0.19692298515972542
+    },
+    {
+      "category": "Utilities",
+      "score": 0.19637613567166456
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.15082029268235744
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.13788826046244235
+    },
+    {
+      "category": "Housing",
+      "score": 0.1255013354725666
+    },
+    {
+      "category": "Planning",
+      "score": 0.10296904611177993
+    },
+    {
+      "category": "Hazards",
+      "score": 0.09026755428956439
+    },
+    {
+      "category": "Public safety",
+      "score": 0.07966305195809556
+    },
+    {
+      "category": "Recreation",
+      "score": 0.06427522766799951
+    },
+    {
+      "category": "Transportation",
+      "score": 0.06017046763044591
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.03607430067571344
+    },
+    {
+      "category": "Government",
+      "score": 0.0323489052526352
+    }
+  ],
+  "a5158f8dee7c858db4ec9b58da2d4ed56b64fd171da9de79a3617d9ff4cefc4e": [
+    {
+      "category": "Boundaries",
+      "score": 0.216738836269715
+    },
+    {
+      "category": "Housing",
+      "score": 0.18357210808548868
+    },
+    {
+      "category": "Development",
+      "score": 0.15314579654930488
+    },
+    {
+      "category": "Utilities",
+      "score": 0.09365288121793872
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.06766216349373856
+    },
+    {
+      "category": "Environment",
+      "score": 0.06195480198562904
+    },
+    {
+      "category": "Planning",
+      "score": 0.05521671103832033
+    },
+    {
+      "category": "Demographics",
+      "score": 0.03785254207745857
+    },
+    {
+      "category": "Transportation",
+      "score": 0.027309009897081
+    },
+    {
+      "category": "Health",
+      "score": 0.023001937587221525
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.01369698165079152
+    },
+    {
+      "category": "Government",
+      "score": 0.013394387570192208
+    },
+    {
+      "category": "Recreation",
+      "score": 0.01204385887828286
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.006482642079354668
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0012062445097175659
+    },
+    {
+      "category": "Hazards",
+      "score": 0.00047957568232868134
+    }
+  ],
+  "a62e01133ae87c1ac077405df7e00f6b0c68cb982cfec46947a25b577be7116c": [
+    {
+      "category": "Health",
+      "score": 0.09725960298338453
+    },
+    {
+      "category": "Recreation",
+      "score": 0.08294500208014297
+    },
+    {
+      "category": "Environment",
+      "score": 0.05577240877499364
+    },
+    {
+      "category": "Development",
+      "score": 0.047852970178817435
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.025368278132555936
+    },
+    {
+      "category": "Utilities",
+      "score": 0.024495328897060808
+    },
+    {
+      "category": "Housing",
+      "score": 0.024212129541248472
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.022643601249189883
+    },
+    {
+      "category": "Planning",
+      "score": 0.019548486300870534
+    },
+    {
+      "category": "Transportation",
+      "score": 0.016031562599538945
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.01520183684738854
+    },
+    {
+      "category": "Demographics",
+      "score": 0.009088627264347367
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.008979918636416903
+    },
+    {
+      "category": "Government",
+      "score": 0.008448475848826189
+    },
+    {
+      "category": "Public safety",
+      "score": 0.004750927959135452
+    },
+    {
+      "category": "Hazards",
+      "score": 0.00047171833830332067
     }
   ],
   "a7a7f1d0e7db6a69517e8c4b5f8c3694855602cd477415a25b036b4717bcad32": [
@@ -3563,6 +4553,204 @@
       "score": 0.002646785037825509
     }
   ],
+  "a8ab6c2a5d3bf96418a88cca78d2305e2735adf53a0960b45bbd2f9c02c2495d": [
+    {
+      "category": "Boundaries",
+      "score": 0.32958625963362936
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.10165710164516527
+    },
+    {
+      "category": "Public safety",
+      "score": 0.09774865078622445
+    },
+    {
+      "category": "Health",
+      "score": 0.09195218011637145
+    },
+    {
+      "category": "Planning",
+      "score": 0.07309951152326243
+    },
+    {
+      "category": "Environment",
+      "score": 0.05158121483428812
+    },
+    {
+      "category": "Development",
+      "score": 0.04342414810234242
+    },
+    {
+      "category": "Utilities",
+      "score": 0.034125674812184294
+    },
+    {
+      "category": "Government",
+      "score": 0.023072376039724632
+    },
+    {
+      "category": "Transportation",
+      "score": 0.02185417349579584
+    },
+    {
+      "category": "Housing",
+      "score": 0.018019831787869384
+    },
+    {
+      "category": "Demographics",
+      "score": 0.016418852017551857
+    },
+    {
+      "category": "Hazards",
+      "score": 0.01630835952493987
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.015249310929692393
+    },
+    {
+      "category": "Recreation",
+      "score": 0.009026915401605773
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.007424859204028608
+    }
+  ],
+  "a94dd2b82725c1b3b3a2ad9de77aa9af8d9853c290c52640b76af098c8967dc0": [
+    {
+      "category": "Infrastructure",
+      "score": 0.09005564352352567
+    },
+    {
+      "category": "Environment",
+      "score": 0.0675357382635137
+    },
+    {
+      "category": "Planning",
+      "score": 0.024501722233221255
+    },
+    {
+      "category": "Demographics",
+      "score": 0.020402790033052242
+    },
+    {
+      "category": "Development",
+      "score": 0.01896569758442276
+    },
+    {
+      "category": "Utilities",
+      "score": 0.01688651686985781
+    },
+    {
+      "category": "Health",
+      "score": 0.01596077963404437
+    },
+    {
+      "category": "Hazards",
+      "score": 0.014577047837411384
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.014046052977632898
+    },
+    {
+      "category": "Recreation",
+      "score": 0.013035568868290765
+    },
+    {
+      "category": "Government",
+      "score": 0.011840337156657284
+    },
+    {
+      "category": "Housing",
+      "score": 0.01125758819881413
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.009691231326881582
+    },
+    {
+      "category": "Public safety",
+      "score": 0.008677803841224975
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.004713690522158453
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0033257935223831095
+    }
+  ],
+  "aa25a2ae971091248cfa2ad87cb866e9acddbd81a09c1aee84b0c40955e2ae3f": [
+    {
+      "category": "Health",
+      "score": 0.28039637649788385
+    },
+    {
+      "category": "Housing",
+      "score": 0.22858346675059013
+    },
+    {
+      "category": "Demographics",
+      "score": 0.15439579095540432
+    },
+    {
+      "category": "Development",
+      "score": 0.10720712916581379
+    },
+    {
+      "category": "Environment",
+      "score": 0.05052272623911557
+    },
+    {
+      "category": "Planning",
+      "score": 0.046504178909240954
+    },
+    {
+      "category": "Utilities",
+      "score": 0.04580842924084701
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.03619757758328673
+    },
+    {
+      "category": "Recreation",
+      "score": 0.03344977023948558
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.032694876067401936
+    },
+    {
+      "category": "Transportation",
+      "score": 0.02879526955544281
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.01268953140331924
+    },
+    {
+      "category": "Hazards",
+      "score": 0.012474394775275038
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.010647150868149416
+    },
+    {
+      "category": "Public safety",
+      "score": 0.006443969725983281
+    },
+    {
+      "category": "Government",
+      "score": 0.005233447539364777
+    }
+  ],
   "aaa2a5db023551ef6f3aa4c5b5e4d992168a0c82438c922ab329430a68ad5dcf": [
     {
       "category": "Health",
@@ -3629,136 +4817,334 @@
       "score": 0.0005408235425997747
     }
   ],
-  "aae89f2ff7eed1ddc6b209aae4e102ac436de71dbf6f73e4817924e121026649": [
-    {
-      "category": "Environment",
-      "score": 0.7334067008538309
-    },
-    {
-      "category": "Transportation",
-      "score": 0.7136153547252907
-    },
-    {
-      "category": "Utilities",
-      "score": 0.7133501308563662
-    },
-    {
-      "category": "Development",
-      "score": 0.6888544742657203
-    },
+  "ab1c4c31c0acc9dff45299fbb9c6254b9bc912a6191fab8b59096c9a5a8fea0a": [
     {
       "category": "Health",
-      "score": 0.6532303130982111
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.6519744711248063
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.6300828083966571
-    },
-    {
-      "category": "Housing",
-      "score": 0.6148025261158256
+      "score": 0.47717996410920077
     },
     {
       "category": "Boundaries",
-      "score": 0.5528844601370353
-    },
-    {
-      "category": "Planning",
-      "score": 0.515678833844501
+      "score": 0.36759181038870575
     },
     {
       "category": "Recreation",
-      "score": 0.49841207588578623
+      "score": 0.32548848264376123
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.31390183883337275
+    },
+    {
+      "category": "Housing",
+      "score": 0.2915400033127547
+    },
+    {
+      "category": "Planning",
+      "score": 0.25608177873111504
+    },
+    {
+      "category": "Environment",
+      "score": 0.23088270855375134
+    },
+    {
+      "category": "Development",
+      "score": 0.22878550560363276
+    },
+    {
+      "category": "Utilities",
+      "score": 0.22067398149659986
+    },
+    {
+      "category": "Transportation",
+      "score": 0.08119126789482865
     },
     {
       "category": "Government",
-      "score": 0.4846470309950467
+      "score": 0.07446292793061737
     },
     {
       "category": "Demographics",
-      "score": 0.3561802159554688
-    },
-    {
-      "category": "Public safety",
-      "score": 0.35102491894110294
+      "score": 0.04964650519973202
     },
     {
       "category": "Public facilities",
-      "score": 0.18368274416351013
+      "score": 0.04561348018454507
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.036727261854176164
+    },
+    {
+      "category": "Public safety",
+      "score": 0.012576141735062015
     },
     {
       "category": "Hazards",
-      "score": 0.07891623266038815
+      "score": 0.004975954717295736
     }
   ],
-  "ad868b6880f0db4d0d032d7db7000681c9b31729c4acd7e81b61df7e6b677768": [
-    {
-      "category": "Transportation",
-      "score": 0.9235851959374248
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.913430848550322
-    },
+  "ab87b4868b6aea978b16300ec7b8b450f2c1b6fe20ff03747f04b1dd124e10a7": [
     {
       "category": "Environment",
-      "score": 0.8381129253135536
-    },
-    {
-      "category": "Housing",
-      "score": 0.8280547248054089
-    },
-    {
-      "category": "Health",
-      "score": 0.8221846107386117
+      "score": 0.011439792336485599
     },
     {
       "category": "Utilities",
-      "score": 0.7771213004495107
-    },
-    {
-      "category": "Government",
-      "score": 0.7662482696776621
-    },
-    {
-      "category": "Public safety",
-      "score": 0.6911519866593282
-    },
-    {
-      "category": "Planning",
-      "score": 0.624424287280648
+      "score": 0.007683296229111621
     },
     {
       "category": "Infrastructure",
-      "score": 0.6210889142724928
+      "score": 0.007005794003327076
     },
     {
       "category": "Hazards",
-      "score": 0.6120914657682345
-    },
-    {
-      "category": "Recreation",
-      "score": 0.6066121670217653
+      "score": 0.006914587662929843
     },
     {
       "category": "Demographics",
-      "score": 0.5582988345019202
+      "score": 0.00685409284115875
+    },
+    {
+      "category": "Health",
+      "score": 0.0052141161993954485
+    },
+    {
+      "category": "Housing",
+      "score": 0.004940749211693394
     },
     {
       "category": "Public facilities",
-      "score": 0.504823897712174
+      "score": 0.004351059619708489
+    },
+    {
+      "category": "Recreation",
+      "score": 0.00415929473289731
+    },
+    {
+      "category": "Government",
+      "score": 0.0036292878593780177
     },
     {
       "category": "Solid waste",
-      "score": 0.4933121751024218
+      "score": 0.0033146640266749038
     },
     {
       "category": "Development",
-      "score": 0.4899179791932941
+      "score": 0.0026178156576448734
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.0021925902280249695
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0021342826619053495
+    },
+    {
+      "category": "Public safety",
+      "score": 0.002071919216598835
+    },
+    {
+      "category": "Planning",
+      "score": 0.0017601619868447547
+    }
+  ],
+  "ac1f6e8a73198ef423d955231d16f3613916cae0f49b58bd51fc49ad2b6c8ac3": [
+    {
+      "category": "Health",
+      "score": 0.14499397377358061
+    },
+    {
+      "category": "Transportation",
+      "score": 0.07873517786479171
+    },
+    {
+      "category": "Recreation",
+      "score": 0.07625741971662992
+    },
+    {
+      "category": "Development",
+      "score": 0.07548851646903855
+    },
+    {
+      "category": "Environment",
+      "score": 0.0613705569627259
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.05718704727328492
+    },
+    {
+      "category": "Housing",
+      "score": 0.03988701912761525
+    },
+    {
+      "category": "Utilities",
+      "score": 0.03770670761622111
+    },
+    {
+      "category": "Demographics",
+      "score": 0.037141003519986254
+    },
+    {
+      "category": "Public safety",
+      "score": 0.03571738903329834
+    },
+    {
+      "category": "Planning",
+      "score": 0.0353744961974898
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.034498853697236175
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.02175242754618605
+    },
+    {
+      "category": "Government",
+      "score": 0.018893261486034194
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.016970183260093887
+    },
+    {
+      "category": "Hazards",
+      "score": 0.0057336695447429906
+    }
+  ],
+  "adf0044dc48c821dd1bfe05c9f34e235721d10ea308a20d48840fb66c6a0bb40": [
+    {
+      "category": "Environment",
+      "score": 0.006664949252776836
+    },
+    {
+      "category": "Health",
+      "score": 0.005376157297217599
+    },
+    {
+      "category": "Housing",
+      "score": 0.005244339214451292
+    },
+    {
+      "category": "Hazards",
+      "score": 0.004856894422442448
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.0036123488017695067
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.0035176033844285864
+    },
+    {
+      "category": "Utilities",
+      "score": 0.002952088810331956
+    },
+    {
+      "category": "Demographics",
+      "score": 0.0029161747910585196
+    },
+    {
+      "category": "Recreation",
+      "score": 0.0028826348581961294
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.0023169302971241105
+    },
+    {
+      "category": "Planning",
+      "score": 0.002175866090215717
+    },
+    {
+      "category": "Government",
+      "score": 0.0016911165915828735
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.0016595234085039563
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0015102132182950973
+    },
+    {
+      "category": "Development",
+      "score": 0.0008245012251612113
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0007853615063779712
+    }
+  ],
+  "ae4ff773cf90ebc5f4038405c0673825344bbfe57e1f5d9b953e33bafefe872f": [
+    {
+      "category": "Health",
+      "score": 0.19757037738226582
+    },
+    {
+      "category": "Public safety",
+      "score": 0.1184168502232286
+    },
+    {
+      "category": "Environment",
+      "score": 0.10259846977486334
+    },
+    {
+      "category": "Utilities",
+      "score": 0.09470833998593263
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.08178260837739537
+    },
+    {
+      "category": "Housing",
+      "score": 0.07317998913511471
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.049666540533607965
+    },
+    {
+      "category": "Development",
+      "score": 0.043226418973310296
+    },
+    {
+      "category": "Planning",
+      "score": 0.03737106021596422
+    },
+    {
+      "category": "Demographics",
+      "score": 0.03409375243613732
+    },
+    {
+      "category": "Government",
+      "score": 0.02967744637366929
+    },
+    {
+      "category": "Transportation",
+      "score": 0.019829599457192083
+    },
+    {
+      "category": "Recreation",
+      "score": 0.007621793654591702
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.006787972627960883
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.006317757671950536
+    },
+    {
+      "category": "Hazards",
+      "score": 0.004660218007160126
     }
   ],
   "af556c993147072f5f47a10188a4cb870498439436f37759b1be414499fe994a": [
@@ -3827,268 +5213,136 @@
       "score": 0.018582278036366733
     }
   ],
-  "b3a21157175e9d76d5b02d0bed0619a29e2bf01a9e19402fc2ef690c3be61022": [
+  "b39711d1cd0234d855dd8fb5a763d097758395df800f480ab7653ad85fad10e0": [
     {
-      "category": "Development",
-      "score": 0.23514183594055926
+      "category": "Recreation",
+      "score": 0.11856504256943215
     },
     {
       "category": "Health",
-      "score": 0.19283666522510212
+      "score": 0.09537490195747016
     },
     {
       "category": "Environment",
-      "score": 0.1850143355995084
-    },
-    {
-      "category": "Transportation",
-      "score": 0.1745805704956103
-    },
-    {
-      "category": "Public safety",
-      "score": 0.13709510251181178
-    },
-    {
-      "category": "Recreation",
-      "score": 0.13571250969300688
-    },
-    {
-      "category": "Utilities",
-      "score": 0.10140701650841859
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.09830141040728443
+      "score": 0.0686643391275472
     },
     {
       "category": "Planning",
-      "score": 0.08550418145753354
+      "score": 0.03908155773790654
     },
     {
       "category": "Housing",
-      "score": 0.08368512802387837
+      "score": 0.0365011767780574
     },
     {
-      "category": "Infrastructure",
-      "score": 0.05983833668219811
+      "category": "Development",
+      "score": 0.034346797428842016
     },
     {
-      "category": "Public facilities",
-      "score": 0.05328472553917656
+      "category": "Utilities",
+      "score": 0.03125597427199981
     },
     {
       "category": "Solid waste",
-      "score": 0.04965261461125488
+      "score": 0.025949961988503967
     },
     {
-      "category": "Government",
-      "score": 0.04144638466855275
+      "category": "Infrastructure",
+      "score": 0.02263927701080466
     },
     {
       "category": "Demographics",
-      "score": 0.031950831512185654
+      "score": 0.014775935470405841
+    },
+    {
+      "category": "Government",
+      "score": 0.009449414856015536
+    },
+    {
+      "category": "Transportation",
+      "score": 0.008568212876126451
+    },
+    {
+      "category": "Public safety",
+      "score": 0.007321977512293208
     },
     {
       "category": "Hazards",
-      "score": 0.028241083732344987
+      "score": 0.0062825307005044285
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.006131491298419105
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.005042623462758385
     }
   ],
-  "b3c9b03b19388ebec13c9d70864054a64a33983608d39fd4bfda887563b45779": [
-    {
-      "category": "Solid waste",
-      "score": 0.8375003225736721
-    },
+  "b534915a8bb46aa858f22daf95d759ec14490630529a1ceab52ae403a8548f1a": [
     {
       "category": "Planning",
-      "score": 0.28776796698732254
-    },
-    {
-      "category": "Environment",
-      "score": 0.22743876044300185
-    },
-    {
-      "category": "Utilities",
-      "score": 0.14885395169410098
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.14623149122004553
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.11737904180488125
-    },
-    {
-      "category": "Housing",
-      "score": 0.08460908020482726
-    },
-    {
-      "category": "Health",
-      "score": 0.06806324133716717
-    },
-    {
-      "category": "Recreation",
-      "score": 0.06729324488188267
+      "score": 0.005862676160623203
     },
     {
       "category": "Development",
-      "score": 0.059489797146073206
-    },
-    {
-      "category": "Transportation",
-      "score": 0.03330283752364609
-    },
-    {
-      "category": "Public safety",
-      "score": 0.031394752483405286
-    },
-    {
-      "category": "Demographics",
-      "score": 0.02315516880284547
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.0221945245531852
-    },
-    {
-      "category": "Hazards",
-      "score": 0.01777978431353529
-    },
-    {
-      "category": "Government",
-      "score": 0.013456151424993372
-    }
-  ],
-  "b433d59ce177bcaf4c1ecdaa59d392981871f68e5c87013fdb31bea27270f47b": [
-    {
-      "category": "Health",
-      "score": 0.18858583449404104
-    },
-    {
-      "category": "Recreation",
-      "score": 0.0968823296764264
-    },
-    {
-      "category": "Development",
-      "score": 0.08388876648715757
-    },
-    {
-      "category": "Housing",
-      "score": 0.08065376170627098
-    },
-    {
-      "category": "Transportation",
-      "score": 0.07905047306538462
-    },
-    {
-      "category": "Environment",
-      "score": 0.07882786046111172
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.06177772905767874
-    },
-    {
-      "category": "Demographics",
-      "score": 0.06115697578138146
-    },
-    {
-      "category": "Utilities",
-      "score": 0.05150977012663877
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.04504990997965776
-    },
-    {
-      "category": "Planning",
-      "score": 0.044006699457319554
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.04100935068412814
-    },
-    {
-      "category": "Public safety",
-      "score": 0.03695004478355146
-    },
-    {
-      "category": "Government",
-      "score": 0.024119735275925834
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.021586537373913042
-    },
-    {
-      "category": "Hazards",
-      "score": 0.005565509092004358
-    }
-  ],
-  "b4e333ed9801984aab4b5a9a31215ce7dcdbe90d753897079428bd464673252f": [
-    {
-      "category": "Infrastructure",
-      "score": 0.8760343428320927
-    },
-    {
-      "category": "Utilities",
-      "score": 0.8664113257211449
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.8653817465733794
-    },
-    {
-      "category": "Public safety",
-      "score": 0.8547419656443999
-    },
-    {
-      "category": "Development",
-      "score": 0.8290213768613466
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.786283783168648
+      "score": 0.003755613279585135
     },
     {
       "category": "Health",
-      "score": 0.7827064601599784
-    },
-    {
-      "category": "Hazards",
-      "score": 0.7729881873422128
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.7572561782109826
-    },
-    {
-      "category": "Planning",
-      "score": 0.7431125102696523
-    },
-    {
-      "category": "Transportation",
-      "score": 0.7024015382426133
-    },
-    {
-      "category": "Housing",
-      "score": 0.6727645560532738
-    },
-    {
-      "category": "Government",
-      "score": 0.6638096619161307
+      "score": 0.0033216514509441354
     },
     {
       "category": "Environment",
-      "score": 0.543839756450236
+      "score": 0.002840038726966381
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.0027123265415802547
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.0020108927604171305
+    },
+    {
+      "category": "Housing",
+      "score": 0.001891150142205073
     },
     {
       "category": "Recreation",
-      "score": 0.42780400549203784
+      "score": 0.0016560660640689833
+    },
+    {
+      "category": "Utilities",
+      "score": 0.0010317994099345712
     },
     {
       "category": "Demographics",
-      "score": 0.3319807486437605
+      "score": 0.0010142842289933838
+    },
+    {
+      "category": "Government",
+      "score": 0.0008082144573075714
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.0005941220146420663
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.0005721095954813875
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0004994958767586019
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0004754280651892382
+    },
+    {
+      "category": "Hazards",
+      "score": 0.00015709775408463716
     }
   ],
   "b63a146fd1078611a0fa538fca8424787577489bcf9815abe442016cc1938b26": [
@@ -4157,72 +5411,6 @@
       "score": 0.0367653295997982
     }
   ],
-  "b689fb38304e366fa280b33f021565871a2c6eb73783a6269f38a196162e007d": [
-    {
-      "category": "Infrastructure",
-      "score": 0.6316428639288729
-    },
-    {
-      "category": "Utilities",
-      "score": 0.5946688673838271
-    },
-    {
-      "category": "Demographics",
-      "score": 0.45634495664476393
-    },
-    {
-      "category": "Planning",
-      "score": 0.40804584991140286
-    },
-    {
-      "category": "Environment",
-      "score": 0.3859273667840906
-    },
-    {
-      "category": "Health",
-      "score": 0.3289979708299591
-    },
-    {
-      "category": "Transportation",
-      "score": 0.23995918222972598
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.2193231387673536
-    },
-    {
-      "category": "Development",
-      "score": 0.21239111989806211
-    },
-    {
-      "category": "Housing",
-      "score": 0.12701652085137055
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.12467255867949116
-    },
-    {
-      "category": "Government",
-      "score": 0.10417558529917004
-    },
-    {
-      "category": "Public safety",
-      "score": 0.08474348894415061
-    },
-    {
-      "category": "Recreation",
-      "score": 0.040222720643636786
-    },
-    {
-      "category": "Hazards",
-      "score": 0.037353979071327405
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.033435156983638296
-    }
-  ],
   "ba055a2b11de613decc584139ac164ca4944d275411659d5020918a3c305e27d": [
     {
       "category": "Health",
@@ -4289,400 +5477,598 @@
       "score": 0.001517188044350301
     }
   ],
-  "bfc3dc9441dc201a52b5a4ba59a866ecad4a7d38744b98ad1c8f5f07113aead5": [
+  "bf46d670187293108e314a5555de13c6b8b4d147515a2e79eebea4796a98802b": [
     {
-      "category": "Environment",
-      "score": 0.7040426934453493
+      "category": "Development",
+      "score": 0.04888889973370071
     },
     {
       "category": "Health",
-      "score": 0.6526046729507077
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.36621440967639085
-    },
-    {
-      "category": "Development",
-      "score": 0.31758793253877465
-    },
-    {
-      "category": "Housing",
-      "score": 0.29655455726581303
-    },
-    {
-      "category": "Transportation",
-      "score": 0.2629185498979298
+      "score": 0.03232932960133457
     },
     {
       "category": "Utilities",
-      "score": 0.1936354603374413
+      "score": 0.018645882269772155
     },
     {
-      "category": "Public safety",
-      "score": 0.1863764431810241
+      "category": "Environment",
+      "score": 0.018010557419490068
+    },
+    {
+      "category": "Housing",
+      "score": 0.017359713514856916
     },
     {
       "category": "Planning",
-      "score": 0.1836869258162053
+      "score": 0.00960007156397001
     },
     {
-      "category": "Solid waste",
-      "score": 0.13023742012173362
-    },
-    {
-      "category": "Government",
-      "score": 0.12737019733249083
+      "category": "Infrastructure",
+      "score": 0.0089352648127371
     },
     {
       "category": "Recreation",
-      "score": 0.11740531674403906
+      "score": 0.005685260396604447
     },
     {
-      "category": "Boundaries",
-      "score": 0.10417002150172322
+      "category": "Solid waste",
+      "score": 0.005504738547800139
     },
     {
       "category": "Demographics",
-      "score": 0.055550949952247915
-    },
-    {
-      "category": "Hazards",
-      "score": 0.04578804183684701
+      "score": 0.005278140461475187
     },
     {
       "category": "Public facilities",
-      "score": 0.04334723334600983
+      "score": 0.004308424393920803
+    },
+    {
+      "category": "Transportation",
+      "score": 0.002838499866522275
+    },
+    {
+      "category": "Government",
+      "score": 0.0028289452933541767
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.0022693242222686536
+    },
+    {
+      "category": "Hazards",
+      "score": 0.0009900346120965064
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0005956217808832315
     }
   ],
-  "c18e07bc8bb3dfc44ecc7d473dc4eb515f61969d33d89842e96c1aa4f372ada1": [
-    {
-      "category": "Utilities",
-      "score": 0.8054208204595558
-    },
-    {
-      "category": "Transportation",
-      "score": 0.6502226877321858
-    },
-    {
-      "category": "Government",
-      "score": 0.6439972171356523
-    },
-    {
-      "category": "Planning",
-      "score": 0.6128424257927875
-    },
-    {
-      "category": "Public safety",
-      "score": 0.5457281180609665
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.5106301017758534
-    },
-    {
-      "category": "Housing",
-      "score": 0.4901679440956631
-    },
+  "c10732d9c2a6aaf51c962def9ba1de09e0ae8df8591e0538838d0d0cf4bf85a5": [
     {
       "category": "Health",
-      "score": 0.45259707395594845
-    },
-    {
-      "category": "Hazards",
-      "score": 0.41943967784057085
-    },
-    {
-      "category": "Environment",
-      "score": 0.39981721534474274
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.38302683126424364
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.2967885896270217
-    },
-    {
-      "category": "Demographics",
-      "score": 0.2543468328834273
+      "score": 0.05636171663368738
     },
     {
       "category": "Development",
-      "score": 0.2538429100217114
+      "score": 0.021515467353839465
     },
     {
-      "category": "Public facilities",
-      "score": 0.20389326712207959
+      "category": "Utilities",
+      "score": 0.00998880330288391
+    },
+    {
+      "category": "Planning",
+      "score": 0.009908570647295212
+    },
+    {
+      "category": "Environment",
+      "score": 0.005224046547060026
+    },
+    {
+      "category": "Demographics",
+      "score": 0.004821781305814806
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.004459064960924451
+    },
+    {
+      "category": "Housing",
+      "score": 0.0031282351673411167
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0026083006670968053
     },
     {
       "category": "Recreation",
-      "score": 0.19895920627812166
+      "score": 0.002194578971595097
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.0017943134220303936
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.0011612186825579857
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0011087273166699133
+    },
+    {
+      "category": "Government",
+      "score": 0.0009406208380611191
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.0008418790345885994
+    },
+    {
+      "category": "Hazards",
+      "score": 0.00039529618962666035
     }
   ],
-  "c6b57cf98ab10b9ea93e482c20f24f8ce4af3c242bf20fc278ce23d6b8b45158": [
+  "c37498cd574e3e2e31f5e21fcf4159b19795cd12ad70872d2931c376db521bf9": [
     {
-      "category": "Boundaries",
-      "score": 0.2211635706196992
+      "category": "Planning",
+      "score": 0.09201935125275061
     },
     {
       "category": "Development",
-      "score": 0.20253481384593433
-    },
-    {
-      "category": "Planning",
-      "score": 0.11518731233063213
-    },
-    {
-      "category": "Utilities",
-      "score": 0.1048338238893546
+      "score": 0.06278997342684145
     },
     {
       "category": "Housing",
-      "score": 0.10480363924215925
+      "score": 0.040125207472171597
     },
     {
-      "category": "Transportation",
-      "score": 0.09278734209472653
-    },
-    {
-      "category": "Health",
-      "score": 0.07179513658902172
+      "category": "Boundaries",
+      "score": 0.033840831165315055
     },
     {
       "category": "Environment",
-      "score": 0.07070191757424539
+      "score": 0.028106066631930618
+    },
+    {
+      "category": "Utilities",
+      "score": 0.02533136826985076
+    },
+    {
+      "category": "Health",
+      "score": 0.02139961643810299
     },
     {
       "category": "Infrastructure",
-      "score": 0.0699361037581435
-    },
-    {
-      "category": "Demographics",
-      "score": 0.06393720828157282
+      "score": 0.02016022081180047
     },
     {
       "category": "Government",
-      "score": 0.024349680173485294
+      "score": 0.016532221799236156
     },
     {
       "category": "Public facilities",
-      "score": 0.019863145106882793
+      "score": 0.015387935147345292
+    },
+    {
+      "category": "Transportation",
+      "score": 0.014987050592355139
     },
     {
       "category": "Recreation",
-      "score": 0.019695874235506228
+      "score": 0.013805117960885058
     },
     {
-      "category": "Solid waste",
-      "score": 0.0077772310758302
+      "category": "Demographics",
+      "score": 0.012230971858248313
     },
     {
       "category": "Hazards",
-      "score": 0.0010972933985478027
+      "score": 0.011996883476441915
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.009704710699355707
     },
     {
       "category": "Public safety",
-      "score": 0.0008847259425511467
+      "score": 0.008331648865974685
     }
   ],
-  "c84987c9bf29dddca1e5c9bcf0ae1f21533db5120ba6cf72e641bd4f13ef95a5": [
-    {
-      "category": "Environment",
-      "score": 0.6003074973013972
-    },
-    {
-      "category": "Development",
-      "score": 0.5908795701836661
-    },
-    {
-      "category": "Planning",
-      "score": 0.38823356741884707
-    },
-    {
-      "category": "Transportation",
-      "score": 0.3769026129700906
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.3698569209008403
-    },
+  "c6078700396cbc19220627d628958a189c32b957bbb3e8c9777519906a0e0443": [
     {
       "category": "Boundaries",
-      "score": 0.3687304675859774
-    },
-    {
-      "category": "Housing",
-      "score": 0.3041240262618517
-    },
-    {
-      "category": "Utilities",
-      "score": 0.27310000046370764
+      "score": 0.03894569176840646
     },
     {
       "category": "Health",
-      "score": 0.27020527354041785
+      "score": 0.035107321703824884
     },
     {
-      "category": "Recreation",
-      "score": 0.24991058733728408
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.20100515845705805
-    },
-    {
-      "category": "Government",
-      "score": 0.19786325750041633
+      "category": "Development",
+      "score": 0.030028702219700516
     },
     {
       "category": "Public safety",
-      "score": 0.14567583399345563
+      "score": 0.029666956815558518
     },
     {
-      "category": "Public facilities",
-      "score": 0.09646794017368907
+      "category": "Environment",
+      "score": 0.024522042337468686
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.021523603726034637
+    },
+    {
+      "category": "Housing",
+      "score": 0.021128602387618545
+    },
+    {
+      "category": "Recreation",
+      "score": 0.020602640617571433
+    },
+    {
+      "category": "Planning",
+      "score": 0.017541193541939996
+    },
+    {
+      "category": "Utilities",
+      "score": 0.01470646874085348
+    },
+    {
+      "category": "Transportation",
+      "score": 0.013257195510826623
     },
     {
       "category": "Demographics",
-      "score": 0.07169166510624818
+      "score": 0.012025862871562942
+    },
+    {
+      "category": "Government",
+      "score": 0.008993943961364452
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.005635972243371263
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.00512607064275189
     },
     {
       "category": "Hazards",
-      "score": 0.028716367905877213
+      "score": 0.004202417302472358
     }
   ],
-  "cb3029b714ac700bd8d52c7c6173a08e6d3e53ad6c26f9b041e1c88a91f0c508": [
+  "caffb906e0457c6529c39dcb8a53befb184a8daf73c82b731d5d792278c8f18f": [
     {
-      "category": "Utilities",
-      "score": 0.7395635618642302
-    },
-    {
-      "category": "Environment",
-      "score": 0.7248951404033066
-    },
-    {
-      "category": "Development",
-      "score": 0.6844091427960606
+      "category": "Planning",
+      "score": 0.04493968433066646
     },
     {
       "category": "Infrastructure",
-      "score": 0.5588172751946014
-    },
-    {
-      "category": "Health",
-      "score": 0.5207629060915757
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.34511389187793134
-    },
-    {
-      "category": "Housing",
-      "score": 0.3410374180692638
+      "score": 0.02723267260518154
     },
     {
       "category": "Boundaries",
-      "score": 0.30792418796933496
-    },
-    {
-      "category": "Government",
-      "score": 0.20161403935979613
-    },
-    {
-      "category": "Planning",
-      "score": 0.18904779719359271
-    },
-    {
-      "category": "Recreation",
-      "score": 0.17175438277640961
-    },
-    {
-      "category": "Demographics",
-      "score": 0.15503110460609934
+      "score": 0.025999479957791973
     },
     {
       "category": "Public safety",
-      "score": 0.1206881516634976
+      "score": 0.016594987220306334
+    },
+    {
+      "category": "Environment",
+      "score": 0.012679983106925195
+    },
+    {
+      "category": "Health",
+      "score": 0.009905714014919182
+    },
+    {
+      "category": "Utilities",
+      "score": 0.00921707101056282
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.008031676585796675
+    },
+    {
+      "category": "Demographics",
+      "score": 0.007528995141195907
     },
     {
       "category": "Transportation",
-      "score": 0.07183206810757611
+      "score": 0.00447806568392721
     },
     {
-      "category": "Public facilities",
-      "score": 0.019729514024127204
+      "category": "Housing",
+      "score": 0.004274898604596029
+    },
+    {
+      "category": "Recreation",
+      "score": 0.004172464089441324
     },
     {
       "category": "Hazards",
-      "score": 0.005886228322125081
+      "score": 0.003438629192098077
+    },
+    {
+      "category": "Development",
+      "score": 0.002823810571876873
+    },
+    {
+      "category": "Government",
+      "score": 0.002603142409086795
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.0021789171798760896
     }
   ],
-  "cc0dd6216492f776265671b1464a9a53afb15727ee011a65d499e7818d128d86": [
+  "cb4f4df8bb542f07d850757085ab2689e65c822d73abc2a91ecb81c102394b76": [
     {
       "category": "Boundaries",
-      "score": 0.39482746827662113
-    },
-    {
-      "category": "Environment",
-      "score": 0.3650345062392169
-    },
-    {
-      "category": "Development",
-      "score": 0.3266912462868127
-    },
-    {
-      "category": "Utilities",
-      "score": 0.2871558459597944
-    },
-    {
-      "category": "Planning",
-      "score": 0.259607090874026
+      "score": 0.01447787678852826
     },
     {
       "category": "Health",
-      "score": 0.2424120769846961
+      "score": 0.007121199732323195
     },
     {
-      "category": "Housing",
-      "score": 0.19223047718787858
+      "category": "Development",
+      "score": 0.0036295323736889825
+    },
+    {
+      "category": "Utilities",
+      "score": 0.003440461887328835
     },
     {
       "category": "Recreation",
-      "score": 0.16060874354690116
+      "score": 0.0034182664279801787
     },
     {
-      "category": "Infrastructure",
-      "score": 0.14309785276876394
-    },
-    {
-      "category": "Public safety",
-      "score": 0.1228466316840687
-    },
-    {
-      "category": "Transportation",
-      "score": 0.10065324761887183
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.0941148173515758
+      "category": "Housing",
+      "score": 0.00324305912570509
     },
     {
       "category": "Government",
-      "score": 0.08346300112932634
+      "score": 0.0032351263927789583
     },
     {
-      "category": "Demographics",
-      "score": 0.03626247316302853
+      "category": "Public safety",
+      "score": 0.003108883553934636
     },
     {
-      "category": "Public facilities",
-      "score": 0.02755342651190416
+      "category": "Infrastructure",
+      "score": 0.0030671489505660707
+    },
+    {
+      "category": "Planning",
+      "score": 0.002673752800521946
+    },
+    {
+      "category": "Environment",
+      "score": 0.0026500009370595662
     },
     {
       "category": "Hazards",
-      "score": 0.004248259251428419
+      "score": 0.0024084844448357063
+    },
+    {
+      "category": "Demographics",
+      "score": 0.0020866875309804318
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0018670379454265914
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.001797897166295022
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.0017723446638587242
+    }
+  ],
+  "cc3676fbe103d4be48b53a37d24f9626209a22b29628439d3db69cb8809abf50": [
+    {
+      "category": "Development",
+      "score": 0.15916292168084167
+    },
+    {
+      "category": "Environment",
+      "score": 0.1407292875880758
+    },
+    {
+      "category": "Recreation",
+      "score": 0.10072323256126865
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.055538588437601795
+    },
+    {
+      "category": "Planning",
+      "score": 0.055309457078698596
+    },
+    {
+      "category": "Health",
+      "score": 0.04718606576634604
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.03929107550566847
+    },
+    {
+      "category": "Housing",
+      "score": 0.03445399253244386
+    },
+    {
+      "category": "Utilities",
+      "score": 0.0225444731135814
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.018480898271201713
+    },
+    {
+      "category": "Government",
+      "score": 0.010925627974795
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.010377401512957116
+    },
+    {
+      "category": "Demographics",
+      "score": 0.008937258439708617
+    },
+    {
+      "category": "Transportation",
+      "score": 0.008287777822697712
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0026717841529833052
+    },
+    {
+      "category": "Hazards",
+      "score": 0.0009890464198239544
+    }
+  ],
+  "ccf23942283af5f9d97115adb2bcec36e53196af7286ba2ec8cd886786367391": [
+    {
+      "category": "Boundaries",
+      "score": 0.008478700677851265
+    },
+    {
+      "category": "Recreation",
+      "score": 0.007817430432780319
+    },
+    {
+      "category": "Health",
+      "score": 0.00702307916963794
+    },
+    {
+      "category": "Public safety",
+      "score": 0.006838382065677717
+    },
+    {
+      "category": "Housing",
+      "score": 0.0060603476009731165
+    },
+    {
+      "category": "Utilities",
+      "score": 0.006056898195634504
+    },
+    {
+      "category": "Development",
+      "score": 0.005578681603938782
+    },
+    {
+      "category": "Government",
+      "score": 0.005306030674155373
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.005264679484611454
+    },
+    {
+      "category": "Planning",
+      "score": 0.005221034669871869
+    },
+    {
+      "category": "Transportation",
+      "score": 0.005204693118191444
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.004947933324986254
+    },
+    {
+      "category": "Hazards",
+      "score": 0.004817713335588521
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.0046647315223450805
+    },
+    {
+      "category": "Environment",
+      "score": 0.004609612683238419
+    },
+    {
+      "category": "Demographics",
+      "score": 0.0031099505566377695
+    }
+  ],
+  "cd070c6012bdf040b9e8e5b0cc664c4fec874a7302ecb511af79ca665c898cb9": [
+    {
+      "category": "Environment",
+      "score": 0.28081284472649143
+    },
+    {
+      "category": "Development",
+      "score": 0.23712312842875652
+    },
+    {
+      "category": "Health",
+      "score": 0.11224017109958902
+    },
+    {
+      "category": "Recreation",
+      "score": 0.10003384651292702
+    },
+    {
+      "category": "Planning",
+      "score": 0.06960248385949981
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.050360662787375075
+    },
+    {
+      "category": "Utilities",
+      "score": 0.042859125084476
+    },
+    {
+      "category": "Housing",
+      "score": 0.03915908583644848
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.03281746745456139
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.02737450790291656
+    },
+    {
+      "category": "Public safety",
+      "score": 0.02278742661610774
+    },
+    {
+      "category": "Transportation",
+      "score": 0.01916799821136853
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.015045940720058264
+    },
+    {
+      "category": "Government",
+      "score": 0.01100104454410044
+    },
+    {
+      "category": "Demographics",
+      "score": 0.007096859776240414
+    },
+    {
+      "category": "Hazards",
+      "score": 0.003446730219311502
     }
   ],
   "cd512c8c665d83df696bd40ef88f1cfc0c9e3214515ec8e3fbb374a55b33529a": [
@@ -4751,6 +6137,138 @@
       "score": 0.004007155463804206
     }
   ],
+  "cf1d0263326c1ed356500c9c150aa0e78148ab5f3d55b7b754f942cee6842888": [
+    {
+      "category": "Environment",
+      "score": 0.00829964534596604
+    },
+    {
+      "category": "Hazards",
+      "score": 0.007832522603496645
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.005164276698073473
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.0038222063149391827
+    },
+    {
+      "category": "Health",
+      "score": 0.003767105826536033
+    },
+    {
+      "category": "Utilities",
+      "score": 0.003671716773924157
+    },
+    {
+      "category": "Demographics",
+      "score": 0.002655059109795935
+    },
+    {
+      "category": "Recreation",
+      "score": 0.0025301834978612905
+    },
+    {
+      "category": "Housing",
+      "score": 0.002451978118291714
+    },
+    {
+      "category": "Government",
+      "score": 0.0019429406913714427
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0016280566539830323
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.0012512866867287595
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0011100408384344168
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.0010666363895798245
+    },
+    {
+      "category": "Development",
+      "score": 0.000802593764427391
+    },
+    {
+      "category": "Planning",
+      "score": 0.0007513633248950035
+    }
+  ],
+  "d054b93026b99649ab80fb88aecd8e394c84457682c809ea8995927628c6463b": [
+    {
+      "category": "Health",
+      "score": 0.39047391430515194
+    },
+    {
+      "category": "Environment",
+      "score": 0.1966829530344629
+    },
+    {
+      "category": "Housing",
+      "score": 0.18896399317313353
+    },
+    {
+      "category": "Development",
+      "score": 0.16996482618478434
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.16502606244212245
+    },
+    {
+      "category": "Utilities",
+      "score": 0.11965375257344514
+    },
+    {
+      "category": "Planning",
+      "score": 0.09754603484017707
+    },
+    {
+      "category": "Transportation",
+      "score": 0.09510007354332296
+    },
+    {
+      "category": "Public safety",
+      "score": 0.06999021707775856
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.05766672512524331
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.04997360447717331
+    },
+    {
+      "category": "Government",
+      "score": 0.047496877099967375
+    },
+    {
+      "category": "Recreation",
+      "score": 0.043689460165482905
+    },
+    {
+      "category": "Demographics",
+      "score": 0.04138764102249829
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.014440102289975824
+    },
+    {
+      "category": "Hazards",
+      "score": 0.0036798476155609993
+    }
+  ],
   "d0bf473e1b619e6a829f68f252572c697ae285d2f218c9a0e7c1459bcb6121fc": [
     {
       "category": "Health",
@@ -4817,136 +6335,400 @@
       "score": 0.0048250858615403935
     }
   ],
-  "d2cccadfec7360c83063533b3cddea5e95b576f1ff4f83ca3dad91cac8f2df8c": [
-    {
-      "category": "Infrastructure",
-      "score": 0.8439325157213875
-    },
-    {
-      "category": "Environment",
-      "score": 0.8333148100115233
-    },
-    {
-      "category": "Utilities",
-      "score": 0.7788187129760659
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.754131715186002
-    },
+  "d4b9e9f4a949558f0a5a03c5af00fce4808f0c7094e6a22b5fde3beab588e469": [
     {
       "category": "Health",
-      "score": 0.6149140373625983
-    },
-    {
-      "category": "Development",
-      "score": 0.5892079494271628
-    },
-    {
-      "category": "Housing",
-      "score": 0.4337343189074491
-    },
-    {
-      "category": "Demographics",
-      "score": 0.4075914165015437
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.3285860053078808
-    },
-    {
-      "category": "Planning",
-      "score": 0.1998291307167562
+      "score": 0.08893011805615934
     },
     {
       "category": "Recreation",
-      "score": 0.16183557432723136
-    },
-    {
-      "category": "Public safety",
-      "score": 0.15820267864503398
-    },
-    {
-      "category": "Government",
-      "score": 0.15064372912498455
+      "score": 0.05939982385751331
     },
     {
       "category": "Transportation",
-      "score": 0.1272521902739269
+      "score": 0.04185249329668616
     },
     {
-      "category": "Hazards",
-      "score": 0.03300987756774529
+      "category": "Public safety",
+      "score": 0.02119136912418554
+    },
+    {
+      "category": "Environment",
+      "score": 0.020590275362447907
+    },
+    {
+      "category": "Housing",
+      "score": 0.019330918441888854
+    },
+    {
+      "category": "Planning",
+      "score": 0.01671982272902968
+    },
+    {
+      "category": "Utilities",
+      "score": 0.01426057098527726
+    },
+    {
+      "category": "Development",
+      "score": 0.013626502083511781
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.011653686579148621
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.011551056607942369
+    },
+    {
+      "category": "Demographics",
+      "score": 0.007218543760757218
+    },
+    {
+      "category": "Government",
+      "score": 0.004482762677111938
     },
     {
       "category": "Public facilities",
-      "score": 0.02196439794373106
+      "score": 0.004417525993220986
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.004158493339828486
+    },
+    {
+      "category": "Hazards",
+      "score": 0.003788822422787029
     }
   ],
-  "d564b5a28bd6c166c2d649d4bbf2ee6ea08547b97fe23c7b876c02e0843ed5d7": [
-    {
-      "category": "Health",
-      "score": 0.15889900027046533
-    },
+  "d51b4f0e3b60c0898b49c710d78276a9a0acc84dd5c9d0a54764f17e0f8d7f54": [
     {
       "category": "Recreation",
-      "score": 0.1301291700896936
-    },
-    {
-      "category": "Environment",
-      "score": 0.10497524062944688
+      "score": 0.4619697001873123
     },
     {
       "category": "Development",
-      "score": 0.05065733546908584
+      "score": 0.39275006932321355
     },
     {
-      "category": "Utilities",
-      "score": 0.044298964438257184
+      "category": "Environment",
+      "score": 0.3748607553461098
     },
     {
-      "category": "Transportation",
-      "score": 0.04365135829661945
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.0415330899564988
-    },
-    {
-      "category": "Planning",
-      "score": 0.04116786316077381
-    },
-    {
-      "category": "Housing",
-      "score": 0.034143750639906434
+      "category": "Health",
+      "score": 0.2836296842937295
     },
     {
       "category": "Boundaries",
-      "score": 0.031319455767390404
+      "score": 0.13263588417523245
     },
     {
-      "category": "Solid waste",
-      "score": 0.023580506054016157
+      "category": "Planning",
+      "score": 0.12994640070822983
     },
     {
-      "category": "Demographics",
-      "score": 0.019529368004650858
+      "category": "Housing",
+      "score": 0.08889761636200191
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.06354316317328892
     },
     {
       "category": "Public safety",
-      "score": 0.019252072371141075
+      "score": 0.04333727061381692
     },
     {
-      "category": "Public facilities",
-      "score": 0.011359884953423324
+      "category": "Solid waste",
+      "score": 0.038371064000845036
+    },
+    {
+      "category": "Utilities",
+      "score": 0.03729916221457409
+    },
+    {
+      "category": "Demographics",
+      "score": 0.028580327725522096
+    },
+    {
+      "category": "Transportation",
+      "score": 0.022222526762557447
     },
     {
       "category": "Government",
-      "score": 0.009361745356607285
+      "score": 0.020796851751900783
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.01171740461224942
     },
     {
       "category": "Hazards",
-      "score": 0.00215131012956042
+      "score": 0.0033215472037516985
+    }
+  ],
+  "d6fdd5b61bcc8baf3b55e11a33f7b08c8fa8a61a27bc2a1be18ffb11fdfbaa89": [
+    {
+      "category": "Health",
+      "score": 0.03070773271934536
+    },
+    {
+      "category": "Utilities",
+      "score": 0.02670049130242917
+    },
+    {
+      "category": "Development",
+      "score": 0.026292914308450557
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.01722044712009213
+    },
+    {
+      "category": "Planning",
+      "score": 0.008448791929825724
+    },
+    {
+      "category": "Housing",
+      "score": 0.006315402911218814
+    },
+    {
+      "category": "Environment",
+      "score": 0.005324890739616302
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.005253847840849171
+    },
+    {
+      "category": "Demographics",
+      "score": 0.00489177249863874
+    },
+    {
+      "category": "Recreation",
+      "score": 0.004040189788928361
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0034417033592531654
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.003177395321016681
+    },
+    {
+      "category": "Government",
+      "score": 0.002306530534382693
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.002253196641068762
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0009096526648505941
+    },
+    {
+      "category": "Hazards",
+      "score": 0.0008598406134011976
+    }
+  ],
+  "de004fe266336450991d3296febc0db519fa829429f8023c871ed0d4b99b1def": [
+    {
+      "category": "Development",
+      "score": 0.37103695608136245
+    },
+    {
+      "category": "Health",
+      "score": 0.1692778938641925
+    },
+    {
+      "category": "Housing",
+      "score": 0.1135354668653711
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.0896075474168785
+    },
+    {
+      "category": "Planning",
+      "score": 0.07957432638626553
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.0757749588821215
+    },
+    {
+      "category": "Environment",
+      "score": 0.040300938349006006
+    },
+    {
+      "category": "Utilities",
+      "score": 0.03697161826122828
+    },
+    {
+      "category": "Government",
+      "score": 0.014664543485341654
+    },
+    {
+      "category": "Demographics",
+      "score": 0.013837449876329243
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0038998074618445525
+    },
+    {
+      "category": "Recreation",
+      "score": 0.0034509627224333056
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.0027944184536726115
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.002578311077908702
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0011459665310880533
+    },
+    {
+      "category": "Hazards",
+      "score": 0.00040162450000689445
+    }
+  ],
+  "e110285315a53bb277ca887b02df914ad4e9bc37336ea50378fbbd7e66202af8": [
+    {
+      "category": "Boundaries",
+      "score": 0.03117022987187239
+    },
+    {
+      "category": "Demographics",
+      "score": 0.03117022987187239
+    },
+    {
+      "category": "Development",
+      "score": 0.03117022987187239
+    },
+    {
+      "category": "Environment",
+      "score": 0.03117022987187239
+    },
+    {
+      "category": "Government",
+      "score": 0.03117022987187239
+    },
+    {
+      "category": "Hazards",
+      "score": 0.03117022987187239
+    },
+    {
+      "category": "Health",
+      "score": 0.03117022987187239
+    },
+    {
+      "category": "Housing",
+      "score": 0.03117022987187239
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.03117022987187239
+    },
+    {
+      "category": "Planning",
+      "score": 0.03117022987187239
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.03117022987187239
+    },
+    {
+      "category": "Public safety",
+      "score": 0.03117022987187239
+    },
+    {
+      "category": "Recreation",
+      "score": 0.03117022987187239
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.03117022987187239
+    },
+    {
+      "category": "Transportation",
+      "score": 0.03117022987187239
+    },
+    {
+      "category": "Utilities",
+      "score": 0.03117022987187239
+    }
+  ],
+  "e2511b63187bf37825ad19e4ee5d6d5294f055ec02d1c438acd31f4fe8ebd4b4": [
+    {
+      "category": "Environment",
+      "score": 0.0071616627673212994
+    },
+    {
+      "category": "Hazards",
+      "score": 0.006408125763069694
+    },
+    {
+      "category": "Health",
+      "score": 0.004384522514875996
+    },
+    {
+      "category": "Demographics",
+      "score": 0.004057435138999697
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.0033639178856082258
+    },
+    {
+      "category": "Government",
+      "score": 0.0027156532590712473
+    },
+    {
+      "category": "Utilities",
+      "score": 0.0026136167055438985
+    },
+    {
+      "category": "Housing",
+      "score": 0.00241206219730906
+    },
+    {
+      "category": "Recreation",
+      "score": 0.0023619033463786964
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0020285302414898817
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.001954204016007216
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.0013587376208550426
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.0013358899661097897
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0012230194099216475
+    },
+    {
+      "category": "Planning",
+      "score": 0.0011403860763590594
+    },
+    {
+      "category": "Development",
+      "score": 0.0008942458004783946
     }
   ],
   "e4f0f9d268e9f6045b3c019fb61fb4fb6bcebd4dffa6f9965185e027f4a791f0": [
@@ -5015,202 +6797,598 @@
       "score": 0.00942646618812902
     }
   ],
-  "e8e6f3698fa117b3728695ce09685903b0ce6968591228e18429e18c6b07bf39": [
+  "e7b55f2381aa4c8548b7276edd95715a1c271efcbc304315ce114dc6e11d4fb0": [
+    {
+      "category": "Planning",
+      "score": 0.05896586366120543
+    },
     {
       "category": "Boundaries",
-      "score": 0.9319700163895622
-    },
-    {
-      "category": "Demographics",
-      "score": 0.9319700163895622
-    },
-    {
-      "category": "Development",
-      "score": 0.9319700163895622
-    },
-    {
-      "category": "Environment",
-      "score": 0.9319700163895622
-    },
-    {
-      "category": "Government",
-      "score": 0.9319700163895622
-    },
-    {
-      "category": "Hazards",
-      "score": 0.9319700163895622
+      "score": 0.03798228229492792
     },
     {
       "category": "Health",
-      "score": 0.9319700163895622
+      "score": 0.036514388268400075
+    },
+    {
+      "category": "Environment",
+      "score": 0.0327010428311563
+    },
+    {
+      "category": "Development",
+      "score": 0.03055761826364427
     },
     {
       "category": "Housing",
-      "score": 0.9319700163895622
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.9319700163895622
-    },
-    {
-      "category": "Planning",
-      "score": 0.9319700163895622
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.9319700163895622
-    },
-    {
-      "category": "Public safety",
-      "score": 0.9319700163895622
+      "score": 0.020165340657094463
     },
     {
       "category": "Recreation",
-      "score": 0.9319700163895622
+      "score": 0.015708868737519904
     },
     {
-      "category": "Solid waste",
-      "score": 0.9319700163895622
-    },
-    {
-      "category": "Transportation",
-      "score": 0.9319700163895622
+      "category": "Infrastructure",
+      "score": 0.010783311386204088
     },
     {
       "category": "Utilities",
-      "score": 0.9319700163895622
+      "score": 0.01049268313933152
+    },
+    {
+      "category": "Demographics",
+      "score": 0.006347886298794422
+    },
+    {
+      "category": "Government",
+      "score": 0.004666305026630754
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.004571535068216636
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.00230224610295618
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0006235529408377302
+    },
+    {
+      "category": "Public safety",
+      "score": 0.000362404360581915
+    },
+    {
+      "category": "Hazards",
+      "score": 0.00033001261473160744
     }
   ],
-  "ee84aad7632e3782d27571e2a3f5fb5ec317f680702d7bd0ac18eaaf9181d51e": [
-    {
-      "category": "Development",
-      "score": 0.6281473945758501
-    },
-    {
-      "category": "Health",
-      "score": 0.5393866930298297
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.4155182735992355
-    },
-    {
-      "category": "Planning",
-      "score": 0.36682729166620676
-    },
+  "e861dd3f46432531c3c8e895c12f7874b4f2a04805ba49bf1cc65d06a6a4672e": [
     {
       "category": "Environment",
-      "score": 0.3416819949912897
-    },
-    {
-      "category": "Recreation",
-      "score": 0.2628276729495365
-    },
-    {
-      "category": "Utilities",
-      "score": 0.24639978834011209
-    },
-    {
-      "category": "Housing",
-      "score": 0.21639815305098556
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.20725574420225015
-    },
-    {
-      "category": "Demographics",
-      "score": 0.1998128635563017
-    },
-    {
-      "category": "Government",
-      "score": 0.11766643746466547
-    },
-    {
-      "category": "Transportation",
-      "score": 0.11600079284074748
+      "score": 0.22361329826047752
     },
     {
       "category": "Solid waste",
-      "score": 0.06413001644666537
+      "score": 0.13210338194544383
     },
     {
-      "category": "Public safety",
-      "score": 0.04388543809639357
+      "category": "Planning",
+      "score": 0.1320191131265059
+    },
+    {
+      "category": "Utilities",
+      "score": 0.12388135033343341
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.10718349772279129
+    },
+    {
+      "category": "Health",
+      "score": 0.10631863944260463
+    },
+    {
+      "category": "Development",
+      "score": 0.08983837083825037
+    },
+    {
+      "category": "Recreation",
+      "score": 0.08574821657561432
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.06406182349619594
+    },
+    {
+      "category": "Housing",
+      "score": 0.055333819675458466
+    },
+    {
+      "category": "Demographics",
+      "score": 0.011853386340969926
     },
     {
       "category": "Public facilities",
-      "score": 0.029588185194490753
+      "score": 0.009481664620482302
+    },
+    {
+      "category": "Government",
+      "score": 0.0041050458651966625
+    },
+    {
+      "category": "Public safety",
+      "score": 0.003022845038697855
+    },
+    {
+      "category": "Transportation",
+      "score": 0.002540578245605591
     },
     {
       "category": "Hazards",
-      "score": 0.008432465445950306
+      "score": 0.0006108956137979645
     }
   ],
-  "f4fa8eadf12f13f5260828c095472c7c6d3d95f2215f14da80ec2d6c4d706c96": [
+  "e9368fc9bd48bfc5b54d493e6b39c2e4e1da73ebd80aa79acacbe61d7e0d27f8": [
     {
-      "category": "Health",
-      "score": 0.07956875248881276
-    },
-    {
-      "category": "Transportation",
-      "score": 0.03994095357374994
-    },
-    {
-      "category": "Recreation",
-      "score": 0.0378136662810435
-    },
-    {
-      "category": "Environment",
-      "score": 0.02612245663268757
+      "category": "Boundaries",
+      "score": 0.009393994771515852
     },
     {
       "category": "Housing",
-      "score": 0.025743167983171503
-    },
-    {
-      "category": "Development",
-      "score": 0.02334864159337224
-    },
-    {
-      "category": "Public safety",
-      "score": 0.023329402201080925
-    },
-    {
-      "category": "Utilities",
-      "score": 0.016979078113031447
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.015706373588882272
-    },
-    {
-      "category": "Demographics",
-      "score": 0.014781653318505361
+      "score": 0.0068238036778851315
     },
     {
       "category": "Planning",
-      "score": 0.010750190593306537
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.010680468232439405
-    },
-    {
-      "category": "Public facilities",
-      "score": 0.006365873496924092
+      "score": 0.00512511695520012
     },
     {
       "category": "Government",
-      "score": 0.006033344286571018
+      "score": 0.003953471821007832
+    },
+    {
+      "category": "Utilities",
+      "score": 0.003318663884541047
+    },
+    {
+      "category": "Demographics",
+      "score": 0.002631135887772089
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0025886816493687287
+    },
+    {
+      "category": "Environment",
+      "score": 0.0025313412080433463
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.0024279176694957877
+    },
+    {
+      "category": "Development",
+      "score": 0.002419889713869982
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.0024137766080585747
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0023542847943005523
+    },
+    {
+      "category": "Health",
+      "score": 0.0022994806561442405
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.0020894456986371487
+    },
+    {
+      "category": "Recreation",
+      "score": 0.0018672483394730727
     },
     {
       "category": "Hazards",
-      "score": 0.004564957612301858
+      "score": 0.0018552002885374034
+    }
+  ],
+  "e9995a058b35da3afe4b8dafc91b3acb488c50fb2edadc2ec128a279ac18c7e9": [
+    {
+      "category": "Environment",
+      "score": 0.8255547437784102
+    },
+    {
+      "category": "Development",
+      "score": 0.5961138709012724
+    },
+    {
+      "category": "Health",
+      "score": 0.32776414204656135
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.2553474508732894
+    },
+    {
+      "category": "Utilities",
+      "score": 0.24188327045098834
+    },
+    {
+      "category": "Planning",
+      "score": 0.23293445241772073
+    },
+    {
+      "category": "Demographics",
+      "score": 0.19340519168497192
     },
     {
       "category": "Boundaries",
-      "score": 0.004369032042981158
+      "score": 0.17761019404352285
+    },
+    {
+      "category": "Housing",
+      "score": 0.16482793620017247
+    },
+    {
+      "category": "Recreation",
+      "score": 0.10541809936828617
+    },
+    {
+      "category": "Government",
+      "score": 0.10276765138963018
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.10005588656269043
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.04803544338296363
+    },
+    {
+      "category": "Public safety",
+      "score": 0.005358257375489471
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0036579730184066713
+    },
+    {
+      "category": "Hazards",
+      "score": 0.003566224253963068
+    }
+  ],
+  "ebb12242853e8dd3396bca12442b9450d9b9adde07cd1b9bddea21adfd469244": [
+    {
+      "category": "Demographics",
+      "score": 0.46839148982737727
+    },
+    {
+      "category": "Environment",
+      "score": 0.225037050822639
+    },
+    {
+      "category": "Planning",
+      "score": 0.15980634193979695
+    },
+    {
+      "category": "Health",
+      "score": 0.08547350752301625
+    },
+    {
+      "category": "Development",
+      "score": 0.04996896214578118
+    },
+    {
+      "category": "Housing",
+      "score": 0.043743178980787396
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.03954088315668304
+    },
+    {
+      "category": "Recreation",
+      "score": 0.02434437506512034
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.018584778011407097
+    },
+    {
+      "category": "Transportation",
+      "score": 0.01811415216357439
+    },
+    {
+      "category": "Utilities",
+      "score": 0.015165900085504723
+    },
+    {
+      "category": "Government",
+      "score": 0.01180073540350278
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.009254023463371399
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.0051020287129352184
+    },
+    {
+      "category": "Public safety",
+      "score": 0.002887322018154205
+    },
+    {
+      "category": "Hazards",
+      "score": 0.0004984082475584002
+    }
+  ],
+  "ec9db7139b8ea72311b8cd01400c831ba9a602e0940a9e687eb91a2a20cf31e6": [
+    {
+      "category": "Health",
+      "score": 0.2431084227076874
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.1597414638809395
+    },
+    {
+      "category": "Housing",
+      "score": 0.14593188959045528
+    },
+    {
+      "category": "Environment",
+      "score": 0.11979536715768667
+    },
+    {
+      "category": "Planning",
+      "score": 0.10419425848790854
+    },
+    {
+      "category": "Utilities",
+      "score": 0.0951048193884758
+    },
+    {
+      "category": "Development",
+      "score": 0.09353406913140924
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.08793207424241264
+    },
+    {
+      "category": "Public safety",
+      "score": 0.07320803870614484
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.05312702338621829
+    },
+    {
+      "category": "Transportation",
+      "score": 0.04296989278057007
+    },
+    {
+      "category": "Government",
+      "score": 0.03841344273148058
+    },
+    {
+      "category": "Demographics",
+      "score": 0.03796854721602262
+    },
+    {
+      "category": "Recreation",
+      "score": 0.034375431552825124
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.01582402765888689
+    },
+    {
+      "category": "Hazards",
+      "score": 0.0056318644455640885
+    }
+  ],
+  "f0f37f95df52ffa41ee78d8584cd3a5b8fe1a3daefdcb5e9b2abe2a278985b42": [
+    {
+      "category": "Development",
+      "score": 0.5996808699539296
+    },
+    {
+      "category": "Health",
+      "score": 0.5221857701192449
+    },
+    {
+      "category": "Planning",
+      "score": 0.4924060900099107
+    },
+    {
+      "category": "Environment",
+      "score": 0.45254148612704925
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.4273968213521348
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.36012675486881873
+    },
+    {
+      "category": "Government",
+      "score": 0.26224798554170803
+    },
+    {
+      "category": "Utilities",
+      "score": 0.24769590693833415
+    },
+    {
+      "category": "Recreation",
+      "score": 0.21772319617628308
+    },
+    {
+      "category": "Housing",
+      "score": 0.17365993835999954
+    },
+    {
+      "category": "Transportation",
+      "score": 0.12299669975875163
+    },
+    {
+      "category": "Demographics",
+      "score": 0.11633522555286974
+    },
+    {
+      "category": "Public safety",
+      "score": 0.06698476051161126
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.06103562834224926
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.03609904062657621
+    },
+    {
+      "category": "Hazards",
+      "score": 0.0061507901069311095
+    }
+  ],
+  "f3018c579416e6ac0bb95ea3270fb5167c447fbf694b45622ce8fd549a7a2c58": [
+    {
+      "category": "Development",
+      "score": 0.18919343358651905
+    },
+    {
+      "category": "Environment",
+      "score": 0.1326478622696963
+    },
+    {
+      "category": "Health",
+      "score": 0.12127439010987007
+    },
+    {
+      "category": "Recreation",
+      "score": 0.07951480625620584
+    },
+    {
+      "category": "Planning",
+      "score": 0.0444390613102607
+    },
+    {
+      "category": "Housing",
+      "score": 0.041396593846658225
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.038893881152822614
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.026230817983413795
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0225127840972819
+    },
+    {
+      "category": "Utilities",
+      "score": 0.020330039584520544
+    },
+    {
+      "category": "Public safety",
+      "score": 0.012224699670546606
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.011810661005594797
+    },
+    {
+      "category": "Government",
+      "score": 0.011095275826907409
+    },
+    {
+      "category": "Demographics",
+      "score": 0.008082568860340091
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.005967307265547502
+    },
+    {
+      "category": "Hazards",
+      "score": 0.001181398493004505
+    }
+  ],
+  "f4c5892b4c7d5db5b5d43bed7b6ecc6db8d6ddd6304a01137ec6c38a8ec030c5": [
+    {
+      "category": "Hazards",
+      "score": 0.015976126973640824
+    },
+    {
+      "category": "Health",
+      "score": 0.0072134820889290085
+    },
+    {
+      "category": "Demographics",
+      "score": 0.006850280079166529
+    },
+    {
+      "category": "Housing",
+      "score": 0.0066667371645731084
+    },
+    {
+      "category": "Environment",
+      "score": 0.00620443284905263
+    },
+    {
+      "category": "Utilities",
+      "score": 0.005719366338768379
+    },
+    {
+      "category": "Infrastructure",
+      "score": 0.005099780396550716
+    },
+    {
+      "category": "Recreation",
+      "score": 0.003641601565805051
+    },
+    {
+      "category": "Public facilities",
+      "score": 0.003263490577780225
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.003060895722211888
+    },
+    {
+      "category": "Transportation",
+      "score": 0.0027899871660448912
+    },
+    {
+      "category": "Government",
+      "score": 0.0022129087636610445
+    },
+    {
+      "category": "Development",
+      "score": 0.0020762291212849436
+    },
+    {
+      "category": "Public safety",
+      "score": 0.0020356779777701284
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.0019720016717489305
+    },
+    {
+      "category": "Planning",
+      "score": 0.001867550374532548
     }
   ],
   "f6eafcac4d98da3fcad28e8537ef1131f319801381c21517d89b5b3814444b16": [
@@ -5279,70 +7457,70 @@
       "score": 0.0015893337677901414
     }
   ],
-  "f77054dea40ac37824d3468ecbe91472248a537ae27fc8cb0b1477c0a6c67cb0": [
+  "f8315add85772c386279af361c7ac39f93e1d03db90849825b8ba865347a2718": [
     {
-      "category": "Infrastructure",
-      "score": 0.9749458271235979
-    },
-    {
-      "category": "Planning",
-      "score": 0.9559183528837896
-    },
-    {
-      "category": "Utilities",
-      "score": 0.9272688214141696
+      "category": "Development",
+      "score": 0.45652340726568963
     },
     {
       "category": "Environment",
-      "score": 0.9228845859586343
+      "score": 0.43234978919281725
     },
     {
-      "category": "Transportation",
-      "score": 0.9225171151903437
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.9129195875282718
-    },
-    {
-      "category": "Development",
-      "score": 0.8890407295528505
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.8867305877686845
-    },
-    {
-      "category": "Housing",
-      "score": 0.8778422527911292
-    },
-    {
-      "category": "Health",
-      "score": 0.8719098495252076
-    },
-    {
-      "category": "Public safety",
-      "score": 0.8564783034940819
-    },
-    {
-      "category": "Government",
-      "score": 0.7800808101100176
+      "category": "Infrastructure",
+      "score": 0.3843443241500531
     },
     {
       "category": "Recreation",
-      "score": 0.7755434297109519
+      "score": 0.3547757177427445
     },
     {
-      "category": "Hazards",
-      "score": 0.7558973790710845
+      "category": "Health",
+      "score": 0.26953522585009965
+    },
+    {
+      "category": "Utilities",
+      "score": 0.24707704069175346
+    },
+    {
+      "category": "Transportation",
+      "score": 0.19566501971630654
+    },
+    {
+      "category": "Housing",
+      "score": 0.16782297819727457
+    },
+    {
+      "category": "Boundaries",
+      "score": 0.1552947910006587
+    },
+    {
+      "category": "Planning",
+      "score": 0.13774857631016327
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.12008325281597187
+    },
+    {
+      "category": "Public safety",
+      "score": 0.05863579960137385
+    },
+    {
+      "category": "Government",
+      "score": 0.05326234718893217
     },
     {
       "category": "Public facilities",
-      "score": 0.6368675831305467
+      "score": 0.052291612844416205
     },
     {
       "category": "Demographics",
-      "score": 0.5809790798291529
+      "score": 0.026180952749644402
+    },
+    {
+      "category": "Hazards",
+      "score": 0.006259934461946755
     }
   ],
   "f9d48993f19dd48707cc780e69d0b01073c64b00b790ef1e85697eb0fcedc6a6": [
@@ -5411,70 +7589,70 @@
       "score": 0.003155704578427145
     }
   ],
-  "f9d6c7256a03ed7303f175b32edf8de67a99763c5d1d92667ad6fa05bf72fa3f": [
-    {
-      "category": "Environment",
-      "score": 0.761582089298957
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.3805303062339856
-    },
-    {
-      "category": "Development",
-      "score": 0.3764551457219346
-    },
+  "fbb5599b504f2e516f136a1e273b07ea6b2162350c4135521e579d38c3a5cc04": [
     {
       "category": "Health",
-      "score": 0.3122982002751131
-    },
-    {
-      "category": "Utilities",
-      "score": 0.23126902184861062
-    },
-    {
-      "category": "Solid waste",
-      "score": 0.16529939340110622
-    },
-    {
-      "category": "Planning",
-      "score": 0.13041317889048304
-    },
-    {
-      "category": "Demographics",
-      "score": 0.1210793056379374
+      "score": 0.045325580454117276
     },
     {
       "category": "Boundaries",
-      "score": 0.11878380627929061
+      "score": 0.04029385102914687
     },
     {
-      "category": "Housing",
-      "score": 0.11795584851337418
+      "category": "Planning",
+      "score": 0.03188500710922543
     },
     {
-      "category": "Recreation",
-      "score": 0.0997089725570652
+      "category": "Infrastructure",
+      "score": 0.030807802646520378
     },
     {
-      "category": "Transportation",
-      "score": 0.06638728858520332
-    },
-    {
-      "category": "Hazards",
-      "score": 0.0635431078334874
+      "category": "Environment",
+      "score": 0.01904425503609803
     },
     {
       "category": "Public safety",
-      "score": 0.04633855182722534
+      "score": 0.018879632352348557
     },
     {
       "category": "Government",
-      "score": 0.04332614175351531
+      "score": 0.016722052658669707
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.016212947476275028
+    },
+    {
+      "category": "Transportation",
+      "score": 0.01573257796491757
     },
     {
       "category": "Public facilities",
-      "score": 0.022006615326169706
+      "score": 0.011063219501167504
+    },
+    {
+      "category": "Housing",
+      "score": 0.009638944368598346
+    },
+    {
+      "category": "Development",
+      "score": 0.009242645001097978
+    },
+    {
+      "category": "Demographics",
+      "score": 0.008095326941340568
+    },
+    {
+      "category": "Utilities",
+      "score": 0.007479337354005598
+    },
+    {
+      "category": "Recreation",
+      "score": 0.007367464347740627
+    },
+    {
+      "category": "Hazards",
+      "score": 0.006731180533657532
     }
   ],
   "fd01713726d51437d951727a0053560c2f5ce980b5ee9ff678e734860d6f409c": [
@@ -5543,70 +7721,70 @@
       "score": 0.041302249164713485
     }
   ],
-  "fedf9ff5d33d51b2674a36f4c635e17b577f76299084e0b70efd4332da241685": [
-    {
-      "category": "Health",
-      "score": 0.2036018099156776
-    },
-    {
-      "category": "Environment",
-      "score": 0.1866686593755487
-    },
+  "fd8118833512a0233642ad60efc368f0a34c5d766172f75dbb1b1c9859fd98aa": [
     {
       "category": "Development",
-      "score": 0.1596862018094539
-    },
-    {
-      "category": "Utilities",
-      "score": 0.10469414255155855
-    },
-    {
-      "category": "Boundaries",
-      "score": 0.06989003402436567
-    },
-    {
-      "category": "Infrastructure",
-      "score": 0.0662635260441635
-    },
-    {
-      "category": "Housing",
-      "score": 0.06288989226272618
+      "score": 0.9262722675783862
     },
     {
       "category": "Planning",
-      "score": 0.04741583697977557
+      "score": 0.6598497207767685
     },
     {
-      "category": "Recreation",
-      "score": 0.04270275690204257
+      "category": "Boundaries",
+      "score": 0.570413133039383
+    },
+    {
+      "category": "Health",
+      "score": 0.2985153665942079
+    },
+    {
+      "category": "Housing",
+      "score": 0.2305453531116146
     },
     {
       "category": "Government",
-      "score": 0.02109013950414359
+      "score": 0.19847420323387166
     },
     {
-      "category": "Demographics",
-      "score": 0.01899607536323279
+      "category": "Infrastructure",
+      "score": 0.19170522064827464
     },
     {
-      "category": "Solid waste",
-      "score": 0.01496373281960369
+      "category": "Environment",
+      "score": 0.10670265642170294
     },
     {
-      "category": "Transportation",
-      "score": 0.012456949631468513
+      "category": "Utilities",
+      "score": 0.10237627021506708
     },
     {
       "category": "Public facilities",
-      "score": 0.006072637539064378
+      "score": 0.07230593034295009
+    },
+    {
+      "category": "Demographics",
+      "score": 0.06917427737133088
+    },
+    {
+      "category": "Solid waste",
+      "score": 0.025587752864374078
+    },
+    {
+      "category": "Recreation",
+      "score": 0.022234729765867725
     },
     {
       "category": "Public safety",
-      "score": 0.00445916611379513
+      "score": 0.018981540796031524
+    },
+    {
+      "category": "Transportation",
+      "score": 0.012670123430081096
     },
     {
       "category": "Hazards",
-      "score": 0.004165739691624782
+      "score": 0.0025714963048013083
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "total": 86,
+  "total": 117,
   "note": "Evidence queue for review, not additional automatic assignments. Inspect layer purpose before adding contextual rules or overrides; shared parent text can describe other layers.",
   "records": [
     {
       "id": "arcgis:04abc337671a4f7397437391ab089053:3",
       "title": "MoonLake_Public_Lands",
-      "reason": "below-semantic-threshold",
-      "description": "Polygon feature class of lands owned by various pulic agencies in Pasco County. Layer clipped to Moon Lake CDB.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Polygon feature class of lands owned by various pulic agencies in Pasco County. Layer clipped to Moon Lake CDB.",
       "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/MoonLake_Public_Lands/FeatureServer/3",
       "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/04abc337671a4f7397437391ab089053",
@@ -56,23 +56,23 @@
       "semanticCandidates": [
         {
           "category": "Environment",
-          "score": 0.7040426934453493
+          "score": 0.4754262750456899
         },
         {
           "category": "Health",
-          "score": 0.6526046729507077
+          "score": 0.4086542397810703
         },
         {
-          "category": "Infrastructure",
-          "score": 0.36621440967639085
+          "category": "Development",
+          "score": 0.18216816846341105
         }
       ]
     },
     {
       "id": "arcgis:05920ed4dec54fd78fd458253aa39b48:0",
       "title": "FacadeImprovmentCRA",
-      "reason": "below-semantic-threshold",
-      "description": "Facade Improvements",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Facade Improvements",
       "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/FacadeImprovementsCRA/FeatureServer/0",
       "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/05920ed4dec54fd78fd458253aa39b48",
@@ -204,23 +204,23 @@
       "semanticCandidates": [
         {
           "category": "Development",
-          "score": 0.6281473945758501
+          "score": 0.5996808699539296
         },
         {
           "category": "Health",
-          "score": 0.5393866930298297
+          "score": 0.5221857701192449
         },
         {
-          "category": "Boundaries",
-          "score": 0.4155182735992355
+          "category": "Planning",
+          "score": 0.4924060900099107
         }
       ]
     },
     {
       "id": "arcgis:066840ca224f4412961b9cd7055321b1:0",
       "title": "PCSO_Pool_Data",
-      "reason": "competing-semantic-categories",
-      "description": "Pinellas County Sheriff's Office Pool Data in Pinellas County, Florida for use with HOME/SPOT Daycare Application. The data contained herein is offered “as is,” with no claim or warranty as to its accuracy or completeness. The data is for reference only and should not be considered to be of survey precision. DATA STEWARD: Pinellas County Business Technology Services, Enterprise GIS egis@pinellas.gov Feature Dataset: (Root) Feature Class: PCSO_Pool_Data",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Pinellas County Sheriff's Office Pool Data in Pinellas County, Florida for use with HOME/SPOT Daycare Application.",
       "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_PCSO_Pool_Data/FeatureServer/0",
       "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/066840ca224f4412961b9cd7055321b1",
@@ -293,24 +293,24 @@
       ],
       "semanticCandidates": [
         {
-          "category": "Transportation",
-          "score": 0.9428534831612276
+          "category": "Development",
+          "score": 0.022052395698027118
         },
         {
-          "category": "Public safety",
-          "score": 0.9264606485976368
+          "category": "Boundaries",
+          "score": 0.022027875378515274
         },
         {
-          "category": "Government",
-          "score": 0.9195490175279548
+          "category": "Planning",
+          "score": 0.016996691489384774
         }
       ]
     },
     {
       "id": "arcgis:08f9dd2bd6eb4995bcf344ac69b606bb:0",
       "title": "GasWorx",
-      "reason": "below-semantic-threshold",
-      "description": "Buffer zones for use in the public Community Benefits Advisory Council app.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Buffer zones for use in the public Community Benefits Advisory Council app.",
       "layerUrl": "https://services1.arcgis.com/IbNXlmt2RVVRCZ6M/arcgis/rest/services/EconomicOppLookup/FeatureServer/0",
       "itemUrl": "https://tampa.maps.arcgis.com/sharing/rest/content/items/08f9dd2bd6eb4995bcf344ac69b606bb",
@@ -439,24 +439,24 @@
       "keywordSignals": [],
       "semanticCandidates": [
         {
-          "category": "Environment",
-          "score": 0.8208981760591818
-        },
-        {
-          "category": "Development",
-          "score": 0.8014276779512085
-        },
-        {
           "category": "Planning",
-          "score": 0.7773006097614283
+          "score": 0.7733903365627519
+        },
+        {
+          "category": "Infrastructure",
+          "score": 0.7510189041877348
+        },
+        {
+          "category": "Environment",
+          "score": 0.7212005073563182
         }
       ]
     },
     {
       "id": "arcgis:08f9dd2bd6eb4995bcf344ac69b606bb:3",
       "title": "Straz",
-      "reason": "below-semantic-threshold",
-      "description": "Buffer zones for use in the public Community Benefits Advisory Council app.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Buffer zones for use in the public Community Benefits Advisory Council app.",
       "layerUrl": "https://services1.arcgis.com/IbNXlmt2RVVRCZ6M/arcgis/rest/services/EconomicOppLookup/FeatureServer/3",
       "itemUrl": "https://tampa.maps.arcgis.com/sharing/rest/content/items/08f9dd2bd6eb4995bcf344ac69b606bb",
@@ -585,16 +585,66 @@
       "keywordSignals": [],
       "semanticCandidates": [
         {
-          "category": "Development",
-          "score": 0.8142143991717605
-        },
-        {
           "category": "Planning",
-          "score": 0.7564067259733969
+          "score": 0.7504667703942458
         },
         {
-          "category": "Environment",
-          "score": 0.7560344555341422
+          "category": "Boundaries",
+          "score": 0.6617952801257586
+        },
+        {
+          "category": "Development",
+          "score": 0.6349224460568087
+        }
+      ]
+    },
+    {
+      "id": "arcgis:0a054dcec91e4358b68fe744cedab7f1:0",
+      "title": "DevIncentivesSF",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Single Family Developer Incentives",
+      "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/SingleFamilyDevIncentives/FeatureServer/0",
+      "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/0a054dcec91e4358b68fe744cedab7f1",
+      "fields": [
+        {
+          "name": "FID",
+          "alias": "FID"
+        },
+        {
+          "name": "Address",
+          "alias": "Address"
+        },
+        {
+          "name": "CRA_Invest",
+          "alias": "CRA_Invest"
+        },
+        {
+          "name": "F__of_Medi",
+          "alias": "F__of_Medi"
+        },
+        {
+          "name": "F__of_peop",
+          "alias": "F__of_peop"
+        },
+        {
+          "name": "City_1",
+          "alias": "City_1"
+        }
+      ],
+      "keywordSignals": [],
+      "semanticCandidates": [
+        {
+          "category": "Development",
+          "score": 0.7554029565839757
+        },
+        {
+          "category": "Health",
+          "score": 0.6000602269310537
+        },
+        {
+          "category": "Housing",
+          "score": 0.31264470001520844
         }
       ]
     },
@@ -745,6 +795,84 @@
       ]
     },
     {
+      "id": "arcgis:0ea64d04b7fe4261b736fe0b9d964cee:7",
+      "title": "MoonLake_Lakes",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Polygon feature class of lakes within Pasco County. Layer clipped to Moon Lake CDB.",
+      "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/MoonLake_Lakes/FeatureServer/7",
+      "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/0ea64d04b7fe4261b736fe0b9d964cee",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LakeName",
+          "alias": "LakeName"
+        },
+        {
+          "name": "Type",
+          "alias": "Type"
+        },
+        {
+          "name": "Acres",
+          "alias": "Acres"
+        },
+        {
+          "name": "DateStamp",
+          "alias": "DateStamp"
+        },
+        {
+          "name": "created_us",
+          "alias": "created_us"
+        },
+        {
+          "name": "created_da",
+          "alias": "created_da"
+        },
+        {
+          "name": "last_edite",
+          "alias": "last_edite"
+        },
+        {
+          "name": "last_edi_1",
+          "alias": "last_edi_1"
+        },
+        {
+          "name": "GlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "GIS_AC",
+          "alias": "GIS_AC"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [],
+      "semanticCandidates": [
+        {
+          "category": "Environment",
+          "score": 0.8255547437784102
+        },
+        {
+          "category": "Development",
+          "score": 0.5961138709012724
+        },
+        {
+          "category": "Health",
+          "score": 0.32776414204656135
+        }
+      ]
+    },
+    {
       "id": "arcgis:12d7519d22874298a26f6f4e51914589:0",
       "title": "MicrofundProgram",
       "reason": "missing-layer-description",
@@ -789,8 +917,8 @@
     {
       "id": "arcgis:186593d6c781423da9481f4c2d662fff:0",
       "title": "TestClearwaterShapefile",
-      "reason": "below-semantic-threshold",
-      "description": "City of Clearwater service area",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Used for mapping the geographic extents of the city service area",
       "layerUrl": "https://services1.arcgis.com/3GsNorcb0Mn5rMt8/arcgis/rest/services/TestClearwaterShapefile/FeatureServer/0",
       "itemUrl": "https://cityofclearwater.maps.arcgis.com/sharing/rest/content/items/186593d6c781423da9481f4c2d662fff",
@@ -848,23 +976,23 @@
       "semanticCandidates": [
         {
           "category": "Environment",
-          "score": 0.761582089298957
+          "score": 0.7722894280227495
+        },
+        {
+          "category": "Health",
+          "score": 0.38324804976920546
         },
         {
           "category": "Infrastructure",
-          "score": 0.3805303062339856
-        },
-        {
-          "category": "Development",
-          "score": 0.3764551457219346
+          "score": 0.37253882949933537
         }
       ]
     },
     {
       "id": "arcgis:18a3f3e2eb3a429fb79bea04f980d55e:3",
       "title": "Public Lands",
-      "reason": "below-semantic-threshold",
-      "description": "Existing conditions analysis for Moon Lake Census Designated Boundary (CDB). All layers clipped to boundary provided by Pasco County BOCC.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Existing conditions analysis for Moon Lake Census Designated Boundary (CDB). All layers clipped to boundary provided by Pasco County BOCC.",
       "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/ExistingConditions___MoonLake_WFL1/FeatureServer/3",
       "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/18a3f3e2eb3a429fb79bea04f980d55e",
@@ -911,31 +1039,29 @@
         }
       ],
       "keywordSignals": [
-        "description:boundary",
-        "description:census",
         "parent_context:boundary",
         "parent_context:census"
       ],
       "semanticCandidates": [
         {
           "category": "Health",
-          "score": 0.8041685425111327
-        },
-        {
-          "category": "Planning",
-          "score": 0.7337278219698401
+          "score": 0.365295003543683
         },
         {
           "category": "Development",
-          "score": 0.6807727708472613
+          "score": 0.1494465269741029
+        },
+        {
+          "category": "Environment",
+          "score": 0.10887407459759647
         }
       ]
     },
     {
       "id": "arcgis:18a3f3e2eb3a429fb79bea04f980d55e:37",
       "title": "MoonLake_EndStructure",
-      "reason": "below-semantic-threshold",
-      "description": "Existing conditions analysis for Moon Lake Census Designated Boundary (CDB). All layers clipped to boundary provided by Pasco County BOCC.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Existing conditions analysis for Moon Lake Census Designated Boundary (CDB). All layers clipped to boundary provided by Pasco County BOCC.",
       "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/ExistingConditions___MoonLake_WFL1/FeatureServer/37",
       "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/18a3f3e2eb3a429fb79bea04f980d55e",
@@ -1062,31 +1188,29 @@
         }
       ],
       "keywordSignals": [
-        "description:boundary",
-        "description:census",
         "parent_context:boundary",
         "parent_context:census"
       ],
       "semanticCandidates": [
         {
-          "category": "Solid waste",
-          "score": 0.8407371483777816
-        },
-        {
-          "category": "Infrastructure",
-          "score": 0.8065015390598294
-        },
-        {
           "category": "Environment",
-          "score": 0.7691827591070814
+          "score": 0.22361329826047752
+        },
+        {
+          "category": "Solid waste",
+          "score": 0.13210338194544383
+        },
+        {
+          "category": "Planning",
+          "score": 0.1320191131265059
         }
       ]
     },
     {
       "id": "arcgis:18a3f3e2eb3a429fb79bea04f980d55e:38",
       "title": "MoonLake_Gauges",
-      "reason": "below-semantic-threshold",
-      "description": "Existing conditions analysis for Moon Lake Census Designated Boundary (CDB). All layers clipped to boundary provided by Pasco County BOCC.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Existing conditions analysis for Moon Lake Census Designated Boundary (CDB). All layers clipped to boundary provided by Pasco County BOCC.",
       "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/ExistingConditions___MoonLake_WFL1/FeatureServer/38",
       "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/18a3f3e2eb3a429fb79bea04f980d55e",
@@ -1153,31 +1277,29 @@
         }
       ],
       "keywordSignals": [
-        "description:boundary",
-        "description:census",
         "parent_context:boundary",
         "parent_context:census"
       ],
       "semanticCandidates": [
         {
-          "category": "Development",
-          "score": 0.44548277146012605
+          "category": "Planning",
+          "score": 0.05896586366120543
         },
         {
-          "category": "Planning",
-          "score": 0.40449621325990726
+          "category": "Boundaries",
+          "score": 0.03798228229492792
         },
         {
           "category": "Health",
-          "score": 0.28980952545562905
+          "score": 0.036514388268400075
         }
       ]
     },
     {
       "id": "arcgis:18a3f3e2eb3a429fb79bea04f980d55e:39",
       "title": "MoonLake_HydraulicElevation",
-      "reason": "below-semantic-threshold",
-      "description": "Existing conditions analysis for Moon Lake Census Designated Boundary (CDB). All layers clipped to boundary provided by Pasco County BOCC.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Existing conditions analysis for Moon Lake Census Designated Boundary (CDB). All layers clipped to boundary provided by Pasco County BOCC.",
       "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/ExistingConditions___MoonLake_WFL1/FeatureServer/39",
       "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/18a3f3e2eb3a429fb79bea04f980d55e",
@@ -1304,31 +1426,29 @@
         }
       ],
       "keywordSignals": [
-        "description:boundary",
-        "description:census",
-        "parent_context:boundary",
-        "parent_context:census"
+        "fields:weir",
+        "parent_context:boundary"
       ],
       "semanticCandidates": [
         {
-          "category": "Planning",
-          "score": 0.6591592109319581
+          "category": "Demographics",
+          "score": 0.46839148982737727
         },
         {
           "category": "Environment",
-          "score": 0.5820394717615571
+          "score": 0.225037050822639
         },
         {
-          "category": "Demographics",
-          "score": 0.5648722279085594
+          "category": "Planning",
+          "score": 0.15980634193979695
         }
       ]
     },
     {
       "id": "arcgis:18a3f3e2eb3a429fb79bea04f980d55e:40",
       "title": "MoonLake_NetworkStructure",
-      "reason": "below-semantic-threshold",
-      "description": "Existing conditions analysis for Moon Lake Census Designated Boundary (CDB). All layers clipped to boundary provided by Pasco County BOCC.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Existing conditions analysis for Moon Lake Census Designated Boundary (CDB). All layers clipped to boundary provided by Pasco County BOCC.",
       "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/ExistingConditions___MoonLake_WFL1/FeatureServer/40",
       "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/18a3f3e2eb3a429fb79bea04f980d55e",
@@ -1455,31 +1575,29 @@
         }
       ],
       "keywordSignals": [
-        "description:boundary",
-        "description:census",
         "parent_context:boundary",
         "parent_context:census"
       ],
       "semanticCandidates": [
         {
-          "category": "Development",
-          "score": 0.8140573534864658
-        },
-        {
           "category": "Environment",
-          "score": 0.7947801117614046
+          "score": 0.3857067458033055
         },
         {
-          "category": "Utilities",
-          "score": 0.6228799277556389
+          "category": "Planning",
+          "score": 0.13621411382336682
+        },
+        {
+          "category": "Development",
+          "score": 0.08656267439410906
         }
       ]
     },
     {
       "id": "arcgis:18a3f3e2eb3a429fb79bea04f980d55e:42",
       "title": "MoonLake_Pipe",
-      "reason": "below-semantic-threshold",
-      "description": "Existing conditions analysis for Moon Lake Census Designated Boundary (CDB). All layers clipped to boundary provided by Pasco County BOCC.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Existing conditions analysis for Moon Lake Census Designated Boundary (CDB). All layers clipped to boundary provided by Pasco County BOCC.",
       "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/ExistingConditions___MoonLake_WFL1/FeatureServer/42",
       "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/18a3f3e2eb3a429fb79bea04f980d55e",
@@ -1606,31 +1724,29 @@
         }
       ],
       "keywordSignals": [
-        "description:boundary",
-        "description:census",
         "parent_context:boundary",
         "parent_context:census"
       ],
       "semanticCandidates": [
         {
-          "category": "Utilities",
-          "score": 0.7615753187525827
+          "category": "Environment",
+          "score": 0.2832035322752998
         },
         {
-          "category": "Environment",
-          "score": 0.7328089913225182
+          "category": "Infrastructure",
+          "score": 0.2637173256628537
         },
         {
           "category": "Solid waste",
-          "score": 0.6699154471252138
+          "score": 0.15985095767132443
         }
       ]
     },
     {
       "id": "arcgis:18a3f3e2eb3a429fb79bea04f980d55e:7",
       "title": "Lakes",
-      "reason": "below-semantic-threshold",
-      "description": "Existing conditions analysis for Moon Lake Census Designated Boundary (CDB). All layers clipped to boundary provided by Pasco County BOCC.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Existing conditions analysis for Moon Lake Census Designated Boundary (CDB). All layers clipped to boundary provided by Pasco County BOCC.",
       "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/ExistingConditions___MoonLake_WFL1/FeatureServer/7",
       "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/18a3f3e2eb3a429fb79bea04f980d55e",
@@ -1689,23 +1805,21 @@
         }
       ],
       "keywordSignals": [
-        "description:boundary",
-        "description:census",
         "parent_context:boundary",
         "parent_context:census"
       ],
       "semanticCandidates": [
         {
           "category": "Environment",
-          "score": 0.8226654163304365
+          "score": 0.10694512317656327
         },
         {
-          "category": "Health",
-          "score": 0.6180968919174845
+          "category": "Boundaries",
+          "score": 0.09710571891753121
         },
         {
-          "category": "Development",
-          "score": 0.5395226226886433
+          "category": "Planning",
+          "score": 0.09112541666204158
         }
       ]
     },
@@ -1880,8 +1994,8 @@
     {
       "id": "arcgis:2b0fecfb568a4be4ba21b4a590556c57:0",
       "title": "survey",
-      "reason": "below-semantic-threshold",
-      "description": "This feature layer is used within the CIP Project Areas survey and is intended to only be used to capture project geometry.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "A feature layer used to capture new Hillsborough County CIP geomety.",
       "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/survey123_f705346fc1e74e7d802045f604042e66_form/FeatureServer/0",
       "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/2b0fecfb568a4be4ba21b4a590556c57",
@@ -1938,24 +2052,24 @@
       "keywordSignals": [],
       "semanticCandidates": [
         {
-          "category": "Health",
-          "score": 0.041866706372678496
-        },
-        {
-          "category": "Recreation",
-          "score": 0.03162985935132927
+          "category": "Planning",
+          "score": 0.005862676160623203
         },
         {
           "category": "Development",
-          "score": 0.026364942359973637
+          "score": 0.003755613279585135
+        },
+        {
+          "category": "Health",
+          "score": 0.0033216514509441354
         }
       ]
     },
     {
       "id": "arcgis:2f778377f0d54796a7302d72ab95890f:2",
       "title": "Business Associations",
-      "reason": "below-semantic-threshold",
-      "description": "Housing Layers",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Housing Layers",
       "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/AreasofInterest/FeatureServer/2",
       "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/2f778377f0d54796a7302d72ab95890f",
@@ -2034,29 +2148,28 @@
         }
       ],
       "keywordSignals": [
-        "description:housing",
         "parent_context:housing"
       ],
       "semanticCandidates": [
         {
           "category": "Boundaries",
-          "score": 0.2211635706196992
+          "score": 0.216738836269715
+        },
+        {
+          "category": "Housing",
+          "score": 0.18357210808548868
         },
         {
           "category": "Development",
-          "score": 0.20253481384593433
-        },
-        {
-          "category": "Planning",
-          "score": 0.11518731233063213
+          "score": 0.15314579654930488
         }
       ]
     },
     {
       "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:2",
       "title": "Sections",
-      "reason": "below-semantic-threshold",
-      "description": "Accela XAPO and Inspection Zone Data",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Accela XAPO and Inspection Zones",
       "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/AccelaGIS_XAPOMapServiceGDB20191211/FeatureServer/2",
       "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/3118752cbe4f47eab81b8aa81068ef9b",
@@ -2144,16 +2257,378 @@
       ],
       "semanticCandidates": [
         {
-          "category": "Boundaries",
-          "score": 0.39482746827662113
+          "category": "Development",
+          "score": 0.4168636630232938
         },
         {
-          "category": "Environment",
-          "score": 0.3650345062392169
+          "category": "Utilities",
+          "score": 0.31067890964516
+        },
+        {
+          "category": "Health",
+          "score": 0.28744013595124457
+        }
+      ]
+    },
+    {
+      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:4",
+      "title": "Backflow_Offsite",
+      "reason": "below-semantic-threshold",
+      "description": "Accela Backflow Inspection Zones: These zones are utilized by DSD inspectors to coordinate inspections needed during the permiting process. These zones are to be utilized by Accela automation to determine the zone and inspector based on the location of the permit and needed inspection.",
+      "parentSummary": "Accela XAPO and Inspection Zones",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/AccelaGIS_XAPOMapServiceGDB20191211/FeatureServer/4",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/3118752cbe4f47eab81b8aa81068ef9b",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "FID"
+        },
+        {
+          "name": "User_name",
+          "alias": "User_name"
+        },
+        {
+          "name": "InspectorT",
+          "alias": "InspectorT"
+        },
+        {
+          "name": "Zone",
+          "alias": "Zone"
+        },
+        {
+          "name": "Phone",
+          "alias": "Phone"
+        },
+        {
+          "name": "Email",
+          "alias": "Email"
+        },
+        {
+          "name": "INSPECTOR",
+          "alias": "INSPECTOR"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [
+        "description:backflow",
+        "description:context:during the permiting process",
+        "description:permit",
+        "parent_context:parcel",
+        "tags:parcel",
+        "title:backflow"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Health",
+          "score": 0.03070773271934536
+        },
+        {
+          "category": "Utilities",
+          "score": 0.02670049130242917
         },
         {
           "category": "Development",
-          "score": 0.3266912462868127
+          "score": 0.026292914308450557
+        }
+      ]
+    },
+    {
+      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:5",
+      "title": "Backflow_Onsite",
+      "reason": "below-semantic-threshold",
+      "description": "Accela Backflow Inspection Zones: These zones are utilized by DSD inspectors to coordinate inspections needed during the permiting process. These zones are to be utilized by Accela automation to determine the zone and inspector based on the location of the permit and needed inspection.",
+      "parentSummary": "Accela XAPO and Inspection Zones",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/AccelaGIS_XAPOMapServiceGDB20191211/FeatureServer/5",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/3118752cbe4f47eab81b8aa81068ef9b",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "FID"
+        },
+        {
+          "name": "User_name",
+          "alias": "User_name"
+        },
+        {
+          "name": "InspectorT",
+          "alias": "InspectorT"
+        },
+        {
+          "name": "Zone",
+          "alias": "Zone"
+        },
+        {
+          "name": "Phone",
+          "alias": "Phone"
+        },
+        {
+          "name": "Email",
+          "alias": "Email"
+        },
+        {
+          "name": "INSPECTOR",
+          "alias": "INSPECTOR"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [
+        "description:backflow",
+        "description:context:during the permiting process",
+        "description:permit",
+        "parent_context:parcel",
+        "tags:parcel",
+        "title:backflow"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Development",
+          "score": 0.04888889973370071
+        },
+        {
+          "category": "Health",
+          "score": 0.03232932960133457
+        },
+        {
+          "category": "Utilities",
+          "score": 0.018645882269772155
+        }
+      ]
+    },
+    {
+      "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:9",
+      "title": "Fire",
+      "reason": "below-semantic-threshold",
+      "description": "Accela Fire Inspection Zones: These zones are utilized by DSD inspectors to coordinate inspections needed during the permiting process. These zones are to be utilized by Accela automation to determine the zone and inspector based on the location of the permit and needed inspection.",
+      "parentSummary": "Accela XAPO and Inspection Zones",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/AccelaGIS_XAPOMapServiceGDB20191211/FeatureServer/9",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/3118752cbe4f47eab81b8aa81068ef9b",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "FID"
+        },
+        {
+          "name": "User_name",
+          "alias": "User_name"
+        },
+        {
+          "name": "Zone",
+          "alias": "Zone"
+        },
+        {
+          "name": "Phone",
+          "alias": "Phone"
+        },
+        {
+          "name": "InspectorT",
+          "alias": "InspectorT"
+        },
+        {
+          "name": "Email",
+          "alias": "Email"
+        },
+        {
+          "name": "INSPECTOR",
+          "alias": "INSPECTOR"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [
+        "description:context:during the permiting process",
+        "description:fire",
+        "description:permit",
+        "parent_context:parcel",
+        "tags:parcel",
+        "title:fire"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Health",
+          "score": 0.05636171663368738
+        },
+        {
+          "category": "Development",
+          "score": 0.021515467353839465
+        },
+        {
+          "category": "Utilities",
+          "score": 0.00998880330288391
+        }
+      ]
+    },
+    {
+      "id": "arcgis:3d8df529a07447d5acdfa1ddd9c8c232:0",
+      "title": "PCEM_CriticalFacilities",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Critical facilities and sensitive sites for Pinellas County Emergency Management. Data were compiled from county departments, municipalities, and partnering agencies.",
+      "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_PCEM_CriticalFacilities_view/FeatureServer/0",
+      "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/3d8df529a07447d5acdfa1ddd9c8c232",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FEATURECODE",
+          "alias": "Facility Type"
+        },
+        {
+          "name": "FACSUBTYPE",
+          "alias": "Facility Subtype"
+        },
+        {
+          "name": "FACILITYID",
+          "alias": "Facility ID"
+        },
+        {
+          "name": "FACNAME",
+          "alias": "Facility Name"
+        },
+        {
+          "name": "FULLADDR",
+          "alias": "Address"
+        },
+        {
+          "name": "CITY",
+          "alias": "City"
+        },
+        {
+          "name": "ZIP",
+          "alias": "Zip"
+        },
+        {
+          "name": "MANAGE_ENTITY",
+          "alias": "Managing Entity"
+        },
+        {
+          "name": "CONTACT1",
+          "alias": "Primary Contact"
+        },
+        {
+          "name": "CONTACT2",
+          "alias": "Secondary Contact"
+        },
+        {
+          "name": "RESTORATIONPRIORITY",
+          "alias": "Restoration Priority"
+        },
+        {
+          "name": "RESTORATIONNOTE",
+          "alias": "Restoration Note"
+        },
+        {
+          "name": "LATITUDE",
+          "alias": "LATITUDE"
+        },
+        {
+          "name": "LONGITUDE",
+          "alias": "LONGITUDE"
+        },
+        {
+          "name": "SITENOTES",
+          "alias": "Site Notes"
+        },
+        {
+          "name": "CAPACITY",
+          "alias": "Capacity"
+        },
+        {
+          "name": "GENERATOR",
+          "alias": "Generator"
+        },
+        {
+          "name": "DATASOURCE",
+          "alias": "DATASOURCE"
+        },
+        {
+          "name": "PIN",
+          "alias": "PIN"
+        },
+        {
+          "name": "EVACZONE",
+          "alias": "Evac Zone"
+        },
+        {
+          "name": "MUNICIPALITY",
+          "alias": "Municipality Name"
+        },
+        {
+          "name": "LEPROVIDER",
+          "alias": "LE Agency"
+        },
+        {
+          "name": "EMSPROVIDER",
+          "alias": "EMS Provider"
+        },
+        {
+          "name": "EMSGRIDID",
+          "alias": "EMS Grid ID"
+        },
+        {
+          "name": "FIREPROVIDER",
+          "alias": "Fire Provider"
+        },
+        {
+          "name": "FIREDISTRICT",
+          "alias": "Fire District"
+        },
+        {
+          "name": "FIREGRIDID",
+          "alias": "Fire Grid ID"
+        },
+        {
+          "name": "WATERPROVIDER",
+          "alias": "Water Service Provider"
+        },
+        {
+          "name": "SEWERPROVIDER",
+          "alias": "Sewer Provider"
+        }
+      ],
+      "keywordSignals": [
+        "fields:sewer",
+        "fields:solid waste",
+        "fields:waste collection",
+        "fields:water service",
+        "parent_context:solid waste",
+        "parent_context:utility",
+        "tags:solid waste",
+        "tags:utility"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Public safety",
+          "score": 0.002323683571199456
+        },
+        {
+          "category": "Boundaries",
+          "score": 0.0019930156619019077
+        },
+        {
+          "category": "Infrastructure",
+          "score": 0.0019234578179263026
         }
       ]
     },
@@ -2308,8 +2783,8 @@
     {
       "id": "arcgis:42acfc75485f4f40b6d74e8d70d7a6a6:0",
       "title": "LiveLocalProjects",
-      "reason": "competing-semantic-categories",
-      "description": "Live Local Projects in Pinellas County, maintained by Forward Pinellas. The data contained herein is offered “as is,” with no claim or warranty as to its accuracy or completeness. The data is for reference only and should not be considered to be of survey precision. DATA STEWARD: Forward Pinellas, info@forwardpinellas.org (727)464-8250 Feature Dataset: PPC Feature Class: LiveLocalProjects",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Live Local Projects in Pinellas County, maintained by Forward Pinellas.",
       "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_LiveLocalProjects_view/FeatureServer/0",
       "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/42acfc75485f4f40b6d74e8d70d7a6a6",
@@ -2441,24 +2916,24 @@
       ],
       "semanticCandidates": [
         {
+          "category": "Planning",
+          "score": 0.09201935125275061
+        },
+        {
+          "category": "Development",
+          "score": 0.06278997342684145
+        },
+        {
           "category": "Housing",
-          "score": 0.9666242038451083
-        },
-        {
-          "category": "Boundaries",
-          "score": 0.947700582002883
-        },
-        {
-          "category": "Infrastructure",
-          "score": 0.9326409885983036
+          "score": 0.040125207472171597
         }
       ]
     },
     {
       "id": "arcgis:42f57240cf454a72a76a5d4dedd4ddae:0",
       "title": "CommercialCorridors_2023_edit_onlywithin_CRA",
-      "reason": "below-semantic-threshold",
-      "description": "Commercial Corridors within the CRA",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Commercial Corridors within the CRA",
       "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/CommercialCorridorsCRA/FeatureServer/0",
       "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/42f57240cf454a72a76a5d4dedd4ddae",
@@ -2548,15 +3023,15 @@
       "semanticCandidates": [
         {
           "category": "Development",
-          "score": 0.3162072257849476
+          "score": 0.42255079965999237
         },
         {
           "category": "Environment",
-          "score": 0.3108706512373056
+          "score": 0.23263147646746604
         },
         {
-          "category": "Planning",
-          "score": 0.17690663703684856
+          "category": "Infrastructure",
+          "score": 0.1687348943930094
         }
       ]
     },
@@ -2915,10 +3390,319 @@
       ]
     },
     {
+      "id": "arcgis:4a71946ebc354630a60b9509eb502674:0",
+      "title": "cdds",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/HCPA_Special_Districts/FeatureServer/0",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/4a71946ebc354630a60b9509eb502674",
+      "fields": [
+        {
+          "name": "FID",
+          "alias": "FID"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        },
+        {
+          "name": "AREA",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "SP_NAME",
+          "alias": "SP_NAME"
+        },
+        {
+          "name": "ORD_",
+          "alias": "ORD_"
+        },
+        {
+          "name": "DIST_TYPE",
+          "alias": "DIST_TYPE"
+        },
+        {
+          "name": "DIST_NUM",
+          "alias": "DIST_NUM"
+        },
+        {
+          "name": "DIST_TP",
+          "alias": "DIST_TP"
+        }
+      ],
+      "keywordSignals": [
+        "parent_context:boundary",
+        "parent_context:development"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Boundaries",
+          "score": 0.007692690682526746
+        },
+        {
+          "category": "Planning",
+          "score": 0.004773766863073257
+        },
+        {
+          "category": "Government",
+          "score": 0.004453500983503469
+        }
+      ]
+    },
+    {
+      "id": "arcgis:4a71946ebc354630a60b9509eb502674:1",
+      "title": "LDs",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/HCPA_Special_Districts/FeatureServer/1",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/4a71946ebc354630a60b9509eb502674",
+      "fields": [
+        {
+          "name": "FID",
+          "alias": "FID"
+        },
+        {
+          "name": "AREA",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "LD",
+          "alias": "LD"
+        },
+        {
+          "name": "NAME",
+          "alias": "NAME"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [
+        "parent_context:boundary",
+        "parent_context:development"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Boundaries",
+          "score": 0.01447787678852826
+        },
+        {
+          "category": "Health",
+          "score": 0.007121199732323195
+        },
+        {
+          "category": "Development",
+          "score": 0.0036295323736889825
+        }
+      ]
+    },
+    {
+      "id": "arcgis:4a71946ebc354630a60b9509eb502674:2",
+      "title": "sd",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/HCPA_Special_Districts/FeatureServer/2",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/4a71946ebc354630a60b9509eb502674",
+      "fields": [
+        {
+          "name": "FID",
+          "alias": "FID"
+        },
+        {
+          "name": "AREA",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "SP_NAME",
+          "alias": "SP_NAME"
+        },
+        {
+          "name": "ORD_",
+          "alias": "ORD_"
+        },
+        {
+          "name": "DIST_TYPE",
+          "alias": "DIST_TYPE"
+        },
+        {
+          "name": "DIST_NUM",
+          "alias": "DIST_NUM"
+        },
+        {
+          "name": "DIST_TP",
+          "alias": "DIST_TP"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [
+        "parent_context:boundary",
+        "parent_context:development"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Boundaries",
+          "score": 0.009393994771515852
+        },
+        {
+          "category": "Housing",
+          "score": 0.0068238036778851315
+        },
+        {
+          "category": "Planning",
+          "score": 0.00512511695520012
+        }
+      ]
+    },
+    {
+      "id": "arcgis:4a71946ebc354630a60b9509eb502674:3",
+      "title": "sd2",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/HCPA_Special_Districts/FeatureServer/3",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/4a71946ebc354630a60b9509eb502674",
+      "fields": [
+        {
+          "name": "FID",
+          "alias": "FID"
+        },
+        {
+          "name": "AREA",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "sd",
+          "alias": "sd"
+        },
+        {
+          "name": "SP_NAME",
+          "alias": "SP_NAME"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [
+        "parent_context:boundary",
+        "parent_context:development"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Boundaries",
+          "score": 0.004553388308406259
+        },
+        {
+          "category": "Public safety",
+          "score": 0.004519455608554257
+        },
+        {
+          "category": "Housing",
+          "score": 0.004492119620216191
+        }
+      ]
+    },
+    {
+      "id": "arcgis:4a71946ebc354630a60b9509eb502674:4",
+      "title": "tifs",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/HCPA_Special_Districts/FeatureServer/4",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/4a71946ebc354630a60b9509eb502674",
+      "fields": [
+        {
+          "name": "FID",
+          "alias": "FID"
+        },
+        {
+          "name": "AREA",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "TIFS",
+          "alias": "TIFS"
+        },
+        {
+          "name": "NAME",
+          "alias": "NAME"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [
+        "parent_context:boundary",
+        "parent_context:development"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Boundaries",
+          "score": 0.01351069407645123
+        },
+        {
+          "category": "Recreation",
+          "score": 0.0046340610819614846
+        },
+        {
+          "category": "Transportation",
+          "score": 0.003391163665023398
+        }
+      ]
+    },
+    {
       "id": "arcgis:4bb2811d2a35470e9605be5f595d3a53:0",
       "title": "HWM",
-      "reason": "competing-semantic-categories",
-      "description": "Public Works Survey High Water Mark Data in Pinellas County, Florida. The data contained herein is offered “as is,” with no claim or warranty as to its accuracy or completeness. The data is for reference only and should not be considered to be of survey precision. DATA STEWARD: Pinellas County Public Works, pwgissmedistribution@pinellas.gov Feature Dataset: Survey Feature Class: HWM",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Public Works Survey High Water Mark Data in Pinellas County, Florida.",
       "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_HWM_view/FeatureServer/0",
       "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/4bb2811d2a35470e9605be5f595d3a53",
@@ -3045,22 +3829,21 @@
         }
       ],
       "keywordSignals": [
-        "description:public works",
         "parent_context:public works",
         "tags:public works"
       ],
       "semanticCandidates": [
         {
           "category": "Infrastructure",
-          "score": 0.9749458271235979
+          "score": 0.09005564352352567
+        },
+        {
+          "category": "Environment",
+          "score": 0.0675357382635137
         },
         {
           "category": "Planning",
-          "score": 0.9559183528837896
-        },
-        {
-          "category": "Utilities",
-          "score": 0.9272688214141696
+          "score": 0.024501722233221255
         }
       ]
     },
@@ -3203,8 +3986,8 @@
     {
       "id": "arcgis:52357885f778442091f44935be885cfd:5",
       "title": "Service Area Invert",
-      "reason": "below-semantic-threshold",
-      "description": "City of Clearwater Service area Invert Pinellas County",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "City of Clearwater Service area Invert Pinellas County",
       "layerUrl": "https://services1.arcgis.com/3GsNorcb0Mn5rMt8/arcgis/rest/services/Project_Tracking_view/FeatureServer/5",
       "itemUrl": "https://cityofclearwater.maps.arcgis.com/sharing/rest/content/items/52357885f778442091f44935be885cfd",
@@ -3245,16 +4028,16 @@
       "keywordSignals": [],
       "semanticCandidates": [
         {
-          "category": "Environment",
-          "score": 0.15798813552230093
+          "category": "Development",
+          "score": 0.18919343358651905
         },
         {
-          "category": "Development",
-          "score": 0.12906400746611016
+          "category": "Environment",
+          "score": 0.1326478622696963
         },
         {
           "category": "Health",
-          "score": 0.09128320288142949
+          "score": 0.12127439010987007
         }
       ]
     },
@@ -3464,162 +4247,10 @@
       ]
     },
     {
-      "id": "arcgis:583c9f880c044c8aabdbeded3496f932:3",
-      "title": "Church/Church Property",
-      "reason": "competing-semantic-categories",
-      "description": "New Housing Layer",
-      "parentSummary": "New Housing Layer",
-      "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/Parcel_Info/FeatureServer/3",
-      "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/583c9f880c044c8aabdbeded3496f932",
-      "fields": [
-        {
-          "name": "OBJECTID",
-          "alias": "OBJECTID"
-        },
-        {
-          "name": "LOWPARCELID",
-          "alias": "Lowest Parcel Identification Number"
-        },
-        {
-          "name": "PARCELID",
-          "alias": "Parcel Identification Number"
-        },
-        {
-          "name": "BUILDING",
-          "alias": "Building Number"
-        },
-        {
-          "name": "UNIT",
-          "alias": "Unit Number"
-        },
-        {
-          "name": "STATEDAREA",
-          "alias": "Stated Area"
-        },
-        {
-          "name": "LGLSTARTDT",
-          "alias": "Legal Start Date"
-        },
-        {
-          "name": "CVTTXCD",
-          "alias": "Tax District Code"
-        },
-        {
-          "name": "CVTTXDSCRP",
-          "alias": "Tax District Description"
-        },
-        {
-          "name": "SCHLTXCD",
-          "alias": "School District Code"
-        },
-        {
-          "name": "SCHLDSCRP",
-          "alias": "School District Description"
-        },
-        {
-          "name": "USECD",
-          "alias": "Assessing Use Code"
-        },
-        {
-          "name": "USEDSCRP",
-          "alias": "Assessing Use Description"
-        },
-        {
-          "name": "NGHBRHDCD",
-          "alias": "Assessing Neighbornood Code"
-        },
-        {
-          "name": "CLASSCD",
-          "alias": "Property Class Code"
-        },
-        {
-          "name": "CLASSDSCRP",
-          "alias": "Property Class"
-        },
-        {
-          "name": "SITEADDRESS",
-          "alias": "Site Address"
-        },
-        {
-          "name": "PRPRTYDSCRP",
-          "alias": "Property Description"
-        },
-        {
-          "name": "CNVYNAME",
-          "alias": "Sub or Condo Name"
-        },
-        {
-          "name": "OWNERNME1",
-          "alias": "First Owner Name"
-        },
-        {
-          "name": "OWNERNME2",
-          "alias": "Second Owner Name"
-        },
-        {
-          "name": "PSTLADDRESS",
-          "alias": "Postal Address"
-        },
-        {
-          "name": "PSTLCITY",
-          "alias": "Postal City"
-        },
-        {
-          "name": "PSTLSTATE",
-          "alias": "Postal State"
-        },
-        {
-          "name": "PSTLZIP5",
-          "alias": "Postal Zip 5"
-        },
-        {
-          "name": "PSTLZIP4",
-          "alias": "Postal Zip +4"
-        },
-        {
-          "name": "FLOORCOUNT",
-          "alias": "Number of Floors"
-        },
-        {
-          "name": "BLDGAREA",
-          "alias": "Building Area"
-        },
-        {
-          "name": "RESFLRAREA",
-          "alias": "Residential Floor Area"
-        },
-        {
-          "name": "RESYRBLT",
-          "alias": "Residential Year Built"
-        }
-      ],
-      "keywordSignals": [
-        "description:housing",
-        "fields:building",
-        "fields:parcel",
-        "fields:residential",
-        "parent_context:housing"
-      ],
-      "semanticCandidates": [
-        {
-          "category": "Development",
-          "score": 0.9082124224707998
-        },
-        {
-          "category": "Boundaries",
-          "score": 0.7455944351278523
-        },
-        {
-          "category": "Planning",
-          "score": 0.7220067482643908
-        }
-      ]
-    },
-    {
       "id": "arcgis:5a7930838a8a49d0a91d7bd1e825adfd:6",
       "title": "One ft Contours  ",
-      "reason": "below-semantic-threshold",
-      "description": "New Housing Layers",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "New Housing Layers",
       "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/FloodZones/FeatureServer/6",
       "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/5a7930838a8a49d0a91d7bd1e825adfd",
@@ -3666,29 +4297,28 @@
         }
       ],
       "keywordSignals": [
-        "description:housing",
         "parent_context:housing"
       ],
       "semanticCandidates": [
         {
           "category": "Environment",
-          "score": 0.29393341929494676
+          "score": 0.1994422647924904
         },
         {
-          "category": "Development",
-          "score": 0.18492107713865089
+          "category": "Health",
+          "score": 0.07775047139014109
         },
         {
           "category": "Recreation",
-          "score": 0.0909725817524277
+          "score": 0.06317364756652448
         }
       ]
     },
     {
       "id": "arcgis:5a7930838a8a49d0a91d7bd1e825adfd:7",
       "title": "Shaded X  ",
-      "reason": "below-semantic-threshold",
-      "description": "New Housing Layers",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "New Housing Layers",
       "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/FloodZones/FeatureServer/7",
       "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/5a7930838a8a49d0a91d7bd1e825adfd",
@@ -3795,30 +4425,29 @@
         }
       ],
       "keywordSignals": [
-        "description:housing",
         "fields:base flood elevation",
         "parent_context:housing"
       ],
       "semanticCandidates": [
         {
           "category": "Health",
-          "score": 0.5268858733751959
+          "score": 0.47717996410920077
         },
         {
-          "category": "Environment",
-          "score": 0.40555718236605326
+          "category": "Boundaries",
+          "score": 0.36759181038870575
         },
         {
           "category": "Recreation",
-          "score": 0.4049055024621584
+          "score": 0.32548848264376123
         }
       ]
     },
     {
       "id": "arcgis:5a7930838a8a49d0a91d7bd1e825adfd:8",
       "title": "VE Zones  ",
-      "reason": "below-semantic-threshold",
-      "description": "New Housing Layers",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "New Housing Layers",
       "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/FloodZones/FeatureServer/8",
       "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/5a7930838a8a49d0a91d7bd1e825adfd",
@@ -3925,30 +4554,29 @@
         }
       ],
       "keywordSignals": [
-        "description:housing",
         "fields:base flood elevation",
         "parent_context:housing"
       ],
       "semanticCandidates": [
         {
-          "category": "Recreation",
-          "score": 0.6036934250241288
+          "category": "Planning",
+          "score": 0.5184965406555989
         },
         {
-          "category": "Health",
-          "score": 0.5559369935083853
+          "category": "Recreation",
+          "score": 0.41326445985113414
         },
         {
           "category": "Housing",
-          "score": 0.5245997382200109
+          "score": 0.39936575860160906
         }
       ]
     },
     {
       "id": "arcgis:5c38d5707a40407f9a43ff82b0a183a4:0",
       "title": "PSSEMSGrid",
-      "reason": "competing-semantic-categories",
-      "description": "Grid dividing the county into 1/2 mile by 1/2 mile numbered squares. The data contained herein is offered “as is,” with no claim or warranty as to its accuracy or completeness. The data is for reference only and should not be considered to be of survey precision. DATA STEWARD: Pinellas County Safety and Emergency Services, Radio and Technology (RAT), ratsupport@pinellas.gov (727)464-3879 Feature Dataset: PSS Feature Class: PSSEMSGrid",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Safety and Emergency Services, Radio and Technology EMS Grid in Pinellas County, Florida",
       "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_PSSEMSGrid_view/FeatureServer/0",
       "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/5c38d5707a40407f9a43ff82b0a183a4",
@@ -4027,30 +4655,121 @@
         }
       ],
       "keywordSignals": [
-        "description:safety",
         "parent_context:safety",
         "tags:safety"
       ],
       "semanticCandidates": [
         {
-          "category": "Boundaries",
-          "score": 0.9643764378621027
-        },
-        {
-          "category": "Infrastructure",
-          "score": 0.9427701602387726
-        },
-        {
           "category": "Health",
-          "score": 0.9407343580802765
+          "score": 0.045325580454117276
+        },
+        {
+          "category": "Boundaries",
+          "score": 0.04029385102914687
+        },
+        {
+          "category": "Planning",
+          "score": 0.03188500710922543
+        }
+      ]
+    },
+    {
+      "id": "arcgis:5f7bcf05d05d414795b19816604c8bf6:1",
+      "title": "MoonLake_ZoneArea",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "This feature class contains polygons of current and adopted zoning districts for unincorporated portion of Pasco County. Layer clipped to Moon Lake Boundary",
+      "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/MoonLake_ZoneArea/FeatureServer/1",
+      "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/5f7bcf05d05d414795b19816604c8bf6",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ZONEID",
+          "alias": "ZONEID"
+        },
+        {
+          "name": "ZN_TYPE",
+          "alias": "ZN_TYPE"
+        },
+        {
+          "name": "ZN_DESC",
+          "alias": "ZN_DESC"
+        },
+        {
+          "name": "ZN_STR",
+          "alias": "ZN_STR"
+        },
+        {
+          "name": "GlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "created_us",
+          "alias": "created_us"
+        },
+        {
+          "name": "created_da",
+          "alias": "created_da"
+        },
+        {
+          "name": "last_edite",
+          "alias": "last_edite"
+        },
+        {
+          "name": "last_edi_1",
+          "alias": "last_edi_1"
+        },
+        {
+          "name": "RuleID",
+          "alias": "RuleID"
+        },
+        {
+          "name": "Override",
+          "alias": "Override"
+        },
+        {
+          "name": "GIS_AC",
+          "alias": "GIS_AC"
+        },
+        {
+          "name": "GIS_SQFT",
+          "alias": "GIS_SQFT"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [
+        "parent_context:boundary"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Boundaries",
+          "score": 0.6937184345168338
+        },
+        {
+          "category": "Planning",
+          "score": 0.6806251885306022
+        },
+        {
+          "category": "Environment",
+          "score": 0.5020779603836318
         }
       ]
     },
     {
       "id": "arcgis:6793e69dc2d345cd8145e5088a05704e:0",
       "title": "tbl_esri_values",
-      "reason": "below-semantic-threshold",
-      "description": "Summary statistic cards Individual values/statistics for use in AGOL hub, dashboards, etc. Updated nightly Table feeds the Tampa Police Department SAFE MAP HUB Site Content owned by Public Info Account in the TPD - HUB folder Tampa Police Department SAFE MAP HUB Site",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Individual values/statistics for use in AGOL hub, dashboards, etc.",
       "layerUrl": "https://services1.arcgis.com/IbNXlmt2RVVRCZ6M/arcgis/rest/services/tbl_esri_values/FeatureServer/0",
       "itemUrl": "https://tampa.maps.arcgis.com/sharing/rest/content/items/6793e69dc2d345cd8145e5088a05704e",
@@ -4105,29 +4824,28 @@
         }
       ],
       "keywordSignals": [
-        "description:police",
         "parent_context:police"
       ],
       "semanticCandidates": [
         {
-          "category": "Utilities",
-          "score": 0.13588180826202115
-        },
-        {
-          "category": "Environment",
-          "score": 0.11957623888974547
-        },
-        {
           "category": "Boundaries",
-          "score": 0.10945738702317402
+          "score": 0.03894569176840646
+        },
+        {
+          "category": "Health",
+          "score": 0.035107321703824884
+        },
+        {
+          "category": "Development",
+          "score": 0.030028702219700516
         }
       ]
     },
     {
       "id": "arcgis:6cf0afa9cd8349be80eec721a28afb7f:0",
       "title": "survey",
-      "reason": "competing-semantic-categories",
-      "description": "Public survey to request a TTC Permit for Lane and Road Closures, v4 allows auto-cache within Survey123, this will be lost if it is moved into Survey Connect. Auto-cache is used by contractors with multiple permit requests. This form includes hidden questions that the public cannot see but are used by TTC staff for approvals.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "A Temporary Traffic Control permit is required to ensure that construction meets the County's adopted standards anytime certain types of work are performed. THESE ARE UNAPPROVED APPLICATIONS NOT PERMITS.",
       "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/survey123_27e0b7eaa0fe4aeeafb60bdec186d48d_form/FeatureServer/0",
       "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/6cf0afa9cd8349be80eec721a28afb7f",
@@ -4254,8 +4972,6 @@
         }
       ],
       "keywordSignals": [
-        "description:permit",
-        "description:road",
         "fields:permit",
         "fields:road",
         "fields:street",
@@ -4269,16 +4985,529 @@
       ],
       "semanticCandidates": [
         {
-          "category": "Infrastructure",
-          "score": 0.8760343428320927
-        },
-        {
-          "category": "Utilities",
-          "score": 0.8664113257211449
+          "category": "Development",
+          "score": 0.02430293245361175
         },
         {
           "category": "Boundaries",
-          "score": 0.8653817465733794
+          "score": 0.013583561599580631
+        },
+        {
+          "category": "Environment",
+          "score": 0.011842573588634678
+        }
+      ]
+    },
+    {
+      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:0",
+      "title": "Active CE Cases",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Code Enforcement Cases Map Service",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/CodeEnforcementCasesMapService/FeatureServer/0",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/6d83f0d2a69f4b8d9cc76012cd402251",
+      "fields": [
+        {
+          "name": "ObjectID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "Permits_Pl",
+          "alias": "Permits_Pl"
+        },
+        {
+          "name": "CRM_SR_",
+          "alias": "CRM_SR_"
+        },
+        {
+          "name": "ADDRESS",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "ZIP_CODE",
+          "alias": "ZIP_CODE"
+        },
+        {
+          "name": "PARCEL_NO_NO",
+          "alias": "PARCEL_NO_NO"
+        },
+        {
+          "name": "DUE_DATE",
+          "alias": "DUE_DATE"
+        },
+        {
+          "name": "STATUS",
+          "alias": "STATUS"
+        },
+        {
+          "name": "OFFICER",
+          "alias": "OFFICER"
+        },
+        {
+          "name": "USER_Field9",
+          "alias": "Field9"
+        },
+        {
+          "name": "USER_Field10",
+          "alias": "Field10"
+        },
+        {
+          "name": "USER_Field11",
+          "alias": "Field11"
+        },
+        {
+          "name": "USER_Field12",
+          "alias": "Field12"
+        }
+      ],
+      "keywordSignals": [
+        "fields:parcel",
+        "fields:permit",
+        "fields:zip codes",
+        "parent_context:code enforcement",
+        "tags:code enforcement"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Health",
+          "score": 0.39047391430515194
+        },
+        {
+          "category": "Environment",
+          "score": 0.1966829530344629
+        },
+        {
+          "category": "Housing",
+          "score": 0.18896399317313353
+        }
+      ]
+    },
+    {
+      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:1",
+      "title": "Active Condemnations",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Code Enforcement Cases Map Service",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/CodeEnforcementCasesMapService/FeatureServer/1",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/6d83f0d2a69f4b8d9cc76012cd402251",
+      "fields": [
+        {
+          "name": "ObjectID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "CASE_",
+          "alias": "CASE"
+        },
+        {
+          "name": "DATA_STATUS",
+          "alias": "DATA_STATUS"
+        },
+        {
+          "name": "FOLIO",
+          "alias": "FOLIO"
+        },
+        {
+          "name": "ADDRESS",
+          "alias": "ADDRESS"
+        }
+      ],
+      "keywordSignals": [
+        "parent_context:code enforcement",
+        "tags:code enforcement"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Health",
+          "score": 0.08845410308158427
+        },
+        {
+          "category": "Environment",
+          "score": 0.03968766431792951
+        },
+        {
+          "category": "Housing",
+          "score": 0.03877739114765415
+        }
+      ]
+    },
+    {
+      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:2",
+      "title": "Active Water Cases",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Code Enforcement Cases Map Service",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/CodeEnforcementCasesMapService/FeatureServer/2",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/6d83f0d2a69f4b8d9cc76012cd402251",
+      "fields": [
+        {
+          "name": "ObjectID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "Permits_Pl",
+          "alias": "Permits_Pl"
+        },
+        {
+          "name": "CRM_SR",
+          "alias": "CRM_SR"
+        },
+        {
+          "name": "ADDRESS",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "ZIP_CODE",
+          "alias": "ZIP_CODE"
+        },
+        {
+          "name": "PARCEL_NO_NO",
+          "alias": "PARCEL_NO_NO"
+        },
+        {
+          "name": "DUE_DATE",
+          "alias": "DUE_DATE"
+        },
+        {
+          "name": "STATUS",
+          "alias": "STATUS"
+        },
+        {
+          "name": "OFFICER",
+          "alias": "OFFICER"
+        }
+      ],
+      "keywordSignals": [
+        "fields:parcel",
+        "fields:permit",
+        "fields:zip codes",
+        "parent_context:code enforcement",
+        "tags:code enforcement"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Environment",
+          "score": 0.4720264359726272
+        },
+        {
+          "category": "Infrastructure",
+          "score": 0.3427978464251698
+        },
+        {
+          "category": "Health",
+          "score": 0.338303450756254
+        }
+      ]
+    },
+    {
+      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:3",
+      "title": "Active CE Liens",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Code Enforcement Cases Map Service",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/CodeEnforcementCasesMapService/FeatureServer/3",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/6d83f0d2a69f4b8d9cc76012cd402251",
+      "fields": [
+        {
+          "name": "ObjectID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "Permits_Pl",
+          "alias": "Permits_Pl"
+        },
+        {
+          "name": "CRM_SR_",
+          "alias": "CRM_SR_"
+        },
+        {
+          "name": "ADDRESS",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "PARCEL_NO",
+          "alias": "PARCEL_NO"
+        },
+        {
+          "name": "BALANCE",
+          "alias": "BALANCE"
+        }
+      ],
+      "keywordSignals": [
+        "fields:parcel",
+        "fields:permit",
+        "parent_context:code enforcement",
+        "tags:code enforcement"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Environment",
+          "score": 0.1377567493231608
+        },
+        {
+          "category": "Health",
+          "score": 0.13183981995391822
+        },
+        {
+          "category": "Housing",
+          "score": 0.06700770884202435
+        }
+      ]
+    },
+    {
+      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:4",
+      "title": "FineRun Cases",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Code Enforcement Cases Map Service",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/CodeEnforcementCasesMapService/FeatureServer/4",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/6d83f0d2a69f4b8d9cc76012cd402251",
+      "fields": [
+        {
+          "name": "ObjectID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "NUMBER_KEY",
+          "alias": "NUMBER_KEY"
+        },
+        {
+          "name": "Officer",
+          "alias": "Officer"
+        },
+        {
+          "name": "Scheduled_R_C_Date",
+          "alias": "Scheduled_R_C_Date"
+        },
+        {
+          "name": "Address",
+          "alias": "Address"
+        }
+      ],
+      "keywordSignals": [
+        "parent_context:code enforcement",
+        "tags:code enforcement"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Development",
+          "score": 0.1451055185476134
+        },
+        {
+          "category": "Health",
+          "score": 0.12474627843920177
+        },
+        {
+          "category": "Housing",
+          "score": 0.08881185672029454
+        }
+      ]
+    },
+    {
+      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:5",
+      "title": "CERT Water Violation",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Code Enforcement Cases Map Service",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/CodeEnforcementCasesMapService/FeatureServer/5",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/6d83f0d2a69f4b8d9cc76012cd402251",
+      "fields": [
+        {
+          "name": "ObjectID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "Case_Number",
+          "alias": "Case_Number"
+        },
+        {
+          "name": "Action",
+          "alias": "Action"
+        },
+        {
+          "name": "Date",
+          "alias": "Date"
+        },
+        {
+          "name": "Officer",
+          "alias": "Officer"
+        },
+        {
+          "name": "Address",
+          "alias": "Address"
+        },
+        {
+          "name": "Parcel",
+          "alias": "Parcel"
+        },
+        {
+          "name": "Owner",
+          "alias": "Owner"
+        },
+        {
+          "name": "Violation",
+          "alias": "Violation"
+        },
+        {
+          "name": "Year",
+          "alias": "Year"
+        }
+      ],
+      "keywordSignals": [
+        "fields:parcel",
+        "parent_context:code enforcement",
+        "tags:code enforcement"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Health",
+          "score": 0.19757037738226582
+        },
+        {
+          "category": "Public safety",
+          "score": 0.1184168502232286
+        },
+        {
+          "category": "Environment",
+          "score": 0.10259846977486334
+        }
+      ]
+    },
+    {
+      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:6",
+      "title": "CRTY Water Violation",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Code Enforcement Cases Map Service",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/CodeEnforcementCasesMapService/FeatureServer/6",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/6d83f0d2a69f4b8d9cc76012cd402251",
+      "fields": [
+        {
+          "name": "ObjectID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "Case_Number",
+          "alias": "Case_Number"
+        },
+        {
+          "name": "Action",
+          "alias": "Action"
+        },
+        {
+          "name": "Date",
+          "alias": "Date"
+        },
+        {
+          "name": "Officer",
+          "alias": "Officer"
+        },
+        {
+          "name": "Address",
+          "alias": "Address"
+        },
+        {
+          "name": "Parcel",
+          "alias": "Parcel"
+        },
+        {
+          "name": "Owner",
+          "alias": "Owner"
+        },
+        {
+          "name": "Violation",
+          "alias": "Violation"
+        },
+        {
+          "name": "Year",
+          "alias": "Year"
+        }
+      ],
+      "keywordSignals": [
+        "fields:parcel",
+        "parent_context:code enforcement",
+        "tags:code enforcement"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Health",
+          "score": 0.24871263135108782
+        },
+        {
+          "category": "Public safety",
+          "score": 0.14036698130989583
+        },
+        {
+          "category": "Environment",
+          "score": 0.10487256800953977
+        }
+      ]
+    },
+    {
+      "id": "arcgis:6d83f0d2a69f4b8d9cc76012cd402251:7",
+      "title": "Abatements",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Code Enforcement Cases Map Service",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/CodeEnforcementCasesMapService/FeatureServer/7",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/6d83f0d2a69f4b8d9cc76012cd402251",
+      "fields": [
+        {
+          "name": "ObjectID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "Permits_Pl",
+          "alias": "Permits_Pl"
+        },
+        {
+          "name": "CRM_SR_",
+          "alias": "CRM_SR_"
+        },
+        {
+          "name": "ADDRESS",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "ZIP_CODE",
+          "alias": "ZIP_CODE"
+        },
+        {
+          "name": "PARCEL_NO_NO",
+          "alias": "PARCEL_NO_NO"
+        },
+        {
+          "name": "DUE_DATE",
+          "alias": "DUE_DATE"
+        },
+        {
+          "name": "STATUS",
+          "alias": "STATUS"
+        },
+        {
+          "name": "OFFICER",
+          "alias": "OFFICER"
+        }
+      ],
+      "keywordSignals": [
+        "fields:parcel",
+        "fields:permit",
+        "fields:zip codes",
+        "parent_context:code enforcement",
+        "tags:code enforcement"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Health",
+          "score": 0.2431084227076874
+        },
+        {
+          "category": "Infrastructure",
+          "score": 0.1597414638809395
+        },
+        {
+          "category": "Housing",
+          "score": 0.14593188959045528
         }
       ]
     },
@@ -4533,8 +5762,8 @@
     {
       "id": "arcgis:71434666229b4f4e8b31b54587888c72:0",
       "title": "HCPA_Neighborhoods",
-      "reason": "competing-semantic-categories",
-      "description": "The HCPA Neighborhoods layer represents generalized neighborhood areas within Hillsborough County, Florida, as defined for property assessment and market analysis purposes. Neighborhood boundaries are used to group properties with similar market characteristics, development patterns, or geographic influences. These boundaries are established for administrative and valuation analysis and may not correspond to officially recognized municipal neighborhoods, community boundaries, or homeowner association areas. This dataset is intended for mapping, reference, and analytical applications. Neighborhood boundaries are generalized for GIS display and are not intended for legal or survey purposes. Maintained by the Hillsborough County Property Appraiser.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "",
       "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/HCPA_Neighborhoods/FeatureServer/0",
       "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/71434666229b4f4e8b31b54587888c72",
@@ -4661,23 +5890,21 @@
         }
       ],
       "keywordSignals": [
-        "description:boundary",
-        "description:development",
         "parent_context:boundary",
         "parent_context:development"
       ],
       "semanticCandidates": [
         {
           "category": "Boundaries",
-          "score": 0.9828976992424339
+          "score": 0.008478700677851265
         },
         {
-          "category": "Demographics",
-          "score": 0.9828976992424339
+          "category": "Recreation",
+          "score": 0.007817430432780319
         },
         {
-          "category": "Development",
-          "score": 0.9828976992424339
+          "category": "Health",
+          "score": 0.00702307916963794
         }
       ]
     },
@@ -4915,8 +6142,8 @@
     {
       "id": "arcgis:7d39ad8ebb4245809d0049f30a2db42d:0",
       "title": "North_Greenwood_CRA",
-      "reason": "below-semantic-threshold",
-      "description": "This layer is needed for the GIS WebTech Guru Tool. Special Incentive Areas",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "This layer is needed for the GIS WebTech Guru Tool. Special Incentive Areas",
       "layerUrl": "https://services1.arcgis.com/3GsNorcb0Mn5rMt8/arcgis/rest/services/North_Greenwood_CRA/FeatureServer/0",
       "itemUrl": "https://cityofclearwater.maps.arcgis.com/sharing/rest/content/items/7d39ad8ebb4245809d0049f30a2db42d",
@@ -4967,24 +6194,24 @@
       ],
       "semanticCandidates": [
         {
-          "category": "Environment",
-          "score": 0.6003074973013972
-        },
-        {
           "category": "Development",
-          "score": 0.5908795701836661
+          "score": 0.15916292168084167
         },
         {
-          "category": "Planning",
-          "score": 0.38823356741884707
+          "category": "Environment",
+          "score": 0.1407292875880758
+        },
+        {
+          "category": "Recreation",
+          "score": 0.10072323256126865
         }
       ]
     },
     {
       "id": "arcgis:7d9bdaef74b54cad8c312204d02fecca:0",
       "title": "Sanchez y Haya  ",
-      "reason": "below-semantic-threshold",
-      "description": "Buffer zones for use in the public Community Benefits Advisory Council app.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Buffer zones for use in the public Community Benefits Advisory Council app.",
       "layerUrl": "https://services1.arcgis.com/IbNXlmt2RVVRCZ6M/arcgis/rest/services/Sanchez_y_Haya_/FeatureServer/0",
       "itemUrl": "https://tampa.maps.arcgis.com/sharing/rest/content/items/7d9bdaef74b54cad8c312204d02fecca",
@@ -5014,15 +6241,15 @@
       "semanticCandidates": [
         {
           "category": "Health",
-          "score": 0.18858583449404104
+          "score": 0.14499397377358061
+        },
+        {
+          "category": "Transportation",
+          "score": 0.07873517786479171
         },
         {
           "category": "Recreation",
-          "score": 0.0968823296764264
-        },
-        {
-          "category": "Development",
-          "score": 0.08388876648715757
+          "score": 0.07625741971662992
         }
       ]
     },
@@ -5173,95 +6400,295 @@
       ]
     },
     {
-      "id": "arcgis:81a343f574c1477b8797c4fb6764a357:1",
-      "title": "Polygons",
-      "reason": "below-semantic-threshold",
-      "description": "4 zones for lealman recycle collection",
-      "parentSummary": "4 zones for lealman recycle collection",
-      "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/LealmanCollectionZonesCoastal/FeatureServer/1",
-      "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/81a343f574c1477b8797c4fb6764a357",
+      "id": "arcgis:822a83a6072c475e8f2142e4b4a942b3:0",
+      "title": "TIPProjects",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Forward Pinellas Transportation Improvement Projects in Pinellas County, Florida.",
+      "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_TIPProjects_view/FeatureServer/0",
+      "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/822a83a6072c475e8f2142e4b4a942b3",
       "fields": [
         {
           "name": "OBJECTID",
           "alias": "OBJECTID"
         },
         {
-          "name": "Name",
-          "alias": "Name"
+          "name": "PROJECT_ID",
+          "alias": "PROJECT_ID"
         },
         {
-          "name": "FolderPath",
-          "alias": "FolderPath"
+          "name": "PROJECT_NA",
+          "alias": "PROJECT_NA"
         },
         {
-          "name": "SymbolID",
-          "alias": "SymbolID"
+          "name": "PIC_URL",
+          "alias": "PIC_URL"
         },
         {
-          "name": "Snippet",
-          "alias": "Snippet"
+          "name": "WEBSITE",
+          "alias": "WEBSITE"
         },
         {
-          "name": "PopupInfo",
-          "alias": "PopupInfo"
+          "name": "TIPTYPE",
+          "alias": "TIPTYPE"
         },
         {
-          "name": "Shape__Area",
-          "alias": "Shape__Area"
+          "name": "TYPE_OTHER",
+          "alias": "TYPE_OTHER"
+        },
+        {
+          "name": "FWDPIN_NOTES",
+          "alias": "NOTES"
+        },
+        {
+          "name": "FWDPIN_ATTACH",
+          "alias": "Attachment"
+        },
+        {
+          "name": "DISPLAY_YN",
+          "alias": "DISPLAY Y or N"
+        },
+        {
+          "name": "FWDPIN_YEAR",
+          "alias": "FWD P PROGRAM YEAR"
+        },
+        {
+          "name": "int_created_user",
+          "alias": "Internal Created User"
+        },
+        {
+          "name": "int_created_date",
+          "alias": "Internal Created Date"
+        },
+        {
+          "name": "int_edited_user",
+          "alias": "Internal Edited User"
+        },
+        {
+          "name": "int_edited_date",
+          "alias": "Internal Edited Date"
+        },
+        {
+          "name": "GLOBALID",
+          "alias": "GLOBALID"
+        },
+        {
+          "name": "PROJECTSTARTYEAR",
+          "alias": "Project Start Year"
+        },
+        {
+          "name": "PROJECTPHASE",
+          "alias": "Project Phase"
+        },
+        {
+          "name": "PROJECTPHASECOST",
+          "alias": "Project Phase Cost"
+        },
+        {
+          "name": "PROJECTTOTALCOST",
+          "alias": "Project Total Cost"
+        },
+        {
+          "name": "PROJECTPHCOMPLETEDATE",
+          "alias": "Project Phase Complete Date"
+        },
+        {
+          "name": "CONSTCOMPLETEDATE",
+          "alias": "Construction Complete Date"
+        },
+        {
+          "name": "DESCRIPTION",
+          "alias": "Description"
+        },
+        {
+          "name": "COMMENTS",
+          "alias": "Additional Comments"
+        },
+        {
+          "name": "StatePlane_Length",
+          "alias": "StatePlane_Length"
         },
         {
           "name": "Shape__Length",
           "alias": "Shape__Length"
-        },
-        {
-          "name": "CurrentTrashDays",
-          "alias": "Current Trash Days"
-        },
-        {
-          "name": "NewTrashDays",
-          "alias": "New Trash Days"
-        },
-        {
-          "name": "CurrentRecycleDays",
-          "alias": "Current Recycle Day"
-        },
-        {
-          "name": "NewRecycleDay",
-          "alias": "New Recycle Day"
-        },
-        {
-          "name": "CurrentYardWasteDay",
-          "alias": "Current Yard Waste Day"
-        },
-        {
-          "name": "NewYardWasteDay",
-          "alias": "New Yard Waste Day"
         }
       ],
       "keywordSignals": [
-        "fields:trash",
-        "fields:yard waste"
+        "fields:construction",
+        "parent_context:transportation",
+        "tags:transportation"
       ],
       "semanticCandidates": [
         {
-          "category": "Solid waste",
-          "score": 0.8375003225736721
+          "category": "Development",
+          "score": 0.17127934995625788
         },
         {
           "category": "Planning",
-          "score": 0.28776796698732254
+          "score": 0.14096012564102808
         },
         {
-          "category": "Environment",
-          "score": 0.22743876044300185
+          "category": "Infrastructure",
+          "score": 0.13125243117885385
+        }
+      ]
+    },
+    {
+      "id": "arcgis:82525cd2338d4ea89468d32e0584b912:0",
+      "title": "PCEM_Shelters",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Emergency Management Shelters in Pinellas County, Florida.",
+      "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_PCEM_Shelters_view/FeatureServer/0",
+      "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/82525cd2338d4ea89468d32e0584b912",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FEATURECODE",
+          "alias": "Facility Type"
+        },
+        {
+          "name": "FACSUBTYPE",
+          "alias": "Facility Subtype"
+        },
+        {
+          "name": "FACILITYID",
+          "alias": "Facility ID"
+        },
+        {
+          "name": "FACNAME",
+          "alias": "Facility Name"
+        },
+        {
+          "name": "FULLADDR",
+          "alias": "Address"
+        },
+        {
+          "name": "CITY",
+          "alias": "City"
+        },
+        {
+          "name": "ZIP",
+          "alias": "Zip"
+        },
+        {
+          "name": "MANAGE_ENTITY",
+          "alias": "Managing Entity"
+        },
+        {
+          "name": "CONTACT1",
+          "alias": "Primary Contact"
+        },
+        {
+          "name": "CONTACT2",
+          "alias": "Secondary Contact"
+        },
+        {
+          "name": "RESTORATIONPRIORITY",
+          "alias": "Restoration Priority"
+        },
+        {
+          "name": "RESTORATIONNOTE",
+          "alias": "Restoration Note"
+        },
+        {
+          "name": "LATITUDE",
+          "alias": "LATITUDE"
+        },
+        {
+          "name": "LONGITUDE",
+          "alias": "LONGITUDE"
+        },
+        {
+          "name": "SITENOTES",
+          "alias": "Site Notes"
+        },
+        {
+          "name": "CAPACITY",
+          "alias": "Capacity"
+        },
+        {
+          "name": "GENERATOR",
+          "alias": "Generator"
+        },
+        {
+          "name": "DATASOURCE",
+          "alias": "DATASOURCE"
+        },
+        {
+          "name": "PIN",
+          "alias": "PIN"
+        },
+        {
+          "name": "EVACZONE",
+          "alias": "Evac Zone"
+        },
+        {
+          "name": "MUNICIPALITY",
+          "alias": "Municipality Name"
+        },
+        {
+          "name": "LEPROVIDER",
+          "alias": "LE Agency"
+        },
+        {
+          "name": "EMSPROVIDER",
+          "alias": "EMS Provider"
+        },
+        {
+          "name": "EMSGRIDID",
+          "alias": "EMS Grid ID"
+        },
+        {
+          "name": "FIREPROVIDER",
+          "alias": "Fire Provider"
+        },
+        {
+          "name": "FIREDISTRICT",
+          "alias": "Fire District"
+        },
+        {
+          "name": "FIREGRIDID",
+          "alias": "Fire Grid ID"
+        },
+        {
+          "name": "WATERPROVIDER",
+          "alias": "Water Service Provider"
+        },
+        {
+          "name": "SEWERPROVIDER",
+          "alias": "Sewer Provider"
+        }
+      ],
+      "keywordSignals": [
+        "fields:evac",
+        "fields:solid waste",
+        "fields:storm surge",
+        "fields:waste collection"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Boundaries",
+          "score": 0.32958625963362936
+        },
+        {
+          "category": "Infrastructure",
+          "score": 0.10165710164516527
+        },
+        {
+          "category": "Public safety",
+          "score": 0.09774865078622445
         }
       ]
     },
     {
       "id": "arcgis:8385aadcfc974a6bacfe36be8f1a3063:0",
       "title": "TECSubCategories",
-      "reason": "competing-semantic-categories",
-      "description": "TEC Sub Categories in Pinellas County, Florida, maintained by Forward Pinellas. The data contained herein is offered “as is,” with no claim or warranty as to its accuracy or completeness. The data is for reference only and should not be considered to be of survey precision. DATA STEWARD: Forward Pinellas, info@forwardpinellas.org (727)464-8250 Feature Dataset: PPC Feature Class: TECSubCategories",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "TEC Sub Categories in Pinellas County, Florida, maintained by Forward Pinellas.",
       "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_TECSubCategories_view/FeatureServer/0",
       "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/8385aadcfc974a6bacfe36be8f1a3063",
@@ -5318,24 +6745,134 @@
       "keywordSignals": [],
       "semanticCandidates": [
         {
-          "category": "Transportation",
-          "score": 0.9235851959374248
+          "category": "Environment",
+          "score": 0.015564202926552641
         },
         {
-          "category": "Boundaries",
-          "score": 0.913430848550322
+          "category": "Planning",
+          "score": 0.012564037645785744
         },
+        {
+          "category": "Recreation",
+          "score": 0.012050470465975693
+        }
+      ]
+    },
+    {
+      "id": "arcgis:847294deda8740a7a478a10bb92d4da3:10",
+      "title": "MoonLake_ELAMP_Acquisitions",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "This feature class contains polygons of properties that have been acquired through Environmental Lands Acquisition and Management Program (ELAMP). Layer clipped to Moon Lake CDB.",
+      "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/MoonLake_ELAMP_Acquisitions/FeatureServer/10",
+      "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/847294deda8740a7a478a10bb92d4da3",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "alias": "NAME"
+        },
+        {
+          "name": "FCTNAME",
+          "alias": "FCTNAME"
+        },
+        {
+          "name": "VPARCEL",
+          "alias": "VPARCEL"
+        },
+        {
+          "name": "ACRES",
+          "alias": "ACRES"
+        },
+        {
+          "name": "COST",
+          "alias": "COST"
+        },
+        {
+          "name": "PARTNER",
+          "alias": "PARTNER"
+        },
+        {
+          "name": "STATUS",
+          "alias": "STATUS"
+        },
+        {
+          "name": "ACREAGE",
+          "alias": "ACREAGE"
+        },
+        {
+          "name": "ADDRESS",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "Representa",
+          "alias": "Representa"
+        },
+        {
+          "name": "Override",
+          "alias": "Override"
+        },
+        {
+          "name": "created_us",
+          "alias": "created_us"
+        },
+        {
+          "name": "created_da",
+          "alias": "created_da"
+        },
+        {
+          "name": "last_edite",
+          "alias": "last_edite"
+        },
+        {
+          "name": "last_edi_1",
+          "alias": "last_edi_1"
+        },
+        {
+          "name": "DATE_ACQUI",
+          "alias": "DATE_ACQUI"
+        },
+        {
+          "name": "GlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "GIS_AC",
+          "alias": "GIS_AC"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [],
+      "semanticCandidates": [
         {
           "category": "Environment",
-          "score": 0.8381129253135536
+          "score": 0.6712720997553017
+        },
+        {
+          "category": "Housing",
+          "score": 0.33746124120422244
+        },
+        {
+          "category": "Health",
+          "score": 0.30887868005486196
         }
       ]
     },
     {
       "id": "arcgis:84e2d7456bc24d4387250cdafb77e755:0",
       "title": "Low_Moderate_Map",
-      "reason": "below-semantic-threshold",
-      "description": "This layer is needed for the GIS WebTech Guru Tool for the Low and Moderate Income. Special Incentive Areas",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "This layer is needed for the GIS WebTech Guru Tool for the Low and Moderate Income. Special Incentive Areas",
       "layerUrl": "https://services1.arcgis.com/3GsNorcb0Mn5rMt8/arcgis/rest/services/Low_Moderate_Map/FeatureServer/0",
       "itemUrl": "https://cityofclearwater.maps.arcgis.com/sharing/rest/content/items/84e2d7456bc24d4387250cdafb77e755",
@@ -5466,24 +7003,24 @@
       ],
       "semanticCandidates": [
         {
+          "category": "Development",
+          "score": 0.45652340726568963
+        },
+        {
           "category": "Environment",
-          "score": 0.7334067008538309
+          "score": 0.43234978919281725
         },
         {
-          "category": "Transportation",
-          "score": 0.7136153547252907
-        },
-        {
-          "category": "Utilities",
-          "score": 0.7133501308563662
+          "category": "Infrastructure",
+          "score": 0.3843443241500531
         }
       ]
     },
     {
       "id": "arcgis:88e62975c2dd405fa1bc4f5ceb8a69c2:37",
       "title": "MoonLake_EndStructure",
-      "reason": "below-semantic-threshold",
-      "description": "New Group Layer",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Stormwater network within Moon Lake boundary.",
       "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/MoonLake_StormwaterNetwork/FeatureServer/37",
       "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/88e62975c2dd405fa1bc4f5ceb8a69c2",
@@ -5616,24 +7153,24 @@
       ],
       "semanticCandidates": [
         {
-          "category": "Infrastructure",
-          "score": 0.8439325157213875
+          "category": "Utilities",
+          "score": 0.7234110150757206
         },
         {
           "category": "Environment",
-          "score": 0.8333148100115233
+          "score": 0.6512685596141434
         },
         {
-          "category": "Utilities",
-          "score": 0.7788187129760659
+          "category": "Solid waste",
+          "score": 0.5913840934211007
         }
       ]
     },
     {
       "id": "arcgis:88e62975c2dd405fa1bc4f5ceb8a69c2:38",
       "title": "MoonLake_Gauges",
-      "reason": "below-semantic-threshold",
-      "description": "New Group Layer",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Stormwater network within Moon Lake boundary.",
       "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/MoonLake_StormwaterNetwork/FeatureServer/38",
       "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/88e62975c2dd405fa1bc4f5ceb8a69c2",
@@ -5706,24 +7243,24 @@
       ],
       "semanticCandidates": [
         {
+          "category": "Utilities",
+          "score": 0.14881160901084897
+        },
+        {
           "category": "Health",
-          "score": 0.2036018099156776
+          "score": 0.14642712284036485
         },
         {
           "category": "Environment",
-          "score": 0.1866686593755487
-        },
-        {
-          "category": "Development",
-          "score": 0.1596862018094539
+          "score": 0.14311658144511688
         }
       ]
     },
     {
       "id": "arcgis:88e62975c2dd405fa1bc4f5ceb8a69c2:39",
       "title": "MoonLake_HydraulicElevation",
-      "reason": "below-semantic-threshold",
-      "description": "New Group Layer",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Stormwater network within Moon Lake boundary.",
       "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/MoonLake_StormwaterNetwork/FeatureServer/39",
       "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/88e62975c2dd405fa1bc4f5ceb8a69c2",
@@ -5857,24 +7394,24 @@
       ],
       "semanticCandidates": [
         {
-          "category": "Infrastructure",
-          "score": 0.6316428639288729
-        },
-        {
           "category": "Utilities",
-          "score": 0.5946688673838271
+          "score": 0.5206092490030657
         },
         {
-          "category": "Demographics",
-          "score": 0.45634495664476393
+          "category": "Environment",
+          "score": 0.448531841093314
+        },
+        {
+          "category": "Infrastructure",
+          "score": 0.43923876270648016
         }
       ]
     },
     {
       "id": "arcgis:88e62975c2dd405fa1bc4f5ceb8a69c2:40",
       "title": "MoonLake_NetworkStructure",
-      "reason": "below-semantic-threshold",
-      "description": "New Group Layer",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Stormwater network within Moon Lake boundary.",
       "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/MoonLake_StormwaterNetwork/FeatureServer/40",
       "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/88e62975c2dd405fa1bc4f5ceb8a69c2",
@@ -6007,24 +7544,24 @@
       ],
       "semanticCandidates": [
         {
-          "category": "Utilities",
-          "score": 0.7395635618642302
-        },
-        {
           "category": "Environment",
-          "score": 0.7248951404033066
+          "score": 0.6679849306635961
         },
         {
           "category": "Development",
-          "score": 0.6844091427960606
+          "score": 0.6610188145956725
+        },
+        {
+          "category": "Infrastructure",
+          "score": 0.6430206088681875
         }
       ]
     },
     {
       "id": "arcgis:88e62975c2dd405fa1bc4f5ceb8a69c2:42",
       "title": "MoonLake_Pipe",
-      "reason": "below-semantic-threshold",
-      "description": "New Group Layer",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Stormwater network within Moon Lake boundary.",
       "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/MoonLake_StormwaterNetwork/FeatureServer/42",
       "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/88e62975c2dd405fa1bc4f5ceb8a69c2",
@@ -6157,24 +7694,24 @@
       ],
       "semanticCandidates": [
         {
-          "category": "Utilities",
-          "score": 0.7822282191106557
+          "category": "Infrastructure",
+          "score": 0.744058055230793
         },
         {
-          "category": "Infrastructure",
-          "score": 0.7603657311389576
+          "category": "Utilities",
+          "score": 0.7173884696422475
         },
         {
           "category": "Environment",
-          "score": 0.7376155958497596
+          "score": 0.69638719910283
         }
       ]
     },
     {
       "id": "arcgis:922b26dd3dfa4de79e9c212f2cebbd5f:0",
       "title": "Study Area",
-      "reason": "below-semantic-threshold",
-      "description": "ClearCast City of St. Petersburg coastal guidance. Observed window: previous 24 hours; forecast model horizon: 120 hours. STOFS2D daily baseline; valid local P-Surge enables e50 most-likely and e10 high-end coastal guidance with WPC P90 rainfall. Source cycle/advisory is recorded in latest-run metadata. Coastal inundation is derived by interpolating selected coastal forecast reference levels over terrain; rainfall is a separate guidance overlay, not a coupled rainfall/runoff simulation. Latest operational records replace previous records; event archives are maintained in Clearview Azure.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "The SurgeCast_CoSP_AGOL layer contains key spatial datasets supporting coastal surge and rainfall forecasting for the City of St. Petersburg (CoSP). It integrates hydrometeorological inputs, modeled flood extents, and observed data to support visualization and decision-making within the SurgeCast platform.",
       "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/surgecast_cosp_agol/FeatureServer/0",
       "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/922b26dd3dfa4de79e9c212f2cebbd5f",
@@ -6205,31 +7742,30 @@
         }
       ],
       "keywordSignals": [
-        "description:surge",
         "parent_context:flood extent",
         "parent_context:surge",
         "tags:surge"
       ],
       "semanticCandidates": [
         {
-          "category": "Transportation",
-          "score": 0.8027635512509288
+          "category": "Environment",
+          "score": 0.00829964534596604
         },
         {
-          "category": "Utilities",
-          "score": 0.7993879720135256
+          "category": "Hazards",
+          "score": 0.007832522603496645
         },
         {
-          "category": "Government",
-          "score": 0.783386723528629
+          "category": "Infrastructure",
+          "score": 0.005164276698073473
         }
       ]
     },
     {
       "id": "arcgis:922b26dd3dfa4de79e9c212f2cebbd5f:1",
       "title": "Observations",
-      "reason": "competing-semantic-categories",
-      "description": "ClearCast City of St. Petersburg coastal guidance. Observed window: previous 24 hours; forecast model horizon: 120 hours. STOFS2D daily baseline; valid local P-Surge enables e50 most-likely and e10 high-end coastal guidance with WPC P90 rainfall. Source cycle/advisory is recorded in latest-run metadata. Coastal inundation is derived by interpolating selected coastal forecast reference levels over terrain; rainfall is a separate guidance overlay, not a coupled rainfall/runoff simulation. Latest operational records replace previous records; event archives are maintained in Clearview Azure.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "The SurgeCast_CoSP_AGOL layer contains key spatial datasets supporting coastal surge and rainfall forecasting for the City of St. Petersburg (CoSP). It integrates hydrometeorological inputs, modeled flood extents, and observed data to support visualization and decision-making within the SurgeCast platform.",
       "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/surgecast_cosp_agol/FeatureServer/1",
       "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/922b26dd3dfa4de79e9c212f2cebbd5f",
@@ -6356,31 +7892,30 @@
         }
       ],
       "keywordSignals": [
-        "description:surge",
         "parent_context:flood extent",
         "parent_context:surge",
         "tags:surge"
       ],
       "semanticCandidates": [
         {
-          "category": "Boundaries",
-          "score": 0.9319700163895622
+          "category": "Hazards",
+          "score": 0.015976126973640824
+        },
+        {
+          "category": "Health",
+          "score": 0.0072134820889290085
         },
         {
           "category": "Demographics",
-          "score": 0.9319700163895622
-        },
-        {
-          "category": "Development",
-          "score": 0.9319700163895622
+          "score": 0.006850280079166529
         }
       ]
     },
     {
       "id": "arcgis:922b26dd3dfa4de79e9c212f2cebbd5f:10",
       "title": "Coastal Gage Basins",
-      "reason": "competing-semantic-categories",
-      "description": "ClearCast City of St. Petersburg coastal guidance. Observed window: previous 24 hours; forecast model horizon: 120 hours. STOFS2D daily baseline; valid local P-Surge enables e50 most-likely and e10 high-end coastal guidance with WPC P90 rainfall. Source cycle/advisory is recorded in latest-run metadata. Coastal inundation is derived by interpolating selected coastal forecast reference levels over terrain; rainfall is a separate guidance overlay, not a coupled rainfall/runoff simulation. Latest operational records replace previous records; event archives are maintained in Clearview Azure.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "The SurgeCast_CoSP_AGOL layer contains key spatial datasets supporting coastal surge and rainfall forecasting for the City of St. Petersburg (CoSP). It integrates hydrometeorological inputs, modeled flood extents, and observed data to support visualization and decision-making within the SurgeCast platform.",
       "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/surgecast_cosp_agol/FeatureServer/10",
       "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/922b26dd3dfa4de79e9c212f2cebbd5f",
@@ -6451,31 +7986,30 @@
         }
       ],
       "keywordSignals": [
-        "description:surge",
         "parent_context:flood extent",
         "parent_context:surge",
         "tags:surge"
       ],
       "semanticCandidates": [
         {
-          "category": "Utilities",
-          "score": 0.8929979556019209
+          "category": "Environment",
+          "score": 0.0071616627673212994
         },
         {
           "category": "Hazards",
-          "score": 0.8525836536419571
+          "score": 0.006408125763069694
         },
         {
-          "category": "Transportation",
-          "score": 0.836992077240885
+          "category": "Health",
+          "score": 0.004384522514875996
         }
       ]
     },
     {
       "id": "arcgis:922b26dd3dfa4de79e9c212f2cebbd5f:11",
       "title": "Rainfall Grid",
-      "reason": "competing-semantic-categories",
-      "description": "ClearCast City of St. Petersburg coastal guidance. Observed window: previous 24 hours; forecast model horizon: 120 hours. STOFS2D daily baseline; valid local P-Surge enables e50 most-likely and e10 high-end coastal guidance with WPC P90 rainfall. Source cycle/advisory is recorded in latest-run metadata. Coastal inundation is derived by interpolating selected coastal forecast reference levels over terrain; rainfall is a separate guidance overlay, not a coupled rainfall/runoff simulation. Latest operational records replace previous records; event archives are maintained in Clearview Azure.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "The SurgeCast_CoSP_AGOL layer contains key spatial datasets supporting coastal surge and rainfall forecasting for the City of St. Petersburg (CoSP). It integrates hydrometeorological inputs, modeled flood extents, and observed data to support visualization and decision-making within the SurgeCast platform.",
       "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/surgecast_cosp_agol/FeatureServer/11",
       "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/922b26dd3dfa4de79e9c212f2cebbd5f",
@@ -6558,31 +8092,30 @@
         }
       ],
       "keywordSignals": [
-        "description:surge",
         "parent_context:flood extent",
         "parent_context:surge",
         "tags:surge"
       ],
       "semanticCandidates": [
         {
-          "category": "Boundaries",
-          "score": 0.9268189263432439
+          "category": "Environment",
+          "score": 0.006664949252776836
         },
         {
-          "category": "Demographics",
-          "score": 0.9268189263432439
+          "category": "Health",
+          "score": 0.005376157297217599
         },
         {
-          "category": "Development",
-          "score": 0.9268189263432439
+          "category": "Housing",
+          "score": 0.005244339214451292
         }
       ]
     },
     {
       "id": "arcgis:922b26dd3dfa4de79e9c212f2cebbd5f:13",
       "title": "Water Level Time Series",
-      "reason": "competing-semantic-categories",
-      "description": "ClearCast City of St. Petersburg coastal guidance. Observed window: previous 24 hours; forecast model horizon: 120 hours. STOFS2D daily baseline; valid local P-Surge enables e50 most-likely and e10 high-end coastal guidance with WPC P90 rainfall. Source cycle/advisory is recorded in latest-run metadata. Coastal inundation is derived by interpolating selected coastal forecast reference levels over terrain; rainfall is a separate guidance overlay, not a coupled rainfall/runoff simulation. Latest operational records replace previous records; event archives are maintained in Clearview Azure.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "The SurgeCast_CoSP_AGOL layer contains key spatial datasets supporting coastal surge and rainfall forecasting for the City of St. Petersburg (CoSP). It integrates hydrometeorological inputs, modeled flood extents, and observed data to support visualization and decision-making within the SurgeCast platform.",
       "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/surgecast_cosp_agol/FeatureServer/13",
       "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/922b26dd3dfa4de79e9c212f2cebbd5f",
@@ -6701,31 +8234,30 @@
         }
       ],
       "keywordSignals": [
-        "description:surge",
         "parent_context:flood extent",
         "parent_context:surge",
         "tags:surge"
       ],
       "semanticCandidates": [
         {
-          "category": "Boundaries",
-          "score": 0.9038647580895077
+          "category": "Environment",
+          "score": 0.011439792336485599
         },
         {
-          "category": "Demographics",
-          "score": 0.9038647580895077
+          "category": "Utilities",
+          "score": 0.007683296229111621
         },
         {
-          "category": "Development",
-          "score": 0.9038647580895077
+          "category": "Infrastructure",
+          "score": 0.007005794003327076
         }
       ]
     },
     {
       "id": "arcgis:922b26dd3dfa4de79e9c212f2cebbd5f:14",
       "title": "Rainfall Time Series",
-      "reason": "below-semantic-threshold",
-      "description": "ClearCast City of St. Petersburg coastal guidance. Observed window: previous 24 hours; forecast model horizon: 120 hours. STOFS2D daily baseline; valid local P-Surge enables e50 most-likely and e10 high-end coastal guidance with WPC P90 rainfall. Source cycle/advisory is recorded in latest-run metadata. Coastal inundation is derived by interpolating selected coastal forecast reference levels over terrain; rainfall is a separate guidance overlay, not a coupled rainfall/runoff simulation. Latest operational records replace previous records; event archives are maintained in Clearview Azure.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "The SurgeCast_CoSP_AGOL layer contains key spatial datasets supporting coastal surge and rainfall forecasting for the City of St. Petersburg (CoSP). It integrates hydrometeorological inputs, modeled flood extents, and observed data to support visualization and decision-making within the SurgeCast platform.",
       "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/surgecast_cosp_agol/FeatureServer/14",
       "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/922b26dd3dfa4de79e9c212f2cebbd5f",
@@ -6768,23 +8300,174 @@
         }
       ],
       "keywordSignals": [
-        "description:surge",
         "parent_context:flood extent",
         "parent_context:surge",
         "tags:surge"
       ],
       "semanticCandidates": [
         {
-          "category": "Utilities",
-          "score": 0.8054208204595558
+          "category": "Hazards",
+          "score": 0.009564686291130614
         },
         {
-          "category": "Transportation",
-          "score": 0.6502226877321858
+          "category": "Environment",
+          "score": 0.0072018221743332025
         },
         {
-          "category": "Government",
-          "score": 0.6439972171356523
+          "category": "Health",
+          "score": 0.007162632052766543
+        }
+      ]
+    },
+    {
+      "id": "arcgis:922b26dd3dfa4de79e9c212f2cebbd5f:9",
+      "title": "Facility Impacts",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "The SurgeCast_CoSP_AGOL layer contains key spatial datasets supporting coastal surge and rainfall forecasting for the City of St. Petersburg (CoSP). It integrates hydrometeorological inputs, modeled flood extents, and observed data to support visualization and decision-making within the SurgeCast platform.",
+      "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/surgecast_cosp_agol/FeatureServer/9",
+      "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/922b26dd3dfa4de79e9c212f2cebbd5f",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "asset_id",
+          "alias": "Asset ID"
+        },
+        {
+          "name": "name",
+          "alias": "Name"
+        },
+        {
+          "name": "classification",
+          "alias": "Classification"
+        },
+        {
+          "name": "county_name",
+          "alias": "County"
+        },
+        {
+          "name": "impact_type",
+          "alias": "Impact Type"
+        },
+        {
+          "name": "type",
+          "alias": "Type"
+        },
+        {
+          "name": "length_mi",
+          "alias": "Flooded Length (mi)"
+        },
+        {
+          "name": "max_depth_ft",
+          "alias": "Maximum Depth (ft)"
+        },
+        {
+          "name": "duration_hr",
+          "alias": "Duration (hr)"
+        },
+        {
+          "name": "start_time_utc",
+          "alias": "Flood Start (UTC)"
+        },
+        {
+          "name": "end_time_utc",
+          "alias": "Flood End (UTC)"
+        },
+        {
+          "name": "impact_level",
+          "alias": "Impact Level"
+        },
+        {
+          "name": "road_id",
+          "alias": "Road ID"
+        },
+        {
+          "name": "road_class",
+          "alias": "Road Classification"
+        },
+        {
+          "name": "bridge_id",
+          "alias": "Bridge ID"
+        },
+        {
+          "name": "building_id",
+          "alias": "Building ID"
+        },
+        {
+          "name": "facility_id",
+          "alias": "Facility ID"
+        },
+        {
+          "name": "address",
+          "alias": "Address"
+        },
+        {
+          "name": "occupancy",
+          "alias": "Occupancy"
+        },
+        {
+          "name": "first_floor_elev_ft",
+          "alias": "First Floor Elevation (ft NAVD88)"
+        },
+        {
+          "name": "building_value_usd",
+          "alias": "Building Value ($)"
+        },
+        {
+          "name": "depth_above_ffe_ft",
+          "alias": "Depth Above FFE (ft)"
+        },
+        {
+          "name": "building_damage_pct",
+          "alias": "Building Damage (%)"
+        },
+        {
+          "name": "building_damage_usd",
+          "alias": "Building Damage ($)"
+        },
+        {
+          "name": "content_damage_usd",
+          "alias": "Content Damage ($)"
+        },
+        {
+          "name": "inventory_damage_usd",
+          "alias": "Inventory Damage ($)"
+        },
+        {
+          "name": "total_damage_usd",
+          "alias": "Total Direct Damage ($)"
+        },
+        {
+          "name": "restoration_min_days",
+          "alias": "Minimum Restoration (days)"
+        },
+        {
+          "name": "restoration_max_days",
+          "alias": "Maximum Restoration (days)"
+        }
+      ],
+      "keywordSignals": [
+        "fields:building",
+        "fields:flood",
+        "parent_context:flood extent",
+        "parent_context:surge",
+        "tags:surge"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Environment",
+          "score": 0.020772334239327506
+        },
+        {
+          "category": "Infrastructure",
+          "score": 0.020669286496452704
+        },
+        {
+          "category": "Housing",
+          "score": 0.020001925993656654
         }
       ]
     },
@@ -7135,8 +8818,8 @@
     {
       "id": "arcgis:9704a51acdac475f922bfc3683d9d783:1",
       "title": "FinalMerge300_3000biffersCoastal",
-      "reason": "below-semantic-threshold",
-      "description": "Coastal buffers",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Coastal buffers",
       "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/Coastline_Buffers/FeatureServer/1",
       "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/9704a51acdac475f922bfc3683d9d783",
@@ -7165,15 +8848,202 @@
       "semanticCandidates": [
         {
           "category": "Recreation",
-          "score": 0.12059040665245777
+          "score": 0.11856504256943215
         },
         {
           "category": "Health",
-          "score": 0.09624910583621907
+          "score": 0.09537490195747016
         },
         {
           "category": "Environment",
-          "score": 0.09028870744808072
+          "score": 0.0686643391275472
+        }
+      ]
+    },
+    {
+      "id": "arcgis:986ed789a12e43f8b1ab6099509edded:0",
+      "title": "AMI_ACS_5yr_18_to_22",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "This is for the economic development census data. It displays the median household income for ages 18 to 22.",
+      "layerUrl": "https://services1.arcgis.com/3GsNorcb0Mn5rMt8/arcgis/rest/services/AMI_ACS_5yr_18_to_22/FeatureServer/0",
+      "itemUrl": "https://cityofclearwater.maps.arcgis.com/sharing/rest/content/items/986ed789a12e43f8b1ab6099509edded",
+      "fields": [
+        {
+          "name": "FID",
+          "alias": "FID"
+        },
+        {
+          "name": "Shape_Leng",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Shape_Area",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Tract",
+          "alias": "Tract"
+        },
+        {
+          "name": "Median_Hou",
+          "alias": "Median_Hou"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [
+        "parent_context:census",
+        "parent_context:household",
+        "tags:household"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Health",
+          "score": 0.28039637649788385
+        },
+        {
+          "category": "Housing",
+          "score": 0.22858346675059013
+        },
+        {
+          "category": "Demographics",
+          "score": 0.15439579095540432
+        }
+      ]
+    },
+    {
+      "id": "arcgis:992a6e9d7f814009a3242c13a22e4788:0",
+      "title": "AtlasSheetsIndex",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Atlas sheet index with utility pdfs attached of individual atlas sheets. Data on atlas sheets is updated monthly.",
+      "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/PublicAtlasSheets/FeatureServer/0",
+      "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/992a6e9d7f814009a3242c13a22e4788",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ENGINEER",
+          "alias": "Engineer"
+        },
+        {
+          "name": "LASTUPDATE",
+          "alias": "Last Update Date"
+        },
+        {
+          "name": "LASTEDITOR",
+          "alias": "Last Editor"
+        },
+        {
+          "name": "GLOBALID",
+          "alias": "Global ID"
+        },
+        {
+          "name": "ATLAS",
+          "alias": "Atlas"
+        },
+        {
+          "name": "SECTION",
+          "alias": "Section"
+        },
+        {
+          "name": "TOWNSHIP",
+          "alias": "Township"
+        },
+        {
+          "name": "RANGE",
+          "alias": "Range"
+        },
+        {
+          "name": "MAP",
+          "alias": "Map"
+        },
+        {
+          "name": "REGIONNUM",
+          "alias": "Region Number"
+        },
+        {
+          "name": "FIREDISPATCHNUM",
+          "alias": "Fire Dispatch Number"
+        },
+        {
+          "name": "PDFFILE",
+          "alias": "PDF File Name"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [
+        "fields:fire",
+        "parent_context:utility"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Public safety",
+          "score": 0.4537933973134606
+        },
+        {
+          "category": "Health",
+          "score": 0.4436672271216999
+        },
+        {
+          "category": "Utilities",
+          "score": 0.1935663252359678
+        }
+      ]
+    },
+    {
+      "id": "arcgis:992a6e9d7f814009a3242c13a22e4788:1",
+      "title": "AtlasSheetMatchTable",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Atlas sheet index with utility pdfs attached of individual atlas sheets. Data on atlas sheets is updated monthly.",
+      "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/PublicAtlasSheets/FeatureServer/1",
+      "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/992a6e9d7f814009a3242c13a22e4788",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MatchID",
+          "alias": "MatchID"
+        },
+        {
+          "name": "Filename",
+          "alias": "Filename"
+        }
+      ],
+      "keywordSignals": [
+        "parent_context:utility"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Health",
+          "score": 0.30225393968253284
+        },
+        {
+          "category": "Transportation",
+          "score": 0.055624004743636005
+        },
+        {
+          "category": "Recreation",
+          "score": 0.0423235916109901
         }
       ]
     },
@@ -7326,8 +9196,8 @@
     {
       "id": "arcgis:9fe942d2ffa2482d9f34a12f23872944:0",
       "title": "I4_LMS_Merge",
-      "reason": "below-semantic-threshold",
-      "description": "Interstate-4 (I-4) and Little Manatee South (LMS) urban service area expansion study areas drafted by Plan Hillsborough in February 2023 and updated by Lochner in November 2025. Last updated in November 2026.",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Urban Expansion Area (UEA) Phase 2 boundaries",
       "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/I4_LMS_Merge/FeatureServer/0",
       "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/9fe942d2ffa2482d9f34a12f23872944",
@@ -7362,24 +9232,148 @@
       ],
       "semanticCandidates": [
         {
-          "category": "Development",
-          "score": 0.23514183594055926
+          "category": "Health",
+          "score": 0.06750015916901785
         },
         {
-          "category": "Health",
-          "score": 0.19283666522510212
+          "category": "Development",
+          "score": 0.0616421433406766
         },
         {
           "category": "Environment",
-          "score": 0.1850143355995084
+          "score": 0.058624497676517284
+        }
+      ]
+    },
+    {
+      "id": "arcgis:a1daa5298e20408dadbf0b97e140617f:5",
+      "title": "Stormwater Control Valve",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Stormwater service for use in public facing maps",
+      "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/PublicStormwater/FeatureServer/5",
+      "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/a1daa5298e20408dadbf0b97e140617f",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "Object ID"
+        },
+        {
+          "name": "FACILITYID",
+          "alias": "Facility ID"
+        },
+        {
+          "name": "INSTALLDATE",
+          "alias": "Install Date"
+        },
+        {
+          "name": "LOCDESC",
+          "alias": "Location Description"
+        },
+        {
+          "name": "DIAMETER",
+          "alias": "Diameter"
+        },
+        {
+          "name": "VALVETYPE",
+          "alias": "Valve Type"
+        },
+        {
+          "name": "ENABLED",
+          "alias": "Enabled"
+        },
+        {
+          "name": "OWNEDBY",
+          "alias": "Owned By"
+        },
+        {
+          "name": "MAINTBY",
+          "alias": "Managed By"
+        },
+        {
+          "name": "CREATED_USER",
+          "alias": "Created By"
+        },
+        {
+          "name": "CREATED_DATE",
+          "alias": "Created Date"
+        },
+        {
+          "name": "LAST_EDITED_USER",
+          "alias": "Last Edited By"
+        },
+        {
+          "name": "LAST_EDITED_DATE",
+          "alias": "Last Edited Date"
+        },
+        {
+          "name": "MANUFACTURER",
+          "alias": "Manufacturer"
+        },
+        {
+          "name": "COMMENTS",
+          "alias": "Comments"
+        },
+        {
+          "name": "INVAULT",
+          "alias": "In Vault"
+        },
+        {
+          "name": "WAMID",
+          "alias": "WAM ID"
+        },
+        {
+          "name": "WACSID",
+          "alias": "WACS ID"
+        },
+        {
+          "name": "GLOBALID",
+          "alias": "Global ID"
+        },
+        {
+          "name": "STATUS",
+          "alias": "Status"
+        },
+        {
+          "name": "SYNCDATE",
+          "alias": "Sync Date"
+        },
+        {
+          "name": "WACSDESCRIPTION",
+          "alias": "WACS Description"
+        }
+      ],
+      "keywordSignals": [
+        "fields:valve",
+        "parent_context:infrastructure",
+        "parent_context:stormwater",
+        "parent_context:utility",
+        "tags:infrastructure",
+        "tags:stormwater",
+        "tags:utility",
+        "title:stormwater",
+        "title:valve"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Infrastructure",
+          "score": 0.2852855933009932
+        },
+        {
+          "category": "Health",
+          "score": 0.13702869194706307
+        },
+        {
+          "category": "Utilities",
+          "score": 0.12784351432889599
         }
       ]
     },
     {
       "id": "arcgis:a38009ba8bdb4a5bb731b95371f2c86d:0",
       "title": "ECL_CCCL_BHL",
-      "reason": "below-semantic-threshold",
-      "description": "Pinellas County Public Works Erosion Control Line (ECL), Coastal Construction Control Line (CCCL) and Bulkhead Line (BHL). GIS EROSION CONTROL LINE DISCLAIMER: THE EROSION CONTROL LINES SHOWN ON THE COUNTY’S GIS SYSTEM WERE MAPPED BY PINELLAS COUNTY DIVISION OF SURVEY AND MAPPING FROM RECORD DRAWINGS RECORDED IN OFFICIAL RECORDS OF PINELLAS COUNTY, FLORIDA AS OF JANUARY 31, 2020. IN MANY CASES THE RECORD DRAWINGS WERE ESTABLISHED IN THE STATE PLANE COORDINATE SYSTEM FOR THE WEST ZONE OF FLORIDA NAD 27 (US FEET) AND CONVERTED TO STATE PLANE COORDINATE SYSTEM FOR THE WEST ZONE OF FLORIDA NAD83/90(HARN) (US FEET) USING A MULTI-STEP PROCESS WHICH INCLUDED USING AUTOCAD AND ARCMAP. THE SURVEY AND MAPPING DIVISION DID NOT PERFORM A SURVEY IN CONJUNCTION WITH THE MAPPING OF THE EROSION CONTROL LINES AND RELIED SOLELY ON RECORD DATA. THIS DATA SHOULD NOT BE USED AS A SUBSTITUTE FOR RECORDED MAPS, A TITLE SEARCH, LAND SURVEY, OR OTHER RELATED DOCUMENTATION PINELLAS COUNTY MAKES NO WARRANTIES, EXPRESS OR IMPLIED, REGARDING THE ACCURACY, COMPLETENESS, RELIABILITY, OR SUITABILITY OF THE COUNTY’S EROSION CONTROL LINE MAPPING FOR ANY PARTICULAR USE, AND ASSUMES NO LIABILITY ASSOCIATED WITH THE USE OR INTERPRETATION OF SAID MAPPING. FOR QUESTIONS ON THE MAPPING OR CONVERSION PROCESS, PLEASE CONTACT PINELLAS COUNTY DIVISION OF SURVEY AND MAPPING (727) 464-8904. The data contained herein is offered “as is,” with no claim or warranty as to its accuracy or completeness. The data is for reference only and should not be considered to be of survey precision. DATA STEWARD: Pinellas County Public Works, pwgissmedistribution@pinellas.gov Feature Dataset: DEI_ReferenceData Feature Class: ECL_CCCL_BHL",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Pinellas County Public Works Erosion Control Line (ECL), Coastal Construction Control Line (CCCL) and Bulkhead Line (BHL).",
       "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_ECL_CCCL_BHL_view/FeatureServer/0",
       "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/a38009ba8bdb4a5bb731b95371f2c86d",
@@ -7486,8 +9480,6 @@
         }
       ],
       "keywordSignals": [
-        "description:construction",
-        "description:public works",
         "parent_context:construction",
         "parent_context:public works",
         "tags:construction",
@@ -7496,23 +9488,23 @@
       "semanticCandidates": [
         {
           "category": "Boundaries",
-          "score": 0.20046402615620318
+          "score": 0.03117022987187239
         },
         {
           "category": "Demographics",
-          "score": 0.20046402615620318
+          "score": 0.03117022987187239
         },
         {
           "category": "Development",
-          "score": 0.20046402615620318
+          "score": 0.03117022987187239
         }
       ]
     },
     {
       "id": "arcgis:a4c1c8ced98444bd9128b871ec33120b:0",
       "title": "Property of Interest",
-      "reason": "below-semantic-threshold",
-      "description": "LiMWA Parcels",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "LiMWA Parcels",
       "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/Map_Layers/FeatureServer/0",
       "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/a4c1c8ced98444bd9128b871ec33120b",
@@ -7527,29 +9519,28 @@
         }
       ],
       "keywordSignals": [
-        "description:parcel",
         "parent_context:parcel"
       ],
       "semanticCandidates": [
         {
           "category": "Health",
-          "score": 0.07956875248881276
-        },
-        {
-          "category": "Transportation",
-          "score": 0.03994095357374994
+          "score": 0.08893011805615934
         },
         {
           "category": "Recreation",
-          "score": 0.0378136662810435
+          "score": 0.05939982385751331
+        },
+        {
+          "category": "Transportation",
+          "score": 0.04185249329668616
         }
       ]
     },
     {
       "id": "arcgis:a6ebd0c209e249d98b1f1508ea3ac14c:2",
       "title": "NSP-3",
-      "reason": "below-semantic-threshold",
-      "description": "New Housing Layers",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "New Housing Layers",
       "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/SingleFamily/FeatureServer/2",
       "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/a6ebd0c209e249d98b1f1508ea3ac14c",
@@ -7612,23 +9603,22 @@
         }
       ],
       "keywordSignals": [
-        "description:housing",
         "fields:construction",
         "fields:parcel",
-        "parent_context:housing"
+        "fields:street"
       ],
       "semanticCandidates": [
         {
           "category": "Development",
-          "score": 0.4055311315952993
+          "score": 0.37103695608136245
         },
         {
           "category": "Health",
-          "score": 0.07299206875667019
+          "score": 0.1692778938641925
         },
         {
-          "category": "Planning",
-          "score": 0.06508595277024541
+          "category": "Housing",
+          "score": 0.1135354668653711
         }
       ]
     },
@@ -7957,8 +9947,8 @@
     {
       "id": "arcgis:afc1ded8aaeb4d88be2ee204a22dab71:0",
       "title": "Market_Areas",
-      "reason": "below-semantic-threshold",
-      "description": "Hillsborough County Market Areas",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "Hillsborough County Market Areas",
       "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Market_Areas/FeatureServer/0",
       "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/afc1ded8aaeb4d88be2ee204a22dab71",
@@ -8004,15 +9994,15 @@
       "semanticCandidates": [
         {
           "category": "Health",
-          "score": 0.15889900027046533
+          "score": 0.09725960298338453
         },
         {
           "category": "Recreation",
-          "score": 0.1301291700896936
+          "score": 0.08294500208014297
         },
         {
           "category": "Environment",
-          "score": 0.10497524062944688
+          "score": 0.05577240877499364
         }
       ]
     },
@@ -8162,6 +10152,102 @@
         {
           "category": "Health",
           "score": 0.43443312963692016
+        }
+      ]
+    },
+    {
+      "id": "arcgis:b5619170e0d0413bb0b7a35d15f8c1fa:6",
+      "title": "MoonLake_LULC",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Land use land cover in Moon Lake CDB. Data taken from SWFWMD.",
+      "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/MoonLake_LULC/FeatureServer/6",
+      "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/b5619170e0d0413bb0b7a35d15f8c1fa",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "OBJECTID_1",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LANDUSE_CO",
+          "alias": "LANDUSE_CO"
+        },
+        {
+          "name": "LANDUSE_DE",
+          "alias": "LANDUSE_DE"
+        },
+        {
+          "name": "LEVEL1_LAN",
+          "alias": "LEVEL1_LAN"
+        },
+        {
+          "name": "LEVEL1_L_1",
+          "alias": "LEVEL1_L_1"
+        },
+        {
+          "name": "LEVEL2_LAN",
+          "alias": "LEVEL2_LAN"
+        },
+        {
+          "name": "LEVEL2_L_1",
+          "alias": "LEVEL2_L_1"
+        },
+        {
+          "name": "LANDCOVER_",
+          "alias": "LANDCOVER_"
+        },
+        {
+          "name": "LANDCOVE_1",
+          "alias": "LANDCOVE_1"
+        },
+        {
+          "name": "WATER_MANA",
+          "alias": "WATER_MANA"
+        },
+        {
+          "name": "LANDUSE_YE",
+          "alias": "LANDUSE_YE"
+        },
+        {
+          "name": "SHAPEAREA",
+          "alias": "SHAPEAREA"
+        },
+        {
+          "name": "SHAPELEN",
+          "alias": "SHAPELEN"
+        },
+        {
+          "name": "GIS_AC",
+          "alias": "GIS_AC"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [
+        "parent_context:land cover"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Environment",
+          "score": 0.6467135566290769
+        },
+        {
+          "category": "Planning",
+          "score": 0.5466990698349435
+        },
+        {
+          "category": "Utilities",
+          "score": 0.3134047673308024
         }
       ]
     },
@@ -8328,8 +10414,8 @@
     {
       "id": "arcgis:c9373574419241a8b7406657fefd231e:61",
       "title": "CDBG_HUD_ProjectExtents_Polygons",
-      "reason": "competing-semantic-categories",
-      "description": "CDBG Disaster Recovery Project - Polygons includes groupid sidewalk and road resurfacing projects for Community Development Block Grants for ACA HUD projects, includes 2020 LMISD data. HUD data from: Low to Moderate Income Population by Tract | HUD Open Data Site this is based on 2010 Census Tracts geography and the 2011-2015 ACS. Newer data is available at LMISD Map Application 2016-2020 - Overview and is based on the 2020 Census Blocks geography and the 2016-2020 ACS and is called Low Moderate Income Summary Data (LMISD) ACS 5-Year 2016-2020 Low- and Moderate-Income Summary Data - HUD Exchange per CPD Notice 24-04 Notice CPD-24-04: Low- and Moderate-Income Summary Data Updates - HUD Exchange . Due to the difference in coverage area and geometry, both the 2010 Tracts and 2020 Blocks that both show Low Moderate Income Percentage are used for FIPSA area 12057 and they are filtered to show 51% or greater LMI. Read more about the use of this data for ACA and HUD grants at: https://www.hud.gov/sites/dfiles/OA/documents/CPD-24-04.pdf Sharing and use: This data can be shared publicly. Created for: Hillsborough County Update Frequency: Annually Points of Contact: Equity & Community Impact, Assistant County Administrator - Cheryl Howell Web Map: ACA Equity and Community Impact - Overview",
+      "reason": "missing-layer-description",
+      "description": null,
       "parentSummary": "CDBG Disaster Recovery - Polygons includes groupid sidewalk and road resurfacing projects for Community Development Block Grants for ACA HUD projects, includes 2020 LMISD data",
       "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/CDBG_HUD_ProjectExtents_Polygons/FeatureServer/61",
       "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/c9373574419241a8b7406657fefd231e",
@@ -8420,11 +10506,6 @@
         }
       ],
       "keywordSignals": [
-        "description:census block",
-        "description:census tract",
-        "description:population",
-        "description:road",
-        "description:sidewalk",
         "fields:sidewalk",
         "parent_context:census block",
         "parent_context:census tract",
@@ -8435,15 +10516,15 @@
       "semanticCandidates": [
         {
           "category": "Boundaries",
-          "score": 0.9247064034372641
+          "score": 0.6692413869970688
         },
         {
           "category": "Demographics",
-          "score": 0.9247064034372641
+          "score": 0.6692413869970688
         },
         {
           "category": "Development",
-          "score": 0.9247064034372641
+          "score": 0.6692413869970688
         }
       ]
     },
@@ -8497,6 +10578,233 @@
         {
           "category": "Planning",
           "score": 0.0333548886754164
+        }
+      ]
+    },
+    {
+      "id": "arcgis:cac3e452d4484355b9484684a721162a:1",
+      "title": "Adoption Register",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Viewer Feature layer used to support Adopt a Drain public facing web maps and experience builder applications. This layer feeds public Adopt a Drain-Public Viewer.",
+      "layerUrl": "https://services1.arcgis.com/IbNXlmt2RVVRCZ6M/arcgis/rest/services/survey123_98ed55801c374292bf2fc585c8995ff2_results/FeatureServer/1",
+      "itemUrl": "https://tampa.maps.arcgis.com/sharing/rest/content/items/cac3e452d4484355b9484684a721162a",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FACILITYID",
+          "alias": "Facility ID"
+        },
+        {
+          "name": "GlobalID",
+          "alias": "Adoption GlobalID"
+        },
+        {
+          "name": "AdoptedBy",
+          "alias": "Adopted By"
+        },
+        {
+          "name": "Nickname",
+          "alias": "Nickname"
+        },
+        {
+          "name": "AdoptedYear",
+          "alias": "Adopted Year"
+        },
+        {
+          "name": "ApprovalStatus",
+          "alias": "Approval Status"
+        },
+        {
+          "name": "AdoptionEndDate",
+          "alias": "Adoption End Date"
+        },
+        {
+          "name": "AdoptedOn",
+          "alias": "Adopted On"
+        },
+        {
+          "name": "CreationDate",
+          "alias": "CreationDate"
+        },
+        {
+          "name": "EditDate",
+          "alias": "EditDate"
+        },
+        {
+          "name": "ParentGlobalID",
+          "alias": "Parent GlobalID"
+        }
+      ],
+      "keywordSignals": [
+        "parent_context:adopt a drain"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Health",
+          "score": 0.06666541889640328
+        },
+        {
+          "category": "Housing",
+          "score": 0.02955565308147872
+        },
+        {
+          "category": "Utilities",
+          "score": 0.026650664657186504
+        }
+      ]
+    },
+    {
+      "id": "arcgis:d470520f07db408cb195553e82f8cdd2:0",
+      "title": "PCEM_FieldSites",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Field operations sites for Pinellas County Emergency Management.",
+      "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_PCEM_FieldSites_view/FeatureServer/0",
+      "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/d470520f07db408cb195553e82f8cdd2",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FEATURECODE",
+          "alias": "Facility Type"
+        },
+        {
+          "name": "FACSUBTYPE",
+          "alias": "Facility Subtype"
+        },
+        {
+          "name": "FACILITYID",
+          "alias": "Facility ID"
+        },
+        {
+          "name": "FACNAME",
+          "alias": "Facility Name"
+        },
+        {
+          "name": "FULLADDR",
+          "alias": "Address"
+        },
+        {
+          "name": "CITY",
+          "alias": "City"
+        },
+        {
+          "name": "ZIP",
+          "alias": "Zip"
+        },
+        {
+          "name": "MANAGE_ENTITY",
+          "alias": "Managing Entity"
+        },
+        {
+          "name": "CONTACT1",
+          "alias": "Primary Contact"
+        },
+        {
+          "name": "CONTACT2",
+          "alias": "Secondary Contact"
+        },
+        {
+          "name": "SITEAREA",
+          "alias": "Site Area"
+        },
+        {
+          "name": "SITETYPE",
+          "alias": "Site Type"
+        },
+        {
+          "name": "LATITUDE",
+          "alias": "LATITUDE"
+        },
+        {
+          "name": "LONGITUDE",
+          "alias": "LONGITUDE"
+        },
+        {
+          "name": "SITENOTES",
+          "alias": "Site Notes"
+        },
+        {
+          "name": "CAPACITY",
+          "alias": "Site Capacity"
+        },
+        {
+          "name": "GENERATOR",
+          "alias": "Generator"
+        },
+        {
+          "name": "DATASOURCE",
+          "alias": "DATASOURCE"
+        },
+        {
+          "name": "PIN",
+          "alias": "PIN"
+        },
+        {
+          "name": "EVACZONE",
+          "alias": "Evac Zone"
+        },
+        {
+          "name": "MUNICIPALITY",
+          "alias": "Municipality Name"
+        },
+        {
+          "name": "LEPROVIDER",
+          "alias": "LE Agency"
+        },
+        {
+          "name": "EMSPROVIDER",
+          "alias": "EMS Provider"
+        },
+        {
+          "name": "EMSGRIDID",
+          "alias": "EMS Grid ID"
+        },
+        {
+          "name": "FIREPROVIDER",
+          "alias": "Fire Provider"
+        },
+        {
+          "name": "FIREDISTRICT",
+          "alias": "Fire District"
+        },
+        {
+          "name": "FIREGRIDID",
+          "alias": "Fire Grid ID"
+        },
+        {
+          "name": "WATERPROVIDER",
+          "alias": "Water Service Provider"
+        },
+        {
+          "name": "SEWERPROVIDER",
+          "alias": "Sewer Provider"
+        }
+      ],
+      "keywordSignals": [
+        "fields:evac",
+        "fields:solid waste",
+        "fields:storm surge",
+        "fields:waste collection"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Planning",
+          "score": 0.04493968433066646
+        },
+        {
+          "category": "Infrastructure",
+          "score": 0.02723267260518154
+        },
+        {
+          "category": "Boundaries",
+          "score": 0.025999479957791973
         }
       ]
     },
@@ -8579,6 +10887,136 @@
         {
           "category": "Environment",
           "score": 0.05206206894578188
+        }
+      ]
+    },
+    {
+      "id": "arcgis:f122791ca8f54645afbc89a4053e2831:0",
+      "title": "New CHHA 2026 Not Official ",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "New Coastal High Hazard Boundary",
+      "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/New_CHHA/FeatureServer/0",
+      "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/f122791ca8f54645afbc89a4053e2831",
+      "fields": [
+        {
+          "name": "FID",
+          "alias": "FID"
+        },
+        {
+          "name": "Id",
+          "alias": "Id"
+        },
+        {
+          "name": "gridcode",
+          "alias": "gridcode"
+        },
+        {
+          "name": "Shape_Leng",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Acres",
+          "alias": "Acres"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [
+        "parent_context:boundary",
+        "parent_context:coastal high hazard"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Environment",
+          "score": 0.28081284472649143
+        },
+        {
+          "category": "Development",
+          "score": 0.23712312842875652
+        },
+        {
+          "category": "Health",
+          "score": 0.11224017109958902
+        }
+      ]
+    },
+    {
+      "id": "arcgis:f122791ca8f54645afbc89a4053e2831:1",
+      "title": "Current CHHA",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "New Coastal High Hazard Boundary",
+      "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/New_CHHA/FeatureServer/1",
+      "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/f122791ca8f54645afbc89a4053e2831",
+      "fields": [
+        {
+          "name": "FID",
+          "alias": "FID"
+        },
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CATEGORY",
+          "alias": "CATEGORY"
+        },
+        {
+          "name": "LASTEDITOR",
+          "alias": "LASTEDITOR"
+        },
+        {
+          "name": "LASTUPDATE",
+          "alias": "LASTUPDATE"
+        },
+        {
+          "name": "GLOBALID",
+          "alias": "GLOBALID"
+        },
+        {
+          "name": "CREATED_US",
+          "alias": "CREATED_US"
+        },
+        {
+          "name": "CREATED_DA",
+          "alias": "CREATED_DA"
+        },
+        {
+          "name": "ACRES",
+          "alias": "ACRES"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [
+        "parent_context:boundary",
+        "parent_context:coastal high hazard"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Recreation",
+          "score": 0.4619697001873123
+        },
+        {
+          "category": "Development",
+          "score": 0.39275006932321355
+        },
+        {
+          "category": "Environment",
+          "score": 0.3748607553461098
         }
       ]
     },
