@@ -38,6 +38,20 @@ export const datasetSchema = z
     coverage: z.string().nullable(),
     category: z.string().nullable(),
     source_category: z.string().nullable().optional(),
+    category_input_hash: z
+      .string()
+      .regex(/^[a-f0-9]{64}$/)
+      .optional(),
+    metadata_check: z
+      .object({
+        lastAttemptAt: z.iso.datetime(),
+        lastSuccessAt: z.iso.datetime().nullable(),
+        descriptionChangedAt: z.iso.datetime().nullable(),
+        status: z.enum(["success", "failed"]),
+        descriptionStatus: z.enum(["present", "empty", "unknown"]),
+        error: z.string().nullable(),
+      })
+      .optional(),
     category_metadata: z
       .object({
         itemUrl: z.string(),

@@ -39,7 +39,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add public/discovery.json reports/category-review.json reports/category-semantic-cache.json reports/category-semantic-review.json reports/category-enrichment.json reports/category-triage.json
+          git add public/discovery.json reports/category-review.json reports/category-semantic-cache.json reports/category-semantic-review.json reports/category-enrichment.json reports/category-triage.json reports/category-history.json reports/category-changes.json
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh government portal discovery metadata'
             git push origin HEAD:main
@@ -76,6 +76,8 @@ jobs:
             reports/category-semantic-evaluation.json
             reports/category-enrichment.json
             reports/category-triage.json
+            reports/category-history.json
+            reports/category-changes.json
             public/discovery.json
             test-results/
             playwright-report/

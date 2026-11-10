@@ -8,6 +8,7 @@ import {
   catalogChanged,
 } from "../src/services/discovery/refresh";
 import { categorizeWithSemantic } from "./semantic-categorization";
+import { recordCategoryHistory } from "./category-lifecycle";
 import { validateIndex } from "../src/server/discovery-index";
 function option(name: string, fallback: number) {
   const index = process.argv.indexOf(name);
@@ -41,6 +42,7 @@ const candidate = await refreshCatalog({
 });
 const classified = await categorizeWithSemantic(candidate, curated, previous);
 const report = validateIndex(classified.report);
+await recordCategoryHistory(classified.historyEvents);
 await atomicWrite(resolve(".wrangler/category-review.json"), classified.review);
 const changed = catalogChanged(previous, report);
 await atomicWrite(resolve(".wrangler/discovery-refresh.json"), report);

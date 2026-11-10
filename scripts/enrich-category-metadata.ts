@@ -17,12 +17,33 @@ export function mergeCategoryMetadata(
   layer: Record<string, unknown>,
   itemUrl: string,
   layerUrl: string,
+  now = new Date().toISOString(),
 ): Dataset {
   const layerDescription = plain(layer.description);
   const fields = z.array(fieldSchema).safeParse(layer.fields);
   return {
     ...dataset,
-    description: layerDescription || dataset.description,
+    title:
+      typeof layer.name === "string" && layer.name.trim()
+        ? layer.name
+        : dataset.title,
+    tags: Array.isArray(item.tags)
+      ? item.tags
+          .filter((tag): tag is string => typeof tag === "string")
+          .slice(0, 50)
+      : dataset.tags,
+    description: layerDescription || null,
+    metadata_check: {
+      lastAttemptAt: now,
+      lastSuccessAt: now,
+      descriptionChangedAt:
+        (layerDescription || null) !== dataset.description
+          ? now
+          : (dataset.metadata_check?.descriptionChangedAt ?? null),
+      status: "success",
+      descriptionStatus: layerDescription ? "present" : "empty",
+      error: null,
+    },
     fields: fields.success ? fields.data : dataset.fields,
     category_metadata: {
       itemUrl,
@@ -35,13 +56,14 @@ export function mergeCategoryMetadata(
             .filter((t): t is string => typeof t === "string")
             .slice(0, 50)
         : [],
-      checkedOn: new Date().toISOString().slice(0, 10),
+      checkedOn: now.slice(0, 10),
     },
   };
 }
 export async function enrichCategoryMetadata(
   datasets: Dataset[],
   refresh: boolean,
+  now = new Date().toISOString(),
 ) {
   const requests = new Map<string, Promise<Record<string, unknown>>>();
   const issues: { id: string; error: string }[] = [];
@@ -70,14 +92,14 @@ export async function enrichCategoryMetadata(
         const index = next++,
           dataset = datasets[index];
         if (
-          (dataset.category_source !== "uncategorized" &&
-            !(refresh && dataset.category_metadata)) ||
+          (!refresh &&
+            (dataset.metadata_check ||
+              (dataset.category_source !== "uncategorized" &&
+                dataset.description))) ||
           !dataset.itemId ||
           !dataset.serviceUrl ||
-          (dataset.category_metadata &&
-            (!refresh ||
-              dataset.category_metadata.checkedOn ===
-                new Date().toISOString().slice(0, 10)))
+          dataset.metadata_check?.lastAttemptAt.slice(0, 10) ===
+            now.slice(0, 10)
         )
           continue;
         const portal = portals.find(
@@ -94,22 +116,51 @@ export async function enrichCategoryMetadata(
           get(itemUrl),
           get(layerUrl),
         ]);
+        const failed = (message: string) => {
+          result[index] = {
+            ...dataset,
+            metadata_check: {
+              lastAttemptAt: now,
+              lastSuccessAt: dataset.metadata_check?.lastSuccessAt ?? null,
+              descriptionChangedAt:
+                dataset.metadata_check?.descriptionChangedAt ?? null,
+              status: "failed",
+              descriptionStatus:
+                dataset.metadata_check?.descriptionStatus ??
+                (dataset.description ? "present" : "unknown"),
+              error: message,
+            },
+          };
+          issues.push({ id: dataset.id, error: message });
+        };
         if (item.status === "rejected" || layer.status === "rejected") {
-          issues.push({
-            id: dataset.id,
-            error: "Metadata request failed; prior metadata retained",
-          });
+          failed("Metadata request failed; prior metadata retained");
           continue;
         }
         if (
           item.value.access !== "public" ||
           item.value.id !== dataset.itemId
         ) {
-          issues.push({
-            id: dataset.id,
-            error:
-              "Item identity or public access did not match; prior metadata retained",
-          });
+          failed(
+            "Item identity or public access did not match; prior metadata retained",
+          );
+          continue;
+        }
+        if (
+          !z
+            .object({
+              description: z.string().nullable().optional(),
+              snippet: z.string().nullable().optional(),
+              tags: z.array(z.string()).optional(),
+            })
+            .safeParse(item.value).success ||
+          !Array.isArray(layer.value.fields) ||
+          !z.array(fieldSchema).safeParse(layer.value.fields).success ||
+          (layer.value.description !== undefined &&
+            layer.value.description !== null &&
+            typeof layer.value.description !== "string")
+        ) {
+          failed("Invalid layer metadata; prior metadata retained");
           continue;
         }
         result[index] = mergeCategoryMetadata(
@@ -118,6 +169,7 @@ export async function enrichCategoryMetadata(
           layer.value,
           itemUrl,
           layerUrl,
+          now,
         );
       }
     }),

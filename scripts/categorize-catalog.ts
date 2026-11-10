@@ -4,14 +4,22 @@ import { parseCatalog } from "../src/services/catalog";
 import { discoverySchema } from "../src/services/discovery/types";
 import { categorizeWithSemantic } from "./semantic-categorization";
 import { validateIndex } from "../src/server/discovery-index";
+import { recordCategoryHistory } from "./category-lifecycle";
 const previous = discoverySchema.parse(
   JSON.parse(await readFile("public/discovery.json", "utf8")),
 );
 const curated = parseCatalog(
   JSON.parse(await readFile("public/catalog.json", "utf8")),
 ).datasets;
-const classified = await categorizeWithSemantic(previous, curated, previous, false);
+const classified = await categorizeWithSemantic(
+  previous,
+  curated,
+  previous,
+  false,
+  { enrich: !process.argv.includes("--offline") },
+);
 const report = validateIndex(classified.report);
+await recordCategoryHistory(classified.historyEvents);
 const content = JSON.stringify(report, null, 2) + "\n";
 if (JSON.stringify(previous) !== JSON.stringify(report)) {
   if (Buffer.byteLength(content) > 4194304)

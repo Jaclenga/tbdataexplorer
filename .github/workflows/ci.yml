@@ -47,4 +47,6 @@ jobs:
             reports/category-semantic-evaluation.json
             reports/category-enrichment.json
             reports/category-triage.json
+            reports/category-history.json
+            reports/category-changes.json
             public/discovery.json

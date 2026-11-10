@@ -16,6 +16,7 @@ import {
 import { mergeDatasets } from "../src/services/discovery/identity";
 import { catalogChanges } from "../src/services/discovery/refresh";
 import { enrichCategoryMetadata } from "./enrich-category-metadata";
+import { classificationHash, categoryChange } from "./category-lifecycle";
 
 const scoreSchema = z.object({
   category: z.enum(categoryNames as [string, ...string[]]),
@@ -67,9 +68,9 @@ export function semanticText(
       .join(", ")}`,
   ].join("\n");
 }
-export function semanticKey(text: string) {
+export function semanticKey(text: string, inputHash = "") {
   return createHash("sha256")
-    .update(JSON.stringify(config) + text)
+    .update(JSON.stringify(config) + text + inputHash)
     .digest("hex");
 }
 export function semanticDecision(scores: SemanticScore[]) {
@@ -157,6 +158,7 @@ export async function categorizeWithSemantic(
   curated: Dataset[],
   previous: DiscoveryReport,
   updateRefreshChanges = true,
+  options: { enrich?: boolean } = {},
 ) {
   const previousById = new Map(
     previous.datasets.map((dataset) => [dataset.id, dataset]),
@@ -166,8 +168,7 @@ export async function categorizeWithSemantic(
     datasets: candidate.datasets.map((dataset) => {
       const old = previousById.get(dataset.id);
       if (
-        dataset.category_metadata ||
-        !old?.category_metadata ||
+        !old ||
         old.serviceUrl !== dataset.serviceUrl ||
         old.layerId !== dataset.layerId
       )
@@ -175,16 +176,23 @@ export async function categorizeWithSemantic(
       return {
         ...dataset,
         description:
-          old.category_metadata.layerDescription || dataset.description,
-        category_metadata: old.category_metadata,
+          old.metadata_check || old.category_metadata
+            ? old.description
+            : dataset.description,
+        category_metadata: dataset.category_metadata ?? old.category_metadata,
+        metadata_check: dataset.metadata_check ?? old.metadata_check,
+        category_input_hash: old.category_input_hash,
       };
     }),
   };
   let classified = categorizeReport(withEvidence, curated, previous, false);
-  const enrichment = await enrichCategoryMetadata(
-    classified.report.datasets,
-    updateRefreshChanges,
-  );
+  const enrichment =
+    options.enrich === false
+      ? { datasets: classified.report.datasets, issues: [], requests: 0 }
+      : await enrichCategoryMetadata(
+          classified.report.datasets,
+          updateRefreshChanges,
+        );
   classified = categorizeReport(
     { ...classified.report, datasets: enrichment.datasets },
     curated,
@@ -220,9 +228,18 @@ export async function categorizeWithSemantic(
   let infer: Infer | undefined;
   const usedKeys = new Set<string>();
   const classify = async (dataset: Dataset): Promise<Dataset> => {
+    dataset = { ...dataset, category_input_hash: classificationHash(dataset) };
     if (dataset.category_source !== "uncategorized") return dataset;
     const text = semanticText(dataset),
-      key = semanticKey(text);
+      key = semanticKey(text, dataset.category_input_hash);
+    // One-time migration of legacy text-only cache entries. Future changes use
+    // the full metadata hash, including content beyond model context limits.
+    if (
+      !cache[key] &&
+      !previousById.get(dataset.id)?.category_input_hash &&
+      cache[semanticKey(text)]
+    )
+      cache[key] = cache[semanticKey(text)];
     const cached = Boolean(cache[key]);
     usedKeys.add(key);
     if (!cached) {
@@ -333,5 +350,17 @@ export async function categorizeWithSemantic(
       2,
     ) + "\n",
   );
-  return { report, review };
+  const oldEffective = new Map(
+    mergeDatasets(previous.curatedUpdates ?? curated, previous.datasets).map(
+      (d) => [d.id, d],
+    ),
+  );
+  const at = new Date().toISOString();
+  const historyEvents = mergeDatasets(
+    report.curatedUpdates ?? curated,
+    report.datasets,
+  )
+    .map((d) => categoryChange(oldEffective.get(d.id), d, at))
+    .filter((event): event is NonNullable<typeof event> => event !== null);
+  return { report, review, historyEvents };
 }
