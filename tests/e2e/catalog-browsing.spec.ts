@@ -28,7 +28,11 @@ test("compact rows, combined search/sort, keyboard expansion and persistent URL 
     .getByRole("link", { name: "Explore dataset", exact: true })
     .click();
   await expect(
-    page.getByRole("heading", { name: "Neighborhood parks", exact: true }),
+    page.getByRole("heading", {
+      name: "Neighborhood parks",
+      exact: true,
+      level: 1,
+    }),
   ).toBeVisible();
   await page.goBack();
   await expect(page.getByRole("combobox", { name: "Sort by" })).toHaveValue(
