@@ -1,0 +1,2099 @@
+[
+  {
+    "index": 1,
+    "id": "arcgis:08f9dd2bd6eb4995bcf344ac69b606bb:1",
+    "url": "https://services1.arcgis.com/IbNXlmt2RVVRCZ6M/arcgis/rest/services/EconomicOppLookup/FeatureServer/1?f=json",
+    "title": "TampaMuseum",
+    "category": "Public facilities",
+    "description": "",
+    "type": "Feature Layer",
+    "geometry": "esriGeometryPolygon",
+    "fields": [
+      {
+        "name": "FID",
+        "alias": "FID"
+      },
+      {
+        "name": "OBJECTID_1",
+        "alias": "OBJECTID_1"
+      },
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID"
+      },
+      {
+        "name": "TYPE",
+        "alias": "TYPE"
+      },
+      {
+        "name": "FOLIO",
+        "alias": "FOLIO"
+      },
+      {
+        "name": "PIN",
+        "alias": "PIN"
+      },
+      {
+        "name": "DOR_C",
+        "alias": "DOR_C"
+      },
+      {
+        "name": "OWNER",
+        "alias": "OWNER"
+      },
+      {
+        "name": "ADDR_1",
+        "alias": "ADDR_1"
+      },
+      {
+        "name": "ADDR_2",
+        "alias": "ADDR_2"
+      },
+      {
+        "name": "CITY",
+        "alias": "CITY"
+      },
+      {
+        "name": "STATE",
+        "alias": "STATE"
+      },
+      {
+        "name": "ZIP",
+        "alias": "ZIP"
+      },
+      {
+        "name": "COUNTRY",
+        "alias": "COUNTRY"
+      },
+      {
+        "name": "SUB",
+        "alias": "SUB"
+      },
+      {
+        "name": "SITE_ADDR",
+        "alias": "SITE_ADDR"
+      },
+      {
+        "name": "SITE_CITY",
+        "alias": "SITE_CITY"
+      },
+      {
+        "name": "SITE_ZIP",
+        "alias": "SITE_ZIP"
+      },
+      {
+        "name": "LEGAL1",
+        "alias": "LEGAL1"
+      },
+      {
+        "name": "LEGAL2",
+        "alias": "LEGAL2"
+      },
+      {
+        "name": "LEGAL3",
+        "alias": "LEGAL3"
+      },
+      {
+        "name": "LEGAL4",
+        "alias": "LEGAL4"
+      },
+      {
+        "name": "DBA",
+        "alias": "DBA"
+      },
+      {
+        "name": "STRAP",
+        "alias": "STRAP"
+      },
+      {
+        "name": "TAXDIST",
+        "alias": "TAXDIST"
+      },
+      {
+        "name": "JUST",
+        "alias": "JUST"
+      },
+      {
+        "name": "LAND",
+        "alias": "LAND"
+      },
+      {
+        "name": "BLDG",
+        "alias": "BLDG"
+      },
+      {
+        "name": "EXF",
+        "alias": "EXF"
+      },
+      {
+        "name": "ACT",
+        "alias": "ACT"
+      },
+      {
+        "name": "EFF",
+        "alias": "EFF"
+      },
+      {
+        "name": "HEAT_AR",
+        "alias": "HEAT_AR"
+      },
+      {
+        "name": "ASD_VAL",
+        "alias": "ASD_VAL"
+      },
+      {
+        "name": "TAX_VAL",
+        "alias": "TAX_VAL"
+      },
+      {
+        "name": "MUNI",
+        "alias": "MUNI"
+      },
+      {
+        "name": "SD1",
+        "alias": "SD1"
+      },
+      {
+        "name": "SD2",
+        "alias": "SD2"
+      },
+      {
+        "name": "TIF",
+        "alias": "TIF"
+      },
+      {
+        "name": "S_DATE",
+        "alias": "S_DATE"
+      },
+      {
+        "name": "VI",
+        "alias": "VI"
+      },
+      {
+        "name": "AMT",
+        "alias": "AMT"
+      },
+      {
+        "name": "ACREAGE",
+        "alias": "ACREAGE"
+      },
+      {
+        "name": "NBHC",
+        "alias": "NBHC"
+      },
+      {
+        "name": "HX_VAL",
+        "alias": "HX_VAL"
+      },
+      {
+        "name": "ACREAGETEX",
+        "alias": "ACREAGETEX"
+      },
+      {
+        "name": "STORIES",
+        "alias": "STORIES"
+      },
+      {
+        "name": "SHAPE_STAr",
+        "alias": "SHAPE_STAr"
+      },
+      {
+        "name": "SHAPE_STLe",
+        "alias": "SHAPE_STLe"
+      },
+      {
+        "name": "BUFF_DIST",
+        "alias": "BUFF_DIST"
+      },
+      {
+        "name": "ORIG_FID",
+        "alias": "ORIG_FID"
+      },
+      {
+        "name": "Shape_Leng",
+        "alias": "Shape_Leng"
+      },
+      {
+        "name": "Shape__Area",
+        "alias": "Shape__Area"
+      },
+      {
+        "name": "Shape__Length",
+        "alias": "Shape__Length"
+      }
+    ],
+    "error": null,
+    "retrievedAt": "2026-11-10T04:53:19.440Z"
+  },
+  {
+    "index": 2,
+    "id": "arcgis:08f9dd2bd6eb4995bcf344ac69b606bb:2",
+    "url": "https://services1.arcgis.com/IbNXlmt2RVVRCZ6M/arcgis/rest/services/EconomicOppLookup/FeatureServer/2?f=json",
+    "title": "TampaTheatre",
+    "category": "Public facilities",
+    "description": "",
+    "type": "Feature Layer",
+    "geometry": "esriGeometryPolygon",
+    "fields": [
+      {
+        "name": "FID",
+        "alias": "FID"
+      },
+      {
+        "name": "OBJECTID_1",
+        "alias": "OBJECTID_1"
+      },
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID"
+      },
+      {
+        "name": "TYPE",
+        "alias": "TYPE"
+      },
+      {
+        "name": "FOLIO",
+        "alias": "FOLIO"
+      },
+      {
+        "name": "PIN",
+        "alias": "PIN"
+      },
+      {
+        "name": "DOR_C",
+        "alias": "DOR_C"
+      },
+      {
+        "name": "OWNER",
+        "alias": "OWNER"
+      },
+      {
+        "name": "ADDR_1",
+        "alias": "ADDR_1"
+      },
+      {
+        "name": "ADDR_2",
+        "alias": "ADDR_2"
+      },
+      {
+        "name": "CITY",
+        "alias": "CITY"
+      },
+      {
+        "name": "STATE",
+        "alias": "STATE"
+      },
+      {
+        "name": "ZIP",
+        "alias": "ZIP"
+      },
+      {
+        "name": "COUNTRY",
+        "alias": "COUNTRY"
+      },
+      {
+        "name": "SUB",
+        "alias": "SUB"
+      },
+      {
+        "name": "SITE_ADDR",
+        "alias": "SITE_ADDR"
+      },
+      {
+        "name": "SITE_CITY",
+        "alias": "SITE_CITY"
+      },
+      {
+        "name": "SITE_ZIP",
+        "alias": "SITE_ZIP"
+      },
+      {
+        "name": "LEGAL1",
+        "alias": "LEGAL1"
+      },
+      {
+        "name": "LEGAL2",
+        "alias": "LEGAL2"
+      },
+      {
+        "name": "LEGAL3",
+        "alias": "LEGAL3"
+      },
+      {
+        "name": "LEGAL4",
+        "alias": "LEGAL4"
+      },
+      {
+        "name": "DBA",
+        "alias": "DBA"
+      },
+      {
+        "name": "STRAP",
+        "alias": "STRAP"
+      },
+      {
+        "name": "TAXDIST",
+        "alias": "TAXDIST"
+      },
+      {
+        "name": "JUST",
+        "alias": "JUST"
+      },
+      {
+        "name": "LAND",
+        "alias": "LAND"
+      },
+      {
+        "name": "BLDG",
+        "alias": "BLDG"
+      },
+      {
+        "name": "EXF",
+        "alias": "EXF"
+      },
+      {
+        "name": "ACT",
+        "alias": "ACT"
+      },
+      {
+        "name": "EFF",
+        "alias": "EFF"
+      },
+      {
+        "name": "HEAT_AR",
+        "alias": "HEAT_AR"
+      },
+      {
+        "name": "ASD_VAL",
+        "alias": "ASD_VAL"
+      },
+      {
+        "name": "TAX_VAL",
+        "alias": "TAX_VAL"
+      },
+      {
+        "name": "MUNI",
+        "alias": "MUNI"
+      },
+      {
+        "name": "SD1",
+        "alias": "SD1"
+      },
+      {
+        "name": "SD2",
+        "alias": "SD2"
+      },
+      {
+        "name": "TIF",
+        "alias": "TIF"
+      },
+      {
+        "name": "S_DATE",
+        "alias": "S_DATE"
+      },
+      {
+        "name": "VI",
+        "alias": "VI"
+      },
+      {
+        "name": "AMT",
+        "alias": "AMT"
+      },
+      {
+        "name": "ACREAGE",
+        "alias": "ACREAGE"
+      },
+      {
+        "name": "NBHC",
+        "alias": "NBHC"
+      },
+      {
+        "name": "HX_VAL",
+        "alias": "HX_VAL"
+      },
+      {
+        "name": "ACREAGETEX",
+        "alias": "ACREAGETEX"
+      },
+      {
+        "name": "STORIES",
+        "alias": "STORIES"
+      },
+      {
+        "name": "SHAPE_STAr",
+        "alias": "SHAPE_STAr"
+      },
+      {
+        "name": "SHAPE_STLe",
+        "alias": "SHAPE_STLe"
+      },
+      {
+        "name": "BUFF_DIST",
+        "alias": "BUFF_DIST"
+      },
+      {
+        "name": "ORIG_FID",
+        "alias": "ORIG_FID"
+      },
+      {
+        "name": "Shape_Leng",
+        "alias": "Shape_Leng"
+      },
+      {
+        "name": "Shape__Area",
+        "alias": "Shape__Area"
+      },
+      {
+        "name": "Shape__Length",
+        "alias": "Shape__Length"
+      }
+    ],
+    "error": null,
+    "retrievedAt": "2026-11-10T04:53:19.441Z"
+  },
+  {
+    "index": 33,
+    "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:13",
+    "url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/AccelaGIS_XAPOMapServiceGDB20191211/FeatureServer/13?f=json",
+    "title": "ROW",
+    "category": "Transportation",
+    "description": "Accela ROW Inspection Zones: These zones are utilized by DSD inspectors to coordinate inspections needed during the permiting process. These zones are to be utilized by Accela automation to determine the zone and inspector based on the location of the permit and needed inspection.",
+    "type": "Feature Layer",
+    "geometry": "esriGeometryPolygon",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID"
+      },
+      {
+        "name": "User_name",
+        "alias": "User_name"
+      },
+      {
+        "name": "Zone",
+        "alias": "Zone"
+      },
+      {
+        "name": "Phone",
+        "alias": "Phone"
+      },
+      {
+        "name": "InspectorT",
+        "alias": "InspectorT"
+      },
+      {
+        "name": "Email",
+        "alias": "Email"
+      },
+      {
+        "name": "INSPECTOR",
+        "alias": "INSPECTOR"
+      },
+      {
+        "name": "Shape__Area",
+        "alias": "Shape__Area"
+      },
+      {
+        "name": "Shape__Length",
+        "alias": "Shape__Length"
+      }
+    ],
+    "error": null,
+    "retrievedAt": "2026-11-10T04:53:19.441Z"
+  },
+  {
+    "index": 38,
+    "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:4",
+    "url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/AccelaGIS_XAPOMapServiceGDB20191211/FeatureServer/4?f=json",
+    "title": "Backflow_Offsite",
+    "category": "Utilities",
+    "description": "Accela Backflow Inspection Zones: These zones are utilized by DSD inspectors to coordinate inspections needed during the permiting process. These zones are to be utilized by Accela automation to determine the zone and inspector based on the location of the permit and needed inspection.",
+    "type": "Feature Layer",
+    "geometry": "esriGeometryPolygon",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "alias": "FID"
+      },
+      {
+        "name": "User_name",
+        "alias": "User_name"
+      },
+      {
+        "name": "InspectorT",
+        "alias": "InspectorT"
+      },
+      {
+        "name": "Zone",
+        "alias": "Zone"
+      },
+      {
+        "name": "Phone",
+        "alias": "Phone"
+      },
+      {
+        "name": "Email",
+        "alias": "Email"
+      },
+      {
+        "name": "INSPECTOR",
+        "alias": "INSPECTOR"
+      },
+      {
+        "name": "Shape__Area",
+        "alias": "Shape__Area"
+      },
+      {
+        "name": "Shape__Length",
+        "alias": "Shape__Length"
+      }
+    ],
+    "error": null,
+    "retrievedAt": "2026-11-10T04:53:19.441Z"
+  },
+  {
+    "index": 39,
+    "id": "arcgis:3118752cbe4f47eab81b8aa81068ef9b:5",
+    "url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/AccelaGIS_XAPOMapServiceGDB20191211/FeatureServer/5?f=json",
+    "title": "Backflow_Onsite",
+    "category": "Utilities",
+    "description": "Accela Backflow Inspection Zones: These zones are utilized by DSD inspectors to coordinate inspections needed during the permiting process. These zones are to be utilized by Accela automation to determine the zone and inspector based on the location of the permit and needed inspection.",
+    "type": "Feature Layer",
+    "geometry": "esriGeometryPolygon",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "alias": "FID"
+      },
+      {
+        "name": "User_name",
+        "alias": "User_name"
+      },
+      {
+        "name": "InspectorT",
+        "alias": "InspectorT"
+      },
+      {
+        "name": "Zone",
+        "alias": "Zone"
+      },
+      {
+        "name": "Phone",
+        "alias": "Phone"
+      },
+      {
+        "name": "Email",
+        "alias": "Email"
+      },
+      {
+        "name": "INSPECTOR",
+        "alias": "INSPECTOR"
+      },
+      {
+        "name": "Shape__Area",
+        "alias": "Shape__Area"
+      },
+      {
+        "name": "Shape__Length",
+        "alias": "Shape__Length"
+      }
+    ],
+    "error": null,
+    "retrievedAt": "2026-11-10T04:53:19.441Z"
+  },
+  {
+    "index": 74,
+    "id": "arcgis:6a1c984c1ec24ef381203c29d05e252c:26",
+    "url": "https://arcgis.tampagov.net/arcgis/rest/services/OpenData/Planning/MapServer/26?f=json",
+    "title": "In-Lieu CBD Parking Fees",
+    "category": "Transportation",
+    "description": "Various planning/assessment districts within the City of Tampa.",
+    "type": "Feature Layer",
+    "geometry": "esriGeometryPolygon",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID"
+      },
+      {
+        "name": "ID",
+        "alias": "ID"
+      },
+      {
+        "name": "NAME",
+        "alias": "NAME"
+      },
+      {
+        "name": "LASTUPDATE",
+        "alias": "LastUpdate"
+      },
+      {
+        "name": "GlobalID",
+        "alias": "GlobalID"
+      },
+      {
+        "name": "ACRES",
+        "alias": "Acres"
+      },
+      {
+        "name": "CODE",
+        "alias": "Code"
+      },
+      {
+        "name": "DEFINITION",
+        "alias": "Definition Query"
+      },
+      {
+        "name": "URL",
+        "alias": "Website"
+      },
+      {
+        "name": "FEE",
+        "alias": "Fee"
+      },
+      {
+        "name": "SHAPE",
+        "alias": "SHAPE"
+      },
+      {
+        "name": "SHAPE.STArea()",
+        "alias": "SHAPE.STArea()"
+      },
+      {
+        "name": "SHAPE.STLength()",
+        "alias": "SHAPE.STLength()"
+      }
+    ],
+    "error": null,
+    "retrievedAt": "2026-11-10T04:53:19.441Z"
+  },
+  {
+    "index": 87,
+    "id": "arcgis:73d36eb7ab6940ee8fcb16cde8b5d859:0",
+    "url": "https://services1.arcgis.com/3GsNorcb0Mn5rMt8/arcgis/rest/services/Employee%20Phone%20Number%20Directory_New/FeatureServer/0?f=json",
+    "title": "Employee Phone Number Directory - New",
+    "category": "Government",
+    "description": "",
+    "type": "Table",
+    "fields": [
+      {
+        "name": "FirstName",
+        "alias": "FirstName"
+      },
+      {
+        "name": "LastName",
+        "alias": "LastName"
+      },
+      {
+        "name": "JobTitle",
+        "alias": "JobTitle"
+      },
+      {
+        "name": "Department",
+        "alias": "Department"
+      },
+      {
+        "name": "WorkPhone",
+        "alias": "WorkPhone"
+      },
+      {
+        "name": "WorkPhoneExtension",
+        "alias": "WorkPhoneExtension"
+      },
+      {
+        "name": "CityCellPhone",
+        "alias": "CityCellPhone"
+      },
+      {
+        "name": "EmployeeNumber",
+        "alias": "EmployeeNumber"
+      },
+      {
+        "name": "FID",
+        "alias": "FID"
+      }
+    ],
+    "error": null,
+    "retrievedAt": "2026-11-10T04:53:19.441Z"
+  },
+  {
+    "index": 100,
+    "id": "arcgis:922b26dd3dfa4de79e9c212f2cebbd5f:9",
+    "url": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/surgecast_cosp_agol/FeatureServer/9?f=json",
+    "title": "Facility Impacts",
+    "category": "Hazards",
+    "description": "",
+    "type": "Feature Layer",
+    "geometry": "esriGeometryPoint",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID"
+      },
+      {
+        "name": "asset_id",
+        "alias": "Asset ID"
+      },
+      {
+        "name": "name",
+        "alias": "Name"
+      },
+      {
+        "name": "classification",
+        "alias": "Classification"
+      },
+      {
+        "name": "county_name",
+        "alias": "County"
+      },
+      {
+        "name": "impact_type",
+        "alias": "Impact Type"
+      },
+      {
+        "name": "type",
+        "alias": "Type"
+      },
+      {
+        "name": "length_mi",
+        "alias": "Flooded Length (mi)"
+      },
+      {
+        "name": "max_depth_ft",
+        "alias": "Maximum Depth (ft)"
+      },
+      {
+        "name": "duration_hr",
+        "alias": "Duration (hr)"
+      },
+      {
+        "name": "start_time_utc",
+        "alias": "Flood Start (UTC)"
+      },
+      {
+        "name": "end_time_utc",
+        "alias": "Flood End (UTC)"
+      },
+      {
+        "name": "impact_level",
+        "alias": "Impact Level"
+      },
+      {
+        "name": "road_id",
+        "alias": "Road ID"
+      },
+      {
+        "name": "road_class",
+        "alias": "Road Classification"
+      },
+      {
+        "name": "bridge_id",
+        "alias": "Bridge ID"
+      },
+      {
+        "name": "building_id",
+        "alias": "Building ID"
+      },
+      {
+        "name": "facility_id",
+        "alias": "Facility ID"
+      },
+      {
+        "name": "address",
+        "alias": "Address"
+      },
+      {
+        "name": "occupancy",
+        "alias": "Occupancy"
+      },
+      {
+        "name": "first_floor_elev_ft",
+        "alias": "First Floor Elevation (ft NAVD88)"
+      },
+      {
+        "name": "building_value_usd",
+        "alias": "Building Value ($)"
+      },
+      {
+        "name": "depth_above_ffe_ft",
+        "alias": "Depth Above FFE (ft)"
+      },
+      {
+        "name": "building_damage_pct",
+        "alias": "Building Damage (%)"
+      },
+      {
+        "name": "building_damage_usd",
+        "alias": "Building Damage ($)"
+      },
+      {
+        "name": "content_damage_usd",
+        "alias": "Content Damage ($)"
+      },
+      {
+        "name": "inventory_damage_usd",
+        "alias": "Inventory Damage ($)"
+      },
+      {
+        "name": "total_damage_usd",
+        "alias": "Total Direct Damage ($)"
+      },
+      {
+        "name": "restoration_min_days",
+        "alias": "Minimum Restoration (days)"
+      },
+      {
+        "name": "restoration_max_days",
+        "alias": "Maximum Restoration (days)"
+      },
+      {
+        "name": "flooded_length_ft",
+        "alias": "Flooded Length (ft)"
+      },
+      {
+        "name": "maximum_flood_depth_ft",
+        "alias": "Maximum Depth (ft)"
+      },
+      {
+        "name": "duration_hours",
+        "alias": "Duration (hr)"
+      },
+      {
+        "name": "gage_basin_id",
+        "alias": "Gage Basin ID"
+      },
+      {
+        "name": "run_id",
+        "alias": "Run ID"
+      },
+      {
+        "name": "run_time_utc",
+        "alias": "Run Time (UTC)"
+      }
+    ],
+    "error": null,
+    "retrievedAt": "2026-11-10T04:53:19.441Z"
+  },
+  {
+    "index": 112,
+    "id": "arcgis:b125461a10034b6b83fdc013c6628040:0",
+    "url": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/CityCommunityServices/FeatureServer/0?f=json",
+    "title": "City Owned Property",
+    "category": "Development",
+    "description": "",
+    "type": "Feature Layer",
+    "geometry": "esriGeometryPoint",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID"
+      },
+      {
+        "name": "RG",
+        "alias": "Range"
+      },
+      {
+        "name": "TW",
+        "alias": "Township"
+      },
+      {
+        "name": "SC",
+        "alias": "Section"
+      },
+      {
+        "name": "SB",
+        "alias": "SB"
+      },
+      {
+        "name": "BK",
+        "alias": "Block"
+      },
+      {
+        "name": "LOT",
+        "alias": "Lot"
+      },
+      {
+        "name": "NX",
+        "alias": "NX"
+      },
+      {
+        "name": "HX",
+        "alias": "HX"
+      },
+      {
+        "name": "WX",
+        "alias": "WX"
+      },
+      {
+        "name": "DX",
+        "alias": "DX"
+      },
+      {
+        "name": "TX",
+        "alias": "TX"
+      },
+      {
+        "name": "AX",
+        "alias": "AX"
+      },
+      {
+        "name": "IMP",
+        "alias": "IMP"
+      },
+      {
+        "name": "RDD",
+        "alias": "RDD"
+      },
+      {
+        "name": "NCNST",
+        "alias": "NCNST"
+      },
+      {
+        "name": "FTAX",
+        "alias": "FTAX"
+      },
+      {
+        "name": "DLQ",
+        "alias": "DLQ"
+      },
+      {
+        "name": "PU",
+        "alias": "PU"
+      },
+      {
+        "name": "LU",
+        "alias": "LU"
+      },
+      {
+        "name": "ESC",
+        "alias": "ESC"
+      },
+      {
+        "name": "FDST",
+        "alias": "FDST"
+      },
+      {
+        "name": "DST",
+        "alias": "DST"
+      },
+      {
+        "name": "XC1",
+        "alias": "XC1"
+      },
+      {
+        "name": "OBK",
+        "alias": "OBK"
+      },
+      {
+        "name": "OPG",
+        "alias": "OPG"
+      },
+      {
+        "name": "NAM1",
+        "alias": "NAM1"
+      },
+      {
+        "name": "NAM2",
+        "alias": "NAM2"
+      },
+      {
+        "name": "ATTN",
+        "alias": "ATTN"
+      },
+      {
+        "name": "ADDRESS1",
+        "alias": "Address 1"
+      },
+      {
+        "name": "ADDRESS2",
+        "alias": "Address 2"
+      },
+      {
+        "name": "CITY",
+        "alias": "City"
+      },
+      {
+        "name": "STATE",
+        "alias": "State"
+      },
+      {
+        "name": "COUNTRY",
+        "alias": "Country"
+      },
+      {
+        "name": "ZIP",
+        "alias": "Zip Code (5)"
+      },
+      {
+        "name": "ZIP2",
+        "alias": "Zip Code (4)"
+      },
+      {
+        "name": "NTC",
+        "alias": "NTC"
+      },
+      {
+        "name": "TAX",
+        "alias": "TAX"
+      },
+      {
+        "name": "FPCT",
+        "alias": "FPCT"
+      },
+      {
+        "name": "LEG1",
+        "alias": "LEG1"
+      },
+      {
+        "name": "LEG2",
+        "alias": "LEG2"
+      },
+      {
+        "name": "LEG3",
+        "alias": "LEG3"
+      },
+      {
+        "name": "LEG4",
+        "alias": "LEG4"
+      },
+      {
+        "name": "PET",
+        "alias": "PET"
+      },
+      {
+        "name": "RD",
+        "alias": "RD"
+      },
+      {
+        "name": "NUMB",
+        "alias": "NUMB"
+      },
+      {
+        "name": "UNT",
+        "alias": "UNT"
+      },
+      {
+        "name": "DIR",
+        "alias": "DIR"
+      },
+      {
+        "name": "STREET",
+        "alias": "STREET"
+      },
+      {
+        "name": "TYPE",
+        "alias": "TYPE"
+      },
+      {
+        "name": "SUF",
+        "alias": "SUF"
+      },
+      {
+        "name": "CITYSITE",
+        "alias": "CITYSITE"
+      },
+      {
+        "name": "ZIPSITE",
+        "alias": "ZIPSITE"
+      },
+      {
+        "name": "AVAL",
+        "alias": "AVAL"
+      },
+      {
+        "name": "XXY",
+        "alias": "XXY"
+      },
+      {
+        "name": "YXY",
+        "alias": "YXY"
+      },
+      {
+        "name": "MMO1",
+        "alias": "MMO1"
+      },
+      {
+        "name": "MYR1",
+        "alias": "MYR1"
+      },
+      {
+        "name": "MSP1",
+        "alias": "MSP1"
+      },
+      {
+        "name": "MQU1",
+        "alias": "MQU1"
+      },
+      {
+        "name": "MSX",
+        "alias": "MSX"
+      },
+      {
+        "name": "RCD",
+        "alias": "RCD"
+      },
+      {
+        "name": "XFV",
+        "alias": "XFV"
+      },
+      {
+        "name": "PIN",
+        "alias": "Tax PIN"
+      },
+      {
+        "name": "DORCODE",
+        "alias": "DORCODE"
+      },
+      {
+        "name": "CATEGORY",
+        "alias": "Category"
+      },
+      {
+        "name": "SITEADDRESS",
+        "alias": "Site Address"
+      },
+      {
+        "name": "REDACT",
+        "alias": "Redacted"
+      },
+      {
+        "name": "CREATED_USER",
+        "alias": "Creator"
+      },
+      {
+        "name": "CREATED_DATE",
+        "alias": "Created Date"
+      },
+      {
+        "name": "LAST_EDITED_USER",
+        "alias": "Last Editor"
+      },
+      {
+        "name": "LAST_EDITED_DATE",
+        "alias": "Last Edited Date"
+      }
+    ],
+    "error": null,
+    "retrievedAt": "2026-11-10T04:53:19.441Z"
+  },
+  {
+    "index": 115,
+    "id": "arcgis:b5619170e0d0413bb0b7a35d15f8c1fa:6",
+    "url": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/MoonLake_LULC/FeatureServer/6?f=json",
+    "title": "MoonLake_LULC",
+    "category": "Environment",
+    "description": "",
+    "type": "Feature Layer",
+    "geometry": "esriGeometryPolygon",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID"
+      },
+      {
+        "name": "OBJECTID_1",
+        "alias": "OBJECTID"
+      },
+      {
+        "name": "LANDUSE_CO",
+        "alias": "LANDUSE_CO"
+      },
+      {
+        "name": "LANDUSE_DE",
+        "alias": "LANDUSE_DE"
+      },
+      {
+        "name": "LEVEL1_LAN",
+        "alias": "LEVEL1_LAN"
+      },
+      {
+        "name": "LEVEL1_L_1",
+        "alias": "LEVEL1_L_1"
+      },
+      {
+        "name": "LEVEL2_LAN",
+        "alias": "LEVEL2_LAN"
+      },
+      {
+        "name": "LEVEL2_L_1",
+        "alias": "LEVEL2_L_1"
+      },
+      {
+        "name": "LANDCOVER_",
+        "alias": "LANDCOVER_"
+      },
+      {
+        "name": "LANDCOVE_1",
+        "alias": "LANDCOVE_1"
+      },
+      {
+        "name": "WATER_MANA",
+        "alias": "WATER_MANA"
+      },
+      {
+        "name": "LANDUSE_YE",
+        "alias": "LANDUSE_YE"
+      },
+      {
+        "name": "SHAPEAREA",
+        "alias": "SHAPEAREA"
+      },
+      {
+        "name": "SHAPELEN",
+        "alias": "SHAPELEN"
+      },
+      {
+        "name": "GIS_AC",
+        "alias": "GIS_AC"
+      },
+      {
+        "name": "Shape__Area",
+        "alias": "Shape__Area"
+      },
+      {
+        "name": "Shape__Length",
+        "alias": "Shape__Length"
+      }
+    ],
+    "error": null,
+    "retrievedAt": "2026-11-10T04:53:19.441Z"
+  },
+  {
+    "index": 119,
+    "id": "arcgis:b8ee02f1db384f18a083e1adfa04edd7:0",
+    "url": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Parcel_Capacity_Utilization/FeatureServer/0?f=json",
+    "title": "Central Tampa Planning District (R-10, R-20, R-35 Parcels)",
+    "category": "Planning",
+    "description": "Hillsborough County Property Appraiser's Parcel data shows ownership boundaries and data including addresses, Department of Revenue (DOR) land usage codes legal descriptions, value and other various ownership information. Updated quarterly.",
+    "type": "Feature Layer",
+    "geometry": "esriGeometryPolygon",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID"
+      },
+      {
+        "name": "FOLIO",
+        "alias": "Folio Number"
+      },
+      {
+        "name": "PAR_ACREAGE",
+        "alias": "Parcel Acreage"
+      },
+      {
+        "name": "tUNITS",
+        "alias": "Total Built Units"
+      },
+      {
+        "name": "DOR_DESC",
+        "alias": "DOR Description"
+      },
+      {
+        "name": "STR_NAME",
+        "alias": "STR_NAME"
+      },
+      {
+        "name": "Dev_Concept",
+        "alias": "Planning District"
+      },
+      {
+        "name": "FLUE",
+        "alias": "FLU Category"
+      },
+      {
+        "name": "MAX_UNITS",
+        "alias": "Max Potential Units"
+      },
+      {
+        "name": "CAPACITY_UTILIZATIUON",
+        "alias": "Capacity Utilization (%)"
+      },
+      {
+        "name": "Shape__Area",
+        "alias": "Shape__Area"
+      },
+      {
+        "name": "Shape__Length",
+        "alias": "Shape__Length"
+      }
+    ],
+    "error": null,
+    "retrievedAt": "2026-11-10T04:53:19.441Z"
+  },
+  {
+    "index": 127,
+    "id": "arcgis:d24f62d0132942ff99d2be12da3cf9cf:0",
+    "url": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_HumanServicesLocations_view/FeatureServer/0?f=json",
+    "title": "HumanServicesLocations",
+    "category": "Health",
+    "description": "",
+    "type": "Feature Layer",
+    "geometry": "esriGeometryPoint",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID"
+      },
+      {
+        "name": "LOC_NUM",
+        "alias": "LOC_NUM"
+      },
+      {
+        "name": "NAME",
+        "alias": "NAME"
+      },
+      {
+        "name": "STREET_1",
+        "alias": "STREET_1"
+      },
+      {
+        "name": "STREET_2",
+        "alias": "STREET_2"
+      },
+      {
+        "name": "CITY",
+        "alias": "CITY"
+      },
+      {
+        "name": "STATE",
+        "alias": "STATE"
+      },
+      {
+        "name": "PHONE",
+        "alias": "PHONE"
+      },
+      {
+        "name": "HOURS",
+        "alias": "HOURS"
+      },
+      {
+        "name": "URL_INFO",
+        "alias": "URL_INFO"
+      },
+      {
+        "name": "VET_SERV",
+        "alias": "VET_SERV"
+      },
+      {
+        "name": "VET_PHONE",
+        "alias": "VET_PHONE"
+      },
+      {
+        "name": "VET_HOURS",
+        "alias": "VET_HOURS"
+      },
+      {
+        "name": "URL_INFO_V",
+        "alias": "URL_INFO_V"
+      },
+      {
+        "name": "GLOBALID",
+        "alias": "GLOBALID"
+      },
+      {
+        "name": "int_created_user",
+        "alias": "Internal Created User"
+      },
+      {
+        "name": "int_created_date",
+        "alias": "Internal Created Date"
+      },
+      {
+        "name": "int_edited_user",
+        "alias": "Internal Edited User"
+      },
+      {
+        "name": "int_edited_date",
+        "alias": "Internal Edited Date"
+      },
+      {
+        "name": "ZIP",
+        "alias": "ZIP"
+      }
+    ],
+    "error": null,
+    "retrievedAt": "2026-11-10T04:53:19.441Z"
+  },
+  {
+    "index": 135,
+    "id": "arcgis:d68c22e977c346398cbc68fe2d22e87d:0",
+    "url": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/Rehab_Assistance_Program/FeatureServer/0?f=json",
+    "title": "Rehab Assistance Program ",
+    "category": "Housing",
+    "description": "",
+    "type": "Feature Layer",
+    "geometry": "esriGeometryPoint",
+    "fields": [
+      {
+        "name": "FID",
+        "alias": "FID"
+      },
+      {
+        "name": "Address",
+        "alias": "Address"
+      },
+      {
+        "name": "F__of_Medi",
+        "alias": "F__of_Medi"
+      },
+      {
+        "name": "Funded_Amo",
+        "alias": "Funded_Amo"
+      },
+      {
+        "name": "City_1",
+        "alias": "City_1"
+      }
+    ],
+    "error": null,
+    "retrievedAt": "2026-11-10T04:53:19.441Z"
+  },
+  {
+    "index": 142,
+    "id": "arcgis:f46d9cb065724442800646101e619f56:0",
+    "url": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_SiteAddressPoint_view/FeatureServer/0?f=json",
+    "title": "SiteAddressPoint",
+    "category": "Development",
+    "description": "",
+    "type": "Feature Layer",
+    "geometry": "esriGeometryPoint",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID"
+      },
+      {
+        "name": "SITEADDID",
+        "alias": "Site Address ID"
+      },
+      {
+        "name": "ADDRESSPTID",
+        "alias": "Address Point ID"
+      },
+      {
+        "name": "RCLNGUID",
+        "alias": "NENA Global ID"
+      },
+      {
+        "name": "DISCRPAGID",
+        "alias": "Discrepancy Agency ID"
+      },
+      {
+        "name": "PREADDRNUM",
+        "alias": "Address Number Prefix"
+      },
+      {
+        "name": "ADDRNUMSUF",
+        "alias": "Address Number Suffix"
+      },
+      {
+        "name": "ADDRNUM",
+        "alias": "Full Address Number"
+      },
+      {
+        "name": "ADDRRANGE",
+        "alias": "Address Range"
+      },
+      {
+        "name": "UNITTYPE",
+        "alias": "Address Unit Type"
+      },
+      {
+        "name": "UNITID",
+        "alias": "Address Unit Number"
+      },
+      {
+        "name": "ALTUNITTYPE",
+        "alias": "Alternate Address Unit Type"
+      },
+      {
+        "name": "ALTUNITID",
+        "alias": "Alternate Address Unit Number"
+      },
+      {
+        "name": "SECONDALTUNITTYPE",
+        "alias": "2nd Alternate Address Unit Type"
+      },
+      {
+        "name": "SECONDALTUNITID",
+        "alias": "2nd Alternate Address Unit Number"
+      },
+      {
+        "name": "THIRDALTUNITTYPE",
+        "alias": "3rd Alternate Address Unit Type"
+      },
+      {
+        "name": "THIRDALTUNITID",
+        "alias": "3rd Alternate Address Unit Number"
+      },
+      {
+        "name": "FOURTHALTUNITTYPE",
+        "alias": "4th Alternate Address Unit Type"
+      },
+      {
+        "name": "FOURTHALTUNITID",
+        "alias": "4th Alternate Address Unit Number"
+      },
+      {
+        "name": "FULLNAME",
+        "alias": "Full Road Name"
+      },
+      {
+        "name": "FULLADDR",
+        "alias": "Full Address"
+      },
+      {
+        "name": "PLACENAME",
+        "alias": "Place Name"
+      },
+      {
+        "name": "COUNTRY",
+        "alias": "Country Abbreviation"
+      },
+      {
+        "name": "STATEABBREVIATION",
+        "alias": "State Abbreviation"
+      },
+      {
+        "name": "COUNTY",
+        "alias": "County Name"
+      },
+      {
+        "name": "MUNICIPALITY",
+        "alias": "Municipality Name"
+      },
+      {
+        "name": "ESN",
+        "alias": "Emergency Service Number"
+      },
+      {
+        "name": "MSAG",
+        "alias": "MSAG Community"
+      },
+      {
+        "name": "USNGCOORD",
+        "alias": "USNG Coordinate"
+      },
+      {
+        "name": "ADDRCLASS",
+        "alias": "Description"
+      },
+      {
+        "name": "POINTTYPE",
+        "alias": "Location"
+      },
+      {
+        "name": "CAPTUREMETH",
+        "alias": "Capture Method"
+      },
+      {
+        "name": "STATUS",
+        "alias": "Status"
+      },
+      {
+        "name": "GlobalID",
+        "alias": "GlobalID"
+      },
+      {
+        "name": "created_user",
+        "alias": "Internal Created User"
+      },
+      {
+        "name": "created_date",
+        "alias": "Internal Created Date"
+      },
+      {
+        "name": "last_edited_user",
+        "alias": "Internal Edited User"
+      },
+      {
+        "name": "last_edited_date",
+        "alias": "Internal Edited Date"
+      },
+      {
+        "name": "VALIDATIONSTATUS",
+        "alias": "Validation status"
+      },
+      {
+        "name": "PIN_NUM",
+        "alias": "Parcel Number"
+      },
+      {
+        "name": "CENTERLINEID",
+        "alias": "Centerline ID"
+      },
+      {
+        "name": "PSTLCITY",
+        "alias": "Postal City"
+      },
+      {
+        "name": "PSTLZIP5",
+        "alias": "Postal Zip 5"
+      },
+      {
+        "name": "COMMENTS",
+        "alias": "Comments"
+      },
+      {
+        "name": "Uninc_Comm",
+        "alias": "Unincorporated Community"
+      },
+      {
+        "name": "AssocName",
+        "alias": "Association Name"
+      },
+      {
+        "name": "BUILDINGID",
+        "alias": "Building ID"
+      },
+      {
+        "name": "BLDGADDRCLASS",
+        "alias": "Building Address Classification"
+      }
+    ],
+    "error": null,
+    "retrievedAt": "2026-11-10T04:53:19.441Z"
+  },
+  {
+    "index": 145,
+    "id": "arcgis:fab303d79b264bb1839259c8a1dcf487:0",
+    "url": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/RapidRoofReplacement/FeatureServer/0?f=json",
+    "title": "Rapid Roof Replacement",
+    "category": "Housing",
+    "description": "",
+    "type": "Feature Layer",
+    "geometry": "esriGeometryPoint",
+    "fields": [
+      {
+        "name": "FID",
+        "alias": "FID"
+      },
+      {
+        "name": "Address",
+        "alias": "Address"
+      },
+      {
+        "name": "F__of_Medi",
+        "alias": "F__of_Medi"
+      },
+      {
+        "name": "Funded_Amo",
+        "alias": "Funded_Amo"
+      },
+      {
+        "name": "City_1",
+        "alias": "City_1"
+      }
+    ],
+    "error": null,
+    "retrievedAt": "2026-11-10T04:53:19.441Z"
+  },
+  {
+    "index": 167,
+    "id": "arcgis:f6d97ce8ce8b4c8c99c16434667a0c21:0",
+    "url": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/MilestoneNov2ndWeek/FeatureServer/0?f=json",
+    "title": "Building Status",
+    "category": "Development",
+    "description": "",
+    "type": "Feature Layer",
+    "geometry": "esriGeometryPoint",
+    "fields": [
+      {
+        "name": "FID",
+        "alias": "FID"
+      },
+      {
+        "name": "Associatio",
+        "alias": "Associatio"
+      },
+      {
+        "name": "Address",
+        "alias": "Address"
+      },
+      {
+        "name": "Building_N",
+        "alias": "Building_N"
+      },
+      {
+        "name": "Building_S",
+        "alias": "Building_S"
+      },
+      {
+        "name": "Initial_Mi",
+        "alias": "Initial_Mi"
+      },
+      {
+        "name": "Date_Phase",
+        "alias": "Date_Phase"
+      },
+      {
+        "name": "Phase_1_ex",
+        "alias": "Phase_1_ex"
+      },
+      {
+        "name": "Phase_1_ap",
+        "alias": "Phase_1_ap"
+      },
+      {
+        "name": "Phase_2_su",
+        "alias": "Phase_2_su"
+      },
+      {
+        "name": "Phase_2_ap",
+        "alias": "Phase_2_ap"
+      },
+      {
+        "name": "Sunstantia",
+        "alias": "Sunstantia"
+      },
+      {
+        "name": "Dangerous_",
+        "alias": "Dangerous_"
+      },
+      {
+        "name": "MILE_permi",
+        "alias": "MILE_permi"
+      },
+      {
+        "name": "MILE_per_1",
+        "alias": "MILE_per_1"
+      },
+      {
+        "name": "F10_year_f",
+        "alias": "F10_year_f"
+      },
+      {
+        "name": "Field16",
+        "alias": "Field16"
+      },
+      {
+        "name": "ID",
+        "alias": "ID"
+      },
+      {
+        "name": "X",
+        "alias": "X"
+      },
+      {
+        "name": "Y",
+        "alias": "Y"
+      }
+    ],
+    "error": null,
+    "retrievedAt": "2026-11-10T04:53:19.441Z"
+  },
+  {
+    "index": 170,
+    "id": "arcgis:20a2d49a3c5949f6a0dfdb04268dfc57:0",
+    "url": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/MilestoneUpdateSept/FeatureServer/0?f=json",
+    "title": "Building Status",
+    "category": "Development",
+    "description": "",
+    "type": "Feature Layer",
+    "geometry": "esriGeometryPoint",
+    "fields": [
+      {
+        "name": "FID",
+        "alias": "FID"
+      },
+      {
+        "name": "Associatio",
+        "alias": "Associatio"
+      },
+      {
+        "name": "Address",
+        "alias": "Address"
+      },
+      {
+        "name": "Building_N",
+        "alias": "Building_N"
+      },
+      {
+        "name": "Building_S",
+        "alias": "Building_S"
+      },
+      {
+        "name": "Initial_Mi",
+        "alias": "Initial_Mi"
+      },
+      {
+        "name": "Date_Phase",
+        "alias": "Date_Phase"
+      },
+      {
+        "name": "Phase_1_ex",
+        "alias": "Phase_1_ex"
+      },
+      {
+        "name": "Phase_1_ap",
+        "alias": "Phase_1_ap"
+      },
+      {
+        "name": "Phase_2_su",
+        "alias": "Phase_2_su"
+      },
+      {
+        "name": "Phase_2_ap",
+        "alias": "Phase_2_ap"
+      },
+      {
+        "name": "Sunstantia",
+        "alias": "Sunstantia"
+      },
+      {
+        "name": "Dangerous_",
+        "alias": "Dangerous_"
+      },
+      {
+        "name": "MILE_permi",
+        "alias": "MILE_permi"
+      },
+      {
+        "name": "MILE_per_1",
+        "alias": "MILE_per_1"
+      },
+      {
+        "name": "F10_year_fo",
+        "alias": "10_year_fo"
+      },
+      {
+        "name": "Field16",
+        "alias": "Field16"
+      },
+      {
+        "name": "ID",
+        "alias": "ID"
+      },
+      {
+        "name": "X",
+        "alias": "X"
+      },
+      {
+        "name": "Y",
+        "alias": "Y"
+      }
+    ],
+    "error": null,
+    "retrievedAt": "2026-11-10T04:53:19.441Z"
+  },
+  {
+    "index": 174,
+    "id": "arcgis:90bd359b7c90483eaacd984b8589b71b:0",
+    "url": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/AATrail/FeatureServer/0?f=json",
+    "title": "African American Heritage Trail Signs",
+    "category": "Recreation",
+    "description": "",
+    "type": "Feature Layer",
+    "geometry": "esriGeometryPoint",
+    "fields": [
+      {
+        "name": "FID",
+        "alias": "FID"
+      },
+      {
+        "name": "Id",
+        "alias": "Id"
+      },
+      {
+        "name": "TRAIL",
+        "alias": "TRAIL"
+      },
+      {
+        "name": "MOVED",
+        "alias": "MOVED"
+      },
+      {
+        "name": "ADJPARCEL",
+        "alias": "ADJPARCEL"
+      },
+      {
+        "name": "PARCELADD",
+        "alias": "PARCELADD"
+      },
+      {
+        "name": "POINT_X",
+        "alias": "POINT_X"
+      },
+      {
+        "name": "POINT_Y",
+        "alias": "POINT_Y"
+      },
+      {
+        "name": "StopName",
+        "alias": "Stop Name"
+      },
+      {
+        "name": "StopNumber",
+        "alias": "Stop Number"
+      },
+      {
+        "name": "Info",
+        "alias": "Info"
+      }
+    ],
+    "error": null,
+    "retrievedAt": "2026-11-10T04:53:19.441Z"
+  },
+  {
+    "index": 175,
+    "id": "arcgis:922b26dd3dfa4de79e9c212f2cebbd5f:6",
+    "url": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/surgecast_cosp_agol/FeatureServer/6?f=json",
+    "title": "Bridge Impacts",
+    "category": "Infrastructure",
+    "description": "",
+    "type": "Feature Layer",
+    "geometry": "esriGeometryPolyline",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID"
+      },
+      {
+        "name": "asset_id",
+        "alias": "Asset ID"
+      },
+      {
+        "name": "name",
+        "alias": "Name"
+      },
+      {
+        "name": "classification",
+        "alias": "Classification"
+      },
+      {
+        "name": "county_name",
+        "alias": "County"
+      },
+      {
+        "name": "impact_type",
+        "alias": "Impact Type"
+      },
+      {
+        "name": "type",
+        "alias": "Type"
+      },
+      {
+        "name": "length_mi",
+        "alias": "Flooded Length (mi)"
+      },
+      {
+        "name": "max_depth_ft",
+        "alias": "Maximum Depth (ft)"
+      },
+      {
+        "name": "duration_hr",
+        "alias": "Duration (hr)"
+      },
+      {
+        "name": "start_time_utc",
+        "alias": "Flood Start (UTC)"
+      },
+      {
+        "name": "end_time_utc",
+        "alias": "Flood End (UTC)"
+      },
+      {
+        "name": "impact_level",
+        "alias": "Impact Level"
+      },
+      {
+        "name": "road_id",
+        "alias": "Road ID"
+      },
+      {
+        "name": "road_class",
+        "alias": "Road Classification"
+      },
+      {
+        "name": "bridge_id",
+        "alias": "Bridge ID"
+      },
+      {
+        "name": "building_id",
+        "alias": "Building ID"
+      },
+      {
+        "name": "facility_id",
+        "alias": "Facility ID"
+      },
+      {
+        "name": "address",
+        "alias": "Address"
+      },
+      {
+        "name": "occupancy",
+        "alias": "Occupancy"
+      },
+      {
+        "name": "first_floor_elev_ft",
+        "alias": "First Floor Elevation (ft NAVD88)"
+      },
+      {
+        "name": "building_value_usd",
+        "alias": "Building Value ($)"
+      },
+      {
+        "name": "depth_above_ffe_ft",
+        "alias": "Depth Above FFE (ft)"
+      },
+      {
+        "name": "building_damage_pct",
+        "alias": "Building Damage (%)"
+      },
+      {
+        "name": "building_damage_usd",
+        "alias": "Building Damage ($)"
+      },
+      {
+        "name": "content_damage_usd",
+        "alias": "Content Damage ($)"
+      },
+      {
+        "name": "inventory_damage_usd",
+        "alias": "Inventory Damage ($)"
+      },
+      {
+        "name": "total_damage_usd",
+        "alias": "Total Direct Damage ($)"
+      },
+      {
+        "name": "restoration_min_days",
+        "alias": "Minimum Restoration (days)"
+      },
+      {
+        "name": "restoration_max_days",
+        "alias": "Maximum Restoration (days)"
+      },
+      {
+        "name": "flooded_length_ft",
+        "alias": "Flooded Length (ft)"
+      },
+      {
+        "name": "maximum_flood_depth_ft",
+        "alias": "Maximum Depth (ft)"
+      },
+      {
+        "name": "duration_hours",
+        "alias": "Duration (hr)"
+      },
+      {
+        "name": "gage_basin_id",
+        "alias": "Gage Basin ID"
+      },
+      {
+        "name": "run_id",
+        "alias": "Run ID"
+      },
+      {
+        "name": "run_time_utc",
+        "alias": "Run Time (UTC)"
+      },
+      {
+        "name": "SHAPE__Length",
+        "alias": "SHAPE__Length"
+      }
+    ],
+    "error": null,
+    "retrievedAt": "2026-11-10T04:53:19.441Z"
+  }
+]
