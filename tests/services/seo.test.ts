@@ -10,6 +10,19 @@ describe("SEO output", () => {
       expect(value).toContain(dataset.publisher);
     }
   });
+  it("includes actual coverage and category even when source descriptions are duplicated", () => {
+    const value = datasetDescription({ ...dataset, description: "Shared", coverage: "Pinellas County", category: "Housing" });
+    expect(value).toContain(dataset.title);
+    expect(value).toContain(dataset.publisher);
+    expect(value).toContain("Pinellas County");
+    expect(value).toContain("Housing");
+    expect(value).not.toContain("Shared");
+  });
+  it("includes provided downloads and source modification dates", () => {
+    const data = datasetStructuredData({ ...dataset, platform: "csv", resource: { url: "https://example.org/data.csv" }, sourceUpdatedAt: "2026-01-01T00:00:00Z" });
+    expect(data.distribution?.[0]).toEqual({ "@type": "DataDownload", contentUrl: "https://example.org/data.csv", encodingFormat: "text/csv" });
+    expect(data.dateModified).toBe("2026-01-01T00:00:00Z");
+  });
   it.each(["tampa/parks", "arcgis:123:0", "city/a & b", "city/é", "city/~3A%:"])("round trips dataset identifiers: %s", (id) => {
     expect(pathDatasetId(datasetPath(id))).toBe(id);
   });

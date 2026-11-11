@@ -86,6 +86,12 @@ export default function CatalogPage({
           </h2>
           <DiscoveryStatus report={discovery} warning={discoveryWarning} />
         </div>
+        <p>
+          Find public data from Tampa Bay government sources, including{" "}
+          {[...new Set(catalog.datasets.map((dataset) => dataset.publisher))].sort().slice(0, 3).join(", ")}.
+          {" "}Explore GIS, housing, transportation, development, infrastructure, and environmental datasets.
+          Journalists, researchers, GIS professionals, and residents can find source information and available data here.
+        </p>
         <div className="catalog-layout">
           <FilterPanel
             datasets={catalog.datasets}

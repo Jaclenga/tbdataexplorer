@@ -1,16 +1,11 @@
 import { useEffect, useState, useRef } from "react";
-import { parseCatalog } from "./services/catalog";
-import type { Catalog } from "./types";
-import { parseAccessReport, type AccessReport } from "./services/access";
 import DatasetDetail from "./components/DatasetDetail";
 import CatalogPage from "./components/CatalogPage";
 import CatalogStatusPage from "./components/CatalogStatusPage";
 import { SiteHeader, SiteFooter } from "./components/SiteChrome";
-import { type DiscoveryReport } from "./services/discovery/types";
-import { loadDiscovery } from "./services/load-discovery";
-import { federatedCatalog } from "./services/federated-catalog";
+import type { AppData } from "./services/load-app-data";
 import { useCatalogBrowse } from "./hooks/useCatalogBrowse";
-import { homeTitle, pathDatasetId, updatePageMetadata } from "./services/seo";
+import { pathDatasetId, updatePageMetadata } from "./services/seo";
 function currentId() {
   try {
     if (!location.hash) return pathDatasetId(location.pathname);
@@ -22,49 +17,13 @@ function currentId() {
     return "";
   }
 }
-export default function App() {
-  const [catalog, setCatalog] = useState<Catalog>();
-  const [access, setAccess] = useState<AccessReport>();
-  const [discovery, setDiscovery] = useState<DiscoveryReport>();
-  const [error, setError] = useState("");
-  const [discoveryWarning, setDiscoveryWarning] = useState<string | null>(null);
+export default function App({ initialData, error = "" }: { initialData?: AppData; error?: string }) {
+  const { catalog, access, discovery, discoveryWarning = null } = initialData ?? {};
   const browse = useCatalogBrowse();
   const browseScroll = useRef(0);
   const previousId = useRef(currentId());
   const restoreScroll = useRef(false);
   const [id, setId] = useState(currentId);
-  useEffect(() => {
-    const c = new AbortController();
-    Promise.all(
-      ["catalog.json", "access.json"].map(async (path) => {
-        const response = await fetch(`${import.meta.env.BASE_URL}${path}`, {
-          signal: c.signal,
-        });
-        if (!response.ok)
-          throw Error(
-            "Catalog or browser access information could not be loaded.",
-          );
-        return response.json();
-      }),
-    )
-      .then(async ([catalogValue, accessValue]) => {
-        const parsed = parseCatalog(catalogValue);
-        const report = parseAccessReport(accessValue, parsed);
-        const { report: discovered, warning } = await loadDiscovery(
-          import.meta.env.BASE_URL,
-          c.signal,
-        );
-        if (c.signal.aborted) return;
-        setDiscoveryWarning(warning);
-        setAccess(report);
-        setDiscovery(discovered);
-        setCatalog(federatedCatalog(parsed, discovered));
-      })
-      .catch((e) => {
-        if (!c.signal.aborted) setError(e.message);
-      });
-    return () => c.abort();
-  }, []);
   useEffect(() => {
     const change = () => {
       const nextId = currentId();
@@ -84,13 +43,13 @@ export default function App() {
     return () => window.removeEventListener("hashchange", change);
   }, []);
   useEffect(() => {
-    document.title =
-      id === "catalog-status"
-        ? "Catalog Health | Tampa Bay Open Data Explorer"
-        : id && catalog
-          ? `${catalog.datasets.find((d) => d.id === id)?.title ?? "Dataset"} · Tampa Bay Open Data Explorer`
-          : homeTitle;
-    if (catalog) updatePageMetadata(catalog.datasets.find((entry) => entry.id === id));
+    if (!id || catalog?.datasets.some((entry) => entry.id === id)) {
+      updatePageMetadata(catalog?.datasets.find((entry) => entry.id === id), /^\/datasets\/?$/.test(location.pathname));
+    } else if (id === "catalog-status") {
+      document.title = "Catalog Health | Tampa Bay Open Data Explorer";
+    } else if (catalog) {
+      document.title = "Dataset not found | Tampa Bay Open Data Explorer";
+    }
   }, [id, catalog]);
   useEffect(() => {
     if (restoreScroll.current && !id) {
@@ -122,7 +81,7 @@ export default function App() {
       >
         Skip to content
       </a>
-      <SiteHeader catalog={!id && !error} />
+      <SiteHeader catalog={!id && !error} datasets={/^\/datasets\/?$/.test(location.pathname)} />
       {error ? (
         <main id="main" className="shell">
           <p role="alert" className="error">

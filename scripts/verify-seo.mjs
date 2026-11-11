@@ -17,7 +17,7 @@ assert.ok(urls.every((url) => url.startsWith(origin + "/") && !/[?#]/.test(url))
 const catalog = JSON.parse(await readFile("public/catalog.json", "utf8"));
 const path = `/datasets/${catalog.datasets[0].id.split("/").map((part) => encodeURIComponent(part).replace(/~/g, "%7E").replace(/%/g, "~")).join("/")}/`;
 const discovered = urls.find((url) => url.includes("arcgis~3A"));
-for (const route of ["/", path, ...(discovered ? [new URL(discovered).pathname] : [])]) {
+for (const route of ["/", "/datasets", path, ...(discovered ? [new URL(discovered).pathname] : [])]) {
   const response = await fetch(base + route);
   assert.equal(response.status, 200, route);
   assert.ok(!/noindex/i.test(response.headers.get("x-robots-tag") ?? ""));

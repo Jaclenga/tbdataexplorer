@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 import { installApi } from "./helpers";
-const title = "Explore public data across Tampa Bay";
+const title = "Tampa Bay Open Data Explorer";
 const subtitle =
   "Discover public datasets across the Tampa Bay area";
 for (const width of [1440, 768, 390, 320]) {

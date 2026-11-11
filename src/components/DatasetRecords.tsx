@@ -10,6 +10,8 @@ interface Props {
   fields: Field[];
   offset: number;
   onBounds: (bounds: Bounds) => void;
+  loading?: boolean;
+  spatial?: boolean;
 }
 
 export default function DatasetRecords({
@@ -17,8 +19,10 @@ export default function DatasetRecords({
   fields,
   offset,
   onBounds,
+  loading = false,
+  spatial = false,
 }: Props) {
-  if (!page) return null;
+  if (!page) return loading && spatial ? <MapPlaceholder /> : null;
   const count = page.records.length;
   return (
     <>
@@ -28,7 +32,7 @@ export default function DatasetRecords({
         </p>
       )}
       {page.geojson && (
-        <Suspense fallback={<p role="status">Loading map…</p>}>
+        <Suspense fallback={<MapPlaceholder />}>
           <DatasetMap data={page.geojson} onBounds={onBounds} />
         </Suspense>
       )}
@@ -44,5 +48,18 @@ export default function DatasetRecords({
       )}
       <DatasetTable records={page.records} fields={fields} />
     </>
+  );
+}
+
+// Match the existing map and toolbar, including their responsive wrapping.
+function MapPlaceholder() {
+  return (
+    <section aria-label="Loading map" aria-busy="true">
+      <div className="map-toolbar">
+        <p>Only the loaded page is mapped. Select a feature for its attributes.</p>
+        <button className="button secondary" disabled>Search this map area</button>
+      </div>
+      <div className="map" role="status">Loading map...</div>
+    </section>
   );
 }

@@ -12,11 +12,18 @@ No new dependencies, framework migration, publisher requests, or user-agent
 special cases are involved. The generated homepage uses the existing catalog
 components and styling. Without JavaScript, its full dataset link list remains
 accessible. Each dataset page includes its actual description, publisher, source
-links, provenance, and fields. JavaScript replaces this initial HTML with the
-existing interactive explorer. Search, filtering, previews, maps, and exports
+links, provenance, and fields. JavaScript keeps this initial HTML visible while catalog, access, and discovery
+inputs load, then replaces it with the complete interactive explorer in one render.
+Dataset pages prerender the same preview workspace and map placeholder used by
+the client, avoiding a short loading page between the static and interactive views. Search, filtering, previews, maps, and exports
 continue to use the existing client implementation.
 
 ## URLs and metadata
+
+The homepage and `/datasets` are both prerendered with their own descriptive
+titles, descriptions, H1 headings, and self-referencing canonical URLs. Filter,
+sort, and pagination parameters canonicalize to the corresponding catalog page.
+The catalog introduction names publishers present in the build snapshot.
 
 The canonical origin is `https://tbdataexplorer.org`. Dataset paths are generated
 from catalog identifiers, for example `/datasets/tampa/construction-permits/`.
@@ -28,7 +35,9 @@ dataset cards expose real paths in their hrefs, including for opening a new tab.
 Every generated page has a unique title, description, canonical URL, Open Graph
 and Twitter summary metadata, English language and viewport attributes, and
 JSON-LD. Homepage markup describes the WebSite. Dataset markup attributes the
-government publisher and links to its source. Unknown coverage, licenses, and
+government publisher and links to its source and available resource downloads.
+Detail meta descriptions use the actual title, publisher, coverage, and category,
+so repeated publisher descriptions do not become repeated page descriptions. Unknown coverage, licenses, and
 modification dates are omitted. Publisher terms are not assumed to be a license.
 No Organization ownership or government affiliation is claimed for this project.
 
@@ -89,7 +98,7 @@ for equivalent local verification when affected.
 1. In [Google Search Console](https://search.google.com/search-console), add and
    verify the domain property `tbdataexplorer.org` using its DNS TXT record (or
    select the existing property). Under **Sitemaps**, submit
-   `https://tbdataexplorer.org/sitemap.xml`. Inspect the homepage and representative
+   `https://tbdataexplorer.org/sitemap.xml`. Inspect the homepage, `/datasets`, and representative
    dataset URLs with URL Inspection and its live test. Monitor sitemap processing
    and Page indexing reports.
 2. In [Bing Webmaster Tools](https://www.bing.com/webmasters/), add and verify the

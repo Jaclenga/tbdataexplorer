@@ -1,11 +1,22 @@
 import type { Dataset } from "../types";
 
 export const siteOrigin = "https://tbdataexplorer.org";
-export const homeTitle = "Tampa Bay Open Data Explorer | Search Public Datasets";
-export const homeDescription = "Discover and explore public datasets from Tampa Bay government agencies. Search open data covering housing, transportation, infrastructure, environment, and more.";
+export const homeTitle = "Tampa Bay Open Data Explorer | Free Public & GIS Data";
+export const homeDescription = "Discover Tampa Bay public data in one place. Search free government datasets covering housing, transportation, development, GIS, and the environment.";
+export const datasetsTitle = "Tampa Bay Open Data & GIS Datasets | Data Explorer";
+export const datasetsDescription = "Find free public datasets from Tampa Bay governments. Explore GIS, housing, transportation, development, infrastructure, and environmental data.";
 
 export function datasetDescription(dataset: Dataset) {
-  return dataset.description?.trim() || `${dataset.title}, published by ${dataset.publisher}. Explore source information and available fields.`;
+  return `${dataset.title}, published by ${dataset.publisher}.${dataset.coverage?.trim() ? ` Coverage: ${dataset.coverage.trim()}.` : ""}${dataset.category?.trim() ? ` Category: ${dataset.category.trim()}.` : ""}`;
+}
+
+export function homeStructuredData() {
+  // The independent project is a website; government publishers are identified
+  // on Dataset nodes. No separate legal organization is asserted here.
+  return {
+    "@context": "https://schema.org", "@type": "WebSite",
+    name: "Tampa Bay Open Data Explorer", url: siteOrigin + "/", description: homeDescription,
+  };
 }
 
 export function datasetPath(id: string) {
@@ -29,11 +40,17 @@ export function datasetStructuredData(dataset: Dataset) {
     "@context": "https://schema.org",
     "@type": "Dataset",
     name: dataset.title,
-    description: dataset.description ?? undefined,
+    description: dataset.description?.trim() || datasetDescription(dataset),
     url: siteOrigin + datasetPath(dataset.id),
     sameAs: dataset.sourceUrl,
     publisher: { "@type": "Organization", name: dataset.publisher },
-    spatialCoverage: dataset.coverage ?? undefined,
+    spatialCoverage: dataset.coverage?.trim() || undefined,
+    ...(dataset.resource ? { distribution: [{
+      "@type": "DataDownload", contentUrl: dataset.resource.url,
+      ...(["csv", "json"].includes(dataset.platform ?? "") ? {
+        encodingFormat: dataset.platform === "csv" ? "text/csv" : "application/json",
+      } : {}),
+    }] } : {}),
     // Publisher terms are not necessarily a license. Verification dates are
     // not modification dates, and source updates need not modify this page.
     dateModified: dataset.sourceUpdatedAt ?? undefined,
@@ -64,21 +81,30 @@ export function pageMetadata(title: string, description: string, path: string, s
 <script type="application/ld+json" id="structured-data">${jsonLd(structured)}</script>`;
 }
 
-export function updatePageMetadata(dataset?: Dataset) {
-  const canonical = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
-  const url = siteOrigin + (dataset ? datasetPath(dataset.id) : "/");
-  if (canonical) canonical.href = url;
-  for (const selector of ['meta[name="description"]', 'meta[property="og:description"]', 'meta[name="twitter:description"]']) {
-    document.querySelector(selector)?.setAttribute("content", dataset ? datasetDescription(dataset) : homeDescription);
+function metadataSelector(element: Element) {
+  return element.tagName === "META"
+      ? `meta[${element.hasAttribute("name") ? "name" : "property"}="${element.getAttribute("name") ?? element.getAttribute("property")}"]`
+      : element.tagName === "LINK" ? 'link[rel="canonical"]'
+      : element.tagName === "SCRIPT" ? '#structured-data' : "title";
+}
+
+export function updatePageMetadata(dataset?: Dataset, datasets = false) {
+  const path = dataset ? datasetPath(dataset.id) : datasets ? "/datasets" : "/";
+  const title = dataset ? `${dataset.title} | Tampa Bay Open Data Explorer` : datasets ? datasetsTitle : homeTitle;
+  const description = dataset ? datasetDescription(dataset) : datasets ? datasetsDescription : homeDescription;
+  const structured = dataset ? datasetStructuredData(dataset) : datasets ? {
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    name: datasetsTitle, url: siteOrigin + path, description,
+  } : homeStructuredData();
+  // Replace the shared generated head nodes, including during Vite development
+  // where the HTML template does not yet have canonical or JSON-LD elements.
+  const template = document.createElement("template");
+  template.innerHTML = pageMetadata(title, description, path, structured);
+  for (const element of template.content.children) {
+    const selector = metadataSelector(element);
+    document.head.querySelector(selector)?.remove();
   }
-  for (const selector of ['meta[property="og:title"]', 'meta[name="twitter:title"]']) {
-    document.querySelector(selector)?.setAttribute("content", document.title);
-  }
-  document.querySelector('meta[property="og:url"]')?.setAttribute("content", url);
-  const structured = document.getElementById("structured-data");
-  if (structured) structured.textContent = JSON.stringify(dataset ? datasetStructuredData(dataset) : {
-    "@context": "https://schema.org", "@type": "WebSite", name: "Tampa Bay Open Data Explorer", url: siteOrigin + "/", description: homeDescription,
-  });
+  document.head.appendChild(template.content);
 }
 
 export function sitemapFiles(urls: string[], maxUrls = 50000, maxBytes = 50 * 1024 * 1024) {

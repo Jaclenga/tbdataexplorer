@@ -16,14 +16,14 @@ function MainNavigation() {
   );
 }
 
-export function SiteHeader({ catalog = false }: { catalog?: boolean }) {
+export function SiteHeader({ catalog = false, datasets = false }: { catalog?: boolean; datasets?: boolean }) {
   if (catalog)
     return (
       <header className="hero" aria-labelledby="catalog-title">
         <div className="shell">
           <div className="hero-heading-row">
             <h1 id="catalog-title">
-              Explore public data across <span>Tampa Bay</span>
+              {datasets ? <>Tampa Bay Open Data &amp; <span>GIS Datasets</span></> : <><span>Tampa Bay</span> Open Data Explorer</>}
             </h1>
             <MainNavigation />
           </div>

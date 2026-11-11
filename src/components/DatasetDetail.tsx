@@ -94,6 +94,8 @@ function PreviewableDataset({ dataset }: { dataset: Dataset }) {
           fields={metadata?.fields ?? []}
           offset={offset}
           onBounds={preview.filterArea}
+          loading={busy}
+          spatial={dataset.geometryType !== "none"}
         />
         <div className="pagination">
           <button
