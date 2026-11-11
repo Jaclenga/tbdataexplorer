@@ -31,6 +31,8 @@ assert.equal(robots.status, 200);
 assert.ok((await robots.text()).includes(`Sitemap: ${origin}/sitemap.xml`));
 for (const route of ["/datasets/nonexistent-dataset/", "/nonexistent-page", "/datasets/%ZZ/"]) {
   const response = await fetch(base + route);
+  // Cloudflare may reject invalid percent escapes before reaching Pages.
+  if (route.includes("%ZZ") && response.status === 400) continue;
   assert.equal(response.status, 404, route);
   assert.match(await response.text(), /noindex/);
 }
