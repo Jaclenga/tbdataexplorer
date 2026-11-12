@@ -246,12 +246,6 @@ export default function CatalogPage({
             )}
           </div>
         </div>
-        <p>
-          Find public data from Tampa Bay government sources, including{" "}
-          {[...new Set(catalog.datasets.map((dataset) => dataset.publisher))].sort().slice(0, 3).join(", ")}.
-          {" "}Explore GIS, housing, transportation, development, infrastructure, and environmental datasets.
-          Journalists, researchers, GIS professionals, and residents can find source information and available data here.
-        </p>
       </section>
     </main>
   );
