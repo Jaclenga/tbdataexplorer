@@ -1,5 +1,5 @@
 {
-  "total": 117,
+  "total": 118,
   "note": "Evidence queue for review, not additional automatic assignments. Inspect layer purpose before adding contextual rules or overrides; shared parent text can describe other layers.",
   "records": [
     {
@@ -10805,6 +10805,159 @@
         {
           "category": "Boundaries",
           "score": 0.025999479957791973
+        }
+      ]
+    },
+    {
+      "id": "arcgis:edfa0e76c9b64c0980aa8052f99491d4:0",
+      "title": "ApprovedLocations",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Locations approved by Customer Engagement \\ Sign Posting Team locations for public-awareness sign location. Public layer for Survey 123 map.",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/CustomerEngagement_ApprovedSignPostingLocations/FeatureServer/0",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/edfa0e76c9b64c0980aa8052f99491d4",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Approved_Location",
+          "alias": "Approved_Location"
+        },
+        {
+          "name": "Sign_Direction",
+          "alias": "Sign_Direction"
+        },
+        {
+          "name": "Sign_Numb",
+          "alias": "Number of Signs Possible"
+        },
+        {
+          "name": "Location_Type",
+          "alias": "Location Type of Traffic Control"
+        },
+        {
+          "name": "Information",
+          "alias": "Notes"
+        },
+        {
+          "name": "Evac_Zone",
+          "alias": "Evacuation Zone"
+        },
+        {
+          "name": "CreationDate",
+          "alias": "CreationDate"
+        },
+        {
+          "name": "Creator",
+          "alias": "Creator"
+        },
+        {
+          "name": "EditDate",
+          "alias": "EditDate"
+        },
+        {
+          "name": "Editor",
+          "alias": "Editor"
+        },
+        {
+          "name": "CommissionerDist",
+          "alias": "Commissioner District"
+        },
+        {
+          "name": "ApprovedLoc",
+          "alias": "Approved Location"
+        },
+        {
+          "name": "MajorIntersection",
+          "alias": "Major Intersection"
+        },
+        {
+          "name": "GlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Department",
+          "alias": "Department"
+        },
+        {
+          "name": "Campaign",
+          "alias": "Campaign"
+        },
+        {
+          "name": "SignType",
+          "alias": "Sign Type"
+        },
+        {
+          "name": "Sign_ID",
+          "alias": "ID Number / Project Name"
+        },
+        {
+          "name": "Purpose",
+          "alias": "Project Purpose / Description"
+        },
+        {
+          "name": "LocationDesc",
+          "alias": "Location Description"
+        },
+        {
+          "name": "RequesterName",
+          "alias": "Requester Name"
+        },
+        {
+          "name": "SignFieldLocation",
+          "alias": "Sign Posted Where Requested"
+        },
+        {
+          "name": "Direction",
+          "alias": "Instructions"
+        },
+        {
+          "name": "NumberOfSigns",
+          "alias": "Number of Signs "
+        },
+        {
+          "name": "DEPTCODE",
+          "alias": "Department"
+        },
+        {
+          "name": "Quadrants",
+          "alias": "Intersection Direction of Travel"
+        },
+        {
+          "name": "EvacZone",
+          "alias": "Evacuation Zone"
+        },
+        {
+          "name": "CommunityArea",
+          "alias": "Community Area"
+        },
+        {
+          "name": "BackSignVisible",
+          "alias": "Back of sign visible"
+        }
+      ],
+      "keywordSignals": [
+        "fields:evac",
+        "fields:evacuation zone",
+        "fields:traffic",
+        "parent_context:right of way",
+        "parent_context:road",
+        "parent_context:street"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Government",
+          "score": 0.041525752358631034
+        },
+        {
+          "category": "Boundaries",
+          "score": 0.027603557041337257
+        },
+        {
+          "category": "Demographics",
+          "score": 0.025831530348570702
         }
       ]
     },

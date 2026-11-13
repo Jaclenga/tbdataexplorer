@@ -5,7 +5,7 @@
   "minimumScore": 0.85,
   "minimumMargin": 0.2,
   "note": "Uncalibrated model scores; acceptance thresholds are heuristics, not accuracy guarantees.",
-  "attempted": 119,
+  "attempted": 120,
   "accepted": 2,
   "attempts": [
     {
@@ -8140,6 +8140,78 @@
         {
           "category": "Public facilities",
           "score": 0.0021789171798760896
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "id": "arcgis:edfa0e76c9b64c0980aa8052f99491d4:0",
+      "title": "ApprovedLocations",
+      "cached": false,
+      "scores": [
+        {
+          "category": "Government",
+          "score": 0.041525752358631034
+        },
+        {
+          "category": "Boundaries",
+          "score": 0.027603557041337257
+        },
+        {
+          "category": "Demographics",
+          "score": 0.025831530348570702
+        },
+        {
+          "category": "Transportation",
+          "score": 0.02430128302186956
+        },
+        {
+          "category": "Planning",
+          "score": 0.024291675617044338
+        },
+        {
+          "category": "Infrastructure",
+          "score": 0.02068847260237608
+        },
+        {
+          "category": "Development",
+          "score": 0.020633428385470637
+        },
+        {
+          "category": "Health",
+          "score": 0.020304735685954343
+        },
+        {
+          "category": "Utilities",
+          "score": 0.020049512567951618
+        },
+        {
+          "category": "Housing",
+          "score": 0.01812084629034138
+        },
+        {
+          "category": "Public facilities",
+          "score": 0.01725249570227302
+        },
+        {
+          "category": "Solid waste",
+          "score": 0.01647480862967663
+        },
+        {
+          "category": "Environment",
+          "score": 0.01574261322678066
+        },
+        {
+          "category": "Recreation",
+          "score": 0.014975008838177721
+        },
+        {
+          "category": "Hazards",
+          "score": 0.014574945773242788
+        },
+        {
+          "category": "Public safety",
+          "score": 0.013626091654234609
         }
       ],
       "accepted": false

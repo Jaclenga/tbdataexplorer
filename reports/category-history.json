@@ -13471,6 +13471,182 @@
           }
         }
       ]
+    },
+    {
+      "eventId": "1942c184e46d40ae01482105fd36e553cc03e111f995e44d44c10c780e863639",
+      "at": "2026-11-13T17:15:13.606Z",
+      "datasetId": "arcgis:edfa0e76c9b64c0980aa8052f99491d4:0",
+      "title": "ApprovedLocations",
+      "oldCategory": null,
+      "newCategory": "Uncategorized",
+      "oldSource": null,
+      "newSource": "uncategorized",
+      "oldVersion": null,
+      "newVersion": "1.3",
+      "reason": "new_dataset",
+      "oldInputHash": null,
+      "newInputHash": "dcd22306f609583f092efdbfcdae31c23a3bdb57e0682461eb69e4bda976983a",
+      "metadataChanges": [
+        {
+          "field": "title",
+          "before": null,
+          "after": "ApprovedLocations"
+        },
+        {
+          "field": "description",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "tags",
+          "before": null,
+          "after": [
+            "Public Sign Posting Location"
+          ]
+        },
+        {
+          "field": "fields",
+          "before": null,
+          "after": [
+            {
+              "name": "Approved_Location",
+              "alias": "Approved_Location"
+            },
+            {
+              "name": "ApprovedLoc",
+              "alias": "Approved Location"
+            },
+            {
+              "name": "BackSignVisible",
+              "alias": "Back of sign visible"
+            },
+            {
+              "name": "Campaign",
+              "alias": "Campaign"
+            },
+            {
+              "name": "CommissionerDist",
+              "alias": "Commissioner District"
+            },
+            {
+              "name": "CommunityArea",
+              "alias": "Community Area"
+            },
+            {
+              "name": "CreationDate",
+              "alias": "CreationDate"
+            },
+            {
+              "name": "Creator",
+              "alias": "Creator"
+            },
+            {
+              "name": "Department",
+              "alias": "Department"
+            },
+            {
+              "name": "DEPTCODE",
+              "alias": "Department"
+            },
+            {
+              "name": "Direction",
+              "alias": "Instructions"
+            },
+            {
+              "name": "EditDate",
+              "alias": "EditDate"
+            },
+            {
+              "name": "Editor",
+              "alias": "Editor"
+            },
+            {
+              "name": "Evac_Zone",
+              "alias": "Evacuation Zone"
+            },
+            {
+              "name": "EvacZone",
+              "alias": "Evacuation Zone"
+            },
+            {
+              "name": "GlobalID",
+              "alias": "GlobalID"
+            },
+            {
+              "name": "Information",
+              "alias": "Notes"
+            },
+            {
+              "name": "Location_Type",
+              "alias": "Location Type of Traffic Control"
+            },
+            {
+              "name": "LocationDesc",
+              "alias": "Location Description"
+            },
+            {
+              "name": "MajorIntersection",
+              "alias": "Major Intersection"
+            },
+            {
+              "name": "NumberOfSigns",
+              "alias": "Number of Signs "
+            },
+            {
+              "name": "OBJECTID",
+              "alias": "OBJECTID"
+            },
+            {
+              "name": "Purpose",
+              "alias": "Project Purpose / Description"
+            },
+            {
+              "name": "Quadrants",
+              "alias": "Intersection Direction of Travel"
+            },
+            {
+              "name": "RequesterName",
+              "alias": "Requester Name"
+            },
+            {
+              "name": "Sign_Direction",
+              "alias": "Sign_Direction"
+            },
+            {
+              "name": "Sign_ID",
+              "alias": "ID Number / Project Name"
+            },
+            {
+              "name": "Sign_Numb",
+              "alias": "Number of Signs Possible"
+            },
+            {
+              "name": "SignFieldLocation",
+              "alias": "Sign Posted Where Requested"
+            },
+            {
+              "name": "SignType",
+              "alias": "Sign Type"
+            }
+          ]
+        },
+        {
+          "field": "source_category",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "parent",
+          "before": null,
+          "after": {
+            "description": "These locations were derived from the Customer Engagement \\ Neighborhood Associations teams in order to provide a layer of pre-qualified intersections that were acceptable to place public-awareness notification signs. The teams used data from previous campaigns that had wide-distribution and contained numerous pre-qualified locations. A recent 'All-District' campaign mobilized the teams to use Google Maps and it's Street View ability to proof intersections within those districts that are meeting their requirement to post signs only within county roads right-of-way. This is not sign posting requests, it is the pre-approved locations that are used in the public survey map so the public can see areas that the county can place signs based on right of way road ownership, ground cover, and field conditions. Other locations are possible and are approved by Customer Service managers. Creation details and purpose:&nbsp; This layer gets data from the survey form which is internally-facing to HC and is offered as a link in Customer Engagement's COIN page in the sign posting request section.&nbsp; &nbsp; Sharing and use: This data is for internal use but is public so the public survey can show it for selecting a point to place the signs. &nbsp; Created for: Customer Service &amp; Support &nbsp; Updated By: AGIS or Sign Posting staff. &nbsp; Update Frequency: Not scheduled, citizen updates ongoing &nbsp; Points of Contact: Zachary Neely, Supervisor Customer Service &amp; Support&nbsp; neelyz@hcfl.gov &nbsp; Link to feature service:&nbsp; https://hillsborough.maps.arcgis.com/home/item.html?id=254dfcbd93424484ae88900f5b996b9b Link to internal viewer:&nbsp; https://hillsborough.maps.arcgis.com/apps/webappviewer/index.html?id=e130d67ed57f4c95aab9684fa9c3f4da",
+            "summary": "Locations approved by Customer Engagement \\ Sign Posting Team locations for public-awareness sign location. Public layer for Survey 123 map.",
+            "tags": [
+              "Public Sign Posting Location"
+            ]
+          }
+        }
+      ]
     }
   ]
 }

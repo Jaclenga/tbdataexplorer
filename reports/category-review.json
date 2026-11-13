@@ -1,13 +1,13 @@
 {
   "version": "1.3",
-  "total": 504,
+  "total": 505,
   "sources": {
     "override": 2,
     "curated": 52,
     "publisher": 2,
     "nlp": 329,
     "semantic": 2,
-    "uncategorized": 117
+    "uncategorized": 118
   },
   "counts": {
     "Transportation": 58,
@@ -26,7 +26,7 @@
     "Health": 6,
     "Demographics": 4,
     "Government": 8,
-    "Uncategorized": 117
+    "Uncategorized": 118
   },
   "distributionWarnings": [],
   "review": [
@@ -2555,6 +2555,33 @@
       ]
     },
     {
+      "id": "arcgis:edfa0e76c9b64c0980aa8052f99491d4:0",
+      "title": "ApprovedLocations",
+      "reason": "insufficient",
+      "signals": [
+        "fields:evac",
+        "fields:evacuation zone",
+        "fields:traffic",
+        "parent_context:right of way",
+        "parent_context:road",
+        "parent_context:street"
+      ],
+      "candidates": [
+        {
+          "category": "Hazards",
+          "score": 2
+        },
+        {
+          "category": "Transportation",
+          "score": 2
+        },
+        {
+          "category": "Boundaries",
+          "score": 0.5
+        }
+      ]
+    },
+    {
       "id": "arcgis:f09fe0c4cd124a9490599ebdf908b9ff:2",
       "title": "County Florida",
       "reason": "insufficient",
@@ -2693,5 +2720,13 @@
       ]
     }
   ],
-  "changes": []
+  "changes": [
+    {
+      "id": "arcgis:edfa0e76c9b64c0980aa8052f99491d4:0",
+      "title": "ApprovedLocations",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    }
+  ]
 }
