@@ -13647,6 +13647,86 @@
           }
         }
       ]
+    },
+    {
+      "eventId": "3368de34deb60106e1f7321591e79516f05958abe7de9b6ad16137e64e5853d3",
+      "at": "2026-11-14T15:50:03.803Z",
+      "datasetId": "arcgis:33bf63d7655745cca3e310ccadffb3a2:0",
+      "title": "CommercialCorridorProjects",
+      "oldCategory": null,
+      "newCategory": "Uncategorized",
+      "oldSource": null,
+      "newSource": "uncategorized",
+      "oldVersion": null,
+      "newVersion": "1.3",
+      "reason": "new_dataset",
+      "oldInputHash": null,
+      "newInputHash": "f94d48fe8174797527613449134e6bf4a8d544e4202f2bb06b847d82c3d1bd03",
+      "metadataChanges": [
+        {
+          "field": "title",
+          "before": null,
+          "after": "CommercialCorridorProjects"
+        },
+        {
+          "field": "description",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "tags",
+          "before": null,
+          "after": []
+        },
+        {
+          "field": "fields",
+          "before": null,
+          "after": [
+            {
+              "name": "GlobalID",
+              "alias": "GlobalID"
+            },
+            {
+              "name": "ID",
+              "alias": "ID"
+            },
+            {
+              "name": "Investment",
+              "alias": "Investment"
+            },
+            {
+              "name": "Name",
+              "alias": "Name"
+            },
+            {
+              "name": "OBJECTID",
+              "alias": "OBJECTID"
+            },
+            {
+              "name": "ProjectInfo",
+              "alias": "Project Information"
+            },
+            {
+              "name": "Status",
+              "alias": "Status"
+            }
+          ]
+        },
+        {
+          "field": "source_category",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "parent",
+          "before": null,
+          "after": {
+            "description": "",
+            "summary": "",
+            "tags": []
+          }
+        }
+      ]
     }
   ]
 }

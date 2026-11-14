@@ -1,5 +1,5 @@
 {
-  "total": 118,
+  "total": 119,
   "note": "Evidence queue for review, not additional automatic assignments. Inspect layer purpose before adding contextual rules or overrides; shared parent text can describe other layers.",
   "records": [
     {
@@ -2474,6 +2474,60 @@
         {
           "category": "Utilities",
           "score": 0.00998880330288391
+        }
+      ]
+    },
+    {
+      "id": "arcgis:33bf63d7655745cca3e310ccadffb3a2:0",
+      "title": "CommercialCorridorProjects",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "",
+      "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/CommercialCorridorProjects/FeatureServer/0",
+      "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/33bf63d7655745cca3e310ccadffb3a2",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Name",
+          "alias": "Name"
+        },
+        {
+          "name": "Investment",
+          "alias": "Investment"
+        },
+        {
+          "name": "ProjectInfo",
+          "alias": "Project Information"
+        },
+        {
+          "name": "Status",
+          "alias": "Status"
+        },
+        {
+          "name": "ID",
+          "alias": "ID"
+        }
+      ],
+      "keywordSignals": [],
+      "semanticCandidates": [
+        {
+          "category": "Development",
+          "score": 0.14062014656604582
+        },
+        {
+          "category": "Planning",
+          "score": 0.08809499817061785
+        },
+        {
+          "category": "Utilities",
+          "score": 0.024487908877580185
         }
       ]
     },

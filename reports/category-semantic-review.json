@@ -5,7 +5,7 @@
   "minimumScore": 0.85,
   "minimumMargin": 0.2,
   "note": "Uncalibrated model scores; acceptance thresholds are heuristics, not accuracy guarantees.",
-  "attempted": 120,
+  "attempted": 121,
   "accepted": 2,
   "attempts": [
     {
@@ -1804,6 +1804,78 @@
         {
           "category": "Hazards",
           "score": 0.00039529618962666035
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "id": "arcgis:33bf63d7655745cca3e310ccadffb3a2:0",
+      "title": "CommercialCorridorProjects",
+      "cached": false,
+      "scores": [
+        {
+          "category": "Development",
+          "score": 0.14062014656604582
+        },
+        {
+          "category": "Planning",
+          "score": 0.08809499817061785
+        },
+        {
+          "category": "Utilities",
+          "score": 0.024487908877580185
+        },
+        {
+          "category": "Infrastructure",
+          "score": 0.019807328278825354
+        },
+        {
+          "category": "Demographics",
+          "score": 0.012436002502407449
+        },
+        {
+          "category": "Health",
+          "score": 0.012320773597272024
+        },
+        {
+          "category": "Housing",
+          "score": 0.007533559702976942
+        },
+        {
+          "category": "Boundaries",
+          "score": 0.006979414190396359
+        },
+        {
+          "category": "Transportation",
+          "score": 0.0030264215782504246
+        },
+        {
+          "category": "Environment",
+          "score": 0.0018722833235432909
+        },
+        {
+          "category": "Government",
+          "score": 0.0015074514037864072
+        },
+        {
+          "category": "Recreation",
+          "score": 0.0010121879698469362
+        },
+        {
+          "category": "Public facilities",
+          "score": 0.000587826355287102
+        },
+        {
+          "category": "Public safety",
+          "score": 0.000579069966870372
+        },
+        {
+          "category": "Solid waste",
+          "score": 0.0005006692185130585
+        },
+        {
+          "category": "Hazards",
+          "score": 0.0003570444436143981
         }
       ],
       "accepted": false
@@ -8147,7 +8219,7 @@
     {
       "id": "arcgis:edfa0e76c9b64c0980aa8052f99491d4:0",
       "title": "ApprovedLocations",
-      "cached": false,
+      "cached": true,
       "scores": [
         {
           "category": "Government",

@@ -1,13 +1,13 @@
 {
   "version": "1.3",
-  "total": 505,
+  "total": 506,
   "sources": {
     "override": 2,
     "curated": 52,
     "publisher": 2,
     "nlp": 329,
     "semantic": 2,
-    "uncategorized": 118
+    "uncategorized": 119
   },
   "counts": {
     "Transportation": 58,
@@ -26,7 +26,7 @@
     "Health": 6,
     "Demographics": 4,
     "Government": 8,
-    "Uncategorized": 118
+    "Uncategorized": 119
   },
   "distributionWarnings": [],
   "review": [
@@ -583,6 +583,26 @@
         },
         {
           "category": "Boundaries",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "arcgis:33bf63d7655745cca3e310ccadffb3a2:0",
+      "title": "CommercialCorridorProjects",
+      "reason": "insufficient",
+      "signals": [],
+      "candidates": [
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        },
+        {
+          "category": "Development",
           "score": 0
         }
       ]
@@ -2722,8 +2742,8 @@
   ],
   "changes": [
     {
-      "id": "arcgis:edfa0e76c9b64c0980aa8052f99491d4:0",
-      "title": "ApprovedLocations",
+      "id": "arcgis:33bf63d7655745cca3e310ccadffb3a2:0",
+      "title": "CommercialCorridorProjects",
       "previous": null,
       "category": "Uncategorized",
       "source": "uncategorized"
