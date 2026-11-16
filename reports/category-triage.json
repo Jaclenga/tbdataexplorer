@@ -1,5 +1,5 @@
 {
-  "total": 119,
+  "total": 125,
   "note": "Evidence queue for review, not additional automatic assignments. Inspect layer purpose before adding contextual rules or overrides; shared parent text can describe other layers.",
   "records": [
     {
@@ -2513,21 +2513,25 @@
         {
           "name": "ID",
           "alias": "ID"
+        },
+        {
+          "name": "ALLINFO",
+          "alias": "ALLINFO"
         }
       ],
       "keywordSignals": [],
       "semanticCandidates": [
         {
           "category": "Development",
-          "score": 0.14062014656604582
+          "score": 0.26348656376066965
         },
         {
           "category": "Planning",
-          "score": 0.08809499817061785
+          "score": 0.08254731675887643
         },
         {
-          "category": "Utilities",
-          "score": 0.024487908877580185
+          "category": "Health",
+          "score": 0.053011271426593475
         }
       ]
     },
@@ -2831,6 +2835,67 @@
         {
           "category": "Health",
           "score": 0.6533376283860322
+        }
+      ]
+    },
+    {
+      "id": "arcgis:3e719a2fe0264ca7bd4a3686f1e70360:0",
+      "title": "AccelaDocks",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "",
+      "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Accela_Docks_Test/FeatureServer/0",
+      "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/3e719a2fe0264ca7bd4a3686f1e70360",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "RECORDID",
+          "alias": "Record ID"
+        },
+        {
+          "name": "PERMITTYPE",
+          "alias": "Permit Type"
+        },
+        {
+          "name": "RECORDSTATUS",
+          "alias": "Record Status"
+        },
+        {
+          "name": "USERID",
+          "alias": "Assigned User ID"
+        },
+        {
+          "name": "ADDRESS",
+          "alias": "Full Address"
+        },
+        {
+          "name": "PARCELID",
+          "alias": "Parcel Number"
+        }
+      ],
+      "keywordSignals": [
+        "fields:parcel",
+        "fields:permit"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Planning",
+          "score": 0.04059615931961175
+        },
+        {
+          "category": "Housing",
+          "score": 0.031793342978370054
+        },
+        {
+          "category": "Health",
+          "score": 0.03019853582231739
         }
       ]
     },
@@ -5049,6 +5114,156 @@
         {
           "category": "Environment",
           "score": 0.011842573588634678
+        }
+      ]
+    },
+    {
+      "id": "arcgis:6d56ab6a983d4c75a82400928fdb1335:1",
+      "title": "Healthy Food Retailers",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "",
+      "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/Healthy_Food_Access/FeatureServer/1",
+      "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/6d56ab6a983d4c75a82400928fdb1335",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "alias": "NAME"
+        },
+        {
+          "name": "TYPE",
+          "alias": "TYPE"
+        },
+        {
+          "name": "LOCATION",
+          "alias": "LOCATION"
+        },
+        {
+          "name": "HEALTHY",
+          "alias": "HEALTHY"
+        },
+        {
+          "name": "SNAPEBT",
+          "alias": "SNAPEBT"
+        },
+        {
+          "name": "WICAUTH",
+          "alias": "WICAUTH"
+        },
+        {
+          "name": "INTERNATIO",
+          "alias": "INTERNATIO"
+        },
+        {
+          "name": "HOURS",
+          "alias": "HOURS"
+        },
+        {
+          "name": "PHONE",
+          "alias": "PHONE"
+        },
+        {
+          "name": "SYMB",
+          "alias": "SYMB"
+        },
+        {
+          "name": "CK_STORES",
+          "alias": "CK_STORES"
+        }
+      ],
+      "keywordSignals": [],
+      "semanticCandidates": [
+        {
+          "category": "Health",
+          "score": 0.36261085444523755
+        },
+        {
+          "category": "Environment",
+          "score": 0.33625830359008646
+        },
+        {
+          "category": "Utilities",
+          "score": 0.10106415007759975
+        }
+      ]
+    },
+    {
+      "id": "arcgis:6d56ab6a983d4c75a82400928fdb1335:3",
+      "title": "One Mile Buffer",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "",
+      "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/Healthy_Food_Access/FeatureServer/3",
+      "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/6d56ab6a983d4c75a82400928fdb1335",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [],
+      "semanticCandidates": [
+        {
+          "category": "Recreation",
+          "score": 0.07855662050119554
+        },
+        {
+          "category": "Environment",
+          "score": 0.06037355820452779
+        },
+        {
+          "category": "Health",
+          "score": 0.031964726450479125
+        }
+      ]
+    },
+    {
+      "id": "arcgis:6d56ab6a983d4c75a82400928fdb1335:4",
+      "title": "Half-Mile Buffer",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "",
+      "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/Healthy_Food_Access/FeatureServer/4",
+      "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/6d56ab6a983d4c75a82400928fdb1335",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [],
+      "semanticCandidates": [
+        {
+          "category": "Recreation",
+          "score": 0.0876323027156436
+        },
+        {
+          "category": "Environment",
+          "score": 0.05343026382807886
+        },
+        {
+          "category": "Health",
+          "score": 0.02959367930429888
         }
       ]
     },
@@ -10466,6 +10681,155 @@
       ]
     },
     {
+      "id": "arcgis:c6798e224c214596ac26aedc4e1277fd:0",
+      "title": "Youth Development and School Business",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "",
+      "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/District2_MP_GroundSetting/FeatureServer/0",
+      "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/c6798e224c214596ac26aedc4e1277fd",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ADDRESS1",
+          "alias": "ADDRESS1"
+        },
+        {
+          "name": "ADDRESS2",
+          "alias": "ADDRESS2"
+        },
+        {
+          "name": "CITY_1",
+          "alias": "CITY_1"
+        },
+        {
+          "name": "STATE_1",
+          "alias": "STATE_1"
+        },
+        {
+          "name": "POSTAL_COD",
+          "alias": "POSTAL_COD"
+        },
+        {
+          "name": "CONTROL__",
+          "alias": "CONTROL__"
+        },
+        {
+          "name": "YEAR",
+          "alias": "YEAR"
+        },
+        {
+          "name": "LICENSE__",
+          "alias": "LICENSE__"
+        },
+        {
+          "name": "BUSINESS_N",
+          "alias": "BUSINESS_N"
+        },
+        {
+          "name": "CODE",
+          "alias": "CODE"
+        },
+        {
+          "name": "CLASSIFICA",
+          "alias": "CLASSIFICA"
+        },
+        {
+          "name": "UNITS",
+          "alias": "UNITS"
+        },
+        {
+          "name": "PIN__",
+          "alias": "PIN__"
+        },
+        {
+          "name": "FIRST_OWNE",
+          "alias": "FIRST_OWNE"
+        },
+        {
+          "name": "SECOND_OWN",
+          "alias": "SECOND_OWN"
+        },
+        {
+          "name": "ADDR1",
+          "alias": "ADDR1"
+        },
+        {
+          "name": "ADDR2",
+          "alias": "ADDR2"
+        },
+        {
+          "name": "CITY1",
+          "alias": "CITY1"
+        },
+        {
+          "name": "ST",
+          "alias": "ST"
+        },
+        {
+          "name": "ZIP_1",
+          "alias": "ZIP_1"
+        },
+        {
+          "name": "PHONE",
+          "alias": "PHONE"
+        },
+        {
+          "name": "TYPE_OF_OW",
+          "alias": "TYPE_OF_OW"
+        },
+        {
+          "name": "BUSINESS_S",
+          "alias": "BUSINESS_S"
+        },
+        {
+          "name": "E_MAIL",
+          "alias": "E_MAIL"
+        },
+        {
+          "name": "Redacted",
+          "alias": "Redacted"
+        },
+        {
+          "name": "PIN",
+          "alias": "PIN"
+        },
+        {
+          "name": "X_1",
+          "alias": "X_1"
+        },
+        {
+          "name": "Y_1",
+          "alias": "Y_1"
+        },
+        {
+          "name": "XY",
+          "alias": "XY"
+        }
+      ],
+      "keywordSignals": [
+        "title:development",
+        "title:school"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Development",
+          "score": 0.8119863805271379
+        },
+        {
+          "category": "Boundaries",
+          "score": 0.5711462819961155
+        },
+        {
+          "category": "Health",
+          "score": 0.5392323469107073
+        }
+      ]
+    },
+    {
       "id": "arcgis:c9373574419241a8b7406657fefd231e:61",
       "title": "CDBG_HUD_ProjectExtents_Polygons",
       "reason": "missing-layer-description",
@@ -10708,6 +11072,67 @@
         {
           "category": "Utilities",
           "score": 0.026650664657186504
+        }
+      ]
+    },
+    {
+      "id": "arcgis:cb361d9e6c54421aad839616c0eff5c2:0",
+      "title": "AccelaDocks",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "",
+      "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Accela_Docks_Prod/FeatureServer/0",
+      "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/cb361d9e6c54421aad839616c0eff5c2",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "RECORDID",
+          "alias": "Record ID"
+        },
+        {
+          "name": "PERMITTYPE",
+          "alias": "Permit Type"
+        },
+        {
+          "name": "RECORDSTATUS",
+          "alias": "Record Status"
+        },
+        {
+          "name": "USERID",
+          "alias": "Assigned User ID"
+        },
+        {
+          "name": "ADDRESS",
+          "alias": "Full Address"
+        },
+        {
+          "name": "PARCELID",
+          "alias": "Parcel Number"
+        }
+      ],
+      "keywordSignals": [
+        "fields:parcel",
+        "fields:permit"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Planning",
+          "score": 0.04059615931961175
+        },
+        {
+          "category": "Housing",
+          "score": 0.031793342978370054
+        },
+        {
+          "category": "Health",
+          "score": 0.03019853582231739
         }
       ]
     },
@@ -11302,7 +11727,7 @@
     },
     {
       "id": "arcgis:fe1734d5f3964ae2bf8eb149c061a07c:0",
-      "title": "AccelaDocksSupp",
+      "title": "AccelaDocks",
       "reason": "missing-layer-description",
       "description": null,
       "parentSummary": "",
@@ -11348,16 +11773,16 @@
       ],
       "semanticCandidates": [
         {
-          "category": "Health",
-          "score": 0.027272820793119424
-        },
-        {
-          "category": "Environment",
-          "score": 0.025965189693474104
+          "category": "Planning",
+          "score": 0.04059615931961175
         },
         {
           "category": "Housing",
-          "score": 0.024606236162725125
+          "score": 0.031793342978370054
+        },
+        {
+          "category": "Health",
+          "score": 0.03019853582231739
         }
       ]
     },

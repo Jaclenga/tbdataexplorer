@@ -1,32 +1,32 @@
 {
   "version": "1.3",
-  "total": 506,
+  "total": 520,
   "sources": {
     "override": 2,
     "curated": 52,
     "publisher": 2,
-    "nlp": 329,
+    "nlp": 337,
     "semantic": 2,
-    "uncategorized": 119
+    "uncategorized": 125
   },
   "counts": {
-    "Transportation": 58,
-    "Development": 53,
+    "Transportation": 59,
+    "Development": 54,
     "Planning": 41,
     "Housing": 18,
     "Environment": 15,
-    "Infrastructure": 27,
+    "Infrastructure": 28,
     "Utilities": 69,
     "Public safety": 11,
     "Recreation": 13,
     "Hazards": 31,
     "Boundaries": 20,
     "Solid waste": 6,
-    "Public facilities": 7,
+    "Public facilities": 8,
     "Health": 6,
-    "Demographics": 4,
+    "Demographics": 8,
     "Government": 8,
-    "Uncategorized": 119
+    "Uncategorized": 125
   },
   "distributionWarnings": [],
   "review": [
@@ -659,6 +659,29 @@
       ]
     },
     {
+      "id": "arcgis:3e719a2fe0264ca7bd4a3686f1e70360:0",
+      "title": "AccelaDocks",
+      "reason": "insufficient",
+      "signals": [
+        "fields:parcel",
+        "fields:permit"
+      ],
+      "candidates": [
+        {
+          "category": "Development",
+          "score": 2
+        },
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        }
+      ]
+    },
+    {
       "id": "arcgis:42acfc75485f4f40b6d74e8d70d7a6a6:0",
       "title": "LiveLocalProjects",
       "reason": "insufficient",
@@ -1174,6 +1197,66 @@
         },
         {
           "category": "Boundaries",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "arcgis:6d56ab6a983d4c75a82400928fdb1335:1",
+      "title": "Healthy Food Retailers",
+      "reason": "insufficient",
+      "signals": [],
+      "candidates": [
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        },
+        {
+          "category": "Development",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "arcgis:6d56ab6a983d4c75a82400928fdb1335:3",
+      "title": "One Mile Buffer",
+      "reason": "insufficient",
+      "signals": [],
+      "candidates": [
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        },
+        {
+          "category": "Development",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "arcgis:6d56ab6a983d4c75a82400928fdb1335:4",
+      "title": "Half-Mile Buffer",
+      "reason": "insufficient",
+      "signals": [],
+      "candidates": [
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        },
+        {
+          "category": "Development",
           "score": 0
         }
       ]
@@ -2478,6 +2561,29 @@
       ]
     },
     {
+      "id": "arcgis:c6798e224c214596ac26aedc4e1277fd:0",
+      "title": "Youth Development and School Business",
+      "reason": "ambiguous",
+      "signals": [
+        "title:development",
+        "title:school"
+      ],
+      "candidates": [
+        {
+          "category": "Development",
+          "score": 8
+        },
+        {
+          "category": "Public facilities",
+          "score": 8
+        },
+        {
+          "category": "Boundaries",
+          "score": 0
+        }
+      ]
+    },
+    {
       "id": "arcgis:c9373574419241a8b7406657fefd231e:61",
       "title": "CDBG_HUD_ProjectExtents_Polygons",
       "reason": "insufficient",
@@ -2538,6 +2644,29 @@
         {
           "category": "Infrastructure",
           "score": 0.5
+        },
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "arcgis:cb361d9e6c54421aad839616c0eff5c2:0",
+      "title": "AccelaDocks",
+      "reason": "insufficient",
+      "signals": [
+        "fields:parcel",
+        "fields:permit"
+      ],
+      "candidates": [
+        {
+          "category": "Development",
+          "score": 2
         },
         {
           "category": "Boundaries",
@@ -2696,7 +2825,7 @@
     },
     {
       "id": "arcgis:fe1734d5f3964ae2bf8eb149c061a07c:0",
-      "title": "AccelaDocksSupp",
+      "title": "AccelaDocks",
       "reason": "insufficient",
       "signals": [
         "fields:parcel",
@@ -2740,5 +2869,104 @@
       ]
     }
   ],
-  "changes": []
+  "changes": [
+    {
+      "id": "arcgis:3e719a2fe0264ca7bd4a3686f1e70360:0",
+      "title": "AccelaDocks",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:4a5f7a52ded94214a0db5c9492e3f13c:0",
+      "title": "CommercialBuildingInterior",
+      "previous": null,
+      "category": "Development",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:6d56ab6a983d4c75a82400928fdb1335:1",
+      "title": "Healthy Food Retailers",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:6d56ab6a983d4c75a82400928fdb1335:3",
+      "title": "One Mile Buffer",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:6d56ab6a983d4c75a82400928fdb1335:4",
+      "title": "Half-Mile Buffer",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:6d56ab6a983d4c75a82400928fdb1335:5",
+      "title": "PSTA Routes",
+      "previous": null,
+      "category": "Transportation",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:c6798e224c214596ac26aedc4e1277fd:0",
+      "title": "Youth Development and School Business",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:c6798e224c214596ac26aedc4e1277fd:1",
+      "title": "Schools",
+      "previous": null,
+      "category": "Public facilities",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:c6798e224c214596ac26aedc4e1277fd:2",
+      "title": "Pinellas_Census 2024",
+      "previous": null,
+      "category": "Demographics",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:c6798e224c214596ac26aedc4e1277fd:3",
+      "title": "Pinellas_Census",
+      "previous": null,
+      "category": "Demographics",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:c6798e224c214596ac26aedc4e1277fd:4",
+      "title": "Pinellas_Census",
+      "previous": null,
+      "category": "Demographics",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:c6798e224c214596ac26aedc4e1277fd:5",
+      "title": "Pinellas_Census",
+      "previous": null,
+      "category": "Demographics",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:c6798e224c214596ac26aedc4e1277fd:6",
+      "title": "Stormwater_100year_24hr_StPete_D2",
+      "previous": null,
+      "category": "Infrastructure",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:cb361d9e6c54421aad839616c0eff5c2:0",
+      "title": "AccelaDocks",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    }
+  ]
 }
