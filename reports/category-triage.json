@@ -1,5 +1,5 @@
 {
-  "total": 125,
+  "total": 129,
   "note": "Evidence queue for review, not additional automatic assignments. Inspect layer purpose before adding contextual rules or overrides; shared parent text can describe other layers.",
   "records": [
     {
@@ -4957,6 +4957,164 @@
         {
           "category": "Development",
           "score": 0.030028702219700516
+        }
+      ]
+    },
+    {
+      "id": "arcgis:6bfdef580c024814adf6a5d437a6ebd4:0",
+      "title": "CFIlocation20260106",
+      "reason": "below-semantic-threshold",
+      "description": "CFI is used by government EM as a goal for the coordination of restoration and post disaster economic re‐development and in coordination with infrastructure service providers. This measure is intended to improve communication at county EOCs and other coordination centers during any type of emergency event. This alignment, as well as planning during peace time, ensures that community services are restored in a flexible and coordinated manner.Infrastructure service providers, such as electricity, gas, water, telecom, debris management, etc., use CFI as a guideline in the development and execution of their restoration processes and related priority rankings. It is understood that in the aftermath of an emergency event, it may take days or weeks to restore the critical infrastructure, depending on the severity of the event. The restoration approach is predicated on the type and geographical area of damage.Since “safety of life” is paramount during restoration and recovery, in the immediate aftermath of an event, restoration of the first four types of CFI 1 facilities will be most critical (hospitals, emergency shelters, main fire stations and water/wastewater facilities). These facilities will be given priority in sequence from top to bottom and all facilities are not equally weighted.",
+      "parentSummary": "All-Hazards Critical Infrastructure & Community Facility Priority Ranking. WARNING: This data contains Protected Critical Infrastructure Information (PCII) and is designated as FOR OFFICIAL USE ONLY (FOUO). Access, distribution, reproduction, and use of this information are restricted to authorized personnel with a legitimate operational need. Unauthorized disclosure or misuse of this information is prohibited.",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/CFIlocation/FeatureServer/0",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/6bfdef580c024814adf6a5d437a6ebd4",
+      "fields": [
+        {
+          "name": "FID",
+          "alias": "FID"
+        },
+        {
+          "name": "LOCATIONID",
+          "alias": "LOCATIONID"
+        },
+        {
+          "name": "GlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "NAME",
+          "alias": "Name"
+        },
+        {
+          "name": "ADDRESS",
+          "alias": "Address"
+        },
+        {
+          "name": "GENERATOR",
+          "alias": "Generator"
+        },
+        {
+          "name": "TYPE",
+          "alias": "Type"
+        },
+        {
+          "name": "PRIORITY",
+          "alias": "Priority"
+        },
+        {
+          "name": "DHS_SECTOR",
+          "alias": "Sector"
+        },
+        {
+          "name": "MUNICIPALI",
+          "alias": "Municipality"
+        },
+        {
+          "name": "LAT",
+          "alias": "Latitude"
+        },
+        {
+          "name": "LONG",
+          "alias": "Longitude"
+        },
+        {
+          "name": "USNG",
+          "alias": "USNG"
+        },
+        {
+          "name": "created_us",
+          "alias": "created_us"
+        },
+        {
+          "name": "created_da",
+          "alias": "created_da"
+        },
+        {
+          "name": "last_edite",
+          "alias": "last_edite"
+        },
+        {
+          "name": "last_edi_1",
+          "alias": "last_edi_1"
+        },
+        {
+          "name": "EZONE",
+          "alias": "Evacuation Zones"
+        },
+        {
+          "name": "Website",
+          "alias": "Website"
+        },
+        {
+          "name": "GIS_NOTES",
+          "alias": "Notes"
+        },
+        {
+          "name": "STRAP",
+          "alias": "Strap"
+        },
+        {
+          "name": "PIN",
+          "alias": "Pin"
+        },
+        {
+          "name": "CONTACTNAM",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "CONTACTPHO",
+          "alias": "Telephone"
+        },
+        {
+          "name": "CONTACTEMA",
+          "alias": "Email"
+        },
+        {
+          "name": "STREET_ID",
+          "alias": "STREET_ID"
+        },
+        {
+          "name": "AHCA_ID",
+          "alias": "AHCA_ID"
+        },
+        {
+          "name": "ASSET_ID",
+          "alias": "ASSET_ID"
+        },
+        {
+          "name": "IMAGE",
+          "alias": "IMAGE"
+        },
+        {
+          "name": "FZONE",
+          "alias": "Flood Zones"
+        }
+      ],
+      "keywordSignals": [
+        "description:hospital",
+        "description:main",
+        "description:wastewater",
+        "parent_context:hospital",
+        "parent_context:main",
+        "parent_context:potable",
+        "parent_context:public health",
+        "parent_context:utility",
+        "parent_context:wastewater",
+        "tags:healthcare",
+        "tags:wastewater"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Boundaries",
+          "score": 0.11818618650592279
+        },
+        {
+          "category": "Demographics",
+          "score": 0.11818618650592279
+        },
+        {
+          "category": "Development",
+          "score": 0.11818618650592279
         }
       ]
     },
@@ -10134,6 +10292,48 @@
       ]
     },
     {
+      "id": "arcgis:aadfae9b57f84f6898ed3a5240ca2f9c:0",
+      "title": "KeyLocation_Project",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "",
+      "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/KeyLocations/FeatureServer/0",
+      "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/aadfae9b57f84f6898ed3a5240ca2f9c",
+      "fields": [
+        {
+          "name": "FID",
+          "alias": "FID"
+        },
+        {
+          "name": "Id",
+          "alias": "Id"
+        },
+        {
+          "name": "POI",
+          "alias": "POI"
+        },
+        {
+          "name": "GlobalId",
+          "alias": "GlobalId"
+        }
+      ],
+      "keywordSignals": [],
+      "semanticCandidates": [
+        {
+          "category": "Health",
+          "score": 0.06628182333223417
+        },
+        {
+          "category": "Recreation",
+          "score": 0.04804120491834484
+        },
+        {
+          "category": "Development",
+          "score": 0.03209104585427232
+        }
+      ]
+    },
+    {
       "id": "arcgis:ab602daeb356484c9f08f6b142a6f90a:0",
       "title": "survey",
       "reason": "missing-layer-description",
@@ -10615,6 +10815,182 @@
         {
           "category": "Health",
           "score": 0.0019684123916703412
+        }
+      ]
+    },
+    {
+      "id": "arcgis:bd6185ffc0c049f48f53e53d7f7153d8:0",
+      "title": "Recommendations",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "",
+      "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/Recommendations/FeatureServer/0",
+      "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/bd6185ffc0c049f48f53e53d7f7153d8",
+      "fields": [
+        {
+          "name": "FID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PageName",
+          "alias": "PageName"
+        },
+        {
+          "name": "PageNumber",
+          "alias": "PageNumber"
+        },
+        {
+          "name": "Name",
+          "alias": "Name"
+        },
+        {
+          "name": "Location",
+          "alias": "Location"
+        },
+        {
+          "name": "Horizon",
+          "alias": "Horizon"
+        },
+        {
+          "name": "ORIG_FID",
+          "alias": "ORIG_FID"
+        },
+        {
+          "name": "RecID",
+          "alias": "RecIDID"
+        },
+        {
+          "name": "Guiding_Th",
+          "alias": "Guiding Theme"
+        },
+        {
+          "name": "Recommenda",
+          "alias": "Recommendation"
+        },
+        {
+          "name": "Priority_S",
+          "alias": "Priority Subdistrict"
+        },
+        {
+          "name": "Image",
+          "alias": "Image"
+        },
+        {
+          "name": "Subdistric",
+          "alias": "Subdistrict Keymap"
+        },
+        {
+          "name": "Reference_",
+          "alias": "Reference_"
+        },
+        {
+          "name": "Implemen_1",
+          "alias": "Implemen_1"
+        },
+        {
+          "name": "Implemen_2",
+          "alias": "Implemen_2"
+        },
+        {
+          "name": "Desc_concat",
+          "alias": "Desc_concat"
+        },
+        {
+          "name": "GlobalId",
+          "alias": "GlobalId"
+        },
+        {
+          "name": "Imple_Full",
+          "alias": "Imple_Full"
+        },
+        {
+          "name": "desc_full",
+          "alias": "desc_full"
+        },
+        {
+          "name": "Full_Desc",
+          "alias": "Full_Desc"
+        },
+        {
+          "name": "FullContent",
+          "alias": "FullContent"
+        },
+        {
+          "name": "Attribu",
+          "alias": "Attribu"
+        }
+      ],
+      "keywordSignals": [],
+      "semanticCandidates": [
+        {
+          "category": "Planning",
+          "score": 0.48738122732305345
+        },
+        {
+          "category": "Boundaries",
+          "score": 0.4395508767883738
+        },
+        {
+          "category": "Utilities",
+          "score": 0.2795802739568215
+        }
+      ]
+    },
+    {
+      "id": "arcgis:bd6185ffc0c049f48f53e53d7f7153d8:1",
+      "title": "Framework2",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "",
+      "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/Recommendations/FeatureServer/1",
+      "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/bd6185ffc0c049f48f53e53d7f7153d8",
+      "fields": [
+        {
+          "name": "FID",
+          "alias": "FID"
+        },
+        {
+          "name": "PageName",
+          "alias": "PageName"
+        },
+        {
+          "name": "PageNumber",
+          "alias": "PageNumber"
+        },
+        {
+          "name": "Name",
+          "alias": "Name"
+        },
+        {
+          "name": "Location",
+          "alias": "Location"
+        },
+        {
+          "name": "Horizon",
+          "alias": "Horizon"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [],
+      "semanticCandidates": [
+        {
+          "category": "Recreation",
+          "score": 0.182177521917206
+        },
+        {
+          "category": "Environment",
+          "score": 0.11298449183221086
+        },
+        {
+          "category": "Development",
+          "score": 0.07933946314101313
         }
       ]
     },

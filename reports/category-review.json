@@ -1,13 +1,13 @@
 {
   "version": "1.3",
-  "total": 520,
+  "total": 524,
   "sources": {
     "override": 2,
     "curated": 52,
     "publisher": 2,
     "nlp": 337,
     "semantic": 2,
-    "uncategorized": 125
+    "uncategorized": 129
   },
   "counts": {
     "Transportation": 59,
@@ -26,7 +26,7 @@
     "Health": 6,
     "Demographics": 8,
     "Government": 8,
-    "Uncategorized": 125
+    "Uncategorized": 129
   },
   "distributionWarnings": [],
   "review": [
@@ -1167,6 +1167,38 @@
         {
           "category": "Demographics",
           "score": 0
+        }
+      ]
+    },
+    {
+      "id": "arcgis:6bfdef580c024814adf6a5d437a6ebd4:0",
+      "title": "CFIlocation20260106",
+      "reason": "ambiguous",
+      "signals": [
+        "description:hospital",
+        "description:main",
+        "description:wastewater",
+        "parent_context:hospital",
+        "parent_context:main",
+        "parent_context:potable",
+        "parent_context:public health",
+        "parent_context:utility",
+        "parent_context:wastewater",
+        "tags:healthcare",
+        "tags:wastewater"
+      ],
+      "candidates": [
+        {
+          "category": "Utilities",
+          "score": 6
+        },
+        {
+          "category": "Health",
+          "score": 5
+        },
+        {
+          "category": "Transportation",
+          "score": 4.5
         }
       ]
     },
@@ -2434,6 +2466,26 @@
       ]
     },
     {
+      "id": "arcgis:aadfae9b57f84f6898ed3a5240ca2f9c:0",
+      "title": "KeyLocation_Project",
+      "reason": "insufficient",
+      "signals": [],
+      "candidates": [
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        },
+        {
+          "category": "Development",
+          "score": 0
+        }
+      ]
+    },
+    {
       "id": "arcgis:ab602daeb356484c9f08f6b142a6f90a:0",
       "title": "survey",
       "reason": "insufficient",
@@ -2523,6 +2575,46 @@
     {
       "id": "arcgis:b6d8f8c1bf494fc1a94d79d589f6ce69:5",
       "title": "US National Grid 100",
+      "reason": "insufficient",
+      "signals": [],
+      "candidates": [
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        },
+        {
+          "category": "Development",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "arcgis:bd6185ffc0c049f48f53e53d7f7153d8:0",
+      "title": "Recommendations",
+      "reason": "insufficient",
+      "signals": [],
+      "candidates": [
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        },
+        {
+          "category": "Development",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "arcgis:bd6185ffc0c049f48f53e53d7f7153d8:1",
+      "title": "Framework2",
       "reason": "insufficient",
       "signals": [],
       "candidates": [
@@ -2871,99 +2963,29 @@
   ],
   "changes": [
     {
-      "id": "arcgis:3e719a2fe0264ca7bd4a3686f1e70360:0",
-      "title": "AccelaDocks",
+      "id": "arcgis:6bfdef580c024814adf6a5d437a6ebd4:0",
+      "title": "CFIlocation20260106",
       "previous": null,
       "category": "Uncategorized",
       "source": "uncategorized"
     },
     {
-      "id": "arcgis:4a5f7a52ded94214a0db5c9492e3f13c:0",
-      "title": "CommercialBuildingInterior",
-      "previous": null,
-      "category": "Development",
-      "source": "nlp"
-    },
-    {
-      "id": "arcgis:6d56ab6a983d4c75a82400928fdb1335:1",
-      "title": "Healthy Food Retailers",
+      "id": "arcgis:aadfae9b57f84f6898ed3a5240ca2f9c:0",
+      "title": "KeyLocation_Project",
       "previous": null,
       "category": "Uncategorized",
       "source": "uncategorized"
     },
     {
-      "id": "arcgis:6d56ab6a983d4c75a82400928fdb1335:3",
-      "title": "One Mile Buffer",
+      "id": "arcgis:bd6185ffc0c049f48f53e53d7f7153d8:0",
+      "title": "Recommendations",
       "previous": null,
       "category": "Uncategorized",
       "source": "uncategorized"
     },
     {
-      "id": "arcgis:6d56ab6a983d4c75a82400928fdb1335:4",
-      "title": "Half-Mile Buffer",
-      "previous": null,
-      "category": "Uncategorized",
-      "source": "uncategorized"
-    },
-    {
-      "id": "arcgis:6d56ab6a983d4c75a82400928fdb1335:5",
-      "title": "PSTA Routes",
-      "previous": null,
-      "category": "Transportation",
-      "source": "nlp"
-    },
-    {
-      "id": "arcgis:c6798e224c214596ac26aedc4e1277fd:0",
-      "title": "Youth Development and School Business",
-      "previous": null,
-      "category": "Uncategorized",
-      "source": "uncategorized"
-    },
-    {
-      "id": "arcgis:c6798e224c214596ac26aedc4e1277fd:1",
-      "title": "Schools",
-      "previous": null,
-      "category": "Public facilities",
-      "source": "nlp"
-    },
-    {
-      "id": "arcgis:c6798e224c214596ac26aedc4e1277fd:2",
-      "title": "Pinellas_Census 2024",
-      "previous": null,
-      "category": "Demographics",
-      "source": "nlp"
-    },
-    {
-      "id": "arcgis:c6798e224c214596ac26aedc4e1277fd:3",
-      "title": "Pinellas_Census",
-      "previous": null,
-      "category": "Demographics",
-      "source": "nlp"
-    },
-    {
-      "id": "arcgis:c6798e224c214596ac26aedc4e1277fd:4",
-      "title": "Pinellas_Census",
-      "previous": null,
-      "category": "Demographics",
-      "source": "nlp"
-    },
-    {
-      "id": "arcgis:c6798e224c214596ac26aedc4e1277fd:5",
-      "title": "Pinellas_Census",
-      "previous": null,
-      "category": "Demographics",
-      "source": "nlp"
-    },
-    {
-      "id": "arcgis:c6798e224c214596ac26aedc4e1277fd:6",
-      "title": "Stormwater_100year_24hr_StPete_D2",
-      "previous": null,
-      "category": "Infrastructure",
-      "source": "nlp"
-    },
-    {
-      "id": "arcgis:cb361d9e6c54421aad839616c0eff5c2:0",
-      "title": "AccelaDocks",
+      "id": "arcgis:bd6185ffc0c049f48f53e53d7f7153d8:1",
+      "title": "Framework2",
       "previous": null,
       "category": "Uncategorized",
       "source": "uncategorized"
