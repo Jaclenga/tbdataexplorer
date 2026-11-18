@@ -1,5 +1,5 @@
 {
-  "total": 129,
+  "total": 131,
   "note": "Evidence queue for review, not additional automatic assignments. Inspect layer purpose before adding contextual rules or overrides; shared parent text can describe other layers.",
   "records": [
     {
@@ -4362,6 +4362,72 @@
         {
           "category": "Planning",
           "score": 0.19908892723475494
+        }
+      ]
+    },
+    {
+      "id": "arcgis:57b07a7bd3ec4081816e4d2af5880558:0",
+      "title": "survey",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "GIS Day survey data.",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/survey123_31218e434d094587bd8c37a681217974_results/FeatureServer/0",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/57b07a7bd3ec4081816e4d2af5880558",
+      "fields": [
+        {
+          "name": "objectid",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "globalid",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "_current_date",
+          "alias": "Current Date"
+        },
+        {
+          "name": "photo_notes",
+          "alias": "Suggestions"
+        },
+        {
+          "name": "CreationDate",
+          "alias": "CreationDate"
+        },
+        {
+          "name": "Creator",
+          "alias": "Creator"
+        },
+        {
+          "name": "EditDate",
+          "alias": "EditDate"
+        },
+        {
+          "name": "Editor",
+          "alias": "Editor"
+        },
+        {
+          "name": "about_me",
+          "alias": "About me"
+        },
+        {
+          "name": "about_me_other",
+          "alias": "Other - About me"
+        }
+      ],
+      "keywordSignals": [],
+      "semanticCandidates": [
+        {
+          "category": "Health",
+          "score": 0.08574989258664435
+        },
+        {
+          "category": "Development",
+          "score": 0.0783219249815647
+        },
+        {
+          "category": "Environment",
+          "score": 0.02837276887895219
         }
       ]
     },
@@ -9669,6 +9735,72 @@
         {
           "category": "Environment",
           "score": 0.058624497676517284
+        }
+      ]
+    },
+    {
+      "id": "arcgis:a12866b15ef542bdafc50ffba971a36f:0",
+      "title": "survey",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "GIS Day survey data",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/survey123_31218e434d094587bd8c37a681217974/FeatureServer/0",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/a12866b15ef542bdafc50ffba971a36f",
+      "fields": [
+        {
+          "name": "objectid",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "globalid",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "_current_date",
+          "alias": "Current Date"
+        },
+        {
+          "name": "photo_notes",
+          "alias": "Suggestions"
+        },
+        {
+          "name": "CreationDate",
+          "alias": "CreationDate"
+        },
+        {
+          "name": "Creator",
+          "alias": "Creator"
+        },
+        {
+          "name": "EditDate",
+          "alias": "EditDate"
+        },
+        {
+          "name": "Editor",
+          "alias": "Editor"
+        },
+        {
+          "name": "about_me",
+          "alias": "About me"
+        },
+        {
+          "name": "about_me_other",
+          "alias": "Other - About me"
+        }
+      ],
+      "keywordSignals": [],
+      "semanticCandidates": [
+        {
+          "category": "Health",
+          "score": 0.0324162364600734
+        },
+        {
+          "category": "Development",
+          "score": 0.019643078640749236
+        },
+        {
+          "category": "Planning",
+          "score": 0.013142005606751926
         }
       ]
     },

@@ -5,7 +5,7 @@
   "minimumScore": 0.85,
   "minimumMargin": 0.2,
   "note": "Uncalibrated model scores; acceptance thresholds are heuristics, not accuracy guarantees.",
-  "attempted": 131,
+  "attempted": 133,
   "accepted": 2,
   "attempts": [
     {
@@ -3249,6 +3249,78 @@
       "accepted": false
     },
     {
+      "id": "arcgis:57b07a7bd3ec4081816e4d2af5880558:0",
+      "title": "survey",
+      "cached": false,
+      "scores": [
+        {
+          "category": "Health",
+          "score": 0.08574989258664435
+        },
+        {
+          "category": "Development",
+          "score": 0.0783219249815647
+        },
+        {
+          "category": "Environment",
+          "score": 0.02837276887895219
+        },
+        {
+          "category": "Housing",
+          "score": 0.026400123979678135
+        },
+        {
+          "category": "Planning",
+          "score": 0.023972174055547628
+        },
+        {
+          "category": "Recreation",
+          "score": 0.022866372192157074
+        },
+        {
+          "category": "Transportation",
+          "score": 0.017554555166667856
+        },
+        {
+          "category": "Utilities",
+          "score": 0.01274376846592996
+        },
+        {
+          "category": "Demographics",
+          "score": 0.010921981072152505
+        },
+        {
+          "category": "Boundaries",
+          "score": 0.009847814073478605
+        },
+        {
+          "category": "Government",
+          "score": 0.005985636839516157
+        },
+        {
+          "category": "Infrastructure",
+          "score": 0.004957010207524426
+        },
+        {
+          "category": "Public facilities",
+          "score": 0.004669422299076355
+        },
+        {
+          "category": "Solid waste",
+          "score": 0.003482495916382988
+        },
+        {
+          "category": "Public safety",
+          "score": 0.002246994269666012
+        },
+        {
+          "category": "Hazards",
+          "score": 0.0016097071179841857
+        }
+      ],
+      "accepted": false
+    },
+    {
       "id": "arcgis:583c9f880c044c8aabdbeded3496f932:3",
       "title": "Church/Church Property",
       "cached": true,
@@ -3755,7 +3827,7 @@
     {
       "id": "arcgis:6bfdef580c024814adf6a5d437a6ebd4:0",
       "title": "CFIlocation20260106",
-      "cached": false,
+      "cached": true,
       "scores": [
         {
           "category": "Boundaries",
@@ -7353,6 +7425,78 @@
       "accepted": false
     },
     {
+      "id": "arcgis:a12866b15ef542bdafc50ffba971a36f:0",
+      "title": "survey",
+      "cached": false,
+      "scores": [
+        {
+          "category": "Health",
+          "score": 0.0324162364600734
+        },
+        {
+          "category": "Development",
+          "score": 0.019643078640749236
+        },
+        {
+          "category": "Planning",
+          "score": 0.013142005606751926
+        },
+        {
+          "category": "Environment",
+          "score": 0.012440672420160899
+        },
+        {
+          "category": "Housing",
+          "score": 0.011977037954312226
+        },
+        {
+          "category": "Recreation",
+          "score": 0.010964113504470257
+        },
+        {
+          "category": "Utilities",
+          "score": 0.010926444760959612
+        },
+        {
+          "category": "Government",
+          "score": 0.010636392913518955
+        },
+        {
+          "category": "Boundaries",
+          "score": 0.009533359293216468
+        },
+        {
+          "category": "Transportation",
+          "score": 0.00870219096759857
+        },
+        {
+          "category": "Demographics",
+          "score": 0.0038352735192062394
+        },
+        {
+          "category": "Infrastructure",
+          "score": 0.0036226365117560068
+        },
+        {
+          "category": "Public facilities",
+          "score": 0.0029948129210835344
+        },
+        {
+          "category": "Solid waste",
+          "score": 0.0023020679756336647
+        },
+        {
+          "category": "Public safety",
+          "score": 0.0016052117835207629
+        },
+        {
+          "category": "Hazards",
+          "score": 0.0007006877790058768
+        }
+      ],
+      "accepted": false
+    },
+    {
       "id": "arcgis:a1daa5298e20408dadbf0b97e140617f:5",
       "title": "Stormwater Control Valve",
       "cached": true,
@@ -7859,7 +8003,7 @@
     {
       "id": "arcgis:aadfae9b57f84f6898ed3a5240ca2f9c:0",
       "title": "KeyLocation_Project",
-      "cached": false,
+      "cached": true,
       "scores": [
         {
           "category": "Health",
@@ -8291,7 +8435,7 @@
     {
       "id": "arcgis:bd6185ffc0c049f48f53e53d7f7153d8:0",
       "title": "Recommendations",
-      "cached": false,
+      "cached": true,
       "scores": [
         {
           "category": "Planning",
@@ -8363,7 +8507,7 @@
     {
       "id": "arcgis:bd6185ffc0c049f48f53e53d7f7153d8:1",
       "title": "Framework2",
-      "cached": false,
+      "cached": true,
       "scores": [
         {
           "category": "Recreation",

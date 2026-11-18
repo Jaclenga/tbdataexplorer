@@ -19275,6 +19275,194 @@
           }
         }
       ]
+    },
+    {
+      "eventId": "83e91513a8a9c7fa9a1959b63a13540af58a813900e351d8a86950f7852c8b03",
+      "at": "2026-11-18T18:06:37.206Z",
+      "datasetId": "arcgis:57b07a7bd3ec4081816e4d2af5880558:0",
+      "title": "survey",
+      "oldCategory": null,
+      "newCategory": "Uncategorized",
+      "oldSource": null,
+      "newSource": "uncategorized",
+      "oldVersion": null,
+      "newVersion": "1.3",
+      "reason": "new_dataset",
+      "oldInputHash": null,
+      "newInputHash": "55bfca2350b69fbb6057c1c778cea03682e6c7554b8ecb41902ff7baee45d6bc",
+      "metadataChanges": [
+        {
+          "field": "title",
+          "before": null,
+          "after": "survey"
+        },
+        {
+          "field": "description",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "tags",
+          "before": null,
+          "after": [
+            "GIS Day"
+          ]
+        },
+        {
+          "field": "fields",
+          "before": null,
+          "after": [
+            {
+              "name": "_current_date",
+              "alias": "Current Date"
+            },
+            {
+              "name": "about_me",
+              "alias": "About me"
+            },
+            {
+              "name": "about_me_other",
+              "alias": "Other - About me"
+            },
+            {
+              "name": "CreationDate",
+              "alias": "CreationDate"
+            },
+            {
+              "name": "Creator",
+              "alias": "Creator"
+            },
+            {
+              "name": "EditDate",
+              "alias": "EditDate"
+            },
+            {
+              "name": "Editor",
+              "alias": "Editor"
+            },
+            {
+              "name": "globalid",
+              "alias": "GlobalID"
+            },
+            {
+              "name": "objectid",
+              "alias": "ObjectID"
+            },
+            {
+              "name": "photo_notes",
+              "alias": "Suggestions"
+            }
+          ]
+        },
+        {
+          "field": "source_category",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "parent",
+          "before": null,
+          "after": {
+            "description": "GIS Day survey data.",
+            "summary": "GIS Day survey data.",
+            "tags": [
+              "GIS Day"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "0c2d3e561e0fbfd3d125050e165fd492f066eef8d44490bc551bef9baa67dafe",
+      "at": "2026-11-18T18:06:37.206Z",
+      "datasetId": "arcgis:a12866b15ef542bdafc50ffba971a36f:0",
+      "title": "survey",
+      "oldCategory": null,
+      "newCategory": "Uncategorized",
+      "oldSource": null,
+      "newSource": "uncategorized",
+      "oldVersion": null,
+      "newVersion": "1.3",
+      "reason": "new_dataset",
+      "oldInputHash": null,
+      "newInputHash": "9b37ce28fd695ba2e5a2daa604b781a78111524b9a3a283cefbfcb48432f0220",
+      "metadataChanges": [
+        {
+          "field": "title",
+          "before": null,
+          "after": "survey"
+        },
+        {
+          "field": "description",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "tags",
+          "before": null,
+          "after": []
+        },
+        {
+          "field": "fields",
+          "before": null,
+          "after": [
+            {
+              "name": "_current_date",
+              "alias": "Current Date"
+            },
+            {
+              "name": "about_me",
+              "alias": "About me"
+            },
+            {
+              "name": "about_me_other",
+              "alias": "Other - About me"
+            },
+            {
+              "name": "CreationDate",
+              "alias": "CreationDate"
+            },
+            {
+              "name": "Creator",
+              "alias": "Creator"
+            },
+            {
+              "name": "EditDate",
+              "alias": "EditDate"
+            },
+            {
+              "name": "Editor",
+              "alias": "Editor"
+            },
+            {
+              "name": "globalid",
+              "alias": "GlobalID"
+            },
+            {
+              "name": "objectid",
+              "alias": "ObjectID"
+            },
+            {
+              "name": "photo_notes",
+              "alias": "Suggestions"
+            }
+          ]
+        },
+        {
+          "field": "source_category",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "parent",
+          "before": null,
+          "after": {
+            "description": "This is for the GIS Day event November 18th, 2026 at County Center for an interactive Survey and Dashboard demonstration. Contact: Sara Sillars or Sarah Ellis Related items: Survey: GIS Day - Overview Dashboard: GIS Day Dashboard - Overview Map: GIS Day Dashboard Map - Overview Data: GIS Day - Overview",
+            "summary": "GIS Day survey data",
+            "tags": []
+          }
+        }
+      ]
     }
   ]
 }

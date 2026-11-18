@@ -1,13 +1,13 @@
 {
   "version": "1.3",
-  "total": 524,
+  "total": 526,
   "sources": {
     "override": 2,
     "curated": 52,
     "publisher": 2,
     "nlp": 337,
     "semantic": 2,
-    "uncategorized": 129
+    "uncategorized": 131
   },
   "counts": {
     "Transportation": 59,
@@ -26,7 +26,7 @@
     "Health": 6,
     "Demographics": 8,
     "Government": 8,
-    "Uncategorized": 129
+    "Uncategorized": 131
   },
   "distributionWarnings": [],
   "review": [
@@ -1017,6 +1017,26 @@
     },
     {
       "id": "arcgis:57023f43c6b8478f8f01ace2a620e247:0",
+      "title": "survey",
+      "reason": "insufficient",
+      "signals": [],
+      "candidates": [
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        },
+        {
+          "category": "Development",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "arcgis:57b07a7bd3ec4081816e4d2af5880558:0",
       "title": "survey",
       "reason": "insufficient",
       "signals": [],
@@ -2305,6 +2325,26 @@
       ]
     },
     {
+      "id": "arcgis:a12866b15ef542bdafc50ffba971a36f:0",
+      "title": "survey",
+      "reason": "insufficient",
+      "signals": [],
+      "candidates": [
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        },
+        {
+          "category": "Development",
+          "score": 0
+        }
+      ]
+    },
+    {
       "id": "arcgis:a1daa5298e20408dadbf0b97e140617f:5",
       "title": "Stormwater Control Valve",
       "reason": "ambiguous",
@@ -2963,29 +3003,15 @@
   ],
   "changes": [
     {
-      "id": "arcgis:6bfdef580c024814adf6a5d437a6ebd4:0",
-      "title": "CFIlocation20260106",
+      "id": "arcgis:57b07a7bd3ec4081816e4d2af5880558:0",
+      "title": "survey",
       "previous": null,
       "category": "Uncategorized",
       "source": "uncategorized"
     },
     {
-      "id": "arcgis:aadfae9b57f84f6898ed3a5240ca2f9c:0",
-      "title": "KeyLocation_Project",
-      "previous": null,
-      "category": "Uncategorized",
-      "source": "uncategorized"
-    },
-    {
-      "id": "arcgis:bd6185ffc0c049f48f53e53d7f7153d8:0",
-      "title": "Recommendations",
-      "previous": null,
-      "category": "Uncategorized",
-      "source": "uncategorized"
-    },
-    {
-      "id": "arcgis:bd6185ffc0c049f48f53e53d7f7153d8:1",
-      "title": "Framework2",
+      "id": "arcgis:a12866b15ef542bdafc50ffba971a36f:0",
+      "title": "survey",
       "previous": null,
       "category": "Uncategorized",
       "source": "uncategorized"
