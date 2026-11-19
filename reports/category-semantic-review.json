@@ -3251,7 +3251,7 @@
     {
       "id": "arcgis:57b07a7bd3ec4081816e4d2af5880558:0",
       "title": "survey",
-      "cached": false,
+      "cached": true,
       "scores": [
         {
           "category": "Health",
@@ -7427,7 +7427,7 @@
     {
       "id": "arcgis:a12866b15ef542bdafc50ffba971a36f:0",
       "title": "survey",
-      "cached": false,
+      "cached": true,
       "scores": [
         {
           "category": "Health",
