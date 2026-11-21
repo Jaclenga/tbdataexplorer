@@ -1,5 +1,5 @@
 {
-  "total": 131,
+  "total": 137,
   "note": "Evidence queue for review, not additional automatic assignments. Inspect layer purpose before adding contextual rules or overrides; shared parent text can describe other layers.",
   "records": [
     {
@@ -2691,6 +2691,101 @@
       ]
     },
     {
+      "id": "arcgis:3e11792f8ea348069df34e85e97b563d:0",
+      "title": "BCCAtLargeDistrict",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Board of County Commission At-Large Districts in Pinellas County, Florida",
+      "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_BCCAtLargeDistrict_view/FeatureServer/0",
+      "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/3e11792f8ea348069df34e85e97b563d",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "DISTRICTID",
+          "alias": "District ID"
+        },
+        {
+          "name": "NAME",
+          "alias": "District Name"
+        },
+        {
+          "name": "REPNAME",
+          "alias": "Commissioner Name"
+        },
+        {
+          "name": "DISTRICTURL",
+          "alias": "District URL"
+        },
+        {
+          "name": "LASTUPDATE",
+          "alias": "Last Updated"
+        },
+        {
+          "name": "LASTEDITOR",
+          "alias": "Last Edited By"
+        },
+        {
+          "name": "GLOBALID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "int_created_user",
+          "alias": "Internal Created User"
+        },
+        {
+          "name": "int_created_date",
+          "alias": "Internal Created Date"
+        },
+        {
+          "name": "int_edited_user",
+          "alias": "Internal Edited User"
+        },
+        {
+          "name": "int_edited_date",
+          "alias": "Internal Edited Date"
+        },
+        {
+          "name": "StatePlane_Length",
+          "alias": "StatePlane_Length"
+        },
+        {
+          "name": "StatePlane_Area",
+          "alias": "StatePlane_Area"
+        },
+        {
+          "name": "SHAPE__Area",
+          "alias": "SHAPE__Area"
+        },
+        {
+          "name": "SHAPE__Length",
+          "alias": "SHAPE__Length"
+        }
+      ],
+      "keywordSignals": [
+        "parent_context:development",
+        "parent_context:election",
+        "tags:development",
+        "tags:election"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Planning",
+          "score": 0.061970341712241396
+        },
+        {
+          "category": "Boundaries",
+          "score": 0.0240485951204583
+        },
+        {
+          "category": "Development",
+          "score": 0.023384651044320543
+        }
+      ]
+    },
+    {
       "id": "arcgis:3e26b24e99b549828bbcd352fdd78aae:0",
       "title": "survey",
       "reason": "missing-layer-description",
@@ -2896,6 +2991,68 @@
         {
           "category": "Health",
           "score": 0.03019853582231739
+        }
+      ]
+    },
+    {
+      "id": "arcgis:40454beb37694e248a70885faa3f37f1:0",
+      "title": "Multimodal Corridors ",
+      "reason": "below-semantic-threshold",
+      "description": "MutliModal Corridors in Pinellas County, Florida, maintained by Pinellas Planning Council. DATA STEWARD &amp; EDITOR: Pinellas Planning Council, Linda Fisher (727) 464-8220 lfisher@forwardpinellas.org Data Certification: BRONZE",
+      "parentSummary": "Multimodal Corridors",
+      "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/MultimodalCorridorsNov26/FeatureServer/0",
+      "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/40454beb37694e248a70885faa3f37f1",
+      "fields": [
+        {
+          "name": "FID",
+          "alias": "FID"
+        },
+        {
+          "name": "NAME",
+          "alias": "NAME"
+        },
+        {
+          "name": "CORRIDORTY",
+          "alias": "CORRIDORTY"
+        },
+        {
+          "name": "GlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "created_us",
+          "alias": "created_us"
+        },
+        {
+          "name": "created_da",
+          "alias": "created_da"
+        },
+        {
+          "name": "last_edite",
+          "alias": "last_edite"
+        },
+        {
+          "name": "last_edi_1",
+          "alias": "last_edi_1"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [],
+      "semanticCandidates": [
+        {
+          "category": "Environment",
+          "score": 0.2087737719007788
+        },
+        {
+          "category": "Development",
+          "score": 0.14439069967941948
+        },
+        {
+          "category": "Solid waste",
+          "score": 0.10206185392149353
         }
       ]
     },
@@ -4099,6 +4256,104 @@
         {
           "category": "Housing",
           "score": 0.8273442006382361
+        }
+      ]
+    },
+    {
+      "id": "arcgis:51cd8a77a54f4a7094538bbbe88845be:0",
+      "title": "USHouseDistrict",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Supervisor of Elections 2026 US Congressional Elected Representative Districts in Pinellas County, Florida",
+      "layerUrl": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/Pinellas_USHouseDistrict_view/FeatureServer/0",
+      "itemUrl": "https://pinellas-egis.maps.arcgis.com/sharing/rest/content/items/51cd8a77a54f4a7094538bbbe88845be",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "DISTRICTID",
+          "alias": "District ID"
+        },
+        {
+          "name": "NAME",
+          "alias": "District Name"
+        },
+        {
+          "name": "REPNAME",
+          "alias": "Representative Name"
+        },
+        {
+          "name": "DISTRICTURL",
+          "alias": "District Website"
+        },
+        {
+          "name": "POPULATION",
+          "alias": "Population"
+        },
+        {
+          "name": "LASTUPDATE",
+          "alias": "Last Update Date"
+        },
+        {
+          "name": "LASTEDITOR",
+          "alias": "Last Editor"
+        },
+        {
+          "name": "GLOBALID",
+          "alias": "GLOBALID"
+        },
+        {
+          "name": "int_created_user",
+          "alias": "Internal Created User"
+        },
+        {
+          "name": "int_created_date",
+          "alias": "Internal Created Date"
+        },
+        {
+          "name": "int_edited_user",
+          "alias": "Internal Edited User"
+        },
+        {
+          "name": "int_edited_date",
+          "alias": "Internal Edited Date"
+        },
+        {
+          "name": "StatePlane_Length",
+          "alias": "StatePlane_Length"
+        },
+        {
+          "name": "StatePlane_Area",
+          "alias": "StatePlane_Area"
+        },
+        {
+          "name": "SHAPE__Area",
+          "alias": "SHAPE__Area"
+        },
+        {
+          "name": "SHAPE__Length",
+          "alias": "SHAPE__Length"
+        }
+      ],
+      "keywordSignals": [
+        "fields:population",
+        "parent_context:election",
+        "tags:election"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Planning",
+          "score": 0.04327254449733441
+        },
+        {
+          "category": "Housing",
+          "score": 0.03833023941141702
+        },
+        {
+          "category": "Demographics",
+          "score": 0.03675295753287202
         }
       ]
     },
@@ -10182,6 +10437,60 @@
       ]
     },
     {
+      "id": "arcgis:a7a247edaa8e47b9a6f0f6d08b079e6b:0",
+      "title": "HCPA Special Districts SD2",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/HCPA_Special_Districts_SD2/FeatureServer/0",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/a7a247edaa8e47b9a6f0f6d08b079e6b",
+      "fields": [
+        {
+          "name": "FID",
+          "alias": "FID"
+        },
+        {
+          "name": "AREA",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "sd",
+          "alias": "sd"
+        },
+        {
+          "name": "SP_NAME",
+          "alias": "SP_NAME"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [],
+      "semanticCandidates": [
+        {
+          "category": "Boundaries",
+          "score": 0.1596352092914085
+        },
+        {
+          "category": "Recreation",
+          "score": 0.09104651390894375
+        },
+        {
+          "category": "Health",
+          "score": 0.06902952132815467
+        }
+      ]
+    },
+    {
       "id": "arcgis:a86a4371c1f64ae2b5639c0109432139:0",
       "title": "pts2_noinfo",
       "reason": "missing-layer-description",
@@ -10542,6 +10851,60 @@
         {
           "category": "Housing",
           "score": 0.039731886729325865
+        }
+      ]
+    },
+    {
+      "id": "arcgis:acc1faf9531341eab2547774c826888d:0",
+      "title": "HCPA CDDs",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/HCPA_CDDs/FeatureServer/0",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/acc1faf9531341eab2547774c826888d",
+      "fields": [
+        {
+          "name": "FID",
+          "alias": "FID"
+        },
+        {
+          "name": "AREA",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "CDD",
+          "alias": "CDD"
+        },
+        {
+          "name": "NAME",
+          "alias": "NAME"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [],
+      "semanticCandidates": [
+        {
+          "category": "Environment",
+          "score": 0.06983398481309622
+        },
+        {
+          "category": "Recreation",
+          "score": 0.061095951766641385
+        },
+        {
+          "category": "Health",
+          "score": 0.04085936779196742
         }
       ]
     },
@@ -11334,6 +11697,112 @@
         {
           "category": "Health",
           "score": 0.5392323469107073
+        }
+      ]
+    },
+    {
+      "id": "arcgis:c73a4d23d6fb49c0bc616acd4739d1e3:0",
+      "title": "CRA_Neighborhoods",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "CRA Neighborhoods",
+      "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/CRA_Neighborhoods/FeatureServer/0",
+      "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/c73a4d23d6fb49c0bc616acd4739d1e3",
+      "fields": [
+        {
+          "name": "FID",
+          "alias": "FID"
+        },
+        {
+          "name": "NANUM",
+          "alias": "NANUM"
+        },
+        {
+          "name": "NANAME",
+          "alias": "NANAME"
+        },
+        {
+          "name": "WEBSITE",
+          "alias": "WEBSITE"
+        },
+        {
+          "name": "HTTP",
+          "alias": "HTTP"
+        },
+        {
+          "name": "CONTACTNAM",
+          "alias": "CONTACTNAM"
+        },
+        {
+          "name": "CONTACTPHO",
+          "alias": "CONTACTPHO"
+        },
+        {
+          "name": "CONTACTEMA",
+          "alias": "CONTACTEMA"
+        },
+        {
+          "name": "CREATED_US",
+          "alias": "CREATED_US"
+        },
+        {
+          "name": "CREATED_DA",
+          "alias": "CREATED_DA"
+        },
+        {
+          "name": "LAST_EDITE",
+          "alias": "LAST_EDITE"
+        },
+        {
+          "name": "LAST_EDI_1",
+          "alias": "LAST_EDI_1"
+        },
+        {
+          "name": "FACEBOOKPA",
+          "alias": "FACEBOOKPA"
+        },
+        {
+          "name": "MEETINGINF",
+          "alias": "MEETINGINF"
+        },
+        {
+          "name": "NBRHDSPECI",
+          "alias": "NBRHDSPECI"
+        },
+        {
+          "name": "NBRHDSPE_1",
+          "alias": "NBRHDSPE_1"
+        },
+        {
+          "name": "NBRHDSPE_2",
+          "alias": "NBRHDSPE_2"
+        },
+        {
+          "name": "STATUS",
+          "alias": "STATUS"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [],
+      "semanticCandidates": [
+        {
+          "category": "Boundaries",
+          "score": 0.5614127137356019
+        },
+        {
+          "category": "Utilities",
+          "score": 0.4292886741685991
+        },
+        {
+          "category": "Health",
+          "score": 0.40322535737296344
         }
       ]
     },

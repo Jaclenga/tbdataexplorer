@@ -1,16 +1,16 @@
 {
   "version": "1.3",
-  "total": 526,
+  "total": 538,
   "sources": {
     "override": 2,
     "curated": 52,
     "publisher": 2,
-    "nlp": 337,
+    "nlp": 343,
     "semantic": 2,
-    "uncategorized": 131
+    "uncategorized": 137
   },
   "counts": {
-    "Transportation": 59,
+    "Transportation": 61,
     "Development": 54,
     "Planning": 41,
     "Housing": 18,
@@ -20,13 +20,13 @@
     "Public safety": 11,
     "Recreation": 13,
     "Hazards": 31,
-    "Boundaries": 20,
+    "Boundaries": 22,
     "Solid waste": 6,
-    "Public facilities": 8,
+    "Public facilities": 10,
     "Health": 6,
     "Demographics": 8,
     "Government": 8,
-    "Uncategorized": 131
+    "Uncategorized": 137
   },
   "distributionWarnings": [],
   "review": [
@@ -637,6 +637,31 @@
       ]
     },
     {
+      "id": "arcgis:3e11792f8ea348069df34e85e97b563d:0",
+      "title": "BCCAtLargeDistrict",
+      "reason": "insufficient",
+      "signals": [
+        "parent_context:development",
+        "parent_context:election",
+        "tags:development",
+        "tags:election"
+      ],
+      "candidates": [
+        {
+          "category": "Development",
+          "score": 3.5
+        },
+        {
+          "category": "Government",
+          "score": 3.5
+        },
+        {
+          "category": "Housing",
+          "score": 3.5
+        }
+      ]
+    },
+    {
       "id": "arcgis:3e26b24e99b549828bbcd352fdd78aae:0",
       "title": "survey",
       "reason": "insufficient",
@@ -677,6 +702,26 @@
         },
         {
           "category": "Demographics",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "arcgis:40454beb37694e248a70885faa3f37f1:0",
+      "title": "Multimodal Corridors ",
+      "reason": "insufficient",
+      "signals": [],
+      "candidates": [
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        },
+        {
+          "category": "Development",
           "score": 0
         }
       ]
@@ -967,6 +1012,30 @@
         {
           "category": "Public safety",
           "score": 2
+        }
+      ]
+    },
+    {
+      "id": "arcgis:51cd8a77a54f4a7094538bbbe88845be:0",
+      "title": "USHouseDistrict",
+      "reason": "insufficient",
+      "signals": [
+        "fields:population",
+        "parent_context:election",
+        "tags:election"
+      ],
+      "candidates": [
+        {
+          "category": "Government",
+          "score": 3.5
+        },
+        {
+          "category": "Demographics",
+          "score": 1
+        },
+        {
+          "category": "Boundaries",
+          "score": 0
         }
       ]
     },
@@ -2446,6 +2515,26 @@
       ]
     },
     {
+      "id": "arcgis:a7a247edaa8e47b9a6f0f6d08b079e6b:0",
+      "title": "HCPA Special Districts SD2",
+      "reason": "insufficient",
+      "signals": [],
+      "candidates": [
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        },
+        {
+          "category": "Development",
+          "score": 0
+        }
+      ]
+    },
+    {
       "id": "arcgis:a86a4371c1f64ae2b5639c0109432139:0",
       "title": "pts2_noinfo",
       "reason": "insufficient",
@@ -2543,6 +2632,26 @@
         },
         {
           "category": "Demographics",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "arcgis:acc1faf9531341eab2547774c826888d:0",
+      "title": "HCPA CDDs",
+      "reason": "insufficient",
+      "signals": [],
+      "candidates": [
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        },
+        {
+          "category": "Development",
           "score": 0
         }
       ]
@@ -2711,6 +2820,26 @@
         },
         {
           "category": "Boundaries",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "arcgis:c73a4d23d6fb49c0bc616acd4739d1e3:0",
+      "title": "CRA_Neighborhoods",
+      "reason": "insufficient",
+      "signals": [],
+      "candidates": [
+        {
+          "category": "Boundaries",
+          "score": 0
+        },
+        {
+          "category": "Demographics",
+          "score": 0
+        },
+        {
+          "category": "Development",
           "score": 0
         }
       ]
@@ -3001,5 +3130,90 @@
       ]
     }
   ],
-  "changes": []
+  "changes": [
+    {
+      "id": "arcgis:20a53af022044958adb8478b30f506fa:0",
+      "title": "StateSenateDistrict",
+      "previous": null,
+      "category": "Boundaries",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:3840f03e9a654503922d15d2cd62ff13:0",
+      "title": "PinPasRoads",
+      "previous": null,
+      "category": "Transportation",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:3e11792f8ea348069df34e85e97b563d:0",
+      "title": "BCCAtLargeDistrict",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:40454beb37694e248a70885faa3f37f1:0",
+      "title": "Multimodal Corridors ",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:51cd8a77a54f4a7094538bbbe88845be:0",
+      "title": "USHouseDistrict",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:a4aacf926aa94223bbf4ad64e499eee5:0",
+      "title": "PinPasRoads_Dissolved",
+      "previous": null,
+      "category": "Transportation",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:a7a247edaa8e47b9a6f0f6d08b079e6b:0",
+      "title": "HCPA Special Districts SD2",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:acc1faf9531341eab2547774c826888d:0",
+      "title": "HCPA CDDs",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:c73a4d23d6fb49c0bc616acd4739d1e3:0",
+      "title": "CRA_Neighborhoods",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:cf6b63be1b69486ba031e4ba04badeb6:0",
+      "title": "StateHouseDistrict",
+      "previous": null,
+      "category": "Boundaries",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:d3187a7dcdd04441ac8efd3e558c5255:0",
+      "title": "SchoolBoardSingleMemberDistrict",
+      "previous": null,
+      "category": "Public facilities",
+      "source": "nlp"
+    },
+    {
+      "id": "arcgis:d4a02fc36d824cf9b0603794c618d3fd:0",
+      "title": "SchoolBoardAtLargeDistrict",
+      "previous": null,
+      "category": "Public facilities",
+      "source": "nlp"
+    }
+  ]
 }

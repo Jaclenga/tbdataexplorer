@@ -1,14 +1,5 @@
 {
-  "requests": 750,
-  "issues": [
-    {
-      "id": "arcgis:a12866b15ef542bdafc50ffba971a36f:0",
-      "error": "Metadata request failed; prior metadata retained"
-    },
-    {
-      "id": "arcgis:c315d65daeaa46288c2599e7751b1fdf:0",
-      "error": "Metadata request failed; prior metadata retained"
-    }
-  ],
-  "enriched": 488
+  "requests": 774,
+  "issues": [],
+  "enriched": 500
 }
