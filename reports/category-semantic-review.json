@@ -1955,7 +1955,7 @@
     {
       "id": "arcgis:3e11792f8ea348069df34e85e97b563d:0",
       "title": "BCCAtLargeDistrict",
-      "cached": false,
+      "cached": true,
       "scores": [
         {
           "category": "Planning",
@@ -2171,7 +2171,7 @@
     {
       "id": "arcgis:40454beb37694e248a70885faa3f37f1:0",
       "title": "Multimodal Corridors ",
-      "cached": false,
+      "cached": true,
       "scores": [
         {
           "category": "Environment",
@@ -3179,7 +3179,7 @@
     {
       "id": "arcgis:51cd8a77a54f4a7094538bbbe88845be:0",
       "title": "USHouseDistrict",
-      "cached": false,
+      "cached": true,
       "scores": [
         {
           "category": "Planning",
@@ -8003,7 +8003,7 @@
     {
       "id": "arcgis:a7a247edaa8e47b9a6f0f6d08b079e6b:0",
       "title": "HCPA Special Districts SD2",
-      "cached": false,
+      "cached": true,
       "scores": [
         {
           "category": "Boundaries",
@@ -8435,7 +8435,7 @@
     {
       "id": "arcgis:acc1faf9531341eab2547774c826888d:0",
       "title": "HCPA CDDs",
-      "cached": false,
+      "cached": true,
       "scores": [
         {
           "category": "Environment",
@@ -9083,7 +9083,7 @@
     {
       "id": "arcgis:c73a4d23d6fb49c0bc616acd4739d1e3:0",
       "title": "CRA_Neighborhoods",
-      "cached": false,
+      "cached": true,
       "scores": [
         {
           "category": "Boundaries",
