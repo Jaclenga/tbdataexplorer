@@ -1,13 +1,13 @@
 {
   "version": "1.3",
-  "total": 538,
+  "total": 540,
   "sources": {
     "override": 2,
     "curated": 52,
     "publisher": 2,
-    "nlp": 343,
+    "nlp": 344,
     "semantic": 2,
-    "uncategorized": 137
+    "uncategorized": 138
   },
   "counts": {
     "Transportation": 61,
@@ -17,7 +17,7 @@
     "Environment": 15,
     "Infrastructure": 28,
     "Utilities": 69,
-    "Public safety": 11,
+    "Public safety": 12,
     "Recreation": 13,
     "Hazards": 31,
     "Boundaries": 22,
@@ -26,7 +26,7 @@
     "Health": 6,
     "Demographics": 8,
     "Government": 8,
-    "Uncategorized": 137
+    "Uncategorized": 138
   },
   "distributionWarnings": [],
   "review": [
@@ -2782,6 +2782,37 @@
       ]
     },
     {
+      "id": "arcgis:c022ea35ad384baaa31822707413e4d5:3",
+      "title": "New Markets Tax Credit",
+      "reason": "insufficient",
+      "signals": [
+        "description:census tract",
+        "description:construction",
+        "description:development",
+        "description:population",
+        "description:subdivision",
+        "fields:census tract",
+        "parent_context:census tract",
+        "parent_context:development",
+        "parent_context:population",
+        "tags:development"
+      ],
+      "candidates": [
+        {
+          "category": "Development",
+          "score": 5.5
+        },
+        {
+          "category": "Demographics",
+          "score": 4
+        },
+        {
+          "category": "Boundaries",
+          "score": 1
+        }
+      ]
+    },
+    {
       "id": "arcgis:c3865625f5b243088e593103827fe58e:0",
       "title": "LMS_PlaceTypes_preferred20260921",
       "reason": "insufficient",
@@ -3130,5 +3161,20 @@
       ]
     }
   ],
-  "changes": []
+  "changes": [
+    {
+      "id": "arcgis:c022ea35ad384baaa31822707413e4d5:3",
+      "title": "New Markets Tax Credit",
+      "previous": null,
+      "category": "Uncategorized",
+      "source": "uncategorized"
+    },
+    {
+      "id": "arcgis:e833f7c9a8a948d38ef6ce65bc246d82:3",
+      "title": "Fire Rescue",
+      "previous": null,
+      "category": "Public safety",
+      "source": "nlp"
+    }
+  ]
 }

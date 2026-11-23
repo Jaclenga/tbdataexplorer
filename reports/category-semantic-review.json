@@ -5,7 +5,7 @@
   "minimumScore": 0.85,
   "minimumMargin": 0.2,
   "note": "Uncalibrated model scores; acceptance thresholds are heuristics, not accuracy guarantees.",
-  "attempted": 139,
+  "attempted": 140,
   "accepted": 2,
   "attempts": [
     {
@@ -8932,6 +8932,78 @@
         {
           "category": "Hazards",
           "score": 0.0018526107107878765
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "id": "arcgis:c022ea35ad384baaa31822707413e4d5:3",
+      "title": "New Markets Tax Credit",
+      "cached": false,
+      "scores": [
+        {
+          "category": "Boundaries",
+          "score": 0.06719560975654655
+        },
+        {
+          "category": "Demographics",
+          "score": 0.06719560975654655
+        },
+        {
+          "category": "Development",
+          "score": 0.06719560975654655
+        },
+        {
+          "category": "Environment",
+          "score": 0.06719560975654655
+        },
+        {
+          "category": "Government",
+          "score": 0.06719560975654655
+        },
+        {
+          "category": "Hazards",
+          "score": 0.06719560975654655
+        },
+        {
+          "category": "Health",
+          "score": 0.06719560975654655
+        },
+        {
+          "category": "Housing",
+          "score": 0.06719560975654655
+        },
+        {
+          "category": "Infrastructure",
+          "score": 0.06719560975654655
+        },
+        {
+          "category": "Planning",
+          "score": 0.06719560975654655
+        },
+        {
+          "category": "Public facilities",
+          "score": 0.06719560975654655
+        },
+        {
+          "category": "Public safety",
+          "score": 0.06719560975654655
+        },
+        {
+          "category": "Recreation",
+          "score": 0.06719560975654655
+        },
+        {
+          "category": "Solid waste",
+          "score": 0.06719560975654655
+        },
+        {
+          "category": "Transportation",
+          "score": 0.06719560975654655
+        },
+        {
+          "category": "Utilities",
+          "score": 0.06719560975654655
         }
       ],
       "accepted": false

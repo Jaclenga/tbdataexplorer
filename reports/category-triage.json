@@ -1,5 +1,5 @@
 {
-  "total": 137,
+  "total": 138,
   "note": "Evidence queue for review, not additional automatic assignments. Inspect layer purpose before adding contextual rules or overrides; shared parent text can describe other layers.",
   "records": [
     {
@@ -11486,6 +11486,127 @@
         {
           "category": "Development",
           "score": 0.07933946314101313
+        }
+      ]
+    },
+    {
+      "id": "arcgis:c022ea35ad384baaa31822707413e4d5:3",
+      "title": "New Markets Tax Credit",
+      "reason": "below-semantic-threshold",
+      "description": "The TIGER/Line Files are shapefiles and related database files (.dbf) that are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. Census tracts are small, relatively permanent statistical subdivisions of a county or equivalent entity, and were defined by local participants as part of the 2010 Census Participant Statistical Areas Program. The Census Bureau delineated the census tracts in situations where no local participant existed or where all the potential participants declined to participate. The primary purpose of census tracts is to provide a stable set of geographic units for the presentation of census data and comparison back to previous decennial censuses. Census tracts generally have a population size between 1,200 and 8,000 people, with an optimum size of 4,000 people. When first delineated, census tracts were designed to be homogeneous with respect to population characteristics, economic status, and living conditions. The spatial size of census tracts varies widely depending on the density of settlement. Physical changes in street patterns caused by highway construction, new development, and so forth, may require boundary revisions. In addition, census tracts occasionally are split due to population growth, or combined as a result of substantial population decline. Census tract boundaries generally follow visible and identifiable features. They may follow legal boundaries such as minor civil division (MCD) or incorporated place boundaries in some States and situations to allow for census tract-to-governmental unit relationships where the governmental boundaries tend to remain unchanged between censuses. State and county boundaries always are census tract boundaries in the standard census geographic hierarchy. In a few rare instances, a census tract may consist of noncontiguous areas. These noncontiguous areas may occur where the census tracts are coextensive with all or parts of legal entities that are themselves noncontiguous. For the 2010 Census, the census tract code range of 9400 through 9499 was enforced for census tracts that include a majority American Indian population according to Census 2000 data and/or their area was primarily covered by federally recognized American Indian reservations and/or off-reservation trust lands; the code range 9800 through 9899 was enforced for those census tracts that contained little or no population and represented a relatively large special land use area such as a National Park, military installation, or a business/industrial park; and the code range 9900 through 9998 was enforced for those census tracts that contained only water area, no land area.",
+      "parentSummary": "AGOL Hosted Feature layer is used in the Business Incentive Zone Look up applications",
+      "layerUrl": "https://services1.arcgis.com/IbNXlmt2RVVRCZ6M/arcgis/rest/services/BusinessIncentive/FeatureServer/3",
+      "itemUrl": "https://tampa.maps.arcgis.com/sharing/rest/content/items/c022ea35ad384baaa31822707413e4d5",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "Object ID"
+        },
+        {
+          "name": "GlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "F2020_Census_Tract_Number_FIPS_code__GEOID",
+          "alias": "2020 Census Tract Number FIPS code# GEOID"
+        },
+        {
+          "name": "OMB_Metro_Non_metro_Designation__March_2020__OMB_Bulletin_No__20",
+          "alias": "OMB Metro/Non-metro Designation, March 2020 (OMB Bulletin No# 20"
+        },
+        {
+          "name": "Does_Census_Tract_Qualify_For_NMTC_Low_Income_Community__LIC__on",
+          "alias": "Does Census Tract Qualify For NMTC Low-Income Community (LIC) on"
+        },
+        {
+          "name": "Census_Tract_Poverty_Rate____2016_2020_ACS_",
+          "alias": "Census Tract Poverty Rate % (2016-2020 ACS)"
+        },
+        {
+          "name": "Does_Census_Tract_Qualify_on_Poverty_Criteria__20__",
+          "alias": "Does Census Tract Qualify on Poverty Criteria>=20%?"
+        },
+        {
+          "name": "Census_Tract_Percent_of_Benchmarked_Median_Family_Income_____201",
+          "alias": "Census Tract Percent of Benchmarked Median Family Income (%) 201"
+        },
+        {
+          "name": "Does_Census_Tract_Qualify_on_Median_Family_Income_Criteria__80__",
+          "alias": "Does Census Tract Qualify on Median Family Income Criteria<=80%?"
+        },
+        {
+          "name": "Census_Tract_Unemployment_Rate_____2016_2020",
+          "alias": "Census Tract Unemployment Rate (%) 2016-2020"
+        },
+        {
+          "name": "County_Code",
+          "alias": "County Code"
+        },
+        {
+          "name": "State_Name",
+          "alias": "State Name"
+        },
+        {
+          "name": "County_Name",
+          "alias": "County Name"
+        },
+        {
+          "name": "Census_Tract_Unemployment_to_National_Unemployment_Ratio",
+          "alias": "Census Tract Unemployment to National Unemployment Ratio"
+        },
+        {
+          "name": "Population_for_whom_poverty_status_is_determined_2016_2020_ACS",
+          "alias": "Population for whom poverty status is determined 2016-2020 ACS"
+        },
+        {
+          "name": "High_Migration_County_Low_Income_Community_Census_Tract",
+          "alias": "High Migration County Low-Income Community Census Tract"
+        },
+        {
+          "name": "Severe_distress_LIC_AND__Poverty_30___MFI__60__Unemployment__1_5",
+          "alias": "Severe distress=LIC AND (Poverty>30%; MFI=1#5"
+        },
+        {
+          "name": "Deep_distress_LIC_AND__Poverty_40___MFI__40__Unemployment__2_5_",
+          "alias": "Deep distress=LIC AND (Poverty>40%; MFI=2#5)"
+        },
+        {
+          "name": "NMTC",
+          "alias": "New Markets Tax Credit"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [
+        "description:census tract",
+        "description:construction",
+        "description:development",
+        "description:population",
+        "description:subdivision",
+        "fields:census tract",
+        "parent_context:census tract",
+        "parent_context:development",
+        "parent_context:population",
+        "tags:development"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Boundaries",
+          "score": 0.06719560975654655
+        },
+        {
+          "category": "Demographics",
+          "score": 0.06719560975654655
+        },
+        {
+          "category": "Development",
+          "score": 0.06719560975654655
         }
       ]
     },
