@@ -5,7 +5,7 @@
   "minimumScore": 0.85,
   "minimumMargin": 0.2,
   "note": "Uncalibrated model scores; acceptance thresholds are heuristics, not accuracy guarantees.",
-  "attempted": 140,
+  "attempted": 141,
   "accepted": 2,
   "attempts": [
     {
@@ -5481,6 +5481,78 @@
       "accepted": false
     },
     {
+      "id": "arcgis:7fc09a8d544540d185ab4159c51970c7:0",
+      "title": "CommercialRevitalization1_Geocoded",
+      "cached": false,
+      "scores": [
+        {
+          "category": "Development",
+          "score": 0.8503822537632556
+        },
+        {
+          "category": "Planning",
+          "score": 0.7962078352851846
+        },
+        {
+          "category": "Boundaries",
+          "score": 0.616558461581591
+        },
+        {
+          "category": "Health",
+          "score": 0.2997312631953727
+        },
+        {
+          "category": "Infrastructure",
+          "score": 0.26617972777057286
+        },
+        {
+          "category": "Environment",
+          "score": 0.2146836759442808
+        },
+        {
+          "category": "Transportation",
+          "score": 0.135969228176875
+        },
+        {
+          "category": "Housing",
+          "score": 0.09774744029289678
+        },
+        {
+          "category": "Utilities",
+          "score": 0.09473214888314248
+        },
+        {
+          "category": "Government",
+          "score": 0.0850860324397674
+        },
+        {
+          "category": "Recreation",
+          "score": 0.06921590944555267
+        },
+        {
+          "category": "Solid waste",
+          "score": 0.04622239358073976
+        },
+        {
+          "category": "Public facilities",
+          "score": 0.04002780794942034
+        },
+        {
+          "category": "Demographics",
+          "score": 0.03234083521122418
+        },
+        {
+          "category": "Public safety",
+          "score": 0.00996089397222144
+        },
+        {
+          "category": "Hazards",
+          "score": 0.0004748814868662247
+        }
+      ],
+      "accepted": false
+    },
+    {
       "id": "arcgis:7fc2590acf9d4dffbf2c5bdef9ccac39:0",
       "title": "HCPA - 2024 sales",
       "cached": true,
@@ -8939,7 +9011,7 @@
     {
       "id": "arcgis:c022ea35ad384baaa31822707413e4d5:3",
       "title": "New Markets Tax Credit",
-      "cached": false,
+      "cached": true,
       "scores": [
         {
           "category": "Boundaries",

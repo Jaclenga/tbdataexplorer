@@ -1,5 +1,5 @@
 {
-  "total": 138,
+  "total": 139,
   "note": "Evidence queue for review, not additional automatic assignments. Inspect layer purpose before adding contextual rules or overrides; shared parent text can describe other layers.",
   "records": [
     {
@@ -6998,6 +6998,155 @@
         {
           "category": "Recreation",
           "score": 0.07625741971662992
+        }
+      ]
+    },
+    {
+      "id": "arcgis:7fc09a8d544540d185ab4159c51970c7:0",
+      "title": "CommercialRevitalization1_Geocoded",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "",
+      "layerUrl": "https://services2.arcgis.com/9qPLjNtocjo438CJ/arcgis/rest/services/Commercial_Revitalization/FeatureServer/0",
+      "itemUrl": "https://csp.maps.arcgis.com/sharing/rest/content/items/7fc09a8d544540d185ab4159c51970c7",
+      "fields": [
+        {
+          "name": "ObjectID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "Loc_name",
+          "alias": "Loc_name"
+        },
+        {
+          "name": "Status",
+          "alias": "Status"
+        },
+        {
+          "name": "Score",
+          "alias": "Score"
+        },
+        {
+          "name": "Match_type",
+          "alias": "Match_type"
+        },
+        {
+          "name": "Match_addr",
+          "alias": "Match Address"
+        },
+        {
+          "name": "LongLabel",
+          "alias": "Long Label"
+        },
+        {
+          "name": "ShortLabel",
+          "alias": "Short Label"
+        },
+        {
+          "name": "Addr_type",
+          "alias": "Address Type"
+        },
+        {
+          "name": "Type",
+          "alias": "Type"
+        },
+        {
+          "name": "PlaceName",
+          "alias": "Place Name"
+        },
+        {
+          "name": "Place_addr",
+          "alias": "Place Address"
+        },
+        {
+          "name": "Phone",
+          "alias": "Phone Number"
+        },
+        {
+          "name": "URL",
+          "alias": "URL"
+        },
+        {
+          "name": "Rank",
+          "alias": "Rank"
+        },
+        {
+          "name": "AddBldg",
+          "alias": "Address Building"
+        },
+        {
+          "name": "AddNum",
+          "alias": "Address Number"
+        },
+        {
+          "name": "AddNumFrom",
+          "alias": "Address Number From"
+        },
+        {
+          "name": "AddNumTo",
+          "alias": "Address Number To"
+        },
+        {
+          "name": "AddRange",
+          "alias": "Address Range"
+        },
+        {
+          "name": "Side",
+          "alias": "Side"
+        },
+        {
+          "name": "StPreDir",
+          "alias": "Prefix Directional"
+        },
+        {
+          "name": "StPreType",
+          "alias": "Prefix Type"
+        },
+        {
+          "name": "StName",
+          "alias": "Street Name"
+        },
+        {
+          "name": "StType",
+          "alias": "Suffix Type"
+        },
+        {
+          "name": "StDir",
+          "alias": "Suffix Directional"
+        },
+        {
+          "name": "BldgComp",
+          "alias": "Building Complex"
+        },
+        {
+          "name": "BldgType",
+          "alias": "Building Type"
+        },
+        {
+          "name": "BldgName",
+          "alias": "Building Name"
+        },
+        {
+          "name": "LevelType",
+          "alias": "Level Type"
+        }
+      ],
+      "keywordSignals": [
+        "fields:building",
+        "fields:street"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Development",
+          "score": 0.8503822537632556
+        },
+        {
+          "category": "Planning",
+          "score": 0.7962078352851846
+        },
+        {
+          "category": "Boundaries",
+          "score": 0.616558461581591
         }
       ]
     },

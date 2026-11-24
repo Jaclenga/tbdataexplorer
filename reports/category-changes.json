@@ -1,10 +1,256 @@
 {
   "events": [
     {
-      "eventId": "9b7ea6a30ff611912b05b4655c11f3ae3fcaa49d97694147c3b6b00236d77d28",
-      "at": "2026-11-23T21:27:43.465Z",
-      "datasetId": "arcgis:c022ea35ad384baaa31822707413e4d5:3",
-      "title": "New Markets Tax Credit",
+      "eventId": "38533dce747b771cc78e3c258802fe78f5f39d9e8adbf32523c9f73d3730df4a",
+      "at": "2026-11-24T20:11:16.648Z",
+      "datasetId": "arcgis:062a57e1ab3a4525bd047f2f480f610e:0",
+      "title": "Building Status ",
+      "oldCategory": null,
+      "newCategory": "Development",
+      "oldSource": null,
+      "newSource": "nlp",
+      "oldVersion": null,
+      "newVersion": "1.3",
+      "reason": "new_dataset",
+      "oldInputHash": null,
+      "newInputHash": "4c05c0578edc9fd19347372915ba59ccaa366c9e3e02215f069e178cfc5ec7c6",
+      "metadataChanges": [
+        {
+          "field": "title",
+          "before": null,
+          "after": "Building Status "
+        },
+        {
+          "field": "description",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "tags",
+          "before": null,
+          "after": [
+            "FEMA",
+            "Flood",
+            "Zoning",
+            "Zoning Districts"
+          ]
+        },
+        {
+          "field": "fields",
+          "before": null,
+          "after": [
+            {
+              "name": "Address",
+              "alias": "Address"
+            },
+            {
+              "name": "Associatio",
+              "alias": "Association Name"
+            },
+            {
+              "name": "Building_N",
+              "alias": "Building Name"
+            },
+            {
+              "name": "Building_S",
+              "alias": "Building Status"
+            },
+            {
+              "name": "Dangerous",
+              "alias": "Dangerous or unsafe condition(s)?"
+            },
+            {
+              "name": "Date_Phase",
+              "alias": "Date Phase 1 submitted to City"
+            },
+            {
+              "name": "F10_year_f",
+              "alias": "10 year follow up milestone due date (Dec 31 of year)"
+            },
+            {
+              "name": "FID",
+              "alias": "FID"
+            },
+            {
+              "name": "ID",
+              "alias": "ID"
+            },
+            {
+              "name": "Initial_Mi",
+              "alias": "Initial Milestone Phase I due date (Dec 31 of year)"
+            },
+            {
+              "name": "MILE_per_1",
+              "alias": "MILE permit status"
+            },
+            {
+              "name": "MILE_permi",
+              "alias": "MILE permit number"
+            },
+            {
+              "name": "Phase_1_ap",
+              "alias": "Phase 1 approved or rejected"
+            },
+            {
+              "name": "Phase_1_ex",
+              "alias": "Phase 1 extension request "
+            },
+            {
+              "name": "Phase_2_ap",
+              "alias": "Phase 2 approved or rejected"
+            },
+            {
+              "name": "Phase_2_su",
+              "alias": "Phase 2 submittal date"
+            },
+            {
+              "name": "Sunstantia",
+              "alias": "Sunstantial structural deterioratoin repairs required (MILE permit)?"
+            },
+            {
+              "name": "X",
+              "alias": "X"
+            },
+            {
+              "name": "Y",
+              "alias": "Y"
+            }
+          ]
+        },
+        {
+          "field": "source_category",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "parent",
+          "before": null,
+          "after": {
+            "description": "Zoning Districts and Future Land Use information maintained by Planning & Economic Development Department City of St. Petersburg.",
+            "summary": "Milestone Building Status",
+            "tags": [
+              "FEMA",
+              "Flood",
+              "Zoning",
+              "Zoning Districts"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "23dec066f63bcf6a1dccfd2400058ffb471dbdc879d7a70e069d6b6bb4710eab",
+      "at": "2026-11-24T20:11:16.648Z",
+      "datasetId": "arcgis:1e7255bf0b934ff8bacfffe364dcb353:0",
+      "title": "CommercialBuildingInterior2",
+      "oldCategory": null,
+      "newCategory": "Development",
+      "oldSource": null,
+      "newSource": "nlp",
+      "oldVersion": null,
+      "newVersion": "1.3",
+      "reason": "new_dataset",
+      "oldInputHash": null,
+      "newInputHash": "663905e13ea456edf1a20a031ba97c9ba64a622a74c33adfd35cffdb6ee9394e",
+      "metadataChanges": [
+        {
+          "field": "title",
+          "before": null,
+          "after": "CommercialBuildingInterior2"
+        },
+        {
+          "field": "description",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "tags",
+          "before": null,
+          "after": [
+            ""
+          ]
+        },
+        {
+          "field": "fields",
+          "before": null,
+          "after": [
+            {
+              "name": "DUPS",
+              "alias": "DUPS"
+            },
+            {
+              "name": "FID",
+              "alias": "FID"
+            },
+            {
+              "name": "ID",
+              "alias": "ID"
+            },
+            {
+              "name": "SYMB",
+              "alias": "SYMB"
+            },
+            {
+              "name": "SYMB2",
+              "alias": "SYMB2"
+            },
+            {
+              "name": "USER_Addre",
+              "alias": "USER_Addre"
+            },
+            {
+              "name": "USER_Amoun",
+              "alias": "USER_Amoun"
+            },
+            {
+              "name": "USER_Appli",
+              "alias": "USER_Appli"
+            },
+            {
+              "name": "USER_Appro",
+              "alias": "USER_Appro"
+            },
+            {
+              "name": "USER_Budge",
+              "alias": "USER_Budge"
+            },
+            {
+              "name": "USER_City",
+              "alias": "USER_City"
+            },
+            {
+              "name": "USER_Grant",
+              "alias": "USER_Grant"
+            },
+            {
+              "name": "USER_OID_",
+              "alias": "USER_OID_"
+            }
+          ]
+        },
+        {
+          "field": "source_category",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "parent",
+          "before": null,
+          "after": {
+            "description": "",
+            "summary": "",
+            "tags": [
+              ""
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "ed0561e82a5c93e733bce264c238ee37e2c97b4f101fb3258d36b6b56337c455",
+      "at": "2026-11-24T20:11:16.648Z",
+      "datasetId": "arcgis:7fc09a8d544540d185ab4159c51970c7:0",
+      "title": "CommercialRevitalization1_Geocoded",
       "oldCategory": null,
       "newCategory": "Uncategorized",
       "oldSource": null,
@@ -13,177 +259,23 @@
       "newVersion": "1.3",
       "reason": "new_dataset",
       "oldInputHash": null,
-      "newInputHash": "4622f45adbbee6b0223f8edc76743532f9e7525e39c31aeee5f9ee2b038fc47e",
+      "newInputHash": "060f3bc7ec4a26d28d192732cf76523429d963a80a0a24044aaba9e6229ffb5b",
       "metadataChanges": [
         {
           "field": "title",
           "before": null,
-          "after": "New Markets Tax Credit"
+          "after": "CommercialRevitalization1_Geocoded"
         },
         {
           "field": "description",
-          "before": null,
-          "after": "The TIGER/Line Files are shapefiles and related database files (.dbf) that are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. Census tracts are small, relatively permanent statistical subdivisions of a county or equivalent entity, and were defined by local participants as part of the 2010 Census Participant Statistical Areas Program. The Census Bureau delineated the census tracts in situations where no local participant existed or where all the potential participants declined to participate. The primary purpose of census tracts is to provide a stable set of geographic units for the presentation of census data and comparison back to previous decennial censuses. Census tracts generally have a population size between 1,200 and 8,000 people, with an optimum size of 4,000 people. When first delineated, census tracts were designed to be homogeneous with respect to population characteristics, economic status, and living conditions. The spatial size of census tracts varies widely depending on the density of settlement. Physical changes in street patterns caused by highway construction, new development, and so forth, may require boundary revisions. In addition, census tracts occasionally are split due to population growth, or combined as a result of substantial population decline. Census tract boundaries generally follow visible and identifiable features. They may follow legal boundaries such as minor civil division (MCD) or incorporated place boundaries in some States and situations to allow for census tract-to-governmental unit relationships where the governmental boundaries tend to remain unchanged between censuses. State and county boundaries always are census tract boundaries in the standard census geographic hierarchy. In a few rare instances, a census tract may consist of noncontiguous areas. These noncontiguous areas may occur where the census tracts are coextensive with all or parts of legal entities that are themselves noncontiguous. For the 2010 Census, the census tract code range of 9400 through 9499 was enforced for census tracts that include a majority American Indian population according to Census 2000 data and/or their area was primarily covered by federally recognized American Indian reservations and/or off-reservation trust lands; the code range 9800 through 9899 was enforced for those census tracts that contained little or no population and represented a relatively large special land use area such as a National Park, military installation, or a business/industrial park; and the code range 9900 through 9998 was enforced for those census tracts that contained only water area, no land area."
-        },
-        {
-          "field": "tags",
-          "before": null,
-          "after": [
-            "Economice Development",
-            "Tampa",
-            "Tax Credit"
-          ]
-        },
-        {
-          "field": "fields",
-          "before": null,
-          "after": [
-            {
-              "name": "Census_Tract_Percent_of_Benchmarked_Median_Family_Income_____201",
-              "alias": "Census Tract Percent of Benchmarked Median Family Income (%) 201"
-            },
-            {
-              "name": "Census_Tract_Poverty_Rate____2016_2020_ACS_",
-              "alias": "Census Tract Poverty Rate % (2016-2020 ACS)"
-            },
-            {
-              "name": "Census_Tract_Unemployment_Rate_____2016_2020",
-              "alias": "Census Tract Unemployment Rate (%) 2016-2020"
-            },
-            {
-              "name": "Census_Tract_Unemployment_to_National_Unemployment_Ratio",
-              "alias": "Census Tract Unemployment to National Unemployment Ratio"
-            },
-            {
-              "name": "County_Code",
-              "alias": "County Code"
-            },
-            {
-              "name": "County_Name",
-              "alias": "County Name"
-            },
-            {
-              "name": "Deep_distress_LIC_AND__Poverty_40___MFI__40__Unemployment__2_5_",
-              "alias": "Deep distress=LIC AND (Poverty>40%; MFI=2#5)"
-            },
-            {
-              "name": "Does_Census_Tract_Qualify_For_NMTC_Low_Income_Community__LIC__on",
-              "alias": "Does Census Tract Qualify For NMTC Low-Income Community (LIC) on"
-            },
-            {
-              "name": "Does_Census_Tract_Qualify_on_Median_Family_Income_Criteria__80__",
-              "alias": "Does Census Tract Qualify on Median Family Income Criteria<=80%?"
-            },
-            {
-              "name": "Does_Census_Tract_Qualify_on_Poverty_Criteria__20__",
-              "alias": "Does Census Tract Qualify on Poverty Criteria>=20%?"
-            },
-            {
-              "name": "F2020_Census_Tract_Number_FIPS_code__GEOID",
-              "alias": "2020 Census Tract Number FIPS code# GEOID"
-            },
-            {
-              "name": "GlobalID",
-              "alias": "GlobalID"
-            },
-            {
-              "name": "High_Migration_County_Low_Income_Community_Census_Tract",
-              "alias": "High Migration County Low-Income Community Census Tract"
-            },
-            {
-              "name": "NMTC",
-              "alias": "New Markets Tax Credit"
-            },
-            {
-              "name": "OBJECTID",
-              "alias": "Object ID"
-            },
-            {
-              "name": "OMB_Metro_Non_metro_Designation__March_2020__OMB_Bulletin_No__20",
-              "alias": "OMB Metro/Non-metro Designation, March 2020 (OMB Bulletin No# 20"
-            },
-            {
-              "name": "Population_for_whom_poverty_status_is_determined_2016_2020_ACS",
-              "alias": "Population for whom poverty status is determined 2016-2020 ACS"
-            },
-            {
-              "name": "Severe_distress_LIC_AND__Poverty_30___MFI__60__Unemployment__1_5",
-              "alias": "Severe distress=LIC AND (Poverty>30%; MFI=1#5"
-            },
-            {
-              "name": "Shape__Area",
-              "alias": "Shape__Area"
-            },
-            {
-              "name": "Shape__Length",
-              "alias": "Shape__Length"
-            },
-            {
-              "name": "State_Name",
-              "alias": "State Name"
-            }
-          ]
-        },
-        {
-          "field": "source_category",
           "before": null,
           "after": null
         },
         {
-          "field": "parent",
-          "before": null,
-          "after": {
-            "description": "The New Markets Tax Credit (NMTC) Program supports activities in eligible Low-Income Communities (LICs), which are defined by statute as population census tracts with a poverty rate of 20 percent or greater or a median family income (MFI) at or below 80 percent of the applicable area median family income (26 USC §45D(e)): ‘‘(1) IN GENERAL.—The term ‘low-income community’ means any population census tract if— ‘‘(A) the poverty rate for such tract is at least 20 percent, or ‘‘(B)(i) in the case of a tract not located within a metropolitan area, &nbsp;the median family income for such tract does not exceed 80 percent of statewide median family income, or ‘‘(ii) in the case of a tract located within a metropolitan area, the median family income for such tract does not exceed 80 percent of the greater of statewide median family income or the metropolitan area median family income. Subparagraph (B) shall be applied using possessionwide median family income in the case of census tracts located within a possession of the United States.” Source: https://cdfifund.gov/docs/2000_nmtc_statute.pdf Methodology Census tracts are eligible for the NMTC program if they meet any of the following criteria. First, tracts are eligible if they have a poverty rate equal to or greater than 20%; or if the tract’s median family income in non-metropolitan tracts is equal to or less than 80% of the state median income; or tracts are eligible if the tract’s median family income in metropolitan tracts is equal to or less than 80% of the maximum median income of state or CBSA median income. N/A in data cells indicates that either no sample observations or too few sample observations were available to compute an estimate, or a ratio of medians cannot be calculated because one or both of the median estimates falls in the lowest interval or upper interval of an open-ended distribution.&nbsp; Data Source: NMTC Mapping Tool | Novogradac",
-            "summary": "AGOL Hosted Feature layer is used in the Business Incentive Zone Look up applications",
-            "tags": [
-              "Economice Development",
-              "Tampa",
-              "Tax Credit"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "eventId": "410e5aa83dabfc38711e5a09aed178295af7907a9a5ab9a00ca3fe0c02823117",
-      "at": "2026-11-23T21:27:43.465Z",
-      "datasetId": "arcgis:e833f7c9a8a948d38ef6ce65bc246d82:3",
-      "title": "Fire Rescue",
-      "oldCategory": null,
-      "newCategory": "Public safety",
-      "oldSource": null,
-      "newSource": "nlp",
-      "oldVersion": null,
-      "newVersion": "1.3",
-      "reason": "new_dataset",
-      "oldInputHash": null,
-      "newInputHash": "fbf02400da0cdf192b5dd55ef9df361b4a741eb6b33b2eb9a06d1191bc5933fa",
-      "metadataChanges": [
-        {
-          "field": "title",
-          "before": null,
-          "after": "Fire Rescue"
-        },
-        {
-          "field": "description",
-          "before": null,
-          "after": "This Feature Class contains points showing the locations and attributes of fire stations in Hillsborough County including municipalities. This layer also records the inventory of the firefighting and rescue equipment at each location. Addresses were matched with property, geocoded, rejected addresses were re-matched to street networks, then aligned points to property and aerial where available."
-        },
-        {
           "field": "tags",
           "before": null,
           "after": [
-            "ArcGIS Online",
-            "Emergency Response",
-            "Emergency Services",
-            "Fire Rescue",
-            "Fire Rescue Facilities",
-            "Fire Response Areas",
-            "Fire Stations",
-            "GIS",
-            "Geographic Information Systems",
-            "Hillsborough County",
-            "Public Safety"
+            ""
           ]
         },
         {
@@ -191,24 +283,296 @@
           "before": null,
           "after": [
             {
-              "name": "ADDRESS",
+              "name": "AddBldg",
+              "alias": "Address Building"
+            },
+            {
+              "name": "AddNum",
+              "alias": "Address Number"
+            },
+            {
+              "name": "AddNumFrom",
+              "alias": "Address Number From"
+            },
+            {
+              "name": "AddNumTo",
+              "alias": "Address Number To"
+            },
+            {
+              "name": "Addr_type",
+              "alias": "Address Type"
+            },
+            {
+              "name": "AddRange",
+              "alias": "Address Range"
+            },
+            {
+              "name": "BldgComp",
+              "alias": "Building Complex"
+            },
+            {
+              "name": "BldgName",
+              "alias": "Building Name"
+            },
+            {
+              "name": "BldgType",
+              "alias": "Building Type"
+            },
+            {
+              "name": "Block",
+              "alias": "Block"
+            },
+            {
+              "name": "City",
+              "alias": "City"
+            },
+            {
+              "name": "CntryName",
+              "alias": "Country Name"
+            },
+            {
+              "name": "Country",
+              "alias": "Country"
+            },
+            {
+              "name": "DisplayX",
+              "alias": "Display X"
+            },
+            {
+              "name": "DisplayY",
+              "alias": "Display Y"
+            },
+            {
+              "name": "Distance",
+              "alias": "Distance"
+            },
+            {
+              "name": "District",
+              "alias": "District"
+            },
+            {
+              "name": "ExInfo",
+              "alias": "Extra Info"
+            },
+            {
+              "name": "IN_SingleLine",
+              "alias": "Single Line Input"
+            },
+            {
+              "name": "LangCode",
+              "alias": "Language Code"
+            },
+            {
+              "name": "LevelName",
+              "alias": "Level Name"
+            },
+            {
+              "name": "LevelType",
+              "alias": "Level Type"
+            },
+            {
+              "name": "Loc_name",
+              "alias": "Loc_name"
+            },
+            {
+              "name": "LongLabel",
+              "alias": "Long Label"
+            },
+            {
+              "name": "Match_addr",
+              "alias": "Match Address"
+            },
+            {
+              "name": "Match_type",
+              "alias": "Match_type"
+            },
+            {
+              "name": "MatchID",
+              "alias": "MatchID"
+            },
+            {
+              "name": "MatchNarrative",
+              "alias": "Match Narrative"
+            },
+            {
+              "name": "MetroArea",
+              "alias": "Metro Area"
+            },
+            {
+              "name": "Nbrhd",
+              "alias": "Neighborhood"
+            },
+            {
+              "name": "ObjectID",
+              "alias": "ObjectID"
+            },
+            {
+              "name": "Phone",
+              "alias": "Phone Number"
+            },
+            {
+              "name": "Place_addr",
+              "alias": "Place Address"
+            },
+            {
+              "name": "PlaceName",
+              "alias": "Place Name"
+            },
+            {
+              "name": "Postal",
+              "alias": "Postal"
+            },
+            {
+              "name": "PostalExt",
+              "alias": "Postal Extension"
+            },
+            {
+              "name": "PotentialID",
+              "alias": "PotentialID"
+            },
+            {
+              "name": "Rank",
+              "alias": "Rank"
+            },
+            {
+              "name": "Region",
+              "alias": "Region"
+            },
+            {
+              "name": "RegionAbbr",
+              "alias": "Region Abbreviation"
+            },
+            {
+              "name": "RoomName",
+              "alias": "Room Name"
+            },
+            {
+              "name": "RoomType",
+              "alias": "Room Type"
+            },
+            {
+              "name": "Score",
+              "alias": "Score"
+            },
+            {
+              "name": "Sector",
+              "alias": "Sector"
+            },
+            {
+              "name": "ShortLabel",
+              "alias": "Short Label"
+            },
+            {
+              "name": "Side",
+              "alias": "Side"
+            },
+            {
+              "name": "StAddr",
+              "alias": "Street Address"
+            },
+            {
+              "name": "Status",
+              "alias": "Status"
+            },
+            {
+              "name": "StDir",
+              "alias": "Suffix Directional"
+            },
+            {
+              "name": "StName",
+              "alias": "Street Name"
+            },
+            {
+              "name": "StPreDir",
+              "alias": "Prefix Directional"
+            },
+            {
+              "name": "StPreType",
+              "alias": "Prefix Type"
+            },
+            {
+              "name": "StrucDet",
+              "alias": "Structure Details"
+            },
+            {
+              "name": "StrucType",
+              "alias": "Structure Type"
+            },
+            {
+              "name": "StType",
+              "alias": "Suffix Type"
+            },
+            {
+              "name": "SubAddr",
+              "alias": "Subaddress"
+            },
+            {
+              "name": "Subregion",
+              "alias": "Subregion"
+            },
+            {
+              "name": "Territory",
+              "alias": "Territory"
+            },
+            {
+              "name": "Type",
+              "alias": "Type"
+            },
+            {
+              "name": "UnitName",
+              "alias": "Unit Name"
+            },
+            {
+              "name": "UnitType",
+              "alias": "Unit Type"
+            },
+            {
+              "name": "URL",
+              "alias": "URL"
+            },
+            {
+              "name": "USER_Address",
               "alias": "Address"
             },
             {
-              "name": "AKA_NAME",
-              "alias": "Station Name"
+              "name": "USER_Name",
+              "alias": "Name"
             },
             {
-              "name": "OBJECTID",
-              "alias": "OBJECTID"
+              "name": "WingName",
+              "alias": "Wing Name"
             },
             {
-              "name": "STA_NUM",
-              "alias": "Station Number"
+              "name": "WingType",
+              "alias": "Wing Type"
             },
             {
-              "name": "STATION",
-              "alias": "Station"
+              "name": "X",
+              "alias": "X"
+            },
+            {
+              "name": "Xmax",
+              "alias": "Maximum X"
+            },
+            {
+              "name": "Xmin",
+              "alias": "Minimum X"
+            },
+            {
+              "name": "Y",
+              "alias": "Y"
+            },
+            {
+              "name": "Ymax",
+              "alias": "Maximum Y"
+            },
+            {
+              "name": "Ymin",
+              "alias": "Minimum Y"
+            },
+            {
+              "name": "Zone",
+              "alias": "Zone"
             }
           ]
         },
@@ -221,20 +585,10 @@
           "field": "parent",
           "before": null,
           "after": {
-            "description": "This hosted feature layer view provides the geographic locations of Fire Rescue stations throughout Hillsborough County, Florida, including Hillsborough County Fire Rescue and municipal fire departments serving the Cities of Tampa, Temple Terrace, and Plant City. The view provides public access to station location information for geographic reference, emergency services awareness, and community planning. It is configured as a view layer to provide controlled access to the underlying hosted feature layer without granting users editing privileges.",
-            "summary": "This feature layer contains the locations of all Fire Rescue stations within Hillsborough County, including stations operated by Hillsborough County Fire Rescue, the City of Tampa Fire Rescue, the City of Temple Terrace Fire Department, and the City of Plant City Fire Rescue.",
+            "description": "",
+            "summary": "",
             "tags": [
-              "ArcGIS Online",
-              "Emergency Response",
-              "Emergency Services",
-              "Fire Rescue",
-              "Fire Rescue Facilities",
-              "Fire Response Areas",
-              "Fire Stations",
-              "GIS",
-              "Geographic Information Systems",
-              "Hillsborough County",
-              "Public Safety"
+              ""
             ]
           }
         }

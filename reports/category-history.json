@@ -21019,6 +21019,600 @@
           }
         }
       ]
+    },
+    {
+      "eventId": "38533dce747b771cc78e3c258802fe78f5f39d9e8adbf32523c9f73d3730df4a",
+      "at": "2026-11-24T20:11:16.648Z",
+      "datasetId": "arcgis:062a57e1ab3a4525bd047f2f480f610e:0",
+      "title": "Building Status ",
+      "oldCategory": null,
+      "newCategory": "Development",
+      "oldSource": null,
+      "newSource": "nlp",
+      "oldVersion": null,
+      "newVersion": "1.3",
+      "reason": "new_dataset",
+      "oldInputHash": null,
+      "newInputHash": "4c05c0578edc9fd19347372915ba59ccaa366c9e3e02215f069e178cfc5ec7c6",
+      "metadataChanges": [
+        {
+          "field": "title",
+          "before": null,
+          "after": "Building Status "
+        },
+        {
+          "field": "description",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "tags",
+          "before": null,
+          "after": [
+            "FEMA",
+            "Flood",
+            "Zoning",
+            "Zoning Districts"
+          ]
+        },
+        {
+          "field": "fields",
+          "before": null,
+          "after": [
+            {
+              "name": "Address",
+              "alias": "Address"
+            },
+            {
+              "name": "Associatio",
+              "alias": "Association Name"
+            },
+            {
+              "name": "Building_N",
+              "alias": "Building Name"
+            },
+            {
+              "name": "Building_S",
+              "alias": "Building Status"
+            },
+            {
+              "name": "Dangerous",
+              "alias": "Dangerous or unsafe condition(s)?"
+            },
+            {
+              "name": "Date_Phase",
+              "alias": "Date Phase 1 submitted to City"
+            },
+            {
+              "name": "F10_year_f",
+              "alias": "10 year follow up milestone due date (Dec 31 of year)"
+            },
+            {
+              "name": "FID",
+              "alias": "FID"
+            },
+            {
+              "name": "ID",
+              "alias": "ID"
+            },
+            {
+              "name": "Initial_Mi",
+              "alias": "Initial Milestone Phase I due date (Dec 31 of year)"
+            },
+            {
+              "name": "MILE_per_1",
+              "alias": "MILE permit status"
+            },
+            {
+              "name": "MILE_permi",
+              "alias": "MILE permit number"
+            },
+            {
+              "name": "Phase_1_ap",
+              "alias": "Phase 1 approved or rejected"
+            },
+            {
+              "name": "Phase_1_ex",
+              "alias": "Phase 1 extension request "
+            },
+            {
+              "name": "Phase_2_ap",
+              "alias": "Phase 2 approved or rejected"
+            },
+            {
+              "name": "Phase_2_su",
+              "alias": "Phase 2 submittal date"
+            },
+            {
+              "name": "Sunstantia",
+              "alias": "Sunstantial structural deterioratoin repairs required (MILE permit)?"
+            },
+            {
+              "name": "X",
+              "alias": "X"
+            },
+            {
+              "name": "Y",
+              "alias": "Y"
+            }
+          ]
+        },
+        {
+          "field": "source_category",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "parent",
+          "before": null,
+          "after": {
+            "description": "Zoning Districts and Future Land Use information maintained by Planning & Economic Development Department City of St. Petersburg.",
+            "summary": "Milestone Building Status",
+            "tags": [
+              "FEMA",
+              "Flood",
+              "Zoning",
+              "Zoning Districts"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "23dec066f63bcf6a1dccfd2400058ffb471dbdc879d7a70e069d6b6bb4710eab",
+      "at": "2026-11-24T20:11:16.648Z",
+      "datasetId": "arcgis:1e7255bf0b934ff8bacfffe364dcb353:0",
+      "title": "CommercialBuildingInterior2",
+      "oldCategory": null,
+      "newCategory": "Development",
+      "oldSource": null,
+      "newSource": "nlp",
+      "oldVersion": null,
+      "newVersion": "1.3",
+      "reason": "new_dataset",
+      "oldInputHash": null,
+      "newInputHash": "663905e13ea456edf1a20a031ba97c9ba64a622a74c33adfd35cffdb6ee9394e",
+      "metadataChanges": [
+        {
+          "field": "title",
+          "before": null,
+          "after": "CommercialBuildingInterior2"
+        },
+        {
+          "field": "description",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "tags",
+          "before": null,
+          "after": [
+            ""
+          ]
+        },
+        {
+          "field": "fields",
+          "before": null,
+          "after": [
+            {
+              "name": "DUPS",
+              "alias": "DUPS"
+            },
+            {
+              "name": "FID",
+              "alias": "FID"
+            },
+            {
+              "name": "ID",
+              "alias": "ID"
+            },
+            {
+              "name": "SYMB",
+              "alias": "SYMB"
+            },
+            {
+              "name": "SYMB2",
+              "alias": "SYMB2"
+            },
+            {
+              "name": "USER_Addre",
+              "alias": "USER_Addre"
+            },
+            {
+              "name": "USER_Amoun",
+              "alias": "USER_Amoun"
+            },
+            {
+              "name": "USER_Appli",
+              "alias": "USER_Appli"
+            },
+            {
+              "name": "USER_Appro",
+              "alias": "USER_Appro"
+            },
+            {
+              "name": "USER_Budge",
+              "alias": "USER_Budge"
+            },
+            {
+              "name": "USER_City",
+              "alias": "USER_City"
+            },
+            {
+              "name": "USER_Grant",
+              "alias": "USER_Grant"
+            },
+            {
+              "name": "USER_OID_",
+              "alias": "USER_OID_"
+            }
+          ]
+        },
+        {
+          "field": "source_category",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "parent",
+          "before": null,
+          "after": {
+            "description": "",
+            "summary": "",
+            "tags": [
+              ""
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "ed0561e82a5c93e733bce264c238ee37e2c97b4f101fb3258d36b6b56337c455",
+      "at": "2026-11-24T20:11:16.648Z",
+      "datasetId": "arcgis:7fc09a8d544540d185ab4159c51970c7:0",
+      "title": "CommercialRevitalization1_Geocoded",
+      "oldCategory": null,
+      "newCategory": "Uncategorized",
+      "oldSource": null,
+      "newSource": "uncategorized",
+      "oldVersion": null,
+      "newVersion": "1.3",
+      "reason": "new_dataset",
+      "oldInputHash": null,
+      "newInputHash": "060f3bc7ec4a26d28d192732cf76523429d963a80a0a24044aaba9e6229ffb5b",
+      "metadataChanges": [
+        {
+          "field": "title",
+          "before": null,
+          "after": "CommercialRevitalization1_Geocoded"
+        },
+        {
+          "field": "description",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "tags",
+          "before": null,
+          "after": [
+            ""
+          ]
+        },
+        {
+          "field": "fields",
+          "before": null,
+          "after": [
+            {
+              "name": "AddBldg",
+              "alias": "Address Building"
+            },
+            {
+              "name": "AddNum",
+              "alias": "Address Number"
+            },
+            {
+              "name": "AddNumFrom",
+              "alias": "Address Number From"
+            },
+            {
+              "name": "AddNumTo",
+              "alias": "Address Number To"
+            },
+            {
+              "name": "Addr_type",
+              "alias": "Address Type"
+            },
+            {
+              "name": "AddRange",
+              "alias": "Address Range"
+            },
+            {
+              "name": "BldgComp",
+              "alias": "Building Complex"
+            },
+            {
+              "name": "BldgName",
+              "alias": "Building Name"
+            },
+            {
+              "name": "BldgType",
+              "alias": "Building Type"
+            },
+            {
+              "name": "Block",
+              "alias": "Block"
+            },
+            {
+              "name": "City",
+              "alias": "City"
+            },
+            {
+              "name": "CntryName",
+              "alias": "Country Name"
+            },
+            {
+              "name": "Country",
+              "alias": "Country"
+            },
+            {
+              "name": "DisplayX",
+              "alias": "Display X"
+            },
+            {
+              "name": "DisplayY",
+              "alias": "Display Y"
+            },
+            {
+              "name": "Distance",
+              "alias": "Distance"
+            },
+            {
+              "name": "District",
+              "alias": "District"
+            },
+            {
+              "name": "ExInfo",
+              "alias": "Extra Info"
+            },
+            {
+              "name": "IN_SingleLine",
+              "alias": "Single Line Input"
+            },
+            {
+              "name": "LangCode",
+              "alias": "Language Code"
+            },
+            {
+              "name": "LevelName",
+              "alias": "Level Name"
+            },
+            {
+              "name": "LevelType",
+              "alias": "Level Type"
+            },
+            {
+              "name": "Loc_name",
+              "alias": "Loc_name"
+            },
+            {
+              "name": "LongLabel",
+              "alias": "Long Label"
+            },
+            {
+              "name": "Match_addr",
+              "alias": "Match Address"
+            },
+            {
+              "name": "Match_type",
+              "alias": "Match_type"
+            },
+            {
+              "name": "MatchID",
+              "alias": "MatchID"
+            },
+            {
+              "name": "MatchNarrative",
+              "alias": "Match Narrative"
+            },
+            {
+              "name": "MetroArea",
+              "alias": "Metro Area"
+            },
+            {
+              "name": "Nbrhd",
+              "alias": "Neighborhood"
+            },
+            {
+              "name": "ObjectID",
+              "alias": "ObjectID"
+            },
+            {
+              "name": "Phone",
+              "alias": "Phone Number"
+            },
+            {
+              "name": "Place_addr",
+              "alias": "Place Address"
+            },
+            {
+              "name": "PlaceName",
+              "alias": "Place Name"
+            },
+            {
+              "name": "Postal",
+              "alias": "Postal"
+            },
+            {
+              "name": "PostalExt",
+              "alias": "Postal Extension"
+            },
+            {
+              "name": "PotentialID",
+              "alias": "PotentialID"
+            },
+            {
+              "name": "Rank",
+              "alias": "Rank"
+            },
+            {
+              "name": "Region",
+              "alias": "Region"
+            },
+            {
+              "name": "RegionAbbr",
+              "alias": "Region Abbreviation"
+            },
+            {
+              "name": "RoomName",
+              "alias": "Room Name"
+            },
+            {
+              "name": "RoomType",
+              "alias": "Room Type"
+            },
+            {
+              "name": "Score",
+              "alias": "Score"
+            },
+            {
+              "name": "Sector",
+              "alias": "Sector"
+            },
+            {
+              "name": "ShortLabel",
+              "alias": "Short Label"
+            },
+            {
+              "name": "Side",
+              "alias": "Side"
+            },
+            {
+              "name": "StAddr",
+              "alias": "Street Address"
+            },
+            {
+              "name": "Status",
+              "alias": "Status"
+            },
+            {
+              "name": "StDir",
+              "alias": "Suffix Directional"
+            },
+            {
+              "name": "StName",
+              "alias": "Street Name"
+            },
+            {
+              "name": "StPreDir",
+              "alias": "Prefix Directional"
+            },
+            {
+              "name": "StPreType",
+              "alias": "Prefix Type"
+            },
+            {
+              "name": "StrucDet",
+              "alias": "Structure Details"
+            },
+            {
+              "name": "StrucType",
+              "alias": "Structure Type"
+            },
+            {
+              "name": "StType",
+              "alias": "Suffix Type"
+            },
+            {
+              "name": "SubAddr",
+              "alias": "Subaddress"
+            },
+            {
+              "name": "Subregion",
+              "alias": "Subregion"
+            },
+            {
+              "name": "Territory",
+              "alias": "Territory"
+            },
+            {
+              "name": "Type",
+              "alias": "Type"
+            },
+            {
+              "name": "UnitName",
+              "alias": "Unit Name"
+            },
+            {
+              "name": "UnitType",
+              "alias": "Unit Type"
+            },
+            {
+              "name": "URL",
+              "alias": "URL"
+            },
+            {
+              "name": "USER_Address",
+              "alias": "Address"
+            },
+            {
+              "name": "USER_Name",
+              "alias": "Name"
+            },
+            {
+              "name": "WingName",
+              "alias": "Wing Name"
+            },
+            {
+              "name": "WingType",
+              "alias": "Wing Type"
+            },
+            {
+              "name": "X",
+              "alias": "X"
+            },
+            {
+              "name": "Xmax",
+              "alias": "Maximum X"
+            },
+            {
+              "name": "Xmin",
+              "alias": "Minimum X"
+            },
+            {
+              "name": "Y",
+              "alias": "Y"
+            },
+            {
+              "name": "Ymax",
+              "alias": "Maximum Y"
+            },
+            {
+              "name": "Ymin",
+              "alias": "Minimum Y"
+            },
+            {
+              "name": "Zone",
+              "alias": "Zone"
+            }
+          ]
+        },
+        {
+          "field": "source_category",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "parent",
+          "before": null,
+          "after": {
+            "description": "",
+            "summary": "",
+            "tags": [
+              ""
+            ]
+          }
+        }
+      ]
     }
   ]
 }
