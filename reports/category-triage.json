@@ -1,5 +1,5 @@
 {
-  "total": 139,
+  "total": 141,
   "note": "Evidence queue for review, not additional automatic assignments. Inspect layer purpose before adding contextual rules or overrides; shared parent text can describe other layers.",
   "records": [
     {
@@ -5202,6 +5202,158 @@
         {
           "category": "Environment",
           "score": 0.5020779603836318
+        }
+      ]
+    },
+    {
+      "id": "arcgis:61d6acf2e7f24721a1efb53edbf86434:1",
+      "title": "Basins_TBCMP_HUC12_6",
+      "reason": "below-semantic-threshold",
+      "description": "The Watershed Boundary Dataset (WBD) is a comprehensive aggregated collection of hydrologic unit data consistent with the national criteria for delineation and resolution. It defines the areal extent of surface water drainage to a point except in coastal or lake front areas where there could be multiple outlets as stated by the \"Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)\" “Standard” (http://pubs.usgs.gov/tm/11/a3/). Watershed boundaries are determined solely upon science-based hydrologic principles, not favoring any administrative boundaries or special projects, nor particular program or agency. This dataset represents the hydrologic unit boundaries to the 12-digit (6th level) for the entire United States. Some areas may also include additional subdivisions representing the 14- and 16-digit hydrologic unit (HU). At a minimum, the HUs are delineated at 1:24,000-scale in the conterminous United States, 1:25,000-scale in Hawaii, Pacific basin and the Caribbean, and 1:63,360-scale in Alaska, meeting the National Map Accuracy Standards (NMAS). Higher resolution boundaries are being developed where partners and data exist and will be incorporated back into the WBD. WBD data are delivered as a dataset of polygons and corresponding lines that define the boundary of the polygon. WBD polygon attributes include hydrologic unit codes (HUC), size (in the form of acres and square kilometers), name, downstream hydrologic unit code, type of watershed, non-contributing areas, and flow modifications. The HUC describes where the unit is in the country and the level of the unit. WBD line attributes contain the highest level of hydrologic unit for each boundary, line source information and flow modifications.",
+      "parentSummary": "The intent of defining Hydrologic Units (HU) within the Watershed Boundary Dataset is to establish a base-line drainage boundary framework, accounting for all land and surface areas. Hydrologic units are intended to be used as a tool for water-resource management and planning activities particularly for site-specific and localized studies requiring a level of detail provided by large-scale map information. The WBD complements the National Hydrography Dataset (NHD) and supports numerous programmatic missions and activities including: watershed management, rehabilitation and enhancement, aquatic species conservation strategies, flood plain management and flood prevention, water-quality initiatives and programs, dam safety programs, fire assessment and management, resource inventory and assessment, water data analysis and water census.",
+      "layerUrl": "https://services3.arcgis.com/RgIBbQIF0Y6T3AX6/arcgis/rest/services/Basins_TBCMP_HUC12/FeatureServer/1",
+      "itemUrl": "https://www.arcgis.com/sharing/rest/content/items/61d6acf2e7f24721a1efb53edbf86434",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "gridcode",
+          "alias": "gridcode"
+        },
+        {
+          "name": "states",
+          "alias": "States"
+        },
+        {
+          "name": "huc12",
+          "alias": "HUC12"
+        },
+        {
+          "name": "name",
+          "alias": "Name"
+        },
+        {
+          "name": "tohuc",
+          "alias": "ToHUC"
+        },
+        {
+          "name": "Type_Water",
+          "alias": "Type_Water"
+        },
+        {
+          "name": "County",
+          "alias": "County"
+        },
+        {
+          "name": "VF_MEAN",
+          "alias": "MEAN"
+        },
+        {
+          "name": "HF_MEAN",
+          "alias": "MEAN"
+        },
+        {
+          "name": "CF_MEAN",
+          "alias": "MEAN"
+        },
+        {
+          "name": "V_MEAN",
+          "alias": "MEAN"
+        },
+        {
+          "name": "H_MEAN",
+          "alias": "MEAN"
+        },
+        {
+          "name": "C_MEAN",
+          "alias": "MEAN"
+        },
+        {
+          "name": "F_MEAN",
+          "alias": "MEAN"
+        },
+        {
+          "name": "H_PCT",
+          "alias": "H_PCT"
+        },
+        {
+          "name": "V_PCT",
+          "alias": "V_PCT"
+        },
+        {
+          "name": "C_PCT",
+          "alias": "C_PCT"
+        },
+        {
+          "name": "F_PCT",
+          "alias": "F_PCT"
+        },
+        {
+          "name": "FI_MEAN",
+          "alias": "FI_MEAN"
+        },
+        {
+          "name": "FI_TRS",
+          "alias": "FI_TRS"
+        },
+        {
+          "name": "FI_SPL",
+          "alias": "FI_SPL"
+        },
+        {
+          "name": "FC_MEAN",
+          "alias": "FC_MEAN"
+        },
+        {
+          "name": "FC_TRS",
+          "alias": "FC_TRS"
+        },
+        {
+          "name": "FC_SPL",
+          "alias": "FC_SPL"
+        },
+        {
+          "name": "HF_PCT",
+          "alias": "HF_PCT"
+        },
+        {
+          "name": "VF_PCT",
+          "alias": "VF_PCT"
+        },
+        {
+          "name": "CF_PCT",
+          "alias": "CF_PCT"
+        },
+        {
+          "name": "AV_PCT",
+          "alias": "AV_PCT"
+        },
+        {
+          "name": "OV_RNK_P",
+          "alias": "OV_RNK_P"
+        }
+      ],
+      "keywordSignals": [
+        "description:administrative boundary",
+        "fields:population",
+        "parent_context:administrative boundary",
+        "parent_context:census",
+        "tags:boundary"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Boundaries",
+          "score": 0.0869809171494395
+        },
+        {
+          "category": "Demographics",
+          "score": 0.0869809171494395
+        },
+        {
+          "category": "Development",
+          "score": 0.0869809171494395
         }
       ]
     },
@@ -12896,6 +13048,51 @@
         {
           "category": "Environment",
           "score": 0.3748607553461098
+        }
+      ]
+    },
+    {
+      "id": "arcgis:f752906028d449378fb2072bfad1a6a1:55",
+      "title": "Hillsborough_NRSAs_2026",
+      "reason": "missing-layer-description",
+      "description": null,
+      "parentSummary": "Hillsborough County Neighborhood Revitalization Strategy Areas (NRSA).",
+      "layerUrl": "https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/Hillsborough_NRSA_2026/FeatureServer/55",
+      "itemUrl": "https://hillsborough.maps.arcgis.com/sharing/rest/content/items/f752906028d449378fb2072bfad1a6a1",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NRSA",
+          "alias": "NRSA"
+        },
+        {
+          "name": "Shape__Area",
+          "alias": "Shape__Area"
+        },
+        {
+          "name": "Shape__Length",
+          "alias": "Shape__Length"
+        }
+      ],
+      "keywordSignals": [
+        "parent_context:affordable",
+        "parent_context:housing"
+      ],
+      "semanticCandidates": [
+        {
+          "category": "Housing",
+          "score": 0.11218003773260825
+        },
+        {
+          "category": "Development",
+          "score": 0.022980619542212203
+        },
+        {
+          "category": "Environment",
+          "score": 0.020483351942559975
         }
       ]
     },

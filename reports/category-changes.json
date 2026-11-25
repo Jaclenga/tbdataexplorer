@@ -1,256 +1,10 @@
 {
   "events": [
     {
-      "eventId": "38533dce747b771cc78e3c258802fe78f5f39d9e8adbf32523c9f73d3730df4a",
-      "at": "2026-11-24T20:11:16.648Z",
-      "datasetId": "arcgis:062a57e1ab3a4525bd047f2f480f610e:0",
-      "title": "Building Status ",
-      "oldCategory": null,
-      "newCategory": "Development",
-      "oldSource": null,
-      "newSource": "nlp",
-      "oldVersion": null,
-      "newVersion": "1.3",
-      "reason": "new_dataset",
-      "oldInputHash": null,
-      "newInputHash": "4c05c0578edc9fd19347372915ba59ccaa366c9e3e02215f069e178cfc5ec7c6",
-      "metadataChanges": [
-        {
-          "field": "title",
-          "before": null,
-          "after": "Building Status "
-        },
-        {
-          "field": "description",
-          "before": null,
-          "after": null
-        },
-        {
-          "field": "tags",
-          "before": null,
-          "after": [
-            "FEMA",
-            "Flood",
-            "Zoning",
-            "Zoning Districts"
-          ]
-        },
-        {
-          "field": "fields",
-          "before": null,
-          "after": [
-            {
-              "name": "Address",
-              "alias": "Address"
-            },
-            {
-              "name": "Associatio",
-              "alias": "Association Name"
-            },
-            {
-              "name": "Building_N",
-              "alias": "Building Name"
-            },
-            {
-              "name": "Building_S",
-              "alias": "Building Status"
-            },
-            {
-              "name": "Dangerous",
-              "alias": "Dangerous or unsafe condition(s)?"
-            },
-            {
-              "name": "Date_Phase",
-              "alias": "Date Phase 1 submitted to City"
-            },
-            {
-              "name": "F10_year_f",
-              "alias": "10 year follow up milestone due date (Dec 31 of year)"
-            },
-            {
-              "name": "FID",
-              "alias": "FID"
-            },
-            {
-              "name": "ID",
-              "alias": "ID"
-            },
-            {
-              "name": "Initial_Mi",
-              "alias": "Initial Milestone Phase I due date (Dec 31 of year)"
-            },
-            {
-              "name": "MILE_per_1",
-              "alias": "MILE permit status"
-            },
-            {
-              "name": "MILE_permi",
-              "alias": "MILE permit number"
-            },
-            {
-              "name": "Phase_1_ap",
-              "alias": "Phase 1 approved or rejected"
-            },
-            {
-              "name": "Phase_1_ex",
-              "alias": "Phase 1 extension request "
-            },
-            {
-              "name": "Phase_2_ap",
-              "alias": "Phase 2 approved or rejected"
-            },
-            {
-              "name": "Phase_2_su",
-              "alias": "Phase 2 submittal date"
-            },
-            {
-              "name": "Sunstantia",
-              "alias": "Sunstantial structural deterioratoin repairs required (MILE permit)?"
-            },
-            {
-              "name": "X",
-              "alias": "X"
-            },
-            {
-              "name": "Y",
-              "alias": "Y"
-            }
-          ]
-        },
-        {
-          "field": "source_category",
-          "before": null,
-          "after": null
-        },
-        {
-          "field": "parent",
-          "before": null,
-          "after": {
-            "description": "Zoning Districts and Future Land Use information maintained by Planning & Economic Development Department City of St. Petersburg.",
-            "summary": "Milestone Building Status",
-            "tags": [
-              "FEMA",
-              "Flood",
-              "Zoning",
-              "Zoning Districts"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "eventId": "23dec066f63bcf6a1dccfd2400058ffb471dbdc879d7a70e069d6b6bb4710eab",
-      "at": "2026-11-24T20:11:16.648Z",
-      "datasetId": "arcgis:1e7255bf0b934ff8bacfffe364dcb353:0",
-      "title": "CommercialBuildingInterior2",
-      "oldCategory": null,
-      "newCategory": "Development",
-      "oldSource": null,
-      "newSource": "nlp",
-      "oldVersion": null,
-      "newVersion": "1.3",
-      "reason": "new_dataset",
-      "oldInputHash": null,
-      "newInputHash": "663905e13ea456edf1a20a031ba97c9ba64a622a74c33adfd35cffdb6ee9394e",
-      "metadataChanges": [
-        {
-          "field": "title",
-          "before": null,
-          "after": "CommercialBuildingInterior2"
-        },
-        {
-          "field": "description",
-          "before": null,
-          "after": null
-        },
-        {
-          "field": "tags",
-          "before": null,
-          "after": [
-            ""
-          ]
-        },
-        {
-          "field": "fields",
-          "before": null,
-          "after": [
-            {
-              "name": "DUPS",
-              "alias": "DUPS"
-            },
-            {
-              "name": "FID",
-              "alias": "FID"
-            },
-            {
-              "name": "ID",
-              "alias": "ID"
-            },
-            {
-              "name": "SYMB",
-              "alias": "SYMB"
-            },
-            {
-              "name": "SYMB2",
-              "alias": "SYMB2"
-            },
-            {
-              "name": "USER_Addre",
-              "alias": "USER_Addre"
-            },
-            {
-              "name": "USER_Amoun",
-              "alias": "USER_Amoun"
-            },
-            {
-              "name": "USER_Appli",
-              "alias": "USER_Appli"
-            },
-            {
-              "name": "USER_Appro",
-              "alias": "USER_Appro"
-            },
-            {
-              "name": "USER_Budge",
-              "alias": "USER_Budge"
-            },
-            {
-              "name": "USER_City",
-              "alias": "USER_City"
-            },
-            {
-              "name": "USER_Grant",
-              "alias": "USER_Grant"
-            },
-            {
-              "name": "USER_OID_",
-              "alias": "USER_OID_"
-            }
-          ]
-        },
-        {
-          "field": "source_category",
-          "before": null,
-          "after": null
-        },
-        {
-          "field": "parent",
-          "before": null,
-          "after": {
-            "description": "",
-            "summary": "",
-            "tags": [
-              ""
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "eventId": "ed0561e82a5c93e733bce264c238ee37e2c97b4f101fb3258d36b6b56337c455",
-      "at": "2026-11-24T20:11:16.648Z",
-      "datasetId": "arcgis:7fc09a8d544540d185ab4159c51970c7:0",
-      "title": "CommercialRevitalization1_Geocoded",
+      "eventId": "207169a4f704abc32b3fefea8b26e84e917ebdaf23c2fbd6902d811cd8903868",
+      "at": "2026-11-25T19:17:46.436Z",
+      "datasetId": "arcgis:61d6acf2e7f24721a1efb53edbf86434:1",
+      "title": "Basins_TBCMP_HUC12_6",
       "oldCategory": null,
       "newCategory": "Uncategorized",
       "oldSource": null,
@@ -259,12 +13,350 @@
       "newVersion": "1.3",
       "reason": "new_dataset",
       "oldInputHash": null,
-      "newInputHash": "060f3bc7ec4a26d28d192732cf76523429d963a80a0a24044aaba9e6229ffb5b",
+      "newInputHash": "75ac6b7db5596b439cc9ff6c8eeeb72ec50d2400a9539f13e4c0e84f8bd09c7b",
       "metadataChanges": [
         {
           "field": "title",
           "before": null,
-          "after": "CommercialRevitalization1_Geocoded"
+          "after": "Basins_TBCMP_HUC12_6"
+        },
+        {
+          "field": "description",
+          "before": null,
+          "after": "The Watershed Boundary Dataset (WBD) is a comprehensive aggregated collection of hydrologic unit data consistent with the national criteria for delineation and resolution. It defines the areal extent of surface water drainage to a point except in coastal or lake front areas where there could be multiple outlets as stated by the \"Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)\" “Standard” (http://pubs.usgs.gov/tm/11/a3/). Watershed boundaries are determined solely upon science-based hydrologic principles, not favoring any administrative boundaries or special projects, nor particular program or agency. This dataset represents the hydrologic unit boundaries to the 12-digit (6th level) for the entire United States. Some areas may also include additional subdivisions representing the 14- and 16-digit hydrologic unit (HU). At a minimum, the HUs are delineated at 1:24,000-scale in the conterminous United States, 1:25,000-scale in Hawaii, Pacific basin and the Caribbean, and 1:63,360-scale in Alaska, meeting the National Map Accuracy Standards (NMAS). Higher resolution boundaries are being developed where partners and data exist and will be incorporated back into the WBD. WBD data are delivered as a dataset of polygons and corresponding lines that define the boundary of the polygon. WBD polygon attributes include hydrologic unit codes (HUC), size (in the form of acres and square kilometers), name, downstream hydrologic unit code, type of watershed, non-contributing areas, and flow modifications. The HUC describes where the unit is in the country and the level of the unit. WBD line attributes contain the highest level of hydrologic unit for each boundary, line source information and flow modifications."
+        },
+        {
+          "field": "tags",
+          "before": null,
+          "after": [
+            "10-digit",
+            "12-digit",
+            "14-digit",
+            "16-digit",
+            "2-digit",
+            "4-digit",
+            "6-digit",
+            "8-digit",
+            "Basin",
+            "HUC",
+            "Hydrologic Unit Code",
+            "Hydrologic Units",
+            "Region",
+            "Sub-basin",
+            "Sub-region",
+            "Subwatershed",
+            "US",
+            "United States",
+            "WBD",
+            "Watershed",
+            "Watershed Boundary Dataset",
+            "inlandWaters"
+          ]
+        },
+        {
+          "field": "fields",
+          "before": null,
+          "after": [
+            {
+              "name": "AV_PCT",
+              "alias": "AV_PCT"
+            },
+            {
+              "name": "C_MEAN",
+              "alias": "MEAN"
+            },
+            {
+              "name": "C_PCT",
+              "alias": "C_PCT"
+            },
+            {
+              "name": "CF_MEAN",
+              "alias": "MEAN"
+            },
+            {
+              "name": "CF_PCT",
+              "alias": "CF_PCT"
+            },
+            {
+              "name": "County",
+              "alias": "County"
+            },
+            {
+              "name": "F_MEAN",
+              "alias": "MEAN"
+            },
+            {
+              "name": "F_PCT",
+              "alias": "F_PCT"
+            },
+            {
+              "name": "FC_MEAN",
+              "alias": "FC_MEAN"
+            },
+            {
+              "name": "FC_SPL",
+              "alias": "FC_SPL"
+            },
+            {
+              "name": "FC_TRS",
+              "alias": "FC_TRS"
+            },
+            {
+              "name": "FI_MEAN",
+              "alias": "FI_MEAN"
+            },
+            {
+              "name": "FI_SPL",
+              "alias": "FI_SPL"
+            },
+            {
+              "name": "FI_TRS",
+              "alias": "FI_TRS"
+            },
+            {
+              "name": "gridcode",
+              "alias": "gridcode"
+            },
+            {
+              "name": "H_MEAN",
+              "alias": "MEAN"
+            },
+            {
+              "name": "H_PCT",
+              "alias": "H_PCT"
+            },
+            {
+              "name": "HF_MEAN",
+              "alias": "MEAN"
+            },
+            {
+              "name": "HF_PCT",
+              "alias": "HF_PCT"
+            },
+            {
+              "name": "huc12",
+              "alias": "HUC12"
+            },
+            {
+              "name": "name",
+              "alias": "Name"
+            },
+            {
+              "name": "OBJECTID",
+              "alias": "ObjectID"
+            },
+            {
+              "name": "OV_RNK_F",
+              "alias": "OV_RNK_F"
+            },
+            {
+              "name": "OV_RNK_P",
+              "alias": "OV_RNK_P"
+            },
+            {
+              "name": "Population",
+              "alias": "Population"
+            },
+            {
+              "name": "Shape__Area",
+              "alias": "Shape__Area"
+            },
+            {
+              "name": "Shape__Length",
+              "alias": "Shape__Length"
+            },
+            {
+              "name": "states",
+              "alias": "States"
+            },
+            {
+              "name": "tohuc",
+              "alias": "ToHUC"
+            },
+            {
+              "name": "Type_Water",
+              "alias": "Type_Water"
+            },
+            {
+              "name": "V_MEAN",
+              "alias": "MEAN"
+            },
+            {
+              "name": "V_PCT",
+              "alias": "V_PCT"
+            },
+            {
+              "name": "VF_MEAN",
+              "alias": "MEAN"
+            },
+            {
+              "name": "VF_PCT",
+              "alias": "VF_PCT"
+            }
+          ]
+        },
+        {
+          "field": "source_category",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "parent",
+          "before": null,
+          "after": {
+            "description": "The Watershed Boundary Dataset (WBD) is a comprehensive aggregated collection of hydrologic unit data consistent with the national criteria for delineation and resolution. It defines the areal extent of surface water drainage to a point except in coastal or lake front areas where there could be multiple outlets as stated by the \"Federal Standards and Procedures for the National Watershed Boundary Dataset (WBD)\" “Standard” (http://pubs.usgs.gov/tm/11/a3/). Watershed boundaries are determined solely upon science-based hydrologic principles, not favoring any administrative boundaries or special projects, nor particular program or agency. This dataset represents the hydrologic unit boundaries to the 12-digit (6th level) for the entire United States. Some areas may also include additional subdivisions representing the 14- and 16-digit hydrologic unit (HU). At a minimum, the HUs are delineated at 1:24,000-scale in the conterminous United States, 1:25,000-scale in Hawaii, Pacific basin and the Caribbean, and 1:63,360-scale in Alaska, meeting the National Map Accuracy Standards (NMAS). Higher resolution boundaries are being developed where partners and data exist and will be incorporated back into the WBD. WBD data are delivered as a dataset of polygons and corresponding lines that define the boundary of the polygon. WBD polygon attributes include hydrologic unit codes (HUC), size (in the form of acres and square kilometers), name, downstream hydrologic unit code, type of watershed, non-contributing areas, and flow modifications. The HUC describes where the unit is in the country and the level of the unit. WBD line attributes contain the highest level of hydrologic unit for each boundary, line source information and flow modifications.",
+            "summary": "The intent of defining Hydrologic Units (HU) within the Watershed Boundary Dataset is to establish a base-line drainage boundary framework, accounting for all land and surface areas. Hydrologic units are intended to be used as a tool for water-resource management and planning activities particularly for site-specific and localized studies requiring a level of detail provided by large-scale map information. The WBD complements the National Hydrography Dataset (NHD) and supports numerous programmatic missions and activities including: watershed management, rehabilitation and enhancement, aquatic species conservation strategies, flood plain management and flood prevention, water-quality initiatives and programs, dam safety programs, fire assessment and management, resource inventory and assessment, water data analysis and water census.",
+            "tags": [
+              "10-digit",
+              "12-digit",
+              "14-digit",
+              "16-digit",
+              "2-digit",
+              "4-digit",
+              "6-digit",
+              "8-digit",
+              "Basin",
+              "HUC",
+              "Hydrologic Unit Code",
+              "Hydrologic Units",
+              "Region",
+              "Sub-basin",
+              "Sub-region",
+              "Subwatershed",
+              "US",
+              "United States",
+              "WBD",
+              "Watershed",
+              "Watershed Boundary Dataset",
+              "inlandWaters"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "862908ec862975bc729fe6bf2c0e646459458a4fa807d02fd9d25c0e6d24e522",
+      "at": "2026-11-25T19:17:46.436Z",
+      "datasetId": "arcgis:d14296e8cc384413ad410f645cf2389b:0",
+      "title": "Multi_familyprojects",
+      "oldCategory": "Housing",
+      "newCategory": "Housing",
+      "oldSource": "nlp",
+      "newSource": "nlp",
+      "oldVersion": "1.3",
+      "newVersion": "1.3",
+      "reason": "metadata_changed",
+      "oldInputHash": "062a1cfcf65af5b5f7de42c60a0a35df2b6a3c06e9465fa213b06e6b47f30087",
+      "newInputHash": "2f0663f7b3a9be3500e5fa5aefd236b704336bdebb7adeae411ac8b8db521738",
+      "metadataChanges": [
+        {
+          "field": "fields",
+          "before": [
+            {
+              "name": "Address",
+              "alias": "Address"
+            },
+            {
+              "name": "AMIPerc",
+              "alias": "AMIPerc"
+            },
+            {
+              "name": "Completion_Date",
+              "alias": "Completion Date"
+            },
+            {
+              "name": "CRAInvest",
+              "alias": "CRAInvest"
+            },
+            {
+              "name": "DEVPIC",
+              "alias": "DEVPIC"
+            },
+            {
+              "name": "Info",
+              "alias": "Info"
+            },
+            {
+              "name": "Name",
+              "alias": "Name"
+            },
+            {
+              "name": "Numb",
+              "alias": "Numb"
+            },
+            {
+              "name": "ObjectId",
+              "alias": "ObjectId"
+            },
+            {
+              "name": "ProjDesc",
+              "alias": "ProjDesc"
+            }
+          ],
+          "after": [
+            {
+              "name": "Address",
+              "alias": "Address"
+            },
+            {
+              "name": "AMIPerc",
+              "alias": "AMIPerc"
+            },
+            {
+              "name": "Completion_Date",
+              "alias": "Completion Date"
+            },
+            {
+              "name": "CRAInvest",
+              "alias": "CRAInvest"
+            },
+            {
+              "name": "DEVPIC",
+              "alias": "DEVPIC"
+            },
+            {
+              "name": "Info",
+              "alias": "Info"
+            },
+            {
+              "name": "Name",
+              "alias": "Name"
+            },
+            {
+              "name": "Numb",
+              "alias": "Units"
+            },
+            {
+              "name": "ObjectId",
+              "alias": "ObjectId"
+            },
+            {
+              "name": "ProjDesc",
+              "alias": "ProjDesc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "6944746ef5c1c13401b0af21b5076b0156ae341bb9e86e0b1ddb67776a14c139",
+      "at": "2026-11-25T19:17:46.436Z",
+      "datasetId": "arcgis:dd2dfe6951c04274913eec8a084596ce:0",
+      "title": "Habitat_OppMap_wgt_1",
+      "oldCategory": null,
+      "newCategory": "Environment",
+      "oldSource": null,
+      "newSource": "nlp",
+      "oldVersion": null,
+      "newVersion": "1.3",
+      "reason": "new_dataset",
+      "oldInputHash": null,
+      "newInputHash": "32ce951ae710882ffe1bbdca3e78f28f0730cf0f155fbeaa64e9c878da90ea1a",
+      "metadataChanges": [
+        {
+          "field": "title",
+          "before": null,
+          "after": "Habitat_OppMap_wgt_1"
         },
         {
           "field": "description",
@@ -275,7 +367,8 @@
           "field": "tags",
           "before": null,
           "after": [
-            ""
+            "habitat opportunity",
+            "tbep"
           ]
         },
         {
@@ -283,296 +376,28 @@
           "before": null,
           "after": [
             {
-              "name": "AddBldg",
-              "alias": "Address Building"
+              "name": "cat",
+              "alias": "cat"
             },
             {
-              "name": "AddNum",
-              "alias": "Address Number"
+              "name": "OBJECTID",
+              "alias": "OBJECTID"
             },
             {
-              "name": "AddNumFrom",
-              "alias": "Address Number From"
+              "name": "Shape__Area",
+              "alias": "Shape__Area"
             },
             {
-              "name": "AddNumTo",
-              "alias": "Address Number To"
+              "name": "Shape__Length",
+              "alias": "Shape__Length"
             },
             {
-              "name": "Addr_type",
-              "alias": "Address Type"
+              "name": "wgt",
+              "alias": "wgt"
             },
             {
-              "name": "AddRange",
-              "alias": "Address Range"
-            },
-            {
-              "name": "BldgComp",
-              "alias": "Building Complex"
-            },
-            {
-              "name": "BldgName",
-              "alias": "Building Name"
-            },
-            {
-              "name": "BldgType",
-              "alias": "Building Type"
-            },
-            {
-              "name": "Block",
-              "alias": "Block"
-            },
-            {
-              "name": "City",
-              "alias": "City"
-            },
-            {
-              "name": "CntryName",
-              "alias": "Country Name"
-            },
-            {
-              "name": "Country",
-              "alias": "Country"
-            },
-            {
-              "name": "DisplayX",
-              "alias": "Display X"
-            },
-            {
-              "name": "DisplayY",
-              "alias": "Display Y"
-            },
-            {
-              "name": "Distance",
-              "alias": "Distance"
-            },
-            {
-              "name": "District",
-              "alias": "District"
-            },
-            {
-              "name": "ExInfo",
-              "alias": "Extra Info"
-            },
-            {
-              "name": "IN_SingleLine",
-              "alias": "Single Line Input"
-            },
-            {
-              "name": "LangCode",
-              "alias": "Language Code"
-            },
-            {
-              "name": "LevelName",
-              "alias": "Level Name"
-            },
-            {
-              "name": "LevelType",
-              "alias": "Level Type"
-            },
-            {
-              "name": "Loc_name",
-              "alias": "Loc_name"
-            },
-            {
-              "name": "LongLabel",
-              "alias": "Long Label"
-            },
-            {
-              "name": "Match_addr",
-              "alias": "Match Address"
-            },
-            {
-              "name": "Match_type",
-              "alias": "Match_type"
-            },
-            {
-              "name": "MatchID",
-              "alias": "MatchID"
-            },
-            {
-              "name": "MatchNarrative",
-              "alias": "Match Narrative"
-            },
-            {
-              "name": "MetroArea",
-              "alias": "Metro Area"
-            },
-            {
-              "name": "Nbrhd",
-              "alias": "Neighborhood"
-            },
-            {
-              "name": "ObjectID",
-              "alias": "ObjectID"
-            },
-            {
-              "name": "Phone",
-              "alias": "Phone Number"
-            },
-            {
-              "name": "Place_addr",
-              "alias": "Place Address"
-            },
-            {
-              "name": "PlaceName",
-              "alias": "Place Name"
-            },
-            {
-              "name": "Postal",
-              "alias": "Postal"
-            },
-            {
-              "name": "PostalExt",
-              "alias": "Postal Extension"
-            },
-            {
-              "name": "PotentialID",
-              "alias": "PotentialID"
-            },
-            {
-              "name": "Rank",
-              "alias": "Rank"
-            },
-            {
-              "name": "Region",
-              "alias": "Region"
-            },
-            {
-              "name": "RegionAbbr",
-              "alias": "Region Abbreviation"
-            },
-            {
-              "name": "RoomName",
-              "alias": "Room Name"
-            },
-            {
-              "name": "RoomType",
-              "alias": "Room Type"
-            },
-            {
-              "name": "Score",
-              "alias": "Score"
-            },
-            {
-              "name": "Sector",
-              "alias": "Sector"
-            },
-            {
-              "name": "ShortLabel",
-              "alias": "Short Label"
-            },
-            {
-              "name": "Side",
-              "alias": "Side"
-            },
-            {
-              "name": "StAddr",
-              "alias": "Street Address"
-            },
-            {
-              "name": "Status",
-              "alias": "Status"
-            },
-            {
-              "name": "StDir",
-              "alias": "Suffix Directional"
-            },
-            {
-              "name": "StName",
-              "alias": "Street Name"
-            },
-            {
-              "name": "StPreDir",
-              "alias": "Prefix Directional"
-            },
-            {
-              "name": "StPreType",
-              "alias": "Prefix Type"
-            },
-            {
-              "name": "StrucDet",
-              "alias": "Structure Details"
-            },
-            {
-              "name": "StrucType",
-              "alias": "Structure Type"
-            },
-            {
-              "name": "StType",
-              "alias": "Suffix Type"
-            },
-            {
-              "name": "SubAddr",
-              "alias": "Subaddress"
-            },
-            {
-              "name": "Subregion",
-              "alias": "Subregion"
-            },
-            {
-              "name": "Territory",
-              "alias": "Territory"
-            },
-            {
-              "name": "Type",
-              "alias": "Type"
-            },
-            {
-              "name": "UnitName",
-              "alias": "Unit Name"
-            },
-            {
-              "name": "UnitType",
-              "alias": "Unit Type"
-            },
-            {
-              "name": "URL",
-              "alias": "URL"
-            },
-            {
-              "name": "USER_Address",
-              "alias": "Address"
-            },
-            {
-              "name": "USER_Name",
-              "alias": "Name"
-            },
-            {
-              "name": "WingName",
-              "alias": "Wing Name"
-            },
-            {
-              "name": "WingType",
-              "alias": "Wing Type"
-            },
-            {
-              "name": "X",
-              "alias": "X"
-            },
-            {
-              "name": "Xmax",
-              "alias": "Maximum X"
-            },
-            {
-              "name": "Xmin",
-              "alias": "Minimum X"
-            },
-            {
-              "name": "Y",
-              "alias": "Y"
-            },
-            {
-              "name": "Ymax",
-              "alias": "Maximum Y"
-            },
-            {
-              "name": "Ymin",
-              "alias": "Minimum Y"
-            },
-            {
-              "name": "Zone",
-              "alias": "Zone"
+              "name": "wgtinv",
+              "alias": "wgtinv"
             }
           ]
         },
@@ -586,9 +411,82 @@
           "before": null,
           "after": {
             "description": "",
-            "summary": "",
+            "summary": "TBEP habitat opportunity areas",
             "tags": [
-              ""
+              "habitat opportunity",
+              "tbep"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "1075b18d78cba9fa8c7f0b26f4fab3c5ee4ef31b9761c327bcc74fa1e50efe0e",
+      "at": "2026-11-25T19:17:46.436Z",
+      "datasetId": "arcgis:f752906028d449378fb2072bfad1a6a1:55",
+      "title": "Hillsborough_NRSAs_2026",
+      "oldCategory": null,
+      "newCategory": "Uncategorized",
+      "oldSource": null,
+      "newSource": "uncategorized",
+      "oldVersion": null,
+      "newVersion": "1.3",
+      "reason": "new_dataset",
+      "oldInputHash": null,
+      "newInputHash": "e10cd2feadce763fbb75c6db6fdae4ba823b6c406c3920e2801be6192409a306",
+      "metadataChanges": [
+        {
+          "field": "title",
+          "before": null,
+          "after": "Hillsborough_NRSAs_2026"
+        },
+        {
+          "field": "description",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "tags",
+          "before": null,
+          "after": [
+            "NRSA"
+          ]
+        },
+        {
+          "field": "fields",
+          "before": null,
+          "after": [
+            {
+              "name": "NRSA",
+              "alias": "NRSA"
+            },
+            {
+              "name": "OBJECTID",
+              "alias": "OBJECTID"
+            },
+            {
+              "name": "Shape__Area",
+              "alias": "Shape__Area"
+            },
+            {
+              "name": "Shape__Length",
+              "alias": "Shape__Length"
+            }
+          ]
+        },
+        {
+          "field": "source_category",
+          "before": null,
+          "after": null
+        },
+        {
+          "field": "parent",
+          "before": null,
+          "after": {
+            "description": "A polygon feature layer depicting Hillsborough County, FL NRSAs. Data and Point-of-Contact: For questions about the data, the County point-of-contact is Shirley McCrary ( McCraryS@hcfl.gov ) in Hillsborough County's Affordable Housing Department.",
+            "summary": "Hillsborough County Neighborhood Revitalization Strategy Areas (NRSA).",
+            "tags": [
+              "NRSA"
             ]
           }
         }
