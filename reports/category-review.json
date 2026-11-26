@@ -3233,27 +3233,5 @@
       ]
     }
   ],
-  "changes": [
-    {
-      "id": "arcgis:61d6acf2e7f24721a1efb53edbf86434:1",
-      "title": "Basins_TBCMP_HUC12_6",
-      "previous": null,
-      "category": "Uncategorized",
-      "source": "uncategorized"
-    },
-    {
-      "id": "arcgis:dd2dfe6951c04274913eec8a084596ce:0",
-      "title": "Habitat_OppMap_wgt_1",
-      "previous": null,
-      "category": "Environment",
-      "source": "nlp"
-    },
-    {
-      "id": "arcgis:f752906028d449378fb2072bfad1a6a1:55",
-      "title": "Hillsborough_NRSAs_2026",
-      "previous": null,
-      "category": "Uncategorized",
-      "source": "uncategorized"
-    }
-  ]
+  "changes": []
 }

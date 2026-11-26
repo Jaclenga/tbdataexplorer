@@ -3971,7 +3971,7 @@
     {
       "id": "arcgis:61d6acf2e7f24721a1efb53edbf86434:1",
       "title": "Basins_TBCMP_HUC12_6",
-      "cached": false,
+      "cached": true,
       "scores": [
         {
           "category": "Boundaries",
@@ -10019,7 +10019,7 @@
     {
       "id": "arcgis:f752906028d449378fb2072bfad1a6a1:55",
       "title": "Hillsborough_NRSAs_2026",
-      "cached": false,
+      "cached": true,
       "scores": [
         {
           "category": "Housing",
